@@ -1,18 +1,18 @@
 ---
-description: nFinia Digital Banking · CSUM-23 · Settings — Account & General Preferences
+description: Settings — Account & General Preferences
 ---
 
 # Settings — Account & General Preferences
 
-> **Module:** nFinia Digital Banking → Settings  |  **Reference:** CSUM-23
+> **Module:** Banking › Settings  |  **Reference:** CSUM-23
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-The Settings module is your personal control panel for managing their digital banking experience — account display preferences, security configurations, notification settings, and more. Settings is organised into sections covering security (password, MFA), account management (display names, visibility, order), alerts, and personal preferences.
+The Settings module is your personal control panel for managing your digital banking experience — account display preferences, security configurations, notification settings, and more. Settings is organised into sections covering security (password, MFA), account management (display names, visibility, order), alerts, and personal preferences.
 
-The Accounts & Memberships settings allow The member to customise how their accounts appear throughout the platform: setting nicknames, reordering accounts, hiding inactive accounts, and choosing display icons. These preferences persist across sessions and devices.
+The Accounts & Memberships settings allow You to customise how your accounts appear throughout the platform: setting nicknames, reordering accounts, hiding inactive accounts, and choosing display icons. These preferences persist across sessions and devices.
 
 Settings also provides access to Courtesy Pay enrollment status, Dark Theme toggle, masking/unmasking of account numbers, and text banking enable/disable. All settings changes take effect immediately and apply across web and mobile versions of the platform.
 
@@ -28,18 +28,18 @@ Settings also provides access to Courtesy Pay enrollment status, Dark Theme togg
 | Related Reports | CSUM-25 (Password & User ID), CSUM-19 (Alerts), CSUM-26 (Profile & Memberships) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
 | Use Case                     | Who Uses It                                                        | What They Do                                                     | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Set Account Nicknames        | The member with multiple similar accounts                             | Open Settings > Account Display, enter nickname for each account | Makes account selection faster across all payment screens                                                                                                                                                         |
-| Enable Dark Theme            | The member preferring dark mode display                               | Toggle Dark Theme in Settings > Preferences                      | Reduces eye strain in low-light environments                                                                                                                                                                      |
-| Manage Courtesy Pay          | The member reviewing overdraft enrollment                             | Open Settings > Courtesy Pay to view/update enrollment status    | Self-service overdraft preference management                                                                                                                                                                      |
-| Change Password              | The member rotating passwords for security                            | Open Settings > Security > Change Password                       | Self-service password update without contacting CU                                                                                                                                                                |
+| Set Account Nicknames        | You with multiple similar accounts                             | Open Settings > Account Display, enter nickname for each account | Makes account selection faster across all payment screens                                                                                                                                                         |
+| Enable Dark Theme            | You preferring dark mode display                               | Toggle Dark Theme in Settings > Preferences                      | Reduces eye strain in low-light environments                                                                                                                                                                      |
+| Manage Courtesy Pay          | You reviewing overdraft enrollment                             | Open Settings > Courtesy Pay to view/update enrollment status    | Self-service overdraft preference management                                                                                                                                                                      |
+| Change Password              | You rotating passwords for security                            | Open Settings > Security > Change Password                       | Self-service password update without contacting CU                                                                                                                                                                |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
  | *Navigation: Dashboard > Settings (gear icon) OR More > Settings.* | **Step 1 — Start from Dashboard**                                | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 

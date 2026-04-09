@@ -1,18 +1,18 @@
 ---
-description: nFinia Digital Banking · CSUM-08 · Transfer to Other Credit Union You
+description: Transfer to Other Credit Union You
 ---
 
 # Transfer to Other Credit Union You
 
-> **Module:** nFinia Digital Banking → Move Money → Other You  |  **Reference:** CSUM-08
+> **Module:** Banking › Move Money → Other You  |  **Reference:** CSUM-08
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-The Transfer to Other The member feature allows authenticated The member to send funds directly to another your account at the same credit union. This peer transfer is ideal for splitting expenses, paying back family You, or making informal payments within the credit union network. The workflow mirrors the own-account transfer but requires selecting a saved recipient or entering the destination your account number.
+The Transfer to Other You feature allows authenticated You to send funds directly to another your account at the same credit union. This peer transfer is ideal for splitting expenses, paying back family You, or making informal payments within the credit union network. The workflow mirrors the own-account transfer but requires selecting a saved recipient or entering the destination your account number.
 
-Multi-recipient member transfers are also supported, allowing The member to split a single payment to multiple recipient accounts in one transaction — useful for household expense splitting or distributing funds to joint family You.
+Multi-recipient member transfers are also supported, allowing You to split a single payment to multiple recipient accounts in one transaction — useful for household expense splitting or distributing funds to joint family You.
 
 Transfers are processed the same business day and the recipient's account is credited automatically. No additional verification is required for amounts within the standard limit.
 
@@ -21,25 +21,25 @@ Transfers are processed the same business day and the recipient's account is cre
 | Attribute | Detail |
 | --- | --- |
 | Module | Move Money > Transfer to Other You |
-| Recipient Type | Other The member at the same credit union |
-| Multi-Recipient | Supported — split payment to multiple The member in one transaction |
+| Recipient Type | Other You at the same credit union |
+| Multi-Recipient | Supported — split payment to multiple You in one transaction |
 | Transfer Speed | Same business day |
 | Steps | 4 (From → Recipient → Amount → Confirm) |
 | Related Reports | CSUM-06 (Move Money Hub), CSUM-11 (Recipient Management) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
 | Use Case                     | Who Uses It                                                         | What They Do                                                | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Family Reimbursement         | The member repaying family at same CU                                  | Select family member recipient, enter amount, confirm       | Instant digital payment replaces cash or check                                                                                                                                                                    |
+| Family Reimbursement         | You repaying family at same CU                                  | Select family member recipient, enter amount, confirm       | Instant digital payment replaces cash or check                                                                                                                                                                    |
 | Shared Expense Split         | Roommates or partners at same CU                                    | Send each person's share to their member account            | Digital alternative to cash splitting of shared bills                                                                                                                                                             |
-| Multi-Member Distribution    | The member distributing funds to multiple family You               | Use multi-recipient feature to split single transaction     | One transaction instead of multiple individual transfers                                                                                                                                                          |
-| Member-to-Member Gift        | The member gifting funds to another CU member                          | Select recipient, enter amount, add memo gift note, confirm | Instant digital gift within the credit union                                                                                                                                                                      |
+| Multi-Member Distribution    | You distributing funds to multiple family You               | Use multi-recipient feature to split single transaction     | One transaction instead of multiple individual transfers                                                                                                                                                          |
+| Member-to-Member Gift        | You gifting funds to another CU member                          | Select recipient, enter amount, add memo gift note, confirm | Instant digital gift within the credit union                                                                                                                                                                      |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
  | *Navigation: Dashboard > Move Money > 'Transfer to Other You'.* | **Step 1 — Start from Dashboard**                           | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
@@ -55,13 +55,13 @@ you click ‘Move Money' in the top navigation bar. The Move Money Hub displays 
 
 *Step 2: Move Money Hub*
 
-**Step 3 — Navigate from Dashboard to Other The member Transfer**
+**Step 3 — Navigate from Dashboard to Other You Transfer**
 
-The Move Money hub is displayed with a tooltip providing help for selecting a recipient. This is the starting screen for the Transfer to Other The member workflow.
+The Move Money hub is displayed with a tooltip providing help for selecting a recipient. This is the starting screen for the Transfer to Other You workflow.
 
 <figure><img src="/.gitbook/assets/img_ba0dcc1d207f.png" alt="" width="480"><figcaption></figcaption></figure>
 
-*Step 3: Navigate from Dashboard to Other The member Transfer*
+*Step 3: Navigate from Dashboard to Other You Transfer*
 
 **Step 4 — Select Recipient & Enter Details**
 

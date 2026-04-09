@@ -23,13 +23,13 @@
 
 ---
 
-## 1. Product Summary
+## . Product Summary
 
-Instant Account Verification (IAV) via Plaid is a feature within the nFinia digital banking platform that allows members to verify their own external bank accounts — accounts they hold at other financial institutions — in real time, without waiting for micro-deposit confirmation. The integration leverages Plaid's Link API, enabling members to authenticate directly with their external institution through a secure, embedded OAuth flow launched from within the nFinia interface.
+Instant Account Verification (IAV) via Plaid is a feature within the nFinia digital banking platform that allows you to verify your own external bank accounts — accounts they hold at other financial institutions — in real time, without waiting for micro-deposit confirmation. The integration leverages Plaid's Link API, enabling you to authenticate directly with their external institution through a secure, embedded OAuth flow launched from within the nFinia interface.
 
-By eliminating the traditional micro-deposit wait period (typically 1–3 business days), IAV dramatically reduces friction in the external account onboarding journey. Once an external account is verified, the member can immediately initiate ACH transfers to and from that account. This is a significant improvement for both the member experience and the credit union's competitive position against digital-native challengers like Mercury and Relay, which offer instant account linking as table stakes.
+By eliminating the traditional micro-deposit wait period (typically 1–3 business days), IAV dramatically reduces friction in the external account onboarding journey. Once an external account is verified, you can immediately initiate ACH transfers to and from that account. This is a significant improvement for both you experience and the credit union's competitive position against digital-native challengers like Mercury and Relay, which offer instant account linking as table stakes.
 
-**Scope & Eligibility:** In the current Plaid integration configuration, IAV is enabled for **personal/retail accounts only** (`applicableForPersonal: true`, `applicableForBusiness: false`). Business members use the micro-deposit flow. The feature does not permit a member to verify an account owned by someone else — only their own accounts qualify. This constraint is enforced at both the configuration and UI levels.
+**Scope & Eligibility:** In the current Plaid integration configuration, IAV is enabled for **personal/retail accounts only** (`applicableForPersonal: true`, `applicableForBusiness: false`). Business you use the micro-deposit flow. The feature does not permit you to verify an account owned by someone else — only your own accounts qualify. This constraint is enforced at both the configuration and UI levels.
 
 ### At a Glance
 
@@ -46,24 +46,24 @@ By eliminating the traditional micro-deposit wait period (typically 1–3 busine
 
 ---
 
-## 2. Use Cases
+## . Use Cases
 
 | Use Case | Who Uses It | What They Do | Business Value |
 |----------|-------------|--------------|----------------|
-| **Instant External Account Link** | Retail member onboarding a new external account | Initiates IAV, authenticates with their external bank via Plaid, selects the account to link — verified in under 2 minutes | Eliminates 1–3 day micro-deposit wait; member can initiate ACH transfers immediately |
+| **Instant External Account Link** | Retail member onboarding a new external account | Initiates IAV, authenticates with their external bank via Plaid, selects the account to link — verified in under 2 minutes | Eliminates 1–3 day micro-deposit wait; you can initiate ACH transfers immediately |
 | **ACH Transfer Setup — Personal** | Member who wants to transfer funds to/from a personal account at another FI | Completes IAV flow to verify their external checking/savings account, then proceeds to schedule ACH transfer | Increases ACH origination volume for the credit union; reduces call center contacts about pending verification |
-| **Guest / Unlinked Authentication Path** | Member who prefers not to share full banking credentials | Selects "Continue as Guest" during Plaid flow and proceeds through alternative credential path | Preserves member choice; reduces abandonment for credential-sensitive members |
+| **Guest / Unlinked Authentication Path** | Member who prefers not to share full banking credentials | Selects "Continue as Guest" during Plaid flow and proceeds through alternative credential path | Preserves member choice; reduces abandonment for credential-sensitive you |
 | **Multi-Factor Verification** | Member whose external bank requires MFA during Plaid authentication | Receives OTP/verification code from external bank, enters it within the Plaid Link interface | Supports institutions with enhanced security; does not require additional nFinia configuration |
 | **Identity Category Selection** | Member whose external bank offers multiple verification methods | Selects the appropriate identity verification category (e.g., SSN, email, phone) to authenticate | Accommodates diverse institution requirements within a single standardized flow |
 | **Business Account — Micro-Deposit Fallback** | Business member attempting external account verification | IAV is not presented; system routes to micro-deposit flow (`applicableForBusiness: false`) | Maintains compliance separation between personal and business account verification pathways |
 
-These use cases reflect the reality that credit union members hold accounts across multiple institutions and need frictionless pathways to consolidate their financial activity within nFinia. IAV via Plaid positions the credit union to retain primary financial institution (PFI) status by making it easier to aggregate external funds.
+These use cases reflect the reality that credit union you hold accounts across multiple institutions and need frictionless pathways to consolidate their financial activity within nFinia. IAV via Plaid positions the credit union to retain primary financial institution (PFI) status by making it easier to aggregate external funds.
 
 ---
 
-## 3. End-to-End Workflow
+## . End-to-End Workflow
 
-### 3.1 Prerequisites
+### Prerequisites
 
 - Member must be enrolled in nFinia and logged in
 - The `IAV_DETAILS` system configuration must have `"enabled": "Y"` and `"isPersonalApplicable": true`
@@ -71,38 +71,38 @@ These use cases reflect the reality that credit union members hold accounts acro
 - Member must be on a **personal/retail account** (business accounts are excluded in current config)
 - Member must hold an account at an external financial institution supported by Plaid's network
 
-### 3.2 Step-by-Step Flow
+### Step-by-Step Flow
 
 **Step 1 — Navigate to External Account Verification**
-The member navigates to the External Transfers section of nFinia and selects the option to add or verify an external account. The system detects that IAV is enabled and the account is personal-eligible, then launches the IAV entry point.
+You navigates to the External Transfers section of nFinia and selects the option to add or verify an external account. The system detects that IAV is enabled and the account is personal-eligible, then launches the IAV entry point.
 
 **Step 2 — IAV Prompt: "Yes" or "Continue as Guest"**
-The member is presented with a prompt asking whether they want to proceed with instant verification. Two options are available:
+You is presented with a prompt asking whether they want to proceed with instant verification. Two options are available:
 - **"Yes"** — Proceeds to the Plaid Link flow for full instant verification
 - **"Continue as Guest"** — Proceeds through an alternative path (limited or deferred verification)
 
 **Step 3 — Institution Search & Selection**
-The member is presented with the Plaid Link interface, which displays a searchable list of financial institutions. The member searches for and selects their external institution (e.g., Bank of America, Chase, Wells Fargo).
+You is presented with the Plaid Link interface, which displays a searchable list of financial institutions. You searches for and selects their external institution (e.g., Bank of America, Chase, Wells Fargo).
 
 **Step 4 — Click "Continue to Login"**
-After selecting the institution, the member clicks "Continue to Login." Plaid loads the institution-specific login interface within the embedded frame.
+After selecting the institution, you clicks "Continue to Login." Plaid loads the institution-specific login interface within the embedded frame.
 
 **Step 5 — Enter External Bank Credentials**
-A new secure window opens displaying the external institution's login form (served by Plaid). The member enters their online banking username and password, then clicks "Sign In."
+A new secure window opens displaying the external institution's login form (served by Plaid). You enters their online banking username and password, then clicks "Sign In."
 
 **Step 6 — Identity Verification Category Selection** *(conditional)*
-If the external institution requires identity verification, the member is prompted to select a verification category — for example, Social Security Number, email address, or phone number. This step varies by institution.
+If the external institution requires identity verification, you is prompted to select a verification category — for example, Social Security Number, email address, or phone number. This step varies by institution.
 
 **Step 7 — Multi-Factor Authentication / Get Code** *(conditional)*
-If MFA is required, the member clicks "Get Code." An OTP is sent to their registered contact method at the external institution. The member enters the code to complete authentication.
+If MFA is required, you clicks "Get Code." An OTP is sent to your registered contact method at the external institution. You enters the code to complete authentication.
 
 **Step 8 — Account Selection**
-After successful authentication, Plaid returns a list of the member's eligible accounts at the external institution. The member selects the specific account(s) they want to verify and link.
+After successful authentication, Plaid returns a list of you's eligible accounts at the external institution. You selects the specific account(s) they want to verify and link.
 
 **Step 9 — Submit & Confirm**
-The member clicks "Continue" or "Submit." Plaid completes the verification handshake with nFinia. The external account is added as a verified, ACH-ready linked account.
+You clicks "Continue" or "Submit." Plaid completes the verification handshake with nFinia. The external account is added as a verified, ACH-ready linked account.
 
-### 3.3 Decision Points & Branching
+### Decision Points & Branching
 
 | Decision Point | Branch A | Branch B |
 |----------------|----------|----------|
@@ -112,19 +112,19 @@ The member clicks "Continue" or "Submit." Plaid completes the verification hands
 | Identity category selection required | Member selects category (SSN/email/phone) | Skipped if not required by institution |
 | Member is on business account | Routed to micro-deposit flow | IAV not available |
 
-### 3.4 Completion & Confirmation
+### Completion & Confirmation
 
 Upon successful completion of the Plaid flow:
-- The external account is added to the member's verified accounts list in nFinia
+- The external account is added to you's verified accounts list in nFinia
 - The account is immediately available for ACH transfer origination
 - An audit log entry is created capturing the IAV event, timestamp, and linked account details
-- The member may proceed directly to initiate an ACH transfer without any further verification delay
+- You may proceed directly to initiate an ACH transfer without any further verification delay
 
-### 3.5 Error Handling
+### Error Handling
 
 | Scenario | Member Experience | Resolution |
 |----------|-------------------|------------|
-| Incorrect external bank credentials | Plaid displays an error within the Link frame; member can retry | Re-enter correct credentials |
+| Incorrect external bank credentials | Plaid displays an error within the Link frame; you can retry | Re-enter correct credentials |
 | External institution not supported by Plaid | Institution not found in Plaid search | Member is directed to micro-deposit flow |
 | MFA code expired or incorrect | Plaid prompts to re-request a new code | Click "Get Code" again |
 | Member attempts IAV on business account | IAV option not shown; routed to micro-deposit flow | No action required — by design |
@@ -132,17 +132,17 @@ Upon successful completion of the Plaid flow:
 
 ---
 
-## 4. Feature Overview — UI Walkthrough
+## . Feature Overview — UI Walkthrough
 
 ### Screen 1 — IAV Entry Prompt ("Yes" / "Continue as Guest")
 
-This is the initial prompt presented to the member when external account verification is initiated. It offers two paths: instant verification via Plaid or a guest/alternative path.
+This is the initial prompt presented to you when external account verification is initiated. It offers two paths: instant verification via Plaid or a guest/alternative path.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
 | Prompt message | Label | Explains the instant verification option | Displayed when IAV config is enabled |
 | **"Yes"** button | Button | Launches the full Plaid Link flow | Primary CTA for instant verification |
-| **"Continue as Guest"** button | Button | Proceeds with alternative verification | Available for members who do not want to share credentials |
+| **"Continue as Guest"** button | Button | Proceeds with alternative verification | Available for you who do not want to share credentials |
 
 **On click of "Yes":**
 
@@ -156,7 +156,7 @@ This is the initial prompt presented to the member when external account verific
 
 ### Screen 2 — Institution Search & Selection
 
-The Plaid Link interface displays a searchable directory of supported financial institutions. The member types the name of their external bank to locate it.
+The Plaid Link interface displays a searchable directory of supported financial institutions. You types the name of their external bank to locate it.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
@@ -172,7 +172,7 @@ The Plaid Link interface displays a searchable directory of supported financial 
 
 ### Screen 3 — Continue to Login
 
-After institution selection, the member is shown a confirmation screen for the chosen institution before being directed to the institution's login interface.
+After institution selection, you is shown a confirmation screen for the chosen institution before being directed to the institution's login interface.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
@@ -188,7 +188,7 @@ After institution selection, the member is shown a confirmation screen for the c
 
 ### Screen 4 — External Institution Credential Entry
 
-A new secure window opens displaying the external institution's login form, served through the Plaid Link frame. The member authenticates using their credentials for the external bank.
+A new secure window opens displaying the external institution's login form, served through the Plaid Link frame. You authenticates using their credentials for the external bank.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
@@ -204,7 +204,7 @@ A new secure window opens displaying the external institution's login form, serv
 
 ### Screen 5 — Identity Verification Category Selection *(conditional)*
 
-Some external institutions require identity verification as an additional authentication step. The member selects the appropriate category based on the options presented by the institution.
+Some external institutions require identity verification as an additional authentication step. You selects the appropriate category based on the options presented by the institution.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
@@ -219,7 +219,7 @@ Some external institutions require identity verification as an additional authen
 
 ### Screen 6 — Multi-Factor Authentication — Get Code *(conditional)*
 
-If the external institution requires MFA, the member is prompted to request and enter a one-time passcode. This step is served through the Plaid Link interface and varies by institution.
+If the external institution requires MFA, you is prompted to request and enter a one-time passcode. This step is served through the Plaid Link interface and varies by institution.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
@@ -236,7 +236,7 @@ If the external institution requires MFA, the member is prompted to request and 
 
 ### Screen 7 — Account Selection & Submission
 
-After successful authentication, Plaid returns the list of eligible accounts at the external institution. The member selects the account(s) to link and clicks "Continue."
+After successful authentication, Plaid returns the list of eligible accounts at the external institution. You selects the account(s) to link and clicks "Continue."
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
@@ -262,11 +262,11 @@ After successful authentication, Plaid returns the list of eligible accounts at 
 
 ---
 
-## 5. Configuration & Specifications
+## . Configuration & Specifications
 
 ### System Configuration
 
-The IAV feature is controlled by the following system-level configuration parameters. These are set at the FI/platform level and are not configurable by end users.
+The IAV feature is controlled by the following system-level configuration parameters. These are set at the FI/platform level and are not configurable by end you.
 
 **`IAV_DETAILS` Configuration Key:**
 
@@ -322,7 +322,7 @@ Full Plaid Link Web integration documentation: [https://plaid.com/docs/link/web/
 
 ---
 
-## 6. Quick Reference
+## . Quick Reference
 
 | Task | Navigation Path | Who Can Do It | Notes |
 |------|----------------|---------------|-------|

@@ -1,20 +1,20 @@
 ---
-description: nFinia Digital Banking · CSUM-20 · Inbox & Message Center
+description: Inbox & Message Center
 ---
 
 # Inbox & Message Center
 
-> **Module:** nFinia Digital Banking → Inbox  |  **Reference:** CSUM-20
+> **Module:** Banking › Inbox  |  **Reference:** CSUM-20
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-The Inbox & Message Center is the in-app communication hub between The member and the credit union. It consolidates two distinct types of messages: system notifications about account activities and transactions (Notifications tab), and secure two-way support messages exchanged with credit union staff (Support Messages tab).
+The Inbox & Message Center is the in-app communication hub between You and the credit union. It consolidates two distinct types of messages: system notifications about account activities and transactions (Notifications tab), and secure two-way support messages exchanged with credit union staff (Support Messages tab).
 
-Unlike email — which is transmitted in plaintext and is inherently insecure for financial information — the Message Center operates entirely within the authenticated nFinia session. The member can send secure inquiries, receive replies from CU staff, view full conversation history, and track the status of any open support requests without leaving digital banking.
+Unlike email — which is transmitted in plaintext and is inherently insecure for financial information — the Message Center operates entirely within the authenticated nFinia session. You can send secure inquiries, receive replies from CU staff, view full conversation history, and track the status of any open support requests without leaving digital banking.
 
-A notification badge on the Inbox icon in the Dashboard navigation shows unread message count, drawing The member back into the platform. All messages and notifications are encrypted in transit and at rest.
+A notification badge on the Inbox icon in the Dashboard navigation shows unread message count, drawing You back into the platform. All messages and notifications are encrypted in transit and at rest.
 
 **At a Glance**
 
@@ -24,22 +24,22 @@ A notification badge on the Inbox icon in the Dashboard navigation shows unread 
 | Notification Types | Account activity alerts, transfer confirmations, eDocument notices |
 | Support Messages | Two-way authenticated messaging with CU staff |
 | Security | Encrypted, authenticated — secure for financial discussion |
-| New Message | The member can initiate support requests directly from Inbox |
+| New Message | You can initiate support requests directly from Inbox |
 | Related Reports | CSUM-19 (Alerts), CSUM-25 (Settings) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
 | Use Case                     | Who Uses It                                                             | What They Do                                                 | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Review Notifications         | The member checking recent account activity                                | Open Inbox > Notifications for all recent system alerts      | Consolidated notification history without navigating account by account                                                                                                                                           |
-| View Support Conversation    | The member following up on past inquiry                                    | Open Inbox > Support Messages to see conversation thread     | No need to call the CU to reference a prior support exchange                                                                                                                                                      |
-| Send Support Request         | The member with account questions                                          | Click New Message to submit a secure support inquiry         | Async, secure support channel that avoids phone hold times                                                                                                                                                        |
-| Track Form Submission        | The member checking form status                                            | Look for form submission confirmation in Inbox notifications | Inbox confirms when a submitted form has been received and processed                                                                                                                                              |
+| Review Notifications         | You checking recent account activity                                | Open Inbox > Notifications for all recent system alerts      | Consolidated notification history without navigating account by account                                                                                                                                           |
+| View Support Conversation    | You following up on past inquiry                                    | Open Inbox > Support Messages to see conversation thread     | No need to call the CU to reference a prior support exchange                                                                                                                                                      |
+| Send Support Request         | You with account questions                                          | Click New Message to submit a secure support inquiry         | Async, secure support channel that avoids phone hold times                                                                                                                                                        |
+| Track Form Submission        | You checking form status                                            | Look for form submission confirmation in Inbox notifications | Inbox confirms when a submitted form has been received and processed                                                                                                                                              |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
  | *Navigation: Dashboard > Inbox (bell/envelope icon in top navigation).* | **Step 1 — Start from Dashboard**                            | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
@@ -65,7 +65,7 @@ The Inbox page displays a list of support tickets in a table format with columns
 
 **Step 4 — View Support Messages**
 
-The Inbox interface shows the support messages view with a table listing various support tickets and their details including status and assigned representative.
+The Inbox interface shows the support messages view with a table listing various support tickets and your details including status and assigned representative.
 
 <figure><img src="/.gitbook/assets/img_806c7b1a7ffa.png" alt="" width="480"><figcaption></figcaption></figure>
 

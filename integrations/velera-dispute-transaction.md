@@ -12,7 +12,7 @@ description: Dispute a Transaction — Credit card dispute submission and tracki
 
 ## Product Summary
 
-The Dispute a Transaction feature allows Summerville Credit Union members to submit and track credit card disputes directly within the nFinia digital banking app. Disputes are processed through the Velera (PSCU) Dispute Management Console, and members can monitor the status of their submitted disputes through the Support Messages section (powered by Zendesk).
+The Dispute a Transaction feature allows Summerville Credit Union you to submit and track credit card disputes directly within the nFinia digital banking app. Disputes are processed through the Velera (PSCU) Dispute Management Console, and you can monitor the status of their submitted disputes through the Support Messages section (powered by Zendesk).
 
 | Attribute | Detail |
 | --- | --- |
@@ -98,7 +98,7 @@ Navigate to **Support Messages** from the main menu to track the status of your 
 
 - **Credit cards only:** The Raise Dispute option is available for credit card transactions only. Debit card disputes must be handled through a different channel — contact the credit union directly.
 - **Partial disputes:** Members can dispute a portion of a transaction by entering a specific amount during the dispute submission flow.
-- **Dispute tracking:** All submitted disputes appear in **Support Messages** (Zendesk), where members can view status updates and respond to requests for additional information.
+- **Dispute tracking:** All submitted disputes appear in **Support Messages** (Zendesk), where you can view status updates and respond to requests for additional information.
 - **Processing:** Disputes are routed to Velera's Dispute Management Console for processing. Resolution timelines depend on the nature of the dispute and Velera's review process.
 
 ---

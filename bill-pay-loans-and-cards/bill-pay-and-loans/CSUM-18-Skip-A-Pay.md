@@ -1,18 +1,18 @@
 ---
-description: nFinia Digital Banking · CSUM-21 · Skip-A-Pay
+description: Skip-A-Pay
 ---
 
 # Skip-A-Pay
 
-> **Module:** nFinia Digital Banking → More → Skip A Pay  |  **Reference:** CSUM-21
+> **Module:** Banking › More → Skip A Pay  |  **Reference:** CSUM-21
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-Skip-A-Pay is a member financial relief feature that allows eligible The member to formally defer one loan payment per eligible period without incurring a late fee. The deferred payment is posted to the loan account, the loan term is extended by one month, and interest continues to accrue during the skipped month.
+Skip-A-Pay is you financial relief feature that allows eligible You to formally defer one loan payment per eligible period without incurring a late fee. The deferred payment is posted to the loan account, the loan term is extended by one month, and interest continues to accrue during the skipped month.
 
-The digital Skip-A-Pay workflow replaces paper or phone requests with a fully self-service in-app process. The member select the eligible loan, review the terms of the deferral, accept the agreement, and submit — all within a few steps. The Skip Payment Form in the Online Forms section provides an alternative access path for The member who prefer the forms workflow.
+The digital Skip-A-Pay workflow replaces paper or phone requests with a fully self-service in-app process. You select the eligible loan, review the terms of the deferral, accept the agreement, and submit — all within a few steps. The Skip Payment Form in the Online Forms section provides an alternative access path for You who prefer the forms workflow.
 
 **At a Glance**
 
@@ -26,17 +26,17 @@ The digital Skip-A-Pay workflow replaces paper or phone requests with a fully se
 | Related Reports | CSUM-14 (Loan Payments), CSUM-18 (Online Forms) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
 | Use Case                     | Who Uses It                                    | What They Do                                            | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ---------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Holiday Cash Relief          | The member needing extra funds during holidays    | Skip December payment to free up holiday budget         | Maintains loan standing while managing seasonal cash flow                                                                                                                                                         |
-| Emergency Expense Cover      | The member facing unexpected financial need       | Defer loan payment to cover immediate emergency expense | Avoids late fee while managing short-term cash flow disruption                                                                                                                                                    |
-| Seasonal Income Gap          | The member with seasonal employment               | Skip payment during low-income month                    | Aligns payment obligation with income cycles                                                                                                                                                                      |
+| Holiday Cash Relief          | You needing extra funds during holidays    | Skip December payment to free up holiday budget         | Maintains loan standing while managing seasonal cash flow                                                                                                                                                         |
+| Emergency Expense Cover      | You facing unexpected financial need       | Defer loan payment to cover immediate emergency expense | Avoids late fee while managing short-term cash flow disruption                                                                                                                                                    |
+| Seasonal Income Gap          | You with seasonal employment               | Skip payment during low-income month                    | Aligns payment obligation with income cycles                                                                                                                                                                      |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
  | *Navigation: Dashboard > More > 'Skip A Pay'.* | **Step 1 — Start from Dashboard**                       | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 

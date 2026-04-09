@@ -6,13 +6,13 @@
 
 **Usage Control**
 
-Module: nFinia Digital Banking > Cards > Card Details > Card Controls > Usage Control
+Module: Banking › Cards > Card Details > Card Controls > Usage Control
 
 |                        |
 | ---------------------- |
 | **01 PRODUCT SUMMARY** |
 
-Usage Control gives you granular control over where and how your card can be used. The member can enable or disable specific transaction types — such as In Store, ATM, Mail / Phone order, eCommerce, and more — as well as specific merchant categories like Department Store, Gas Station, Grocery, and Restaurant.
+Usage Control gives you granular control over where and how your card can be used. You can enable or disable specific transaction types — such as In Store, ATM, Mail / Phone order, eCommerce, and more — as well as specific merchant categories like Department Store, Gas Station, Grocery, and Restaurant.
 
 Each transaction type and merchant category can be toggled on or off individually. When a category is disabled, transactions of that type will be declined automatically regardless of the amount or location. This is especially useful for restricting card use to specific spending scenarios or preventing misuse on specific merchant types.
 
@@ -22,7 +22,7 @@ Each transaction type and merchant category can be toggled on or off individuall
 | --- | --- |
 | | **Attribute**       | **Detail**                                                                                                       |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Module              | nFinia Digital Banking > Cards > Card Details > Card Controls > Usage Control                                    |
+| Module              | Banking › Cards > Card Details > Card Controls > Usage Control                                    |
 | Transaction Types   | In Store, ATM, Mail/Phone Order, eCommerce, Household, Restaurant, Grocery, Personal Care, Other, Age Restricted |
 | Merchant Categories | Department Store, Gas Station, and more                                                                          |
 | Toggle              | Each type/category controlled independently                                                                      |

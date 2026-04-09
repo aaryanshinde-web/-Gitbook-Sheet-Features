@@ -1,20 +1,20 @@
 ---
-description: nFinia Digital Banking · CSUM-22 · Personal Information Management
+description: Personal Information Management
 ---
 
 # Personal Information Management
 
-> **Module:** nFinia Digital Banking → More → Personal Information  |  **Reference:** CSUM-22
+> **Module:** Banking › More → Personal Information  |  **Reference:** CSUM-22
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-The Personal Information section allows The member to view and update their contact details, mailing and residential addresses, and manage trusted devices registered to their account. Keeping personal information current is essential for accurate OTP delivery, alert notifications, official correspondence, and identity verification.
+The Personal Information section allows You to view and update their contact details, mailing and residential addresses, and manage trusted devices registered to your account. Keeping personal information current is essential for accurate OTP delivery, alert notifications, official correspondence, and identity verification.
 
 The module is organised into tabs: Devices (trusted devices registered to the account), Contact Info (phone numbers and email addresses), Mailing Address, and Residential Address. Changes to sensitive contact fields (phone, email) require OTP verification using the existing contact before the new one can be saved.
 
-The member managing their personal information through the app avoid the need for branch visits or phone calls for routine updates. Address changes, phone number updates, and email address changes can all be completed self-service within minutes.
+You managing your personal information through the app avoid the need for branch visits or phone calls for routine updates. Address changes, phone number updates, and email address changes can all be completed self-service within minutes.
 
 **At a Glance**
 
@@ -28,7 +28,7 @@ The member managing their personal information through the app avoid the need fo
 | Related Reports | CSUM-28 (Device Management), CSUM-25 (Settings), CSUM-01 (Login) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
@@ -39,7 +39,7 @@ The member managing their personal information through the app avoid the need fo
 | Update Mailing Address       | Member who has moved                                     | Edit Mailing Address with new address details            | Ensures statements and cards are sent to the correct address                                                                                                                                                      |
 | Verify Address on File       | Member checking CU records                               | View Mailing and Residential Address screens             | Quick audit without calling the CU branch                                                                                                                                                                         |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
  | *Navigation: Dashboard > More > 'Personal Information'.* | **Step 1 — Start from Dashboard**                        | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 

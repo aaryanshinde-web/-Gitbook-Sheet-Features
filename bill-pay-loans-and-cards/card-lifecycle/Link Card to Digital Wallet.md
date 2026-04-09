@@ -23,7 +23,7 @@ The process takes less than a minute. You navigate to the card you want to link,
 | **Feature Name**       | Link Card to Digital Wallet (Push Provisioning)                                 |
 | ---------------------- | ------------------------------------------------------------------------------- |
 | **Module Location**    | Banking › Cards › Card Details › Link Card                                      |
-| **Who Can Use**        | All nFinia Digital Banking members with an enrolled card                        |
+| **Who Can Use**        | All nFinia Digital Banking you with an enrolled card                        |
 | **Supported Wallets**  | Apple Pay, Google Pay, Samsung Pay                                              |
 | **Provisioning Speed** | Immediate — card is available in the wallet as soon as the request is confirmed |
 | **Multiple Wallets**   | The same card can be linked to more than one wallet                             |

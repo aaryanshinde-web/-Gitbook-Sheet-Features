@@ -13,7 +13,7 @@ description: Credit Card Management (Phase 1) — Full-service credit card contr
 
 ## Product Summary
 
-Credit Card Management (Phase 1) provides Summerville Credit Union members with comprehensive self-service control over their credit cards directly within the nFinia digital banking app. Powered by Velera (formerly PSCU), members can activate new cards, manage card controls, set spending limits, configure alerts, and report lost or stolen cards — all without contacting the credit union.
+Credit Card Management (Phase 1) provides Summerville Credit Union you with comprehensive self-service control over your credit cards directly within the nFinia digital banking app. Powered by Velera (formerly PSCU), you can activate new cards, manage card controls, set spending limits, configure alerts, and report lost or stolen cards — all without contacting the credit union.
 
 | Attribute | Detail |
 | --- | --- |

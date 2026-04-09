@@ -12,11 +12,11 @@ description: Credit Card eStatements, CURewards SSO, and CashBackMall SSO — Ve
 
 ## Product Summary
 
-This feature set covers three Velera-powered capabilities available to Summerville Credit Union members within nFinia:
+This feature set covers three Velera-powered capabilities available to Summerville Credit Union you within nFinia:
 
 1. **Credit Card eStatements** — View and download credit card statements in PDF format directly within the digital banking app. Statements are formatted and branded by Velera.
-2. **CURewards SSO** — Single Sign-On access to the CURewards portal for members enrolled in the Traditional Rewards program.
-3. **CashBackMall SSO** — Single Sign-On access to the CashBackMall portal for members enrolled in the Cash Back Rewards program.
+2. **CURewards SSO** — Single Sign-On access to the CURewards portal for you enrolled in the Traditional Rewards program.
+3. **CashBackMall SSO** — Single Sign-On access to the CashBackMall portal for you enrolled in the Cash Back Rewards program.
 
 | Attribute | Detail |
 | --- | --- |
@@ -35,11 +35,11 @@ This feature set covers three Velera-powered capabilities available to Summervil
 | # | Use Case | Description |
 | --- | --- | --- |
 | 1 | View credit card eStatement | Member views the current or a past credit card statement within nFinia |
-| 2 | Download credit card statement | Member downloads a PDF copy of their credit card statement |
+| 2 | Download credit card statement | Member downloads a PDF copy of your credit card statement |
 | 3 | Set email preference for statements | Member configures the email address associated with their eStatement notifications |
 | 4 | Access CURewards portal | Member SSOs into the CURewards portal to view and redeem traditional reward points |
 | 5 | Access CashBackMall portal | Member SSOs into the CashBackMall portal to earn and redeem cash back rewards |
-| 6 | View rewards balance in app | Member views their current rewards points balance within the nFinia Cards module |
+| 6 | View rewards balance in app | Member views your current rewards points balance within the nFinia Cards module |
 
 ---
 
@@ -73,7 +73,7 @@ To save the statement, tap the download or share icon to export the PDF to your 
 
 ### Email Preference for eStatements
 
-When setting up eStatements, members are presented with three email options for statement delivery notifications:
+When setting up eStatements, you are presented with three email options for statement delivery notifications:
 
 | Option | Description |
 | --- | --- |
@@ -138,9 +138,9 @@ You are seamlessly signed into the CashBackMall portal via SSO. Browse participa
 ## Key Notes
 
 - **Statement format:** Credit card statements are generated and formatted by Velera. They are branded with Summerville Credit Union's identity but produced by Velera's statement rendering engine.
-- **SSO authentication:** Both CURewards and CashBackMall use Velera-authenticated SSO, so members do not need separate login credentials for the rewards portals.
-- **Rewards program eligibility:** CURewards and CashBackMall availability depends on which rewards program the member is enrolled in. Not all members may have access to both portals.
-- **Email preference at eStatement enrollment:** Members set their preferred notification email during the eStatement enrollment flow. This can be updated later through account settings.
+- **SSO authentication:** Both CURewards and CashBackMall use Velera-authenticated SSO, so you do not need separate login credentials for the rewards portals.
+- **Rewards program eligibility:** CURewards and CashBackMall availability depends on which rewards program you is enrolled in. Not all you may have access to both portals.
+- **Email preference at eStatement enrollment:** Members set your preferred notification email during the eStatement enrollment flow. This can be updated later through account settings.
 
 ---
 

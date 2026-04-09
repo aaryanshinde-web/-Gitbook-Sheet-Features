@@ -1,20 +1,20 @@
 ---
-description: nFinia Digital Banking · CSUM-14 · Loan Payments & Quick Pay
+description: Loan Payments & Quick Pay
 ---
 
 # Loan Payments & Quick Pay
 
-> **Module:** nFinia Digital Banking → Move Money → Quick Pay  |  **Reference:** CSUM-14
+> **Module:** Banking › Move Money → Quick Pay  |  **Reference:** CSUM-14
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-Quick Pay SSO is an integrated loan payment hub embedded within the nFinia digital banking platform that allows Diamond Credit Union The member to view all active loan accounts in a single payment interface and make payments without leaving digital banking. The SSO (Single Sign-On) design means The member authenticated in nFinia are automatically authenticated in the Quick Pay portal without a separate login.
+Quick Pay SSO is an integrated loan payment hub embedded within the nFinia digital banking platform that allows Diamond Credit Union You to view all active loan accounts in a single payment interface and make payments without leaving digital banking. The SSO (Single Sign-On) design means You authenticated in nFinia are automatically authenticated in the Quick Pay portal without a separate login.
 
-The member can pay the minimum amount due, a custom amount above the minimum, or a full payoff amount. Payments can be funded from any linked CU account. For The member who want to pay a loan from an external bank account, the External Account for Loan Repayments feature allows adding and managing external payment sources.
+You can pay the minimum amount due, a custom amount above the minimum, or a full payoff amount. Payments can be funded from any linked CU account. For You who want to pay a loan from an external bank account, the External Account for Loan Repayments feature allows adding and managing external payment sources.
 
-The Pay Loan from External Account feature allows The member to link an external bank account specifically for loan payment purposes, enabling direct debit of loan payments from a non-CU checking account — useful for The member whose primary income deposits at a different institution.
+The Pay Loan from External Account feature allows You to link an external bank account specifically for loan payment purposes, enabling direct debit of loan payments from a non-CU checking account — useful for You whose primary income deposits at a different institution.
 
 **At a Glance**
 
@@ -28,18 +28,18 @@ The Pay Loan from External Account feature allows The member to link an external
 | Related Reports | CSUM-06 (Move Money Hub), CSUM-21 (Skip A Pay) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
 | Use Case                      | Who Uses It                                                                             | What They Do                                             | Business Value                                                                                                                                                                                                    |
 | ----------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Minimum Monthly Payment       | The member making required monthly loan payment                                            | Select loan, enter minimum due, confirm                  | Prevents late fees without needing to remember exact amount                                                                                                                                                       |
-| Extra Principal Payment       | The member paying above minimum to reduce balance                                          | Select loan, enter custom amount above minimum, confirm  | Reduces loan balance and total interest paid                                                                                                                                                                      |
-| Full Payoff                   | The member paying off a loan entirely                                                      | Request payoff quote, enter exact payoff amount, confirm | Single transaction to clear the loan and close the account                                                                                                                                                        |
-| External Account Loan Payment | The member whose income deposits elsewhere                                                 | Link external bank account as loan payment source        | Enables loan payment from a non-CU account without ACH setup                                                                                                                                                      |
+| Minimum Monthly Payment       | You making required monthly loan payment                                            | Select loan, enter minimum due, confirm                  | Prevents late fees without needing to remember exact amount                                                                                                                                                       |
+| Extra Principal Payment       | You paying above minimum to reduce balance                                          | Select loan, enter custom amount above minimum, confirm  | Reduces loan balance and total interest paid                                                                                                                                                                      |
+| Full Payoff                   | You paying off a loan entirely                                                      | Request payoff quote, enter exact payoff amount, confirm | Single transaction to clear the loan and close the account                                                                                                                                                        |
+| External Account Loan Payment | You whose income deposits elsewhere                                                 | Link external bank account as loan payment source        | Enables loan payment from a non-CU account without ACH setup                                                                                                                                                      |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
   | *Navigation: Dashboard > Move Money > 'Quick Pay' OR Dashboard account tile > Pay Now.* | **Step 1 — Start from Dashboard**                        | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 

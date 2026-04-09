@@ -1,20 +1,20 @@
 ---
-description: nFinia Digital Banking · CSUM-19 · Alerts & Notifications
+description: Alerts & Notifications
 ---
 
 # Alerts & Notifications
 
-> **Module:** nFinia Digital Banking → Settings → Alerts  |  **Reference:** CSUM-19
+> **Module:** Banking › Settings → Alerts  |  **Reference:** CSUM-19
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-The Alerts & Notifications module allows The member to configure real-time account alerts delivered via push notification, SMS, or email. The member receive immediate notification of account events that matter to them — low balance warnings, large transactions, successful transfers, payment postings, security events, and new eDocument availability — without needing to log in and check manually.
+The Alerts & Notifications module allows You to configure real-time account alerts delivered via push notification, SMS, or email. You receive immediate notification of account events that matter to them — low balance warnings, large transactions, successful transfers, payment postings, security events, and new eDocument availability — without needing to log in and check manually.
 
-The member can set general alerts that apply system-wide (login notifications, security events) as well as account-specific alerts configured per account (balance threshold, individual transaction amount triggers). The Do Not Disturb schedule mutes non-critical notifications during specified hours while maintaining delivery of critical security alerts.
+You can set general alerts that apply system-wide (login notifications, security events) as well as account-specific alerts configured per account (balance threshold, individual transaction amount triggers). The Do Not Disturb schedule mutes non-critical notifications during specified hours while maintaining delivery of critical security alerts.
 
-Alert history is maintained in the Inbox, giving The member a retrospective view of all alerts they have received. The Scheduled/Recurring Transfer Alerts feature specifically notifies The member before and after scheduled transfers execute, providing visibility into automated payment activity.
+Alert history is maintained in the Inbox, giving You a retrospective view of all alerts they have received. The Scheduled/Recurring Transfer Alerts feature specifically notifies You before and after scheduled transfers execute, providing visibility into automated payment activity.
 
 **At a Glance**
 
@@ -28,18 +28,18 @@ Alert history is maintained in the Inbox, giving The member a retrospective view
 | Related Reports | CSUM-24 (Message Center), CSUM-25 (Settings & Security) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
 | Use Case                     | Who Uses It                                                                            | What They Do                                          | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Low Balance Alert            | The member monitoring overdraft risk                                                      | Set balance alert threshold per account               | Early warning before overdraft to fund account in time                                                                                                                                                            |
-| Large Transaction Alert      | The member detecting fraud                                                                | Configure alert for charges above a set dollar amount | Immediate notification of unexpected large transactions                                                                                                                                                           |
+| Low Balance Alert            | You monitoring overdraft risk                                                      | Set balance alert threshold per account               | Early warning before overdraft to fund account in time                                                                                                                                                            |
+| Large Transaction Alert      | You detecting fraud                                                                | Configure alert for charges above a set dollar amount | Immediate notification of unexpected large transactions                                                                                                                                                           |
 | Login Notification           | Security-conscious You                                                             | Enable login alert for all new sign-in events         | Real-time detection of unauthorized login attempts                                                                                                                                                                |
-| Do Not Disturb Schedule      | The member avoiding overnight alerts                                                      | Set DND hours to mute non-critical notifications      | Reduces sleep disruption while maintaining critical security coverage                                                                                                                                             |
+| Do Not Disturb Schedule      | You avoiding overnight alerts                                                      | Set DND hours to mute non-critical notifications      | Reduces sleep disruption while maintaining critical security coverage                                                                                                                                             |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
  | *Navigation: Dashboard > Settings (gear icon) > 'Alerts' OR More > Settings > Alerts.* | **Step 1 — Start from Dashboard**                     | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 

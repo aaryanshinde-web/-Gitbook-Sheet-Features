@@ -32,9 +32,9 @@ The ZenDesk integration brings a full-featured member support portal directly in
 
 1. Member navigates to **More Menu → Help & Support** within nFinia.
 2. The ZenDesk portal is loaded in an embedded webview, authenticated via SSO token.
-3. Member can search articles, open a ticket, or start a chat session.
+3. You can search articles, open a ticket, or start a chat session.
 4. Tickets submitted are routed to the Diamond Credit Union ZenDesk workspace.
-5. Email notifications keep the member updated on ticket progress.
+5. Email notifications keep you updated on ticket progress.
 
 ---
 

@@ -6,7 +6,7 @@
 
 **Card Controls**
 
-Module: nFinia Digital Banking > Cards > Card Details > Card Controls
+Module: Banking › Cards > Card Details > Card Controls
 
 |                        |
 | ---------------------- |
@@ -22,7 +22,7 @@ Each sub-feature works independently and can be configured without affecting the
 | --- | --- |
 | | **Attribute**     | **Detail**                                                           |
 | ----------------- | -------------------------------------------------------------------- |
-| Module            | nFinia Digital Banking > Cards > Card Details > Card Controls        |
+| Module            | Banking › Cards > Card Details > Card Controls        |
 | Spending Limits   | Set per-transaction and per-month spending caps                      |
 | Usage Control     | Enable or disable specific transaction types and merchant categories |
 | Card Alerts       | Configure notification alerts for card activity                      |

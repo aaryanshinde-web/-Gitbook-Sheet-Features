@@ -4,9 +4,9 @@
 
 ***
 
-## Section 1 — Product Summary
+## Product Summary
 
-The Alerts & Notifications feature in Summerville Credit Union's nFinia platform gives You real-time visibility into the activity on their accounts. You can subscribe to a range of alerts—from balance thresholds and deposit confirmations to security events like failed login attempts—and choose exactly how they receive them: push notification to a trusted device, SMS to a registered phone number, or email to a linked address. The system distinguishes between **Optional Alerts**, which You configure themselves, and **Mandatory Alerts**, which the platform automatically delivers regardless of individual preferences whenever security-critical events occur (e.g., password changes, account lockouts, new remembered device additions).
+The Alerts & Notifications feature in Summerville Credit Union's nFinia platform gives You real-time visibility into the activity on your accounts. You can subscribe to a range of alerts—from balance thresholds and deposit confirmations to security events like failed login attempts—and choose exactly how they receive them: push notification to a trusted device, SMS to a registered phone number, or email to a linked address. The system distinguishes between **Optional Alerts**, which You configure themselves, and **Mandatory Alerts**, which the platform automatically delivers regardless of individual preferences whenever security-critical events occur (e.g., password changes, account lockouts, new remembered device additions).
 
 The feature is organized under **Alert Settings**, accessible via More > Alerts, and is composed of four tabs: **General Alerts**, **Account-Specific Alerts**, **Alert Settings**, and **Do-Not-Disturb**. Together these tabs give You fine-grained control over what they hear about, how they hear about it, and when they can be reached. For the credit union, this translates directly into reduced inbound support volume (You self-serve on transaction questions), stronger fraud detection outcomes (You receive and act on security alerts), and higher digital channel engagement.
 
@@ -16,18 +16,18 @@ The Do-Not-Disturb (DND) sub-feature extends alert control further by letting Yo
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Feature Name**         | Alerts & Notifications                                                                                                                        |
 | **Module**               | More > Alerts (General Alerts, Account-Specific Alerts, Alert Settings, Do-Not-Disturb)                                                       |
-| **User Roles**           | Retail Member (all authenticated users)                                                                                                       |
+| **User Roles**           | Retail Member (all authenticated you)                                                                                                       |
 | **Access Level**         | Authenticated member; OTP verification required at login                                                                                      |
 | **Key Actions**          | Enable/disable alerts, configure alert channels, add account-specific alerts, set optional alert preferences, configure Do-Not-Disturb period |
 | **Regulatory Relevance** | BSA/AML-adjacent fraud detection; mandatory security alerts support NCUA examination expectations for member authentication safeguards        |
 
 ***
 
-## Section 2 — Use Cases
+## Use Cases
 
 | Use Case                                  | Who Uses It   | What They Do                                                                                                                                                                         | Business Value                                                                                                      |
 | ----------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| **Enable alert delivery channels**        | Retail Member | Navigates to Alert Settings tab, confirms or adjusts push, SMS, and email toggles to select preferred delivery channels                                                              | Ensures alerts reach you on their preferred channel; reduces missed notifications and support calls          |
+| **Enable alert delivery channels**        | Retail Member | Navigates to Alert Settings tab, confirms or adjusts push, SMS, and email toggles to select preferred delivery channels                                                              | Ensures alerts reach you on your preferred channel; reduces missed notifications and support calls          |
 | **Add an account-specific balance alert** | Retail Member | Selects Account-Specific Alerts tab, clicks "Add a new alert" under Balance Alerts, selects account, sets condition (e.g., Less than $1,000), saves                                  | Proactively warns You of low balances, reducing overdraft events and associated fees                            |
 | **Configure optional general alerts**     | Retail Member | On General Alerts tab, sets per-event preferences (Send all alerts / Send success alerts / Send failure alerts / Disable alerts) for events like Stop check request or Check reorder | Reduces noise for You who only care about outcomes, while keeping those who want full visibility fully informed |
 | **Set a Do-Not-Disturb quiet period**     | Retail Member | Navigates to Do-Not-Disturb tab, sets timezone, start time, and end time; confirms                                                                                                   | Prevents late-night alert fatigue; improves member satisfaction and alert engagement rates during active hours      |
@@ -38,9 +38,9 @@ Account-specific and general alerts together give Summerville CU You a layered n
 
 ***
 
-## Section 3 — End-to-End Workflow
+## End-to-End Workflow
 
-### 3.1 Prerequisites
+### Prerequisites
 
 * Member holds an active Summerville CU account enrolled in online banking.
 * you have at least one registered contact (phone number or email) on file for OTP and alert delivery.
@@ -48,11 +48,11 @@ Account-specific and general alerts together give Summerville CU You a layered n
 
 ***
 
-### 3.2 Step-by-Step Flow — Alert Preferences (Channel Setup)
+### Step-by-Step Flow — Alert Preferences (Channel Setup)
 
 **Step 1 — Log in to Online Banking**
 
-you navigate to the Summerville CU Online Banking portal and enters their User ID and password, then clicks **Log in**.
+you navigate to the Summerville CU Online Banking portal and enters your User ID and password, then clicks **Log in**.
 
 <figure><img src="/.gitbook/assets/Screenshot_1_1.png" alt="Screenshot 1" width="620"><figcaption></figcaption></figure>
 
@@ -111,7 +111,7 @@ The screen displays the registered phone number and email address that alerts wi
 
 ***
 
-### 3.3 Step-by-Step Flow — Add an Account-Specific Alert
+### Step-by-Step Flow — Add an Account-Specific Alert
 
 Steps 1–6 are identical to the Alert Preferences flow above (login → OTP → Dashboard → More → Alert Settings). At Step 6, you instead navigates to the **Account-Specific Alerts** tab.
 
@@ -147,7 +147,7 @@ After clicking **Save**, the modal closes and the Account-Specific Alerts tab re
 
 ***
 
-### 3.4 Step-by-Step Flow — Configure General (Optional) Alerts
+### Step-by-Step Flow — Configure General (Optional) Alerts
 
 Steps 1–6 are identical. At Step 6, you navigate to **General Alerts** tab.
 
@@ -170,7 +170,7 @@ you click the dropdown on an optional alert row and selects the desired delivery
 
 ***
 
-### 3.5 Step-by-Step Flow — Set Do-Not-Disturb Period
+### Step-by-Step Flow — Set Do-Not-Disturb Period
 
 Steps 1–6 are identical. At Step 6, you click **Do-Not-Disturb**.
 
@@ -204,7 +204,7 @@ A green banner reads "Your Do-Not-Disturb period has been set." The page reflect
 
 ***
 
-### 3.6 Step-by-Step Flow — Edit Do-Not-Disturb Period
+### Step-by-Step Flow — Edit Do-Not-Disturb Period
 
 After a DND period is active, the Do-Not-Disturb tab displays the current period with **Edit** and **Remove** inline actions.
 
@@ -232,7 +232,7 @@ A green banner confirms "Your Do-Not-Disturb period has been set." The updated v
 
 ***
 
-### 3.7 Step-by-Step Flow — Remove Do-Not-Disturb Period
+### Step-by-Step Flow — Remove Do-Not-Disturb Period
 
 **Remove Action**
 
@@ -250,14 +250,14 @@ The system processes the request and displays a green banner: "Do-Not-Disturb-Pe
 
 ***
 
-### 3.8 Decision Points & Branching
+### Decision Points & Branching
 
 * **Enable alerts toggle OFF**: All optional and mandatory alert delivery is suspended. Disabling does not delete configured alert rules—they resume when toggled back on.
 * **DND period active + mandatory alert triggered**: System bypasses DND and delivers the mandatory alert immediately on all active channels.
 * **No registered phone**: The SMS channel option will not be available; member must add a contact number via Personal Information before enabling SMS alerts.
 * **OTP not received**: you can click "Retry in [N] seconds" or select "Select another method" to switch OTP delivery channel.
 
-### 3.9 Error Handling
+### Error Handling
 
 * If you save an alert with no account selected, the modal displays an inline validation error requiring account selection before saving.
 * If the DND start time and end time are identical, the system will not allow submission.
@@ -265,7 +265,7 @@ The system processes the request and displays a green banner: "Do-Not-Disturb-Pe
 
 ***
 
-## Section 4 — Feature Overview (UI Walkthrough)
+## Feature Overview (UI Walkthrough)
 
 ### Login Screen
 
@@ -307,7 +307,7 @@ Shown after selecting "Send me a message." Displays masked registered phone numb
 | --------------------------------- | --------------- | ------------------------------------ | --------------------------------------------------- |
 | Select another method             | Link            | Returns to method selection screen   | Allows switching delivery method                    |
 | Contact number rows               | Selectable list | Masked phone numbers on record       | Member taps the desired number                      |
-| "Don't see your updated contact?" | Informational   | Link to retrieve latest contact info | Supports You who recently updated their profile |
+| "Don't see your updated contact?" | Informational   | Link to retrieve latest contact info | Supports You who recently updated your profile |
 
 ***
 
@@ -495,7 +495,7 @@ Modal dialog for creating a threshold alert on a specific account.
 
 ***
 
-## Section 5 — Quick Reference
+## Quick Reference
 
 | Task                                         | Navigation Path                                                                        | Who Can Do It            | Notes                                                     |
 | -------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------- |

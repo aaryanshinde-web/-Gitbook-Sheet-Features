@@ -1,20 +1,20 @@
 ---
-description: nFinia Digital Banking · CSUM-12 · Zelle® P2P Payments
+description: Zelle® P2P Payments
 ---
 
 # Zelle® P2P Payments
 
-> **Module:** nFinia Digital Banking → Move Money → Zelle  |  **Reference:** CSUM-12
+> **Module:** Banking › Move Money → Zelle  |  **Reference:** CSUM-12
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-Zelle® is a real-time person-to-person (P2P) payment network integrated natively into the nFinia Move Money suite. It enables Diamond Credit Union The member to send and receive money directly with friends, family, and other trusted individuals — regardless of where those recipients bank — in a matter of minutes, using only the recipient's U.S. mobile phone number or email address.
+Zelle® is a real-time person-to-person (P2P) payment network integrated natively into the nFinia Move Money suite. It enables Diamond Credit Union You to send and receive money directly with friends, family, and other trusted individuals — regardless of where those recipients bank — in a matter of minutes, using only the recipient's U.S. mobile phone number or email address.
 
-The Zelle® integration within nFinia means The member do not need a separate Zelle app or account. Transactions flow directly between bank accounts without storing money in a digital wallet. The member can send money, request money from others, split bills across multiple people, and manage Zelle® activity and settings from within digital banking.
+The Zelle® integration within nFinia means You do not need a separate Zelle app or account. Transactions flow directly between bank accounts without storing money in a digital wallet. You can send money, request money from others, split bills across multiple people, and manage Zelle® activity and settings from within digital banking.
 
-Because Zelle® payments to enrolled recipients are processed instantly and are effectively irreversible, The member are strongly advised to verify the recipient's contact information before sending. Zelle® is intended for payments between people who know and trust each other.
+Because Zelle® payments to enrolled recipients are processed instantly and are effectively irreversible, You are strongly advised to verify the recipient's contact information before sending. Zelle® is intended for payments between people who know and trust each other.
 
 **At a Glance**
 
@@ -28,18 +28,18 @@ Because Zelle® payments to enrolled recipients are processed instantly and are 
 | Related Reports | CSUM-06 (Move Money Hub), CSUM-09 (External ACH) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
 | Use Case                     | Who Uses It                                     | What They Do                                                        | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ----------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Split Bill                   | The member splitting a restaurant or shared bill   | Send the exact share to each recipient's enrolled Zelle contact     | Eliminates cash exchange for shared expenses                                                                                                                                                                      |
-| Pay an Individual            | The member paying a trusted person                 | Enter recipient phone/email, amount, note, and send                 | Works for babysitters, tutors, contractors, friends, and family                                                                                                                                                   |
-| Request Money                | The member asking someone to pay them back         | Use Zelle Request to send a payment request to a contact            | Recipient receives notification and can pay instantly via Zelle                                                                                                                                                   |
-| Receive Payment              | The member expecting funds from another Zelle user | Share your enrolled phone number or email for others to send to you | Funds arrive directly into linked CU checking account                                                                                                                                                             |
+| Split Bill                   | You splitting a restaurant or shared bill   | Send the exact share to each recipient's enrolled Zelle contact     | Eliminates cash exchange for shared expenses                                                                                                                                                                      |
+| Pay an Individual            | You paying a trusted person                 | Enter recipient phone/email, amount, note, and send                 | Works for babysitters, tutors, contractors, friends, and family                                                                                                                                                   |
+| Request Money                | You asking someone to pay them back         | Use Zelle Request to send a payment request to a contact            | Recipient receives notification and can pay instantly via Zelle                                                                                                                                                   |
+| Receive Payment              | You expecting funds from another Zelle user | Share your enrolled phone number or email for others to send to you | Funds arrive directly into linked CU checking account                                                                                                                                                             |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
  | *Navigation: Dashboard > Move Money > 'Zelle'.* | **Step 1 — Start from Dashboard**                                   | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 

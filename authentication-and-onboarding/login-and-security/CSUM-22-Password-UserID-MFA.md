@@ -1,67 +1,57 @@
 ---
-description: nFinia Digital Banking · CSUM-25 · Password, User ID & MFA Settings
+description: Manage your login credentials, password, user ID, and multi-factor authentication methods.
 ---
 
 # Password, User ID & MFA Settings
 
-> **Module:** nFinia Digital Banking → Settings → User ID & Security  |  **Reference:** CSUM-25
+> **Module:** Banking › Settings › User ID & Security
 
+## Product Summary
 
-## 01 · Product Summary
+The Password, User ID & MFA Settings section gives you self-service control over your digital banking login credentials and authentication methods. You can change your username, update your password, add or remove MFA delivery methods, and review your security configuration — all without contacting the CU.
 
+Changing a User ID requires the new ID to be unique across the platform and may require OTP verification. Password changes require entry of your current password for verification. All credential changes are logged as security events and trigger a notification to your registered contact.
 
-The Password, User ID & MFA Settings section gives The member self-service control over their digital banking login credentials and authentication methods. The member can change their username, update their password, add or remove MFA delivery methods, and review their security configuration — all without contacting the CU.
-
-Changing a User ID requires the new ID to be unique across the platform and may require OTP verification. Password changes require entry of the current password for verification. All credential changes are logged as security events and trigger a notification to your registered contact.
-
-MFA Settings allow The member to manage which authentication methods are active for their account (SMS OTP, email OTP, authenticator app, biometric), set a primary method, and add or remove methods. At least one active MFA method must remain configured at all times for account security compliance.
+MFA Settings allow you to manage which authentication methods are active for your account (SMS OTP, email OTP, authenticator app, biometric), set a primary method, and add or remove methods. At least one active MFA method must remain configured at all times for account security compliance.
 
 **At a Glance**
 
 | Attribute | Detail |
 | --- | --- |
-| Module | Settings > User ID & Password / MFA |
+| Module | Banking › Settings › User ID & Password / MFA |
 | User ID Change | Member-initiated username change; requires uniqueness validation |
 | Password Change | Requires current password; complexity rules enforced |
 | MFA Methods | SMS OTP, Email OTP, Authenticator App, Biometric |
 | MFA Requirement | Minimum one active method required at all times |
-| Related Reports | CSUM-01 (Login & Auth), CSUM-23 (Settings), CSUM-28 (Device Management) |
 
+## Key Use Cases
 
-## 02 · Key Use Cases
+| Use Case | Who Uses It | What They Do | Business Value |
+| --- | --- | --- | --- |
+| Change Username | You wanting a more memorable login ID | Open User ID Settings, enter new username, confirm | Personalizes login without contacting CU support |
+| Update Password | You rotating credentials for security hygiene | Enter current password, set new password, confirm | Self-service security rotation without calling support |
+| Add MFA Method | You adding a backup authentication factor | Open MFA Settings, select Add Method, verify, save | Adds resilience if primary MFA device is unavailable |
+| Remove Old MFA Method | You with an old phone number in MFA | Open MFA Settings, select old method, remove after verifying current method | Keeps authentication methods current with your active devices |
 
+## Step-by-Step Guide
 
+**Step 1 — Start from Dashboard**
 
-| Use Case                     | Who Uses It                                                                  | What They Do                                                                | Business Value                                                                                                                                                                                                    |
-| ---------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Change Username              | The member wanting a more memorable login ID                                    | Open User ID Settings, enter new username, confirm                          | Personalises login without contacting CU support                                                                                                                                                                  |
-| Update Password              | The member rotating credentials for security hygiene                            | Enter current password, set new password, confirm                           | Self-service security rotation without calling support                                                                                                                                                            |
-| Add MFA Method               | The member adding a backup authentication factor                                | Open MFA Settings, select Add Method, verify, save                          | Adds resilience if primary MFA device is unavailable                                                                                                                                                              |
-| Remove Old MFA Method        | The member with an old phone number in MFA                                      | Open MFA Settings, select old method, remove after verifying current method | Keeps authentication methods current with your active devices                                                                                                                                             |
-| 
-## 03 · Step-by-Step Guide
- | *Navigation: Dashboard > Settings > 'User ID & Password' OR 'MFA Settings'.* | **Step 1 — Start from Dashboard**                                           | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
-
+You begin at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-*Step 1: Start from Dashboard*
-
 **Step 2 — Open the More Menu**
 
-you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+Click 'More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 
-*Step 2: More Menu*
-
 **Step 3 — Navigate from Dashboard to User ID Settings**
 
-The User ID and Password Settings page is displayed with tabs for User ID, Password, and Multi-Factor Authentication, allowing you to manage their login credentials.
+The User ID and Password Settings page is displayed with tabs for User ID, Password, and Multi-Factor Authentication, allowing you to manage your login credentials.
 
 <figure><img src="/.gitbook/assets/img_e7e55face41b.png" alt="" width="480"><figcaption></figcaption></figure>
-
-*Step 3: Navigate from Dashboard to User ID Settings*
 
 **Step 4 — Change User ID**
 
@@ -69,13 +59,8 @@ The Password change form is shown with 'Enter new password' and 'Confirm new pas
 
 <figure><img src="/.gitbook/assets/img_46fdd7da971c.png" alt="" width="620"><figcaption></figcaption></figure>
 
-*Step 4: Change User ID*
-
 **Step 5 — Review MFA Preferences**
 
-The User ID and Password Settings page shows the Multi-Factor Authentication preferences section where you can manage their MFA delivery methods.
+The User ID and Password Settings page shows the Multi-Factor Authentication preferences section where you can manage your MFA delivery methods.
 
 <figure><img src="/.gitbook/assets/img_f25e080818ae.png" alt="" width="620"><figcaption></figcaption></figure>
-
-*Step 5: Review MFA Preferences*
-

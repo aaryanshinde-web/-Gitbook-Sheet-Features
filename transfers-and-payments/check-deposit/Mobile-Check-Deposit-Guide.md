@@ -6,13 +6,13 @@ Platform: nFinia Mobile Banking | Prepared by: Jeeva PM | April 2026
 **1. PRODUCT SUMMARY**
 
 Mobile Check Deposit — also known as Remote Deposit Capture (RDC) — on
-nFinia enables Diamond CU FCU business The member to deposit checks
-directly from their mobile device, eliminating the need for a branch
-visit. The member use their device camera to photograph the front and back
+nFinia enables Diamond CU FCU business You to deposit checks
+directly from your mobile device, eliminating the need for a branch
+visit. You use your device camera to photograph the front and back
 of a check through a guided capture interface with green
 corner-alignment overlays that ensure image quality.
 
-The deposit flow walks The member through each step: selecting the target
+The deposit flow walks You through each step: selecting the target
 account, entering the check amount, capturing check images using guided
 tips, reviewing thumbnails, and submitting. The system validates the
 amount against configured deposit limits and checks image quality before

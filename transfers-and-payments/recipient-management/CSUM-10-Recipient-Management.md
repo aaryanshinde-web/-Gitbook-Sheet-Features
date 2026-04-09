@@ -1,20 +1,20 @@
 ---
-description: nFinia Digital Banking · CSUM-11 · Recipient Management
+description: Recipient Management
 ---
 
 # Recipient Management
 
-> **Module:** nFinia Digital Banking → Move Money → Recipient Management  |  **Reference:** CSUM-11
+> **Module:** Banking › Move Money → Recipient Management  |  **Reference:** CSUM-11
 
 
-## 01 · Product Summary
+## Product Summary
 
 
-Recipient Management is the centralised address book for all transfer and payment recipients. The member can store details for other CU You, external ACH bank accounts, domestic wire beneficiaries, international wire beneficiaries, and FedNow recipients. Saved recipients appear as quick-select options throughout all payment workflows, eliminating the need to re-enter banking details for each transaction.
+Recipient Management is the centralised address book for all transfer and payment recipients. You can store details for other CU You, external ACH bank accounts, domestic wire beneficiaries, international wire beneficiaries, and FedNow recipients. Saved recipients appear as quick-select options throughout all payment workflows, eliminating the need to re-enter banking details for each transaction.
 
-The module supports multiple recipient types with different required fields: domestic wire recipients require an ABA routing number and account number, international wires require a SWIFT/BIC code and international address, external ACH accounts require routing and account number plus account type. The member can view, add, edit, rename, delete, copy, and verify recipients from one management screen.
+The module supports multiple recipient types with different required fields: domestic wire recipients require an ABA routing number and account number, international wires require a SWIFT/BIC code and international address, external ACH accounts require routing and account number plus account type. You can view, add, edit, rename, delete, copy, and verify recipients from one management screen.
 
-Transfer Templates are an advanced feature within recipient management that allows The member to pre-configure complete transfer transactions (from account, to recipient, amount, frequency) which can be re-run on demand with a single click. This is particularly valuable for business The member with recurring payment obligations.
+Transfer Templates are an advanced feature within recipient management that allows You to pre-configure complete transfer transactions (from account, to recipient, amount, frequency) which can be re-run on demand with a single click. This is particularly valuable for business You with recurring payment obligations.
 
 **At a Glance**
 
@@ -28,18 +28,18 @@ Transfer Templates are an advanced feature within recipient management that allo
 | Related Reports | CSUM-09 (External ACH), CSUM-15 (Wire Transfers) |
 
 
-## 02 · Key Use Cases
+## Key Use Cases
 
 
 
 | Use Case                     | Who Uses It                                                    | What They Do                                          | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | -------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Add External Account         | The member setting up ACH pull/push                               | Add external bank routing and account numbers         | Required before initiating any external ACH transfers                                                                                                                                                             |
-| Add Wire Beneficiary         | The member who send domestic wires                                | Enter ABA, account number, beneficiary name for wire  | Saves wire recipient details for recurring wire transfers                                                                                                                                                         |
-| Create Transfer Template     | Business The member with recurring payments                       | Configure a complete transfer as a reusable template  | Single-click execution for repeat payment transactions                                                                                                                                                            |
-| Audit Saved Recipients       | The member reviewing payee list                                   | View all saved recipients with masked account details | Identify and remove outdated or incorrect payees                                                                                                                                                                  |
+| Add External Account         | You setting up ACH pull/push                               | Add external bank routing and account numbers         | Required before initiating any external ACH transfers                                                                                                                                                             |
+| Add Wire Beneficiary         | You who send domestic wires                                | Enter ABA, account number, beneficiary name for wire  | Saves wire recipient details for recurring wire transfers                                                                                                                                                         |
+| Create Transfer Template     | Business You with recurring payments                       | Configure a complete transfer as a reusable template  | Single-click execution for repeat payment transactions                                                                                                                                                            |
+| Audit Saved Recipients       | You reviewing payee list                                   | View all saved recipients with masked account details | Identify and remove outdated or incorrect payees                                                                                                                                                                  |
 | 
-## 03 · Step-by-Step Guide
+## Step-by-Step Guide
  | *Navigation: Dashboard > Move Money > 'Recipient Management'.* | **Step 1 — Start from Dashboard**                     | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
