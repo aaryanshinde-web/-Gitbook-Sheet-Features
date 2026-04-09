@@ -1,59 +1,46 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-19 of 30**
+---
+description: nFinia Digital Banking · CSUM-19 · Alerts & Notifications
+---
 
-**Alerts & Notifications**
+# Alerts & Notifications
 
-Module: nFinia Digital Banking > Settings > Alerts
+> **Module:** nFinia Digital Banking → Settings → Alerts  |  **Reference:** CSUM-19
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-The Alerts & Notifications module allows You to configure real-time account alerts delivered via push notification, SMS, or email. You receive immediate notification of account events that matter to them — low balance warnings, large transactions, successful transfers, payment postings, security events, and new eDocument availability — without needing to log in and check manually.
 
-You can set general alerts that apply system-wide (login notifications, security events) as well as account-specific alerts configured per account (balance threshold, individual transaction amount triggers). The Do Not Disturb schedule mutes non-critical notifications during specified hours while maintaining delivery of critical security alerts.
+The Alerts & Notifications module allows The member to configure real-time account alerts delivered via push notification, SMS, or email. The member receive immediate notification of account events that matter to them — low balance warnings, large transactions, successful transfers, payment postings, security events, and new eDocument availability — without needing to log in and check manually.
 
-Alert history is maintained in the Inbox, giving You a retrospective view of all alerts they have received. The Scheduled/Recurring Transfer Alerts feature specifically notifies You before and after scheduled transfers execute, providing visibility into automated payment activity.
+The member can set general alerts that apply system-wide (login notifications, security events) as well as account-specific alerts configured per account (balance threshold, individual transaction amount triggers). The Do Not Disturb schedule mutes non-critical notifications during specified hours while maintaining delivery of critical security alerts.
+
+Alert history is maintained in the Inbox, giving The member a retrospective view of all alerts they have received. The Scheduled/Recurring Transfer Alerts feature specifically notifies The member before and after scheduled transfers execute, providing visibility into automated payment activity.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | Settings > Alerts |
+| Alert Types | Balance, Transaction, Security, Login, Payment Posted, eDocument Available |
+| Delivery Channels | Push Notification, SMS, Email |
+| Account-Specific | Balance threshold and large transaction alerts per account |
+| Do Not Disturb | Time-window to mute non-critical alerts |
+| Related Reports | CSUM-24 (Message Center), CSUM-25 (Settings & Security) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-Settings > Alerts
-
-Alert Types
-
-Balance, Transaction, Security, Login, Payment Posted, eDocument Available
-
-Delivery Channels
-
-Push Notification, SMS, Email
-
-Account-Specific
-
-Balance threshold and large transaction alerts per account
-
-Do Not Disturb
-
-Time-window to mute non-critical alerts
-
-Related Reports
-
-CSUM-24 (Message Center), CSUM-25 (Settings & Security)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                                                            | What They Do                                          | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Low Balance Alert            | You monitoring overdraft risk                                                      | Set balance alert threshold per account               | Early warning before overdraft to fund account in time                                                                                                                                                            |
-| Large Transaction Alert      | You detecting fraud                                                                | Configure alert for charges above a set dollar amount | Immediate notification of unexpected large transactions                                                                                                                                                           |
+| Low Balance Alert            | The member monitoring overdraft risk                                                      | Set balance alert threshold per account               | Early warning before overdraft to fund account in time                                                                                                                                                            |
+| Large Transaction Alert      | The member detecting fraud                                                                | Configure alert for charges above a set dollar amount | Immediate notification of unexpected large transactions                                                                                                                                                           |
 | Login Notification           | Security-conscious You                                                             | Enable login alert for all new sign-in events         | Real-time detection of unauthorized login attempts                                                                                                                                                                |
-| Do Not Disturb Schedule      | You avoiding overnight alerts                                                      | Set DND hours to mute non-critical notifications      | Reduces sleep disruption while maintaining critical security coverage                                                                                                                                             |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > Settings (gear icon) > 'Alerts' OR More > Settings > Alerts.* | **Step 1 — Start from Dashboard**                     | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| Do Not Disturb Schedule      | The member avoiding overnight alerts                                                      | Set DND hours to mute non-critical notifications      | Reduces sleep disruption while maintaining critical security coverage                                                                                                                                             |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > Settings (gear icon) > 'Alerts' OR More > Settings > Alerts.* | **Step 1 — Start from Dashboard**                     | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -62,7 +49,7 @@ CSUM-24 (Message Center), CSUM-25 (Settings & Security)
 
 **Step 2 — Open the More Menu**
 
-you click ‘More’ in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 

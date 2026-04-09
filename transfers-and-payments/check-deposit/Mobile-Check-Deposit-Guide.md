@@ -1,4 +1,4 @@
-**Summerville FCU**  
+**Diamond CU FCU**  
 Mobile Check Deposit (RDC) Feature Guide
 
 Platform: nFinia Mobile Banking | Prepared by: Jeeva PM | April 2026
@@ -6,19 +6,19 @@ Platform: nFinia Mobile Banking | Prepared by: Jeeva PM | April 2026
 **1. PRODUCT SUMMARY**
 
 Mobile Check Deposit — also known as Remote Deposit Capture (RDC) — on
-nFinia enables Summerville FCU business You to deposit checks
+nFinia enables Diamond CU FCU business The member to deposit checks
 directly from their mobile device, eliminating the need for a branch
-visit. You use their device camera to photograph the front and back
+visit. The member use their device camera to photograph the front and back
 of a check through a guided capture interface with green
 corner-alignment overlays that ensure image quality.
 
-The deposit flow walks You through each step: selecting the target
+The deposit flow walks The member through each step: selecting the target
 account, entering the check amount, capturing check images using guided
 tips, reviewing thumbnails, and submitting. The system validates the
 amount against configured deposit limits and checks image quality before
 processing.
 
-For Summerville FCU, Mobile Check Deposit reduces teller traffic,
+For Diamond CU FCU, Mobile Check Deposit reduces teller traffic,
 extends deposit availability beyond branch hours, and provides business
 You — especially those with limited time to visit in person — with a
 fully digital deposit channel. All deposits create an auditable record
@@ -54,7 +54,7 @@ monitoring.
 
 • RDC enrollment active for you account
 
-• Account eligible for mobile check deposit (configured by Summerville
+• Account eligible for mobile check deposit (configured by Diamond CU
 FCU)
 
 • nFinia mobile app installed with camera permission granted
@@ -213,5 +213,5 @@ area*
 | Deposit a check           | App > Deposit tab > Fill form > Submit       | Enrolled member (RDC active) | Camera permission required                      |
 | View deposit history      | App > Deposit > History tab                   | Member                       | Shows all channels: Mobile, Online, Branch, ATM |
 | Retake check image        | Deposit flow > Review screen > Retake Picture | Member                       | Available before submission only                |
-| Check deposit limit       | Deposit form — displayed automatically          | Member                       | Configured per account type by Summerville FCU  |
+| Check deposit limit       | Deposit form — displayed automatically          | Member                       | Configured per account type by Diamond CU FCU  |
 | View deposit confirmation | Success screen after submit                     | Member                       | Shows receipt number, amount, status            |

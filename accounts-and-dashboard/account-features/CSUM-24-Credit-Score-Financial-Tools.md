@@ -1,59 +1,46 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-27 of 30**
+---
+description: nFinia Digital Banking · CSUM-27 · Credit Score & Financial Tools
+---
 
-**Credit Score & Financial Tools**
+# Credit Score & Financial Tools
 
-Module: nFinia Digital Banking > More > Credit Score / Financial Tools
+> **Module:** nFinia Digital Banking → More → Credit Score / Financial Tools  |  **Reference:** CSUM-27
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-The Credit Score feature gives You on-demand access to their latest credit score and credit report summary without impacting their credit rating. The score is retrieved via a soft pull from an integrated credit bureau partner. You must provide consent during their first access; after that, the score is refreshed periodically automatically.
 
-The credit score display includes your current score, score range, score rating, key factors affecting the score, and score history trend. FICO Score FAQs are available within the feature to help You understand what their score means and how to improve it.
+The Credit Score feature gives The member on-demand access to their latest credit score and credit report summary without impacting their credit rating. The score is retrieved via a soft pull from an integrated credit bureau partner. The member must provide consent during their first access; after that, the score is refreshed periodically automatically.
 
-Financial Tools (where available) provide additional money management capabilities including goals tracking, budget planning, and spending analysis linked to your transaction data. These tools help You connect their daily banking activity to longer-term financial goals.
+The credit score display includes your current score, score range, score rating, key factors affecting the score, and score history trend. FICO Score FAQs are available within the feature to help The member understand what their score means and how to improve it.
+
+Financial Tools (where available) provide additional money management capabilities including goals tracking, budget planning, and spending analysis linked to your transaction data. These tools help The member connect their daily banking activity to longer-term financial goals.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | More > Credit Score / Financial Tools |
+| Credit Bureau | Integrated third-party credit bureau (soft pull — no credit impact) |
+| First Access | Consent screen required; thereafter auto-refreshed periodically |
+| Score Display | Current score, rating, key factors, score history |
+| Financial Tools | Goals, budgeting, spending analysis (availability varies) |
+| Related Reports | CSUM-24 (My Insights), CSUM-03 (Account Overview) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-More > Credit Score / Financial Tools
-
-Credit Bureau
-
-Integrated third-party credit bureau (soft pull — no credit impact)
-
-First Access
-
-Consent screen required; thereafter auto-refreshed periodically
-
-Score Display
-
-Current score, rating, key factors, score history
-
-Financial Tools
-
-Goals, budgeting, spending analysis (availability varies)
-
-Related Reports
-
-CSUM-24 (My Insights), CSUM-03 (Account Overview)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                                           | What They Do                                                         | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Check Credit Score           | You monitoring credit health                                      | Open Credit Score > accept consent > view current score              | Free on-demand credit monitoring without a hard inquiry or credit impact                                                                                                                                          |
-| Review Score Factors         | You working on credit improvement                                 | Read the key factors section in Credit Score                         | Identifies specific factors to address for targeted score improvement                                                                                                                                             |
-| Set Financial Goals          | You planning savings targets                                      | Open Financial Tools > Goals > set a savings goal with target amount | Connects daily banking behaviour to specific financial milestones                                                                                                                                                 |
-| Understand FICO              | You new to credit monitoring                                      | Open FICO FAQs from the Credit Score section                         | Educational resource explaining what the score means and how it is calculated                                                                                                                                     |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > More > 'Credit Score' OR 'Financial Tools'.* | **Step 1 — Start from Dashboard**                                    | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| Check Credit Score           | The member monitoring credit health                                      | Open Credit Score > accept consent > view current score              | Free on-demand credit monitoring without a hard inquiry or credit impact                                                                                                                                          |
+| Review Score Factors         | The member working on credit improvement                                 | Read the key factors section in Credit Score                         | Identifies specific factors to address for targeted score improvement                                                                                                                                             |
+| Set Financial Goals          | The member planning savings targets                                      | Open Financial Tools > Goals > set a savings goal with target amount | Connects daily banking behaviour to specific financial milestones                                                                                                                                                 |
+| Understand FICO              | The member new to credit monitoring                                      | Open FICO FAQs from the Credit Score section                         | Educational resource explaining what the score means and how it is calculated                                                                                                                                     |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > More > 'Credit Score' OR 'Financial Tools'.* | **Step 1 — Start from Dashboard**                                    | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -62,7 +49,7 @@ CSUM-24 (My Insights), CSUM-03 (Account Overview)
 
 **Step 2 — Open the More Menu**
 
-you click ‘More’ in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 

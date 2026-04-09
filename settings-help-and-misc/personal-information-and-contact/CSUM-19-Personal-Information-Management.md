@@ -1,50 +1,35 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-22 of 30**
+---
+description: nFinia Digital Banking · CSUM-22 · Personal Information Management
+---
 
-**Personal Information Management**
+# Personal Information Management
 
-Module: nFinia Digital Banking > More > Personal Information
+> **Module:** nFinia Digital Banking → More → Personal Information  |  **Reference:** CSUM-22
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-The Personal Information section allows You to view and update their contact details, mailing and residential addresses, and manage trusted devices registered to their account. Keeping personal information current is essential for accurate OTP delivery, alert notifications, official correspondence, and identity verification.
+
+The Personal Information section allows The member to view and update their contact details, mailing and residential addresses, and manage trusted devices registered to their account. Keeping personal information current is essential for accurate OTP delivery, alert notifications, official correspondence, and identity verification.
 
 The module is organised into tabs: Devices (trusted devices registered to the account), Contact Info (phone numbers and email addresses), Mailing Address, and Residential Address. Changes to sensitive contact fields (phone, email) require OTP verification using the existing contact before the new one can be saved.
 
-You managing their personal information through the app avoid the need for branch visits or phone calls for routine updates. Address changes, phone number updates, and email address changes can all be completed self-service within minutes.
+The member managing their personal information through the app avoid the need for branch visits or phone calls for routine updates. Address changes, phone number updates, and email address changes can all be completed self-service within minutes.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | More > Personal Information |
+| Sections | Devices, Contact Info, Mailing Address, Residential Address |
+| Verification | OTP required for phone/email changes |
+| Trusted Devices | View, review, and remove registered trusted devices |
+| Address Types | Mailing (for statements/cards) and Residential (for ID verification) |
+| Related Reports | CSUM-28 (Device Management), CSUM-25 (Settings), CSUM-01 (Login) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-More > Personal Information
-
-Sections
-
-Devices, Contact Info, Mailing Address, Residential Address
-
-Verification
-
-OTP required for phone/email changes
-
-Trusted Devices
-
-View, review, and remove registered trusted devices
-
-Address Types
-
-Mailing (for statements/cards) and Residential (for ID verification)
-
-Related Reports
-
-CSUM-28 (Device Management), CSUM-25 (Settings), CSUM-01 (Login)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                              | What They Do                                             | Business Value                                                                                                                                                                                                    |
@@ -53,7 +38,9 @@ CSUM-28 (Device Management), CSUM-25 (Settings), CSUM-01 (Login)
 | Update Email Address         | Member with new email                                    | Edit Contact Info > update email > verify new email      | Keeps email-based OTP and eDocument notifications functional                                                                                                                                                      |
 | Update Mailing Address       | Member who has moved                                     | Edit Mailing Address with new address details            | Ensures statements and cards are sent to the correct address                                                                                                                                                      |
 | Verify Address on File       | Member checking CU records                               | View Mailing and Residential Address screens             | Quick audit without calling the CU branch                                                                                                                                                                         |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > More > 'Personal Information'.* | **Step 1 — Start from Dashboard**                        | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > More > 'Personal Information'.* | **Step 1 — Start from Dashboard**                        | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -62,7 +49,7 @@ CSUM-28 (Device Management), CSUM-25 (Settings), CSUM-01 (Login)
 
 **Step 2 — Open the More Menu**
 
-you click ‘More’ in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 

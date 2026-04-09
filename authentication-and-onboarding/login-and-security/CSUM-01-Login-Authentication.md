@@ -1,50 +1,35 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-01 of 30**
+---
+description: nFinia Digital Banking · CSUM-01 · Login & Authentication
+---
 
-**Login & Authentication**
+# Login & Authentication
 
-Module: nFinia Digital Banking > Login
+> **Module:** nFinia Digital Banking → Login  |  **Reference:** CSUM-01
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-The Login & Authentication module is the security gateway to the Summerville Credit Union digital banking platform. Every session begins here — it is the single point of identity verification before any account data, transaction capability, or self-service function is accessible. The authentication flow employs a multi-layer design: you supply a registered username and password, then completes a one-time passcode (OTP) challenge delivered to a pre-registered email or mobile number.
 
-Beyond standard username/password entry, the module supports forgotten credentials recovery (Forgot User ID, Forgot Password), account unlock for locked-out You, biometric login (Touch ID / Face ID) on supported devices, and a 'Save User ID' convenience feature. A 'Sneak Peek' option on supported configurations allows You to preview their account balances before completing full authentication.
+The Login & Authentication module is the security gateway to the Diamond Credit Union digital banking platform. Every session begins here — it is the single point of identity verification before any account data, transaction capability, or self-service function is accessible. The authentication flow employs a multi-layer design: you supply a registered username and password, then completes a one-time passcode (OTP) challenge delivered to a pre-registered email or mobile number.
+
+Beyond standard username/password entry, the module supports forgotten credentials recovery (Forgot User ID, Forgot Password), account unlock for locked-out members, biometric login (Touch ID / Face ID) on supported devices, and a 'Save User ID' convenience feature. A 'Sneak Peek' option on supported configurations allows The member to preview their account balances before completing full authentication.
 
 Multi-factor authentication (MFA) settings — including managing OTP delivery methods — are handled in Settings after login, but the authentication framework established at login governs all session security.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | nFinia Digital Banking > Login |
+| MFA Method | Username + Password + OTP (email or SMS) |
+| Recovery Options | Forgot User ID, Forgot Password, Unlock Account |
+| Biometric | Touch ID / Face ID on supported devices |
+| Session Security | Tokens expire on inactivity; trusted device option available |
+| Related Reports | CSUM-02 (Dashboard), CSUM-26 (Password & User ID), CSUM-28 (Device Management) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-nFinia Digital Banking > Login
-
-MFA Method
-
-Username + Password + OTP (email or SMS)
-
-Recovery Options
-
-Forgot User ID, Forgot Password, Unlock Account
-
-Biometric
-
-Touch ID / Face ID on supported devices
-
-Session Security
-
-Tokens expire on inactivity; trusted device option available
-
-Related Reports
-
-CSUM-02 (Dashboard), CSUM-26 (Password & User ID), CSUM-28 (Device Management)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                                                                                                          | What They Do                                                     | Business Value                                                                                                                                                                                                                            |
@@ -54,7 +39,9 @@ CSUM-02 (Dashboard), CSUM-26 (Password & User ID), CSUM-28 (Device Management)
 | Forgot Password              | Member who cannot remember password                                                                                                  | Click Forgot Password, verify identity via OTP, set new password | Self-service recovery eliminates need to call CU support                                                                                                                                                                                  |
 | Unlock Account               | Member locked out after failed attempts                                                                                              | Use Unlock Account flow to verify identity and restore access    | Immediate self-service unblock without branch intervention                                                                                                                                                                                |
 | Log Off                      | Member ending session                                                                                                                | Click Log Off to securely terminate the session                  | Prevents unauthorized access if device is shared or left unattended                                                                                                                                                                       |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Navigate to https://summerville.nfinia.com (or launch the mobile app). The Login screen is the first screen presented.* | **Step 1 — Launch the Login Screen**                             | The Summerville Credit Union digital banking login page is displayed. A welcome modal appears over a blue background with financial service icons, showing the User ID and Password input fields along with a prominent 'SIGN IN' button. |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Navigate to https://diamondcu.nfinia.com (or launch the mobile app). The Login screen is the first screen presented.* | **Step 1 — Launch the Login Screen**                             | The Diamond Credit Union digital banking login page is displayed. A welcome modal appears over a blue background with financial service icons, showing the User ID and Password input fields along with a prominent 'SIGN IN' button. |
 
 
 <figure><img src="/.gitbook/assets/img_ba47001101d4.png" alt="" width="620"><figcaption></figcaption></figure>
@@ -87,7 +74,7 @@ The email OTP option is selected. The screen displays 'Send me an email' as the 
 
 **Step 5 — Enter OTP Code**
 
-A verification code entry form is displayed with an 'Enter code' text field. A 'Didn't receive your code? Resend' link is available below the input for You who need the OTP re-sent.
+A verification code entry form is displayed with an 'Enter code' text field. A 'Didn't receive your code? Resend' link is available below the input for The member who need the OTP re-sent.
 
 <figure><img src="/.gitbook/assets/img_a44197ff9ff7.png" alt="" width="620"><figcaption></figcaption></figure>
 

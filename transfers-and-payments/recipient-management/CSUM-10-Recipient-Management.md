@@ -1,59 +1,46 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-11 of 30**
+---
+description: nFinia Digital Banking · CSUM-11 · Recipient Management
+---
 
-**Recipient Management**
+# Recipient Management
 
-Module: nFinia Digital Banking > Move Money > Recipient Management
+> **Module:** nFinia Digital Banking → Move Money → Recipient Management  |  **Reference:** CSUM-11
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-Recipient Management is the centralised address book for all transfer and payment recipients. You can store details for other CU You, external ACH bank accounts, domestic wire beneficiaries, international wire beneficiaries, and FedNow recipients. Saved recipients appear as quick-select options throughout all payment workflows, eliminating the need to re-enter banking details for each transaction.
 
-The module supports multiple recipient types with different required fields: domestic wire recipients require an ABA routing number and account number, international wires require a SWIFT/BIC code and international address, external ACH accounts require routing and account number plus account type. You can view, add, edit, rename, delete, copy, and verify recipients from one management screen.
+Recipient Management is the centralised address book for all transfer and payment recipients. The member can store details for other CU You, external ACH bank accounts, domestic wire beneficiaries, international wire beneficiaries, and FedNow recipients. Saved recipients appear as quick-select options throughout all payment workflows, eliminating the need to re-enter banking details for each transaction.
 
-Transfer Templates are an advanced feature within recipient management that allows You to pre-configure complete transfer transactions (from account, to recipient, amount, frequency) which can be re-run on demand with a single click. This is particularly valuable for business You with recurring payment obligations.
+The module supports multiple recipient types with different required fields: domestic wire recipients require an ABA routing number and account number, international wires require a SWIFT/BIC code and international address, external ACH accounts require routing and account number plus account type. The member can view, add, edit, rename, delete, copy, and verify recipients from one management screen.
+
+Transfer Templates are an advanced feature within recipient management that allows The member to pre-configure complete transfer transactions (from account, to recipient, amount, frequency) which can be re-run on demand with a single click. This is particularly valuable for business The member with recurring payment obligations.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | Move Money > Recipient Management |
+| Recipient Types | CU Member, External ACH, Domestic Wire, International Wire, FedNow |
+| Fields Stored | Name, institution, routing, account number, account type, nickname |
+| Transfer Templates | Pre-configured full transfers reusable on demand |
+| Security | Adding new recipients may trigger OTP verification |
+| Related Reports | CSUM-09 (External ACH), CSUM-15 (Wire Transfers) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-Move Money > Recipient Management
-
-Recipient Types
-
-CU Member, External ACH, Domestic Wire, International Wire, FedNow
-
-Fields Stored
-
-Name, institution, routing, account number, account type, nickname
-
-Transfer Templates
-
-Pre-configured full transfers reusable on demand
-
-Security
-
-Adding new recipients may trigger OTP verification
-
-Related Reports
-
-CSUM-09 (External ACH), CSUM-15 (Wire Transfers)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                                    | What They Do                                          | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | -------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Add External Account         | You setting up ACH pull/push                               | Add external bank routing and account numbers         | Required before initiating any external ACH transfers                                                                                                                                                             |
-| Add Wire Beneficiary         | You who send domestic wires                                | Enter ABA, account number, beneficiary name for wire  | Saves wire recipient details for recurring wire transfers                                                                                                                                                         |
-| Create Transfer Template     | Business You with recurring payments                       | Configure a complete transfer as a reusable template  | Single-click execution for repeat payment transactions                                                                                                                                                            |
-| Audit Saved Recipients       | You reviewing payee list                                   | View all saved recipients with masked account details | Identify and remove outdated or incorrect payees                                                                                                                                                                  |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > Move Money > 'Recipient Management'.* | **Step 1 — Start from Dashboard**                     | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| Add External Account         | The member setting up ACH pull/push                               | Add external bank routing and account numbers         | Required before initiating any external ACH transfers                                                                                                                                                             |
+| Add Wire Beneficiary         | The member who send domestic wires                                | Enter ABA, account number, beneficiary name for wire  | Saves wire recipient details for recurring wire transfers                                                                                                                                                         |
+| Create Transfer Template     | Business The member with recurring payments                       | Configure a complete transfer as a reusable template  | Single-click execution for repeat payment transactions                                                                                                                                                            |
+| Audit Saved Recipients       | The member reviewing payee list                                   | View all saved recipients with masked account details | Identify and remove outdated or incorrect payees                                                                                                                                                                  |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > Move Money > 'Recipient Management'.* | **Step 1 — Start from Dashboard**                     | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -62,7 +49,7 @@ CSUM-09 (External ACH), CSUM-15 (Wire Transfers)
 
 **Step 2 — Navigate to Move Money Hub**
 
-you click ‘Move Money’ in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
+you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
 <figure><img src="/.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
 

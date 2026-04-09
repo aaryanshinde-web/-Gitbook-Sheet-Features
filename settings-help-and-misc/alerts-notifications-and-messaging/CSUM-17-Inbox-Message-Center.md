@@ -1,59 +1,46 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-20 of 30**
+---
+description: nFinia Digital Banking · CSUM-20 · Inbox & Message Center
+---
 
-**Inbox & Message Center**
+# Inbox & Message Center
 
-Module: nFinia Digital Banking > Inbox
+> **Module:** nFinia Digital Banking → Inbox  |  **Reference:** CSUM-20
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-The Inbox & Message Center is the in-app communication hub between You and the credit union. It consolidates two distinct types of messages: system notifications about account activities and transactions (Notifications tab), and secure two-way support messages exchanged with credit union staff (Support Messages tab).
 
-Unlike email — which is transmitted in plaintext and is inherently insecure for financial information — the Message Center operates entirely within the authenticated nFinia session. You can send secure inquiries, receive replies from CU staff, view full conversation history, and track the status of any open support requests without leaving digital banking.
+The Inbox & Message Center is the in-app communication hub between The member and the credit union. It consolidates two distinct types of messages: system notifications about account activities and transactions (Notifications tab), and secure two-way support messages exchanged with credit union staff (Support Messages tab).
 
-A notification badge on the Inbox icon in the Dashboard navigation shows unread message count, drawing You back into the platform. All messages and notifications are encrypted in transit and at rest.
+Unlike email — which is transmitted in plaintext and is inherently insecure for financial information — the Message Center operates entirely within the authenticated nFinia session. The member can send secure inquiries, receive replies from CU staff, view full conversation history, and track the status of any open support requests without leaving digital banking.
+
+A notification badge on the Inbox icon in the Dashboard navigation shows unread message count, drawing The member back into the platform. All messages and notifications are encrypted in transit and at rest.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | Inbox |
+| Notification Types | Account activity alerts, transfer confirmations, eDocument notices |
+| Support Messages | Two-way authenticated messaging with CU staff |
+| Security | Encrypted, authenticated — secure for financial discussion |
+| New Message | The member can initiate support requests directly from Inbox |
+| Related Reports | CSUM-19 (Alerts), CSUM-25 (Settings) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-Inbox
-
-Notification Types
-
-Account activity alerts, transfer confirmations, eDocument notices
-
-Support Messages
-
-Two-way authenticated messaging with CU staff
-
-Security
-
-Encrypted, authenticated — secure for financial discussion
-
-New Message
-
-You can initiate support requests directly from Inbox
-
-Related Reports
-
-CSUM-19 (Alerts), CSUM-25 (Settings)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                                             | What They Do                                                 | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Review Notifications         | You checking recent account activity                                | Open Inbox > Notifications for all recent system alerts      | Consolidated notification history without navigating account by account                                                                                                                                           |
-| View Support Conversation    | You following up on past inquiry                                    | Open Inbox > Support Messages to see conversation thread     | No need to call the CU to reference a prior support exchange                                                                                                                                                      |
-| Send Support Request         | You with account questions                                          | Click New Message to submit a secure support inquiry         | Async, secure support channel that avoids phone hold times                                                                                                                                                        |
-| Track Form Submission        | You checking form status                                            | Look for form submission confirmation in Inbox notifications | Inbox confirms when a submitted form has been received and processed                                                                                                                                              |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > Inbox (bell/envelope icon in top navigation).* | **Step 1 — Start from Dashboard**                            | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| Review Notifications         | The member checking recent account activity                                | Open Inbox > Notifications for all recent system alerts      | Consolidated notification history without navigating account by account                                                                                                                                           |
+| View Support Conversation    | The member following up on past inquiry                                    | Open Inbox > Support Messages to see conversation thread     | No need to call the CU to reference a prior support exchange                                                                                                                                                      |
+| Send Support Request         | The member with account questions                                          | Click New Message to submit a secure support inquiry         | Async, secure support channel that avoids phone hold times                                                                                                                                                        |
+| Track Form Submission        | The member checking form status                                            | Look for form submission confirmation in Inbox notifications | Inbox confirms when a submitted form has been received and processed                                                                                                                                              |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > Inbox (bell/envelope icon in top navigation).* | **Step 1 — Start from Dashboard**                            | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -62,7 +49,7 @@ CSUM-19 (Alerts), CSUM-25 (Settings)
 
 **Step 2 — Open the More Menu**
 
-you click ‘More’ in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 

@@ -80,7 +80,7 @@ controlled level of permissions, ensuring security and compliance.
 
   - > Mobile Banking.
 
-  - > Harmoney: Enables back-office staff to manage secondary users’
+  - > Harmoney: Enables back-office staff to manage secondary users'
     > access and permissions, and provides reports and logs related to
     > this feature.
 
@@ -109,7 +109,7 @@ access to help them manage their account. The user journey is as follows
 
   - > Agreement/T\&C will be presented to the member when they are
     > accessing the feature for the first time. Once they accept, OTP
-    > verification is required to verify primary’s identity (This is a
+    > verification is required to verify primary's identity (This is a
     > configurable step).
 
 > <figure><img src="/.gitbook/assets/Delegated-Access-Release-Notes_image13.png" alt="" width="620"><figcaption></figcaption></figure>
@@ -172,7 +172,7 @@ access to help them manage their account. The user journey is as follows
         
           - > Restrictions:
             
-              - > Cannot change primary’s contact details (mobile
+              - > Cannot change primary's contact details (mobile
                 > number, address), Add or delete device information,
                 > add a new trusted device using CDA, changing MFA
                 > contact information
@@ -297,9 +297,9 @@ access to help them manage their account. The user journey is as follows
 |               | **Transaction Types**                   |                                         |                                         |
 | ------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 |               | Between My Accounts Within Credit Union | To Another Member                       | To External Account                     |
-| Per Transfer  | Max Value: Primary’s Per Transfer Limit | Max Value: Primary’s Per Transfer Limit | Max Value: Primary’s Per Transfer Limit |
-| Daily Limit   | Max Value: Primary’s Daily Limit        | Max Value: Primary’s Daily Limit        | Max Value: Primary’s Daily Limit        |
-| Monthly Limit | Max Value: Primary’s Monthly Limit      | Max Value: Primary’s Monthly Limit      | Max Value: Primary’s Monthly Limit      |
+| Per Transfer  | Max Value: Primary's Per Transfer Limit | Max Value: Primary's Per Transfer Limit | Max Value: Primary's Per Transfer Limit |
+| Daily Limit   | Max Value: Primary's Daily Limit        | Max Value: Primary's Daily Limit        | Max Value: Primary's Daily Limit        |
+| Monthly Limit | Max Value: Primary's Monthly Limit      | Max Value: Primary's Monthly Limit      | Max Value: Primary's Monthly Limit      |
 
 <figure><img src="/.gitbook/assets/Delegated-Access-Release-Notes_image37.png" alt="" width="480"><figcaption></figcaption></figure>
 
@@ -309,13 +309,13 @@ access to help them manage their account. The user journey is as follows
     > transfer limit (daily, per transfer, monthly) assigned by the
     > primary user. Meaning, if the secondary users cross their limit,
     > an approval request will be sent to the primary account holder. If
-    > they cross primary’s limits (set by the FI via policy engine),
+    > they cross primary's limits (set by the FI via policy engine),
     > approval will not be sent and transfer will fail. These requests
     > will be visible to both the user and the primary in the Approval
     > Requests section. The primary can approve or decline the approval
     > request by adding their comments
 
-  - > Secondary users CANNOT approve requests on primary’s behalf. This
+  - > Secondary users CANNOT approve requests on primary's behalf. This
     > permission should not be assigned to secondary users.
 
   - > Secondary users will NOT have delegated access feature permission.
@@ -324,15 +324,15 @@ access to help them manage their account. The user journey is as follows
   - > Joint at Member level
     
       - > In a case where joint a member adds a secondary user, the
-        > primary user of M1 member won’t be see the secondary user
+        > primary user of M1 member won't be see the secondary user
         > because the secondary user is added at the user level not at
         > the member level
     
       - > Primary members will not get the notification of the secondary
         > user added by a joint member today.
     
-      - > Primary members won’t see secondary users added by a joint
-        > member, and won’t be able to perform any role change or
+      - > Primary members won't see secondary users added by a joint
+        > member, and won't be able to perform any role change or
         > feature change on behalf of the joint member of the same
         > membership.
 
@@ -437,15 +437,15 @@ irrespective of the profile switcher selected
 
 ### Future Enhancements:
 
-  - > **Behaviour**: Scheduled transfer detail link may show “no active
-    > SRT message” immediately after submitting an SRT (scheduled ACH)
-    > because the core reference ID isn’t retrieved at post time.
+  - > **Behaviour**: Scheduled transfer detail link may show "no active
+    > SRT message" immediately after submitting an SRT (scheduled ACH)
+    > because the core reference ID isn't retrieved at post time.
     
       - > Scope: Affects ACH SRTs shown under Commercial Activity;
-        > internal transfers are not impacted because they aren’t
+        > internal transfers are not impacted because they aren't
         > displayed there.
     
-      - > Behavior: The newly submitted SRT won’t appear in Commercial
+      - > Behavior: The newly submitted SRT won't appear in Commercial
         > Activity immediately; it becomes visible after a refresh or
         > when viewing under the SRT page/list.
     
@@ -453,8 +453,8 @@ irrespective of the profile switcher selected
         > ID is available on retrieve/edit/delete calls but not captured
         > on the initial post response.
     
-      - > Limitations: Reversal for SRTs isn’t supported because the
-        > core (Symitar) doesn’t return individual SRTs; reversal works
+      - > Limitations: Reversal for SRTs isn't supported because the
+        > core (Symitar) doesn't return individual SRTs; reversal works
         > only for individual transactions.
     
       - > Next steps: Future enhancement required to read and persist
@@ -567,7 +567,7 @@ primary user to grant a secondary user secure access to their account.
 
   - > Agreement/T\&C will be presented to the member when they are
     > accessing the feature for the first time. Once they accept, OTP
-    > verification is required to verify primary’s identity (This is a
+    > verification is required to verify primary's identity (This is a
     > configurable step).
 
 ## 
@@ -642,7 +642,7 @@ delegate user's transactions.
 ## Harmoney
 
   - > Search for the primary member using the search functionality in
-    > Harmoney. In the primary member’s profile, in the secondary access
+    > Harmoney. In the primary member's profile, in the secondary access
     > section, all accounts that member has secondary access to will be
     > visible at a glance.
 
@@ -674,7 +674,7 @@ delegate user's transactions.
 
 <figure><img src="/.gitbook/assets/Delegated-Access-Release-Notes_image30.png" alt="" width="620"><figcaption></figcaption></figure>
 
-  - > The primary’s own accounts, external accounts and internal account
+  - > The primary's own accounts, external accounts and internal account
     > access can be modified by the admin and only the type of transfer
     > can only be modified for the accounts that are eligible as a
     > source.
@@ -688,13 +688,13 @@ delegate user's transactions.
 
 > <figure><img src="/.gitbook/assets/Delegated-Access-Release-Notes_image9.png" alt="" width="620"><figcaption></figcaption></figure>
 
-  - > The secondary user’s transaction activity can be viewed in
+  - > The secondary user's transaction activity can be viewed in
     > Accounts and Activity \> Secondary user activity
 
 > <figure><img src="/.gitbook/assets/Delegated-Access-Release-Notes_image15.png" alt="" width="620"><figcaption></figcaption></figure>
 
-  - > The secondary user profile will be tagged with the “Secondary
-    > User” label for easy identification. Please note that this tag
+  - > The secondary user profile will be tagged with the "Secondary
+    > User" label for easy identification. Please note that this tag
     > will only be visible for secondary users who are not members of
     > the credit union
 
@@ -722,7 +722,7 @@ is intended to help the primary user manage their account-related tasks.
 
 Q: Who can I grant delegated access to?
 
-A: You can grant access to any individual who can assist you with your
+A: The member can grant access to any individual who can assist you with your
 finances, including family members, friends, or professional service
 providers.
 
@@ -735,13 +735,13 @@ Mobile Banking.
 
 Q: What types of access can I grant?
 
-A: You can choose from three main access levels:
+A: The member can choose from three main access levels:
 
   - > View Access: The secondary user can only see account summaries,
     > balances, and transaction history. They cannot perform
     > transactions.
 
-  - > Limited Access: You can specifically select certain features and
+  - > Limited Access: The member can specifically select certain features and
     > transactions (like bill payments or mobile deposits) for the
     > secondary user to perform.
 
@@ -751,7 +751,7 @@ A: You can choose from three main access levels:
 
 Q: Can I set limits on what the secondary user can transfer?
 
-A: Yes. You must set transfer limits for each account you grant access
+A: Yes. The member must set transfer limits for each account you grant access
 to, including a per-transfer limit, a daily limit, and a monthly limit.
 
 Q: How does the transfer limit work if I have multiple delegated users?
@@ -770,7 +770,7 @@ new accounts, or changing default account settings.
 
 Q: How do I revoke or update a secondary user's access?
 
-A: You have full control and can update the limits or completely revoke
+A: The member have full control and can update the limits or completely revoke
 a secondary user's account access at any time through the Secondary User
 management section.
 

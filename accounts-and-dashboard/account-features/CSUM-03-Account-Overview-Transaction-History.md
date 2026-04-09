@@ -1,60 +1,47 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-03 of 30**
+---
+description: nFinia Digital Banking · CSUM-03 · Account Overview & Transaction History
+---
 
-**Account Overview & Transaction History**
+# Account Overview & Transaction History
 
-Module: nFinia Digital Banking > Accounts
+> **Module:** nFinia Digital Banking → Accounts  |  **Reference:** CSUM-03
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-The Account Overview is Summerville Credit Union You' consolidated portfolio view within the nFinia digital banking platform. Accessed by clicking 'Accounts' from the top navigation on the Dashboard, this page displays all of your active accounts — Checking, Savings, Loans, Certificates of Deposit, Lines of Credit, and Membership accounts — as a structured list. Each entry presents the account name, masked account number, current balance, and available balance.
 
-Clicking any account tile navigates to the full Account Detail page for that account. From the Account Detail, You can view complete transaction history, search and filter transactions by date, amount, or description, export or print history, and access related services like eStatements, scheduled transfers, and stop payment requests.
+The Account Overview is Diamond Credit Union You' consolidated portfolio view within the nFinia digital banking platform. Accessed by clicking 'Accounts' from the top navigation on the Dashboard, this page displays all of your active accounts — Checking, Savings, Loans, Certificates of Deposit, Lines of Credit, and Membership accounts — as a structured list. Each entry presents the account name, masked account number, current balance, and available balance.
 
-The Transaction Search feature allows You to find specific transactions across all accounts using criteria including date range, amount range, transaction type, and text search of descriptions. Search results can be exported to CSV for record-keeping or accounting purposes.
+Clicking any account tile navigates to the full Account Detail page for that account. From the Account Detail, The member can view complete transaction history, search and filter transactions by date, amount, or description, export or print history, and access related services like eStatements, scheduled transfers, and stop payment requests.
+
+The Transaction Search feature allows The member to find specific transactions across all accounts using criteria including date range, amount range, transaction type, and text search of descriptions. Search results can be exported to CSV for record-keeping or accounting purposes.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | nFinia Digital Banking > Accounts |
+| Account Types Shown | Checking, Savings, Dividends, Money Market, CD, Loans, Lines of Credit |
+| Transaction History | Searchable, filterable, exportable |
+| Account Actions | Check Deposit, Stop Payment, eStatements, Direct Deposit Form |
+| Related Links | eStatements, Scheduled Transfers, Change Password, Download Statements |
+| Related Reports | CSUM-04 (Account Detail), CSUM-05 (eDocuments), CSUM-19 (Online Forms) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-nFinia Digital Banking > Accounts
-
-Account Types Shown
-
-Checking, Savings, Dividends, Money Market, CD, Loans, Lines of Credit
-
-Transaction History
-
-Searchable, filterable, exportable
-
-Account Actions
-
-Check Deposit, Stop Payment, eStatements, Direct Deposit Form
-
-Related Links
-
-eStatements, Scheduled Transfers, Change Password, Download Statements
-
-Related Reports
-
-CSUM-04 (Account Detail), CSUM-05 (eDocuments), CSUM-19 (Online Forms)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                                      | What They Do                                                           | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| View All Balances            | You checking all account balances                            | Navigate to Accounts to see all account balances at once               | Single screen replaces multiple branch inquiries                                                                                                                                                                  |
-| Find a Transaction           | You researching specific charge                              | Open account detail, use Transaction Search with description or amount | Self-service transaction research eliminates support calls                                                                                                                                                        |
-| Export Transaction History   | You needing data for taxes or budgeting                      | Use Export Feature to download CSV of transaction history              | Provides machine-readable data for external accounting tools                                                                                                                                                      |
-| Check Account Numbers        | You needing routing/account number                           | Open account detail to see masked and full account info                | On-demand access to banking numbers without calling the CU                                                                                                                                                        |
-| Manage Certificate CD        | You with maturing certificates                               | Access certificate account detail to renew, close, or change terms     | Self-service certificate management without branch visit                                                                                                                                                          |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > 'Accounts' link in top navigation bar.* | **Step 1 — Start from Dashboard**                                      | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| View All Balances            | The member checking all account balances                            | Navigate to Accounts to see all account balances at once               | Single screen replaces multiple branch inquiries                                                                                                                                                                  |
+| Find a Transaction           | The member researching specific charge                              | Open account detail, use Transaction Search with description or amount | Self-service transaction research eliminates support calls                                                                                                                                                        |
+| Export Transaction History   | The member needing data for taxes or budgeting                      | Use Export Feature to download CSV of transaction history              | Provides machine-readable data for external accounting tools                                                                                                                                                      |
+| Check Account Numbers        | The member needing routing/account number                           | Open account detail to see masked and full account info                | On-demand access to banking numbers without calling the CU                                                                                                                                                        |
+| Manage Certificate CD        | The member with maturing certificates                               | Access certificate account detail to renew, close, or change terms     | Self-service certificate management without branch visit                                                                                                                                                          |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > 'Accounts' link in top navigation bar.* | **Step 1 — Start from Dashboard**                                      | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -63,7 +50,7 @@ CSUM-04 (Account Detail), CSUM-05 (eDocuments), CSUM-19 (Online Forms)
 
 **Step 2 — Open the More Menu**
 
-you click ‘More’ in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 

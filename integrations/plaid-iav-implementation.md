@@ -1,27 +1,59 @@
+---
+description: Plaid Instant Account Verification (IAV) integration — fast, secure external account linking for ACH transfers within nFinia Digital Banking.
+---
+
 # Plaid IAV — Instant Account Verification
 
 **Vendor:** Plaid\
-**Status:** Documented\
-**Module:** Move Money — External Transfers
+**Module:** Move Money → External Transfers — Add External Account\
+**Integration Type:** Embedded SDK (Client-Side)
+
+---
 
 ## Overview
 
-Plaid's Instant Account Verification (IAV) integration allows nFinia members to securely link external bank accounts for ACH transfers by logging into their external institution via Plaid's verification flow. This eliminates the need for manual micro-deposit verification.
+Plaid Instant Account Verification (IAV) enables Diamond Credit Union members to link external bank accounts for ACH transfers in seconds — without waiting for the traditional 1–3 day micro-deposit verification process. Members authenticate directly with their external bank through Plaid's secure, encrypted Link flow, and the account is verified and ready to use immediately.
+
+---
 
 ## Key Features
 
-- Instant external account linking via Plaid IAV
-- Secure OAuth-based credential flow — nFinia never sees external bank credentials
-- Supports linking of checking and savings accounts
-- Real-time account ownership and balance verification
-- Fallback to micro-deposit verification when IAV is unavailable
+| Feature | Description |
+| --- | --- |
+| **Instant Verification** | Accounts at 12,000+ supported institutions verified in real time |
+| **Micro-Deposit Fallback** | Non-IAV banks fall back to traditional micro-deposit verification automatically |
+| **Read-Only Access** | Plaid only reads account/routing numbers — no transaction data is stored |
+| **Re-authentication** | Expired tokens prompt the member to re-authenticate via the Link flow |
+| **Supported Account Types** | Checking and savings accounts at supported institutions |
 
-## Navigation
+---
 
-**nFinia App:** Move Money → External Transfers → Add External Account → Link via Plaid
+## Member Flow
 
-## Supported Institutions
+1. Member navigates to **Move Money → External ACH → Add External Account**.
+2. Plaid Link modal launches within nFinia.
+3. Member selects their bank from the institution search.
+4. Member enters their online banking credentials (directly to Plaid — never stored by nFinia or Diamond CU).
+5. Plaid verifies the account and returns the verified account/routing number to nFinia.
+6. The external account is immediately available for ACH transfer initiation.
 
-Plaid supports thousands of financial institutions across the US, including major banks and credit unions.
+---
 
-> **Documentation Note:** Full integration specifications, Plaid Link configuration, and webhook setup are available in the `plaid-iav-implementation.md` reference document and the IAV Implementation — Plaid guide.
+## Security & Compliance
+
+{% hint style="warning" %}
+**Credential Handling:** Member banking credentials are entered directly into Plaid's encrypted Link flow. Diamond Credit Union and nFinia never see or store these credentials.
+{% endhint %}
+
+| Control | Details |
+| --- | --- |
+| **Data Encryption** | TLS 1.2+ for all data in transit |
+| **Credential Storage** | Plaid does not store member credentials after verification |
+| **Regulatory Compliance** | Plaid is SOC 2 Type II certified and CCPA/GDPR compliant |
+| **Token Lifespan** | Access tokens expire; members re-authenticate if connection lapses |
+
+---
+
+## Related Documentation
+
+- [External ACH Transfer — CSUM-08](../transfers-and-payments/external-ach-wire-and-instant/CSUM-08-External-ACH-Transfer.md)

@@ -57,10 +57,10 @@ situation based on their self-defined categories.
 
 1.  > Accessing the Manage Group Page:
     
-    1.  > The Manage Group feature can be accessed from the “Accounts /
-        > Accounts overview” Page. The user has an option to select the
-        > “Account Group”. The account group dropdown will have an
-        > option to select “Manage Group”, along with all the custom
+    1.  > The Manage Group feature can be accessed from the "Accounts /
+        > Accounts overview" Page. The user has an option to select the
+        > "Account Group". The account group dropdown will have an
+        > option to select "Manage Group", along with all the custom
         > groups created.
 
 <figure><img src="/.gitbook/assets/Custom-Account-Grouping-Release-Notes_image2.png" alt="" width="620"><figcaption></figcaption></figure>
@@ -68,9 +68,9 @@ situation based on their self-defined categories.
 2.  Manage Custom Group Page: The user will be redirected to the Edit
     Custom Group Page. Here the group name which is selected by default
     on the accounts page will be rendered here. For eg: If the user has
-    selected a group, “Group A” as their by default group. When clicked
-    on “Manage Group” from the accounts dropdown will render the “Group
-    A” on Custom Account Grouping Page. The selected group name will be
+    selected a group, "Group A" as their by default group. When clicked
+    on "Manage Group" from the accounts dropdown will render the "Group
+    A" on Custom Account Grouping Page. The selected group name will be
     highlighted on the left panel.
 
 <figure><img src="/.gitbook/assets/Custom-Account-Grouping-Release-Notes_image8.png" alt="" width="620"><figcaption></figcaption></figure>
@@ -81,12 +81,12 @@ situation based on their self-defined categories.
     > the user is able to see system group information and user created
     > groups along with a button to add a new custom group.
 
-  - > By clicking on “New custom group” (the button on the left panel)
+  - > By clicking on "New custom group" (the button on the left panel)
     > users will be able to add a new custom group. To finish setting up
     > the custom group user has to enter the Group Name, Section Name
-    > and Add at least one account to the section. On clicking the “Add
-    > Section” button a new section will be created. Similar behavior is
-    > for the “Add Accounts” button as well. On Clicking the Cancel
+    > and Add at least one account to the section. On clicking the "Add
+    > Section" button a new section will be created. Similar behavior is
+    > for the "Add Accounts" button as well. On Clicking the Cancel
     > button the user will be redirected to the Accounts Page. On Click
     > of Save button the request will be submitted and the newly created
     > Group will be displayed on the Accounts Page.
@@ -131,7 +131,7 @@ be expanded.
 
 <figure><img src="/.gitbook/assets/Custom-Account-Grouping-Release-Notes_image5.png" alt="" width="620"><figcaption></figcaption></figure>
 
-We also have the option to sort the groups. On clicking the “Manage”
+We also have the option to sort the groups. On clicking the "Manage"
 link, the page below will be rendered where the user can have the sort
 options similar to what we have for accounts and sections. On clicking
 the Save button the group order will be updated and the new order will

@@ -81,7 +81,7 @@ This feature allows users to manage **INVESTMENT** accounts via the
 investment account eligibility will be decided by customer(CU) and from
 nFinia platform.
 
-As part of the “Manage Certificate” feature users can do::
+As part of the "Manage Certificate" feature users can do::
 
 1\. **Renew Certificate:** Renew the certificate for the same or a new
 term, with options to renew the full balance or withdraw a partial
@@ -238,7 +238,7 @@ Maturity. Below are the eligibility criteria to qualify for a Management
 Certificate based on customer configuration.
 
 For example, in the UD core system, Manage Certificate eligibility is
-determined based on the **ProductID** type **“I”** which stands for
+determined based on the **ProductID** type **"I"** which stands for
 INVESTMENT accounts.
 
 Mandatorily the need to check feature is enabled or not under system
@@ -270,7 +270,7 @@ the Reinvest option on UI under manage certificate
 This feature can be accessed through the account details screen by
 clicking on **Manage Certificate** link/button or using Quick links.
 
-**UD Core:** Validate the **productID** value is **“I”** for check
+**UD Core:** Validate the **productID** value is **"I"** for check
 eligibility for **Investment** accounts
 
 Refer UD Core section for Screens:
@@ -312,7 +312,7 @@ amount for another term.
 **Ultra Data:**
 
 In current **Ultra Data** implementation, it supports two renewal
-options “**Renew”** existing and “**Reinvest** or **Rollover”.**
+options "**Renew"** existing and "**Reinvest** or **Rollover".**
 
 <figure><img src="/.gitbook/assets/Certificate-Management-DesignDoc_image21.png" alt="" width="620"><figcaption></figcaption></figure>
 
@@ -503,7 +503,7 @@ Feature Branch: **feature-certificate-management-NFIN-31630**
 
 1.  > **Account Details Page:**
     
-    1.  > “**Manage Certificate**” Option on Account Details Page.
+    1.  > "**Manage Certificate**" Option on Account Details Page.
 
 <figure><img src="/.gitbook/assets/Certificate-Management-DesignDoc_image2.png" alt="" width="620"><figcaption></figcaption></figure>
 

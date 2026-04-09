@@ -1,60 +1,47 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-18 of 30**
+---
+description: nFinia Digital Banking · CSUM-18 · Online Forms Centre
+---
 
-**Online Forms Centre**
+# Online Forms Centre
 
-Module: nFinia Digital Banking > More > Forms
+> **Module:** nFinia Digital Banking → More → Forms  |  **Reference:** CSUM-18
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-The Online Forms Centre gives You direct access to all standard credit union service request forms without a branch visit. Forms cover the full range of banking service requests: ACH origination, address changes, card orders, certificate renewals, courtesy pay enrollment, credit card balance transfers, domestic wire instructions, payment due date changes, payroll direct deposit setup, skip payment requests, check stop payments, and many more.
 
-Each form is pre-populated with available member account information where possible, reducing data entry errors. Completed forms are submitted digitally and routed to the appropriate credit union department for processing. You can track form submission status through the Inbox and receive confirmation notifications.
+The Online Forms Centre gives The member direct access to all standard credit union service request forms without a branch visit. Forms cover the full range of banking service requests: ACH origination, address changes, card orders, certificate renewals, courtesy pay enrollment, credit card balance transfers, domestic wire instructions, payment due date changes, payroll direct deposit setup, skip payment requests, check stop payments, and many more.
 
-The forms library also includes informational forms like FICO Score FAQs, privacy policy acknowledgment forms, IRA and ESA contribution election forms, and other regulatory and compliance documents that You may need to review or sign.
+Each form is pre-populated with available member account information where possible, reducing data entry errors. Completed forms are submitted digitally and routed to the appropriate credit union department for processing. The member can track form submission status through the Inbox and receive confirmation notifications.
+
+The forms library also includes informational forms like FICO Score FAQs, privacy policy acknowledgment forms, IRA and ESA contribution election forms, and other regulatory and compliance documents that The member may need to review or sign.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | More > Forms |
+| Form Count | 30+ standard CU service request forms |
+| Pre-Population | Member account data auto-filled where available |
+| Submission | Digital submission routed to appropriate CU department |
+| Confirmation | Inbox notification confirming form receipt |
+| Related Reports | CSUM-06 (Move Money Hub), CSUM-13 (Wire Transfers), CSUM-21 (Skip A Pay) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-More > Forms
-
-Form Count
-
-30+ standard CU service request forms
-
-Pre-Population
-
-Member account data auto-filled where available
-
-Submission
-
-Digital submission routed to appropriate CU department
-
-Confirmation
-
-Inbox notification confirming form receipt
-
-Related Reports
-
-CSUM-06 (Move Money Hub), CSUM-13 (Wire Transfers), CSUM-21 (Skip A Pay)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                               | What They Do                                                  | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ----------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ACH Origination Setup        | You setting up recurring ACH          | Complete ACH Origination form with account and payee details  | Enables recurring ACH payments directly from CU account                                                                                                                                                           |
-| Address Change               | You who have moved                    | Complete Address Change form with new address                 | Updates address without branch visit or phone call                                                                                                                                                                |
-| Stop a Check                 | You stopping a pending check          | Complete Check Stop Payment form with check number and amount | Faster than calling; creates auditable stop payment request                                                                                                                                                       |
-| Skip-A-Payment Request       | You needing payment relief            | Complete Skip Payment form for eligible loans                 | Formal digital request for payment deferral                                                                                                                                                                       |
-| IRA Contribution Election    | You managing retirement accounts      | Complete IRA Deposit/Contribution Election form               | Digital alternative to paper IRA contribution instructions                                                                                                                                                        |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > More > 'Forms'.* | **Step 1 — Start from Dashboard**                             | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| ACH Origination Setup        | The member setting up recurring ACH          | Complete ACH Origination form with account and payee details  | Enables recurring ACH payments directly from CU account                                                                                                                                                           |
+| Address Change               | The member who have moved                    | Complete Address Change form with new address                 | Updates address without branch visit or phone call                                                                                                                                                                |
+| Stop a Check                 | The member stopping a pending check          | Complete Check Stop Payment form with check number and amount | Faster than calling; creates auditable stop payment request                                                                                                                                                       |
+| Skip-A-Payment Request       | The member needing payment relief            | Complete Skip Payment form for eligible loans                 | Formal digital request for payment deferral                                                                                                                                                                       |
+| IRA Contribution Election    | The member managing retirement accounts      | Complete IRA Deposit/Contribution Election form               | Digital alternative to paper IRA contribution instructions                                                                                                                                                        |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > More > 'Forms'.* | **Step 1 — Start from Dashboard**                             | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -63,7 +50,7 @@ CSUM-06 (Move Money Hub), CSUM-13 (Wire Transfers), CSUM-21 (Skip A Pay)
 
 **Step 2 — Open the More Menu**
 
-you click ‘More’ in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 
@@ -111,7 +98,7 @@ The Address Change Form shows your current contact information and provides opti
 
 **Step 8 — Card Order Request**
 
-The Card Order Request form allows You to request new, replacement, or upgraded cards with options for personal delivery or mailing.
+The Card Order Request form allows The member to request new, replacement, or upgraded cards with options for personal delivery or mailing.
 
 <figure><img src="/.gitbook/assets/img_90cb16a7e474.png" alt="" width="480"><figcaption></figcaption></figure>
 

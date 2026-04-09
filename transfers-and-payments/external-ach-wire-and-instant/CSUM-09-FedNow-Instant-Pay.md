@@ -1,59 +1,46 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-10 of 30**
+---
+description: nFinia Digital Banking · CSUM-10 · FedNow Instant Pay
+---
 
-**FedNow Instant Pay**
+# FedNow Instant Pay
 
-Module: nFinia Digital Banking > Move Money > FedNow Instant Pay
+> **Module:** nFinia Digital Banking → Move Money → FedNow Instant Pay  |  **Reference:** CSUM-10
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-FedNow / Send Instantly enables You to send money in seconds, 24 hours a day, 7 days a week including holidays, using the Federal Reserve's real-time payment network and/or The Clearing House RTP network. Unlike ACH which batches transactions, FedNow settles funds immediately and irrevocably.
 
-Because FedNow payments are final and cannot be reversed once sent, the platform requires You to review and accept terms and conditions before submitting. This protects You from accidental high-value transfers. You must carefully verify recipient and amount details before confirming — there is no recall option once funds are sent.
+FedNow / Send Instantly enables The member to send money in seconds, 24 hours a day, 7 days a week including holidays, using the Federal Reserve's real-time payment network and/or The Clearing House RTP network. Unlike ACH which batches transactions, FedNow settles funds immediately and irrevocably.
 
-Instant Pay History provides a log of all real-time payment transactions, giving You a chronological record of every FedNow and RTP payment sent or received through the platform.
+Because FedNow payments are final and cannot be reversed once sent, the platform requires The member to review and accept terms and conditions before submitting. This protects The member from accidental high-value transfers. The member must carefully verify recipient and amount details before confirming — there is no recall option once funds are sent.
+
+Instant Pay History provides a log of all real-time payment transactions, giving The member a chronological record of every FedNow and RTP payment sent or received through the platform.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | Move Money > FedNow Instant Pay / Send Instantly |
+| Network | Federal Reserve FedNow + The Clearing House RTP |
+| Settlement Speed | Seconds — 24/7/365 including weekends and holidays |
+| Reversibility | Irrevocable — cannot be recalled once sent |
+| Steps | 4 (From → Amount/Recipient → Terms → Final Confirm) |
+| Related Reports | CSUM-06 (Move Money Hub), CSUM-09 (ACH Transfer) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-Move Money > FedNow Instant Pay / Send Instantly
-
-Network
-
-Federal Reserve FedNow + The Clearing House RTP
-
-Settlement Speed
-
-Seconds — 24/7/365 including weekends and holidays
-
-Reversibility
-
-Irrevocable — cannot be recalled once sent
-
-Steps
-
-4 (From → Amount/Recipient → Terms → Final Confirm)
-
-Related Reports
-
-CSUM-06 (Move Money Hub), CSUM-09 (ACH Transfer)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                                                      | What They Do                                                     | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Urgent Payment Delivery      | You needing immediate fund delivery                                          | Use FedNow for same-second settlement for time-critical payments | Eliminates 1–3 day ACH wait for urgent situations                                                                                                                                                                 |
-| Weekend/Holiday Transfer     | You needing off-hours transfer                                               | FedNow operates 24/7 including weekends and federal holidays     | No need to wait for next business day                                                                                                                                                                             |
-| Large Urgent Payment         | You with high-value time-sensitive payments                                  | FedNow processes large amounts instantly with T&C confirmation   | Real estate deposits, contractor disbursements, urgent invoices                                                                                                                                                   |
-| Instant Confirmation         | You needing immediate proof of payment                                       | FedNow confirmation is immediate with a reference number         | Verifiable instant receipt for payer and recipient                                                                                                                                                                |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > Move Money > 'FedNow Instant Pay' OR 'Send Instantly'.* | **Step 1 — Start from Dashboard**                                | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| Urgent Payment Delivery      | The member needing immediate fund delivery                                          | Use FedNow for same-second settlement for time-critical payments | Eliminates 1–3 day ACH wait for urgent situations                                                                                                                                                                 |
+| Weekend/Holiday Transfer     | The member needing off-hours transfer                                               | FedNow operates 24/7 including weekends and federal holidays     | No need to wait for next business day                                                                                                                                                                             |
+| Large Urgent Payment         | The member with high-value time-sensitive payments                                  | FedNow processes large amounts instantly with T&C confirmation   | Real estate deposits, contractor disbursements, urgent invoices                                                                                                                                                   |
+| Instant Confirmation         | The member needing immediate proof of payment                                       | FedNow confirmation is immediate with a reference number         | Verifiable instant receipt for payer and recipient                                                                                                                                                                |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > Move Money > 'FedNow Instant Pay' OR 'Send Instantly'.* | **Step 1 — Start from Dashboard**                                | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -62,7 +49,7 @@ CSUM-06 (Move Money Hub), CSUM-09 (ACH Transfer)
 
 **Step 2 — Navigate to Move Money Hub**
 
-you click ‘Move Money’ in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
+you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
 <figure><img src="/.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
 

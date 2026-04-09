@@ -1,56 +1,43 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-21 of 30**
+---
+description: nFinia Digital Banking · CSUM-21 · Skip-A-Pay
+---
 
-**Skip-A-Pay**
+# Skip-A-Pay
 
-Module: nFinia Digital Banking > More > Skip A Pay
+> **Module:** nFinia Digital Banking → More → Skip A Pay  |  **Reference:** CSUM-21
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-Skip-A-Pay is a member financial relief feature that allows eligible You to formally defer one loan payment per eligible period without incurring a late fee. The deferred payment is posted to the loan account, the loan term is extended by one month, and interest continues to accrue during the skipped month.
 
-The digital Skip-A-Pay workflow replaces paper or phone requests with a fully self-service in-app process. You select the eligible loan, review the terms of the deferral, accept the agreement, and submit — all within a few steps. The Skip Payment Form in the Online Forms section provides an alternative access path for You who prefer the forms workflow.
+Skip-A-Pay is a member financial relief feature that allows eligible The member to formally defer one loan payment per eligible period without incurring a late fee. The deferred payment is posted to the loan account, the loan term is extended by one month, and interest continues to accrue during the skipped month.
+
+The digital Skip-A-Pay workflow replaces paper or phone requests with a fully self-service in-app process. The member select the eligible loan, review the terms of the deferral, accept the agreement, and submit — all within a few steps. The Skip Payment Form in the Online Forms section provides an alternative access path for The member who prefer the forms workflow.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | More > Skip A Pay |
+| Eligible Loans | Qualifying consumer and auto loans per CU eligibility rules |
+| Effect on Loan | One payment deferred; interest continues to accrue; term extended |
+| Fee | Nominal processing fee may apply per CU policy |
+| Frequency | Once per eligible period per loan (typically once per 12 months) |
+| Related Reports | CSUM-14 (Loan Payments), CSUM-18 (Online Forms) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-More > Skip A Pay
-
-Eligible Loans
-
-Qualifying consumer and auto loans per CU eligibility rules
-
-Effect on Loan
-
-One payment deferred; interest continues to accrue; term extended
-
-Fee
-
-Nominal processing fee may apply per CU policy
-
-Frequency
-
-Once per eligible period per loan (typically once per 12 months)
-
-Related Reports
-
-CSUM-14 (Loan Payments), CSUM-18 (Online Forms)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                    | What They Do                                            | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ---------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Holiday Cash Relief          | You needing extra funds during holidays    | Skip December payment to free up holiday budget         | Maintains loan standing while managing seasonal cash flow                                                                                                                                                         |
-| Emergency Expense Cover      | You facing unexpected financial need       | Defer loan payment to cover immediate emergency expense | Avoids late fee while managing short-term cash flow disruption                                                                                                                                                    |
-| Seasonal Income Gap          | You with seasonal employment               | Skip payment during low-income month                    | Aligns payment obligation with income cycles                                                                                                                                                                      |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > More > 'Skip A Pay'.* | **Step 1 — Start from Dashboard**                       | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| Holiday Cash Relief          | The member needing extra funds during holidays    | Skip December payment to free up holiday budget         | Maintains loan standing while managing seasonal cash flow                                                                                                                                                         |
+| Emergency Expense Cover      | The member facing unexpected financial need       | Defer loan payment to cover immediate emergency expense | Avoids late fee while managing short-term cash flow disruption                                                                                                                                                    |
+| Seasonal Income Gap          | The member with seasonal employment               | Skip payment during low-income month                    | Aligns payment obligation with income cycles                                                                                                                                                                      |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > More > 'Skip A Pay'.* | **Step 1 — Start from Dashboard**                       | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -59,7 +46,7 @@ CSUM-14 (Loan Payments), CSUM-18 (Online Forms)
 
 **Step 2 — Open the More Menu**
 
-you click ‘More’ in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 

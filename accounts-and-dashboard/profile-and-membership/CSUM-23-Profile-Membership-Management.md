@@ -1,59 +1,46 @@
-**  SUMMERVILLE CREDIT UNION  ·  CONSOLIDATED MEMBER GUIDE  ·  CSUM-26 of 30**
+---
+description: nFinia Digital Banking · CSUM-26 · Profile & Membership Management
+---
 
-**Profile & Membership Management**
+# Profile & Membership Management
 
-Module: nFinia Digital Banking > Profile / Accounts & Memberships
+> **Module:** nFinia Digital Banking → Profile / Accounts & Memberships  |  **Reference:** CSUM-26
 
-*Sources: Summerville Reports Series A (36 docs) + Series B (25 docs) | Features: nFinia Documentation Features Spreadsheet*
 
-**  01  PRODUCT SUMMARY**
+## 01 · Product Summary
 
-The Profile & Membership Management section allows You with multiple credit union memberships to switch the active membership context, manage account-level display settings, and access membership-specific configurations. Switching memberships changes all screens in the platform to show data for the newly selected membership.
 
-The Accounts & Memberships view within More provides detailed settings for each account: custom nicknames, display order, visibility toggle, and account-specific configurations. You can also view membership-level details such as membership number, account types, and linked services.
+The Profile & Membership Management section allows The member with multiple credit union memberships to switch the active membership context, manage account-level display settings, and access membership-specific configurations. Switching memberships changes all screens in the platform to show data for the newly selected membership.
 
-For You who have been designated as joint account holders on other memberships (such as a family your account or a business account), the Profile screen is the access point for switching between those memberships without logging out and back in.
+The Accounts & Memberships view within More provides detailed settings for each account: custom nicknames, display order, visibility toggle, and account-specific configurations. The member can also view membership-level details such as membership number, account types, and linked services.
+
+For The member who have been designated as joint account holders on other memberships (such as a family your account or a business account), the Profile screen is the access point for switching between those memberships without logging out and back in.
 
 **At a Glance**
 
-**Attribute**
+| Attribute | Detail |
+| --- | --- |
+| Module | Profile / Accounts & Memberships |
+| Multi-Membership | Switch context between personal, business, or joint memberships |
+| Account Settings | Nicknames, display order, visibility per account |
+| Access Path | Profile icon (top nav) or More > Accounts & Memberships |
+| Membership Details | Membership number, account types, linked services |
+| Related Reports | CSUM-23 (Settings), CSUM-27 (Credit Score) |
 
-**Detail**
 
-Module
+## 02 · Key Use Cases
 
-Profile / Accounts & Memberships
-
-Multi-Membership
-
-Switch context between personal, business, or joint memberships
-
-Account Settings
-
-Nicknames, display order, visibility per account
-
-Access Path
-
-Profile icon (top nav) or More > Accounts & Memberships
-
-Membership Details
-
-Membership number, account types, linked services
-
-Related Reports
-
-CSUM-23 (Settings), CSUM-27 (Credit Score)
-
-**  02  KEY USE CASES**
 
 
 | Use Case                     | Who Uses It                                                                               | What They Do                                                | Business Value                                                                                                                                                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Switch to Business Account   | You with personal and business memberships                                            | Open Profile > select business membership to switch context | Changes entire app to business accounts without re-logging in                                                                                                                                                     |
-| Reorder Account Display      | You preferring a specific account order                                               | Open Accounts & Memberships > drag to reorder accounts      | Puts most-used account at the top of all account lists                                                                                                                                                            |
-| Add Account Nickname         | You managing multiple similar accounts                                                | Open Account Settings > enter descriptive nickname          | Makes account identification faster throughout the platform                                                                                                                                                       |
-| Open Additional Product      | You wanting a new account type                                                        | Open Profile > Add New Account / Apply for New Account      | Self-service account opening without branch visit                                                                                                                                                                 |
-| **  03  STEP-BY-STEP GUIDE** | *Navigation: Dashboard > Profile icon (top navigation) OR More > Accounts & Memberships.* | **Step 1 — Start from Dashboard**                           | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+| Switch to Business Account   | The member with personal and business memberships                                            | Open Profile > select business membership to switch context | Changes entire app to business accounts without re-logging in                                                                                                                                                     |
+| Reorder Account Display      | The member preferring a specific account order                                               | Open Accounts & Memberships > drag to reorder accounts      | Puts most-used account at the top of all account lists                                                                                                                                                            |
+| Add Account Nickname         | The member managing multiple similar accounts                                                | Open Account Settings > enter descriptive nickname          | Makes account identification faster throughout the platform                                                                                                                                                       |
+| Open Additional Product      | The member wanting a new account type                                                        | Open Profile > Add New Account / Apply for New Account      | Self-service account opening without branch visit                                                                                                                                                                 |
+| 
+## 03 · Step-by-Step Guide
+ | *Navigation: Dashboard > Profile icon (top navigation) OR More > Accounts & Memberships.* | **Step 1 — Start from Dashboard**                           | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
 
 <figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
@@ -62,7 +49,7 @@ CSUM-23 (Settings), CSUM-27 (Credit Score)
 
 **Step 2 — Open the More Menu**
 
-you click ‘More’ in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="/.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 

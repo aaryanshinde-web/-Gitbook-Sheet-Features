@@ -2,7 +2,7 @@
 
 |                                                          |
 | -------------------------------------------------------- |
-| **SUMMERVILLE CREDIT UNION · CONSOLIDATED MEMBER GUIDE** |
+| **DIAMOND CREDIT UNION · CONSOLIDATED MEMBER GUIDE** |
 
 **Card Controls**
 
@@ -18,48 +18,31 @@ Each sub-feature works independently and can be configured without affecting the
 
 **At a Glance**
 
-| **Attribute**     | **Detail**                                                           |
+| Attribute | Detail |
+| --- | --- |
+| | **Attribute**     | **Detail**                                                           |
 | ----------------- | -------------------------------------------------------------------- |
 | Module            | nFinia Digital Banking > Cards > Card Details > Card Controls        |
 | Spending Limits   | Set per-transaction and per-month spending caps                      |
 | Usage Control     | Enable or disable specific transaction types and merchant categories |
 | Card Alerts       | Configure notification alerts for card activity                      |
 | Location Controls | Restrict or permit transactions by geographic location               |
-| Related Documents | Spending-Limits, Usage-Control, Location-Controls (separate guides)  |
-
-|                      |
+| Related Documents | Spending-Limits, Usage-Control, Location-Controls (separate guides)  | | |                      |
 | -------------------- |
-| **02 KEY USE CASES** |
-
-| **Use Case**                      | **Who Uses It**                            | **What They Do**                                                            | **Business Value**                                     |
+| **02 KEY USE CASES** | |
+| | **Use Case**                      | **Who Uses It**                            | **What They Do**                                                            | **Business Value**                                     |
 | --------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------ |
 | **Set spending limits**           | Member managing a budget or secondary card | Opens Card Controls > Spending Limits, sets per-transaction or monthly cap  | Large or unexpected charges are automatically declined |
 | **Block specific merchant types** | Member restricting card to certain uses    | Opens Card Controls > Usage Control, disables unwanted merchant categories  | Card declined at disabled merchant types               |
 | **Enable card for travel**        | Member traveling internationally           | Opens Card Controls > Location Controls, enables international transactions | Card approved in selected travel destinations          |
-| **Review all controls**           | Member wanting to audit card settings      | Opens Card Controls and reviews each tab                                    | Full visibility of all active controls on the card     |
-
-|                           |
+| **Review all controls**           | Member wanting to audit card settings      | Opens Card Controls and reviews each tab                                    | Full visibility of all active controls on the card     | | |                           |
 | ------------------------- |
-| **03 STEP-BY-STEP GUIDE** |
-
-_Navigation: Log in to Summerville Credit Union online banking. Click Cards, select your card, then click Card Controls._
-
-**Step 1 — Arrive at the Dashboard**
-
-After logging in, you land on the Dashboard showing your account balances, recent payments, and quick-action shortcuts. Click Cards in the top navigation bar, then select the card you want to manage.
-
-<figure><img src="/.gitbook/assets/Card_Controls_img1.png" alt="Step 1: Dashboard --- starting point for navigation" width="480"><figcaption></figcaption></figure>
-
-_Step 1: Dashboard — starting point for navigation_
-
-**Step 2 — Open Card Controls and Choose a Sub-Feature**
-
-From the Card Details page, click Card Controls in the quick action row beneath the card balance summary. The Card Controls panel opens with four tabs: Spending Limits, Usage Control, Card Alerts, and Location Controls. Click any tab to configure that sub-feature. Each setting takes effect immediately when saved — no additional confirmation step is required.
-
-<figure><img src="/.gitbook/assets/Card_Controls_img2.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 2: Card Controls panel — select any tab to configure that control area_
-
-|                                                                                                                                                                                        |
+| **03 STEP-BY-STEP GUIDE** | |
+| _Navigation: Log in to Diamond Credit Union online banking. Click Cards, select your card, then click Card Controls._ | Step 1 — Arrive at the Dashboard |
+| After logging in, you land on the Dashboard showing your account balances, recent payments, and quick-action shortcuts. Click Cards in the top navigation bar, then select the card you want to manage. | <figure><img src="/.gitbook/assets/Card_Controls_img1.png" alt="Step 1: Dashboard --- starting point for navigation" width="480"><figcaption></figcaption></figure> |
+| _Step 1: Dashboard — starting point for navigation_ | Step 2 — Open Card Controls and Choose a Sub-Feature |
+| From the Card Details page, click Card Controls in the quick action row beneath the card balance summary. The Card Controls panel opens with four tabs: Spending Limits, Usage Control, Card Alerts, and Location Controls. Click any tab to configure that sub-feature. Each setting takes effect immediately when saved — no additional confirmation step is required. | <figure><img src="/.gitbook/assets/Card_Controls_img2.png" alt="" width="480"><figcaption></figcaption></figure> |
+| _Step 2: Card Controls panel — select any tab to configure that control area_ | |                                                                                                                                                                                        |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Note:** Each Card Controls sub-feature has its own detailed guide: see Spending-Limits, Usage-Control, Location-Controls, and Card-Alerts for step-by-step instructions on each tab. |
+| **Note:** Each Card Controls sub-feature has its own detailed guide: see Spending-Limits, Usage-Control, Location-Controls, and Card-Alerts for step-by-step instructions on each tab. | |
+
