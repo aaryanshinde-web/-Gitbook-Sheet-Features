@@ -9,9 +9,9 @@
 
 ## Product Summary
 
-Prisma is an advertising and engagement platform integrated with Tyfone's nFinia digital banking product. It enables Financial Institutions (FIs) — primarily credit unions and community banks — to display targeted advertisements within their you' digital banking experience: dashboard, account history, transfers, bill pay, and more. The integration is token-based, with Tyfone embedding Prisma placeholders throughout the application and passing a person-level user identifier at login to load personalized ad content.
+Prisma is an advertising and engagement platform integrated with Tyfone's nFinia digital banking product. It enables Financial Institutions (FIs) — primarily credit unions and community banks — to display targeted advertisements within their members' digital banking experience: dashboard, account history, transfers, bill pay, and more. The integration is token-based, with Tyfone embedding Prisma placeholders throughout the application and passing a person-level user identifier at login to load personalized ad content.
 
-The primary you of the Prisma console are FI marketing teams and Tyfone delivery/support managers who configure, schedule, and manage ad campaigns. End-you (credit union you) are the consumers of these ads. For FIs, Prisma represents a direct revenue opportunity — either by monetizing ad inventory through partner offers or by promoting your own financial products (e.g., auto loans, credit cards, certificates) to you at key moments in your digital banking journey.
+The primary users of the Prisma console are FI marketing teams and Tyfone delivery/support managers who configure, schedule, and manage ad campaigns. End members (credit union members) are the consumers of these ads. For FIs, Prisma represents a direct revenue opportunity — either by monetizing ad inventory through partner offers or by promoting your own financial products (e.g., auto loans, credit cards, certificates) to you at key moments in your digital banking journey.
 
 Prisma is available in two tiers — **Full** and **Light** — with the Full version supporting advanced audience segmentation and targeted campaigns, and the Light version providing all-user ad delivery at a lower cost point.
 
@@ -28,7 +28,7 @@ Prisma is available in two tiers — **Full** and **Light** — with the Full ve
 
 ## . Introduction to Prisma
 
-Prisma is an advertising functionality that allows ads to be displayed within various sections of you's banking dashboard and account history. It serves as the campaign management and ad delivery layer for FIs using the nFinia platform. The integration is token-based: Tyfone embeds Prisma ad placeholders throughout nFinia and passes you's person-level identifier at login, which Prisma uses to serve the appropriate ad content.
+Prisma is an advertising functionality that allows ads to be displayed within various sections of members' banking dashboards and account history. It serves as the campaign management and ad delivery layer for FIs using the nFinia platform. The integration is token-based: Tyfone embeds Prisma ad placeholders throughout nFinia and passes the member's person-level identifier at login, which Prisma uses to serve the appropriate ad content.
 
 **At a high level, Prisma enables FIs to:**
 
@@ -252,7 +252,7 @@ Accurate member identification is foundational to Prisma's ad serving and segmen
 ## . FAQs
 
 **Q: What is Prisma?**\
-Prisma is an advertising platform integrated with nFinia that allows FIs to display targeted ads within their you' digital banking app. The integration is token-based.
+Prisma is an advertising platform integrated with nFinia that allows FIs to display targeted ads within their members' digital banking app. The integration is token-based.
 
 **Q: What's the difference between Prisma Full and Light?**\
 Prisma Full supports audience segmentation and per-user targeting. Prisma Light delivers ads to all you without targeting capability, at a lower cost.

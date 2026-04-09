@@ -12,11 +12,11 @@ description: Credit Card eStatements, CURewards SSO, and CashBackMall SSO — Ve
 
 ## Product Summary
 
-This feature set covers three Velera-powered capabilities available to Summerville Credit Union you within nFinia:
+This feature set covers three Velera-powered capabilities available to you within nFinia:
 
 1. **Credit Card eStatements** — View and download credit card statements in PDF format directly within the digital banking app. Statements are formatted and branded by Velera.
-2. **CURewards SSO** — Single Sign-On access to the CURewards portal for you enrolled in the Traditional Rewards program.
-3. **CashBackMall SSO** — Single Sign-On access to the CashBackMall portal for you enrolled in the Cash Back Rewards program.
+2. **CURewards SSO** — Single Sign-On access to the CURewards portal for members enrolled in the Traditional Rewards program.
+3. **CashBackMall SSO** — Single Sign-On access to the CashBackMall portal for members enrolled in the Cash Back Rewards program.
 
 | Attribute | Detail |
 | --- | --- |
@@ -139,8 +139,8 @@ You are seamlessly signed into the CashBackMall portal via SSO. Browse participa
 
 - **Statement format:** Credit card statements are generated and formatted by Velera. They are branded with Summerville Credit Union's identity but produced by Velera's statement rendering engine.
 - **SSO authentication:** Both CURewards and CashBackMall use Velera-authenticated SSO, so you do not need separate login credentials for the rewards portals.
-- **Rewards program eligibility:** CURewards and CashBackMall availability depends on which rewards program you is enrolled in. Not all you may have access to both portals.
-- **Email preference at eStatement enrollment:** Members set your preferred notification email during the eStatement enrollment flow. This can be updated later through account settings.
+- **Rewards program eligibility:** CURewards and CashBackMall availability depends on which rewards program you are enrolled in. Not all members may have access to both portals.
+- **Email preference at eStatement enrollment:** You set your preferred notification email during the eStatement enrollment flow. This can be updated later through account settings.
 
 ---
 

@@ -76,7 +76,7 @@ After choosing "Send me a message," you select the registered phone number to re
 
 **Step 4 — Enter OTP**
 
-you enter the 6-digit code sent to their selected contact. The **Remember Device/Browser** option is available to skip OTP on future logins from this device.
+enter the 6-digit code sent to your selected contact. The **Remember Device/Browser** option is available to skip OTP on future logins from this device.
 
 <figure><img src="/.gitbook/assets/Screenshot_4_4.png" alt="Screenshot 4" width="620"><figcaption></figcaption></figure>
 

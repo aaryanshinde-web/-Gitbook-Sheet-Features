@@ -1,5 +1,5 @@
 ---
-description: Credit Card Management (Phase 1) — Full-service credit card controls, alerts, and travel notifications via Velera (PSCU) within nFinia Digital Banking for Summerville Credit Union.
+description: Credit Card Management (Phase 1) — Full-service credit card controls, alerts, and travel notifications via Velera (PSCU) within nFinia Digital Banking.
 ---
 
 # Credit Card Management
@@ -13,7 +13,7 @@ description: Credit Card Management (Phase 1) — Full-service credit card contr
 
 ## Product Summary
 
-Credit Card Management (Phase 1) provides Summerville Credit Union you with comprehensive self-service control over your credit cards directly within the nFinia digital banking app. Powered by Velera (formerly PSCU), you can activate new cards, manage card controls, set spending limits, configure alerts, and report lost or stolen cards — all without contacting the credit union.
+Credit Card Management (Phase 1) gives you comprehensive self-service control over your credit cards directly within the nFinia digital banking app. Powered by Velera (formerly PSCU), you can activate new cards, manage card controls, set spending limits, configure alerts, and report lost or stolen cards — all without contacting the credit union.
 
 | Attribute | Detail |
 | --- | --- |
@@ -244,7 +244,7 @@ Tap **Submit**. Velera records the travel notification, reducing the likelihood 
 - **Map-based selection not supported:** Country selection for international controls is list-based only; a map-based interface is not available due to Velera API constraints.
 - **Real-time enforcement:** All card controls (on/off, spending limits, domestic/international restrictions) are enforced by Velera in real time on subsequent transactions.
 - **Lost/stolen card process:** Reporting a card as lost or stolen immediately blocks the card. Card replacement timelines are determined by Summerville Credit Union's card issuance process.
-- **Travel notifications prevent fraud blocks:** Members traveling internationally should set a travel notification before departure. Without one, Velera's fraud detection may decline international transactions as suspicious activity.
+- **Travel notifications prevent fraud blocks:** If you are traveling internationally, set a travel notification before departure. Without one, Velera's fraud detection may decline international transactions as suspicious activity.
 
 ---
 

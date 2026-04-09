@@ -46,22 +46,22 @@ Members can lock or unlock their debit and credit cards instantly, set spending 
 
 ## How It Works
 
-When you navigates to the Cards section in nFinia, the platform makes a server-side call to the Velera API using you's card identifiers. Velera returns current card status, spending control settings, alerts configuration, and rewards balance. Changes made by you (e.g., toggling a card off, adding a merchant restriction) are sent back to Velera via the API in real time.
+When you navigate to the Cards section in nFinia, the platform makes a server-side call to the Velera API using your card identifiers. Velera returns current card status, spending control settings, alerts configuration, and rewards balance. Changes you make (e.g., toggling a card off, adding a merchant restriction) are sent back to Velera via the API in real time.
 
-Real-time transaction alerts are delivered from Velera to nFinia via webhook, which then triggers push notifications to you's enrolled device.
+Real-time transaction alerts are delivered from Velera to nFinia via webhook, which then triggers push notifications to your enrolled device.
 
 ---
 
 ## End-to-End Workflow
 
 **Step 1 — Member logs into nFinia**\
-At login, nFinia fetches you's card data from Velera using their linked card identifiers.
+At login, nFinia fetches your card data from Velera using your linked card identifiers.
 
 **Step 2 — Member navigates to Cards module**\
 The Cards dashboard displays all debit and credit cards linked to the Velera BIN, with current lock/unlock status, controls, and rewards balance.
 
 **Step 3 — Member makes a change**\
-You toggles a card off, sets a merchant category restriction, or configures an alert. nFinia sends the update to Velera via the REST API.
+Toggle a card off, sets a merchant category restriction, or configures an alert. nFinia sends the update to Velera via the REST API.
 
 **Step 4 — Velera processes the change**\
 Velera applies the control or preference in real time. The enforcement takes effect immediately for subsequent card transactions.
@@ -114,7 +114,7 @@ Only debit and credit cards issued under Summerville Credit Union's Velera BIN a
 **Q: Are card controls enforced immediately?**\
 Yes. Controls set via the API are enforced by Velera in real time on subsequent transactions.
 
-**Q: What happens if you travels internationally and hasn't set a travel notification?**\
+**Q: What happens if you travel internationally and haven't set a travel notification?**\
 International transactions may be declined by Velera's fraud detection. Members should set a travel notification in nFinia before traveling to prevent this.
 
 **Q: Can rewards be redeemed through nFinia?**\

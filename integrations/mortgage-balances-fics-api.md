@@ -3,9 +3,9 @@
 
 ---
 
-## . Product Summary
+## Product Summary
 
-The **Mortgage Balances — FICS API** feature integrates nFinia's OLB (Online Banking) and Mobile Banking platforms with a credit union's FICS loan servicing system via API. It gives you direct, real-time visibility into their FICS-serviced mortgage loan accounts — without leaving the nFinia digital banking environment.
+The **Mortgage Balances — FICS API** feature integrates nFinia's OLB (Online Banking) and Mobile Banking platforms with a credit union's FICS loan servicing system via API. It gives you direct, real-time visibility into your FICS-serviced mortgage loan accounts — without leaving the nFinia digital banking environment.
 
 Members with active FICS mortgage loans can view loan details (property address, interest rate, payment schedule), review transaction history, monitor balance breakdowns, manage contact information on file with the servicer, request payoff quotes, access account notes, and message the credit union's mortgage department — all from within the same digital banking session they use for deposits and transfers.
 
@@ -16,7 +16,7 @@ For the credit union, this integration reduces inbound servicing calls by surfac
 | Feature Name | Mortgage Balances — FICS API |
 | Module | Banking > Accounts > FICS Loan / Sidebar > Mortgage |
 | Platforms | OLB (Web), Mobile Banking (iOS/Android), Mobile Browser |
-| User Roles | Retail you with active FICS-serviced mortgage loan(s) |
+| User Roles | Retail member with active FICS-serviced mortgage loan(s) |
 | Access Level | Member-authenticated; account-scoped |
 | Key Actions | View loan details, view balances, view transaction history, edit contact info, request payoff, send secure message, access statements, initiate payment (Pay Now via SSO) |
 | Integration Type | API (FICS loan servicing system) |
@@ -24,7 +24,7 @@ For the credit union, this integration reduces inbound servicing calls by surfac
 
 ---
 
-## . Use Cases
+## Use Cases
 
 | Use Case | Who Uses It | What They Do | Business Value |
 |---|---|---|---|
@@ -39,7 +39,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 ---
 
-## . End-to-End Workflow
+## End-to-End Workflow
 
 ### Prerequisites
 
@@ -52,9 +52,9 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 **Accessing the Mortgage Feature**
 
-1. After logging in, you clicks **Mortgage** in the left-hand sidebar, or navigates via **Banking > Additional Services > Mortgage**, or selects a FICS loan account directly from the **Accounts** list.
+1. After logging in, click **Mortgage** in the left-hand sidebar, or navigate via **Banking > Additional Services > Mortgage**, or select a FICS loan account directly from the **Accounts** list.
 2. The system calls the FICS API and retrieves all linked mortgage accounts for the authenticated member.
-3. If you has a single loan, the platform loads it directly. If multiple loans exist, a **Select Account** dropdown appears — you selects the desired loan.
+3. If you have a single loan, the platform loads it directly. If multiple loans exist, a **Select Account** dropdown appears — select the desired loan.
 
 **Mortgage Account Dashboard**
 
@@ -68,7 +68,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 8. Clicking **Edit** opens the **Update mortgage contact information** modal. All fields are required unless marked optional. Fields include: First name (Optional), Last name (Optional), Address 1, Address 2 (Optional), City/Town, State, ZIP Code, Email address, Phone number (home), Business phone (Optional), and Extension (Optional). Clicking **Save** submits the update to FICS. A success banner appears on confirmation.
 9. **Balances**: Displays a detailed balance breakdown pulled from FICS — Principal, Deferred principal, Tax and insurance, Subsidy, Unapplied, Unpaid late charges, Returned check charges, Loss draft, and Negative amortization. Below is a **Current year-to-date totals** section. A **Download balances year-to-date totals** link opens the browser's print dialog for you to save or print the balance report as a PDF.
 10. **Account notes**: Displays any servicer-entered notes on the account. A search bar and date-range filter are available. Notes are displayed in chronological order with a sort option.
-11. **Statement and documents**: Provides access to you's paperless statements via SSO redirect to the FICS document portal.
+11. **Statement and documents**: Provides access to your paperless statements via SSO redirect to the FICS document portal.
 12. **Help**: Displays credit union mortgage contact information (phone number, support hours, mailing address) and a **Send us a message** text area. Submitting the message delivers a secure inquiry to the credit union's mortgage team. A success confirmation banner appears after submission.
 
 ### Request Payoff Information
@@ -77,12 +77,12 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
     - **I need this information on or before** (date, required): The date by which you needs the payoff quote.
     - **Estimated date of payoff** (date, required): The date by which you intends to pay off the mortgage.
     - **Send payoff information to**: Radio selection — My email (pre-filled from profile), My mailing address, or My fax number. Each selection reveals the relevant detail field.
-    - **Phone number** (pre-filled, required): Contact number for you.
+    - **Phone number** (pre-filled, required): Your contact number.
 14. Clicking **Submit** sends the payoff request to the FICS system. On success, a green confirmation banner — "Your request for payoff information has been successfully sent." — appears on the Loan Information screen.
 
 ### Pay Now
 
-15. On the **Account Detail** screen, clicking **Pay Now** displays an **External Link Warning** dialog informing you they are navigating outside of nFinia to the FICS payment portal. The dialog shows a disclaimer about external site policies and offers **Cancel** and **Proceed** buttons.
+15. On the **Account Detail** screen, clicking **Pay Now** displays an **External Link Warning** dialog informing you that you are navigating outside of nFinia to the FICS payment portal. The dialog shows a disclaimer about external site policies and offers **Cancel** and **Proceed** buttons.
 16. Clicking **Proceed** initiates the SSO handoff and opens the FICS payment portal in a new browser tab, pre-authenticated via SSO token.
 
 ### Error Handling
@@ -93,15 +93,15 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 ---
 
-## . Screen-by-Screen Walkthrough
+## Screen-by-Screen Walkthrough
 
 ### Mortgage Landing Page
 
-Accessible via the **Mortgage** icon in the left sidebar or through **Banking > Additional Services > Mortgage**. If you has no FICS-linked loans, the page shows an empty state. Otherwise, a loan selector appears.
+Accessible via the **Mortgage** icon in the left sidebar or through **Banking > Additional Services > Mortgage**. If you have no FICS-linked loans, the page shows an empty state. Otherwise, a loan selector appears.
 
 ![Mortgage landing page — sidebar navigation and empty state](/.gitbook/assets/fics-001.jpg)
 
-When you has multiple FICS accounts, a **Select Account** dropdown appears populated with all linked FICS loan accounts.
+When you have multiple FICS accounts, a **Select Account** dropdown appears populated with all linked FICS loan accounts.
 
 ![FICS loan account selector dropdown](/.gitbook/assets/fics-002.jpg)
 
@@ -109,7 +109,7 @@ When you has multiple FICS accounts, a **Select Account** dropdown appears popul
 
 ### Mortgage Account Detail
 
-The main account overview screen for a selected FICS loan. This is the hub from which you accesses all mortgage self-service functions.
+The main account overview screen for a selected FICS loan. This is the hub from which you access all mortgage self-service functions.
 
 ![Mortgage account detail — loan summary, Pay Now, Upcoming Payments, Quick Transfer](/.gitbook/assets/fics-003.jpg)
 
@@ -272,7 +272,7 @@ The **Pay Now** button on the Account Detail screen redirects you to the FICS-in
 
 ![External Link Warning — Pay Now SSO redirect confirmation](/.gitbook/assets/fics-016.jpg)
 
-The dialog explains that you is navigating outside of nFinia to a third-party site and that the credit union is not responsible for the external site's policies. You may **Cancel** to stay, or click **Proceed** to complete the SSO handoff and open the payment portal.
+The dialog explains that you are navigating outside of nFinia to a third-party site and that the credit union is not responsible for the external site's policies. You may **Cancel** to stay, or click **Proceed** to complete the SSO handoff and open the payment portal.
 
 ---
 
@@ -294,7 +294,7 @@ The Mortgage Balances — FICS feature is fully accessible through mobile browse
 
 ---
 
-## . Quick Reference
+## Quick Reference
 
 | Task | Navigation Path | Platform | Notes |
 |---|---|---|---|

@@ -1,5 +1,5 @@
 ---
-description: Dispute a Transaction — Credit card dispute submission and tracking via Velera (PSCU) Dispute Management Console within nFinia Digital Banking for Summerville Credit Union.
+description: Dispute a Transaction — Credit card dispute submission and tracking via Velera (PSCU) Dispute Management Console within nFinia Digital Banking.
 ---
 
 # Dispute a Transaction
@@ -12,7 +12,7 @@ description: Dispute a Transaction — Credit card dispute submission and tracki
 
 ## Product Summary
 
-The Dispute a Transaction feature allows Summerville Credit Union you to submit and track credit card disputes directly within the nFinia digital banking app. Disputes are processed through the Velera (PSCU) Dispute Management Console, and you can monitor the status of their submitted disputes through the Support Messages section (powered by Zendesk).
+The Dispute a Transaction feature allows you to submit and track credit card disputes directly within the nFinia digital banking app. Disputes are processed through the Velera (PSCU) Dispute Management Console, and you can monitor the status of your submitted disputes through the Support Messages section (powered by Zendesk).
 
 | Attribute | Detail |
 | --- | --- |
@@ -32,11 +32,11 @@ The Dispute a Transaction feature allows Summerville Credit Union you to submit 
 
 | # | Use Case | Description |
 | --- | --- | --- |
-| 1 | Dispute a merchant charge | Member disputes a charge from a merchant they believe is incorrect or unauthorized |
-| 2 | Dispute potential fraud | Member reports a transaction they did not make or authorize |
-| 3 | Submit a partial dispute | Member disputes only a portion of a transaction amount |
-| 4 | Track a submitted dispute | Member checks the status of a previously submitted dispute |
-| 5 | Reply with additional information | Member responds to a request for more information on an open dispute |
+| 1 | Dispute a merchant charge | Dispute a charge from a merchant you believe is incorrect or unauthorized |
+| 2 | Dispute potential fraud | Report a transaction you did not make or authorize |
+| 3 | Submit a partial dispute | Dispute only a portion of a transaction amount |
+| 4 | Track a submitted dispute | Check the status of a previously submitted dispute |
+| 5 | Reply with additional information | Respond to a request for more information on an open dispute |
 
 ---
 
@@ -97,7 +97,7 @@ Navigate to **Support Messages** from the main menu to track the status of your 
 ## Key Notes
 
 - **Credit cards only:** The Raise Dispute option is available for credit card transactions only. Debit card disputes must be handled through a different channel — contact the credit union directly.
-- **Partial disputes:** Members can dispute a portion of a transaction by entering a specific amount during the dispute submission flow.
+- **Partial disputes:** You can dispute a portion of a transaction by entering a specific amount during the dispute submission flow.
 - **Dispute tracking:** All submitted disputes appear in **Support Messages** (Zendesk), where you can view status updates and respond to requests for additional information.
 - **Processing:** Disputes are routed to Velera's Dispute Management Console for processing. Resolution timelines depend on the nature of the dispute and Velera's review process.
 
@@ -106,7 +106,7 @@ Navigate to **Support Messages** from the main menu to track the status of your 
 ## FAQs
 
 **Q: Can I dispute a debit card transaction through this feature?**\
-No. The Raise Dispute option is available for credit card transactions only. For debit card disputes, contact Summerville Credit Union directly.
+No. The Raise Dispute option is available for credit card transactions only. For debit card disputes, contact your credit union directly.
 
 **Q: Can I dispute only part of a transaction?**\
 Yes. When entering dispute details, you can specify a partial amount to dispute rather than the full transaction amount.
@@ -119,7 +119,3 @@ Common dispute reasons include unauthorized transactions, incorrect amounts, ite
 
 **Q: How long does it take to resolve a dispute?**\
 Resolution timelines vary based on the dispute type and are determined by Velera's dispute processing procedures. You will receive updates through Support Messages.
-
----
-
-*For technical integration questions, contact the Tyfone Delivery team. For member-facing disputes and support, refer to Summerville Credit Union's member services team.*
