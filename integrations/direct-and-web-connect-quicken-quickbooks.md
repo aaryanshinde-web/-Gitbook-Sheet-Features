@@ -160,6 +160,8 @@ For **Web Connect**, a successful import is confirmed when:
 
 This screen flow occurs within the **Intuit application** (not in nFinia). The member navigates to the account connection workflow and the OFX server interaction is handled in the background.
 
+![](</.gitbook/assets/ofx-001.png>)
+
 | Field / Element | Type | Description | Notes |
 | --------------- | ---- | ----------- | ----- |
 | Add Account / Search FI | Input | Member searches for their credit union by name | Intuit resolves OFX URL from its branding portal based on the FI name |
@@ -175,6 +177,8 @@ This screen flow occurs within the **Intuit application** (not in nFinia). The m
 ### Web Connect — nFinia Export (Member Side)
 
 This screen is accessed within the **nFinia digital banking platform** under the member's account transaction history.
+
+![](</.gitbook/assets/ofx-002.png>)
 
 | Field / Element | Type | Description | Notes |
 | --------------- | ---- | ----------- | ----- |
