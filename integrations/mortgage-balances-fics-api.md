@@ -246,7 +246,7 @@ Accessible from the **Request payoff information** button on the **Loan Informat
 
 ![Request Payoff Information form — OLB view with field tooltips](/.gitbook/assets/fics-013.jpg)
 
-![Request Payoff Information — Mobile Banking app view showing full form](/.gitbook/assets/fics-014.jpg)
+<img src="/.gitbook/assets/fics-014.jpg" alt="Request Payoff Information — Mobile Banking app view" style="width:320px;max-width:100%">
 
 | Field | Required | Description |
 |---|---|---|
@@ -290,7 +290,7 @@ Members can control the visibility of their FICS loan accounts through **Account
 
 The Mortgage Balances — FICS feature is fully accessible through mobile browsers (Chrome, Safari). The layout adapts to smaller screens. Transaction detail screens display all fields vertically and include the same **Download** functionality available on desktop.
 
-![Mobile browser — expanded transaction detail on mobile](/.gitbook/assets/fics-018.jpg)
+<img src="/.gitbook/assets/fics-018.jpg" alt="Mobile browser — expanded transaction detail on mobile" style="width:320px;max-width:100%">
 
 ---
 

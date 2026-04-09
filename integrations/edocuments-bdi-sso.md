@@ -97,7 +97,7 @@ Clicking a statement date opens the document detail view. The page displays your
 
 Tap the hamburger menu (≡) in the nFinia mobile app to open the side navigation panel. The panel lists **Statements & Tax Forms** with the subtitle "View statements & Tax Forms."
 
-<img src="/.gitbook/assets/bdi-006.jpg" alt="Mobile — nFinia side menu showing Statements & Tax Forms entry point" width="320">
+<img src="/.gitbook/assets/bdi-006.jpg" alt="Mobile — nFinia side menu showing Statements & Tax Forms entry point" style="width:320px;max-width:100%">
 
 **Step 2 — Tap "Statements & Tax Forms"**
 
@@ -107,27 +107,27 @@ Tapping this option triggers the SSO. A **Processing...** spinner appears briefl
 
 The device's default browser launches and opens the BDI portal. You land on the **Documents** tab with your name and the membership dropdown pre-selected. The portal immediately displays the available document types — **Monthly Statement** and **Mortgage Statement** — with the three most recent entries per type.
 
-<img src="/.gitbook/assets/bdi-009.jpg" alt="Mobile — BDI portal Documents tab showing membership selector and document list" width="320">
+<img src="/.gitbook/assets/bdi-009.jpg" alt="Mobile — BDI portal Documents tab showing membership selector and document list" style="width:320px;max-width:100%">
 
 **Step 4 — Select Membership**
 
 Tapping the dropdown on mobile opens a radio-button picker showing all linked membership numbers. The currently selected membership is indicated with a filled radio button.
 
-<img src="/.gitbook/assets/bdi-008.jpg" alt="Mobile — BDI membership selector dropdown open on mobile with radio buttons" width="320">
+<img src="/.gitbook/assets/bdi-008.jpg" alt="Mobile — BDI membership selector dropdown open on mobile with radio buttons" style="width:320px;max-width:100%">
 
 **Step 5 — View Documents**
 
 After selecting a membership, the Documents page updates to show that membership's document sections. The mobile layout shows **Monthly Statement** and **Mortgage Statement** sections, each with the three most recent entries and a "> View all past documents" link.
 
-<img src="/.gitbook/assets/bdi-010.jpg" alt="Mobile — BDI Documents tab showing Monthly Statement and Mortgage Statement sections" width="320">
+<img src="/.gitbook/assets/bdi-010.jpg" alt="Mobile — BDI Documents tab showing Monthly Statement and Mortgage Statement sections" style="width:320px;max-width:100%">
 
 **Step 6 — Open a Statement**
 
 Tapping a statement date opens the detail view: your name, masked account number, Period Ending date, View PDF button, and per-account summary sections with balances and transaction totals.
 
-<img src="/.gitbook/assets/bdi-011.jpg" alt="Mobile — BDI statement detail view showing Classic Checking and Savings account summaries" width="320">
+<img src="/.gitbook/assets/bdi-011.jpg" alt="Mobile — BDI statement detail view showing Classic Checking and Savings account summaries" style="width:320px;max-width:100%">
 
-<img src="/.gitbook/assets/bdi-012.jpg" alt="Mobile — BDI statement detail view with Money Market and Savings data and View PDF button" width="320">
+<img src="/.gitbook/assets/bdi-012.jpg" alt="Mobile — BDI statement detail view with Money Market and Savings data and View PDF button" style="width:320px;max-width:100%">
 
 ### Decision Points & Branching
 
@@ -165,7 +165,7 @@ The side menu in the nFinia mobile app serves as the primary navigation panel fo
 | Document icon | Icon | Visual indicator for the statements feature | Displayed left of the label |
 | Subtitle text | Label | "View statements & Tax Forms" | Descriptive help text below the feature name |
 
-<img src="/.gitbook/assets/bdi-013.jpg" alt="Mobile — nFinia side menu with Statements & Tax Forms highlighted" width="320">
+<img src="/.gitbook/assets/bdi-013.jpg" alt="Mobile — nFinia side menu with Statements & Tax Forms highlighted" style="width:320px;max-width:100%">
 
 ---
 
@@ -204,7 +204,7 @@ The main landing screen of the BDI portal after SSO authentication. Displays you
 
 ![Desktop — BDI Documents tab with membership dropdown and statement list](/.gitbook/assets/bdi-015.jpg)
 
-<img src="/.gitbook/assets/bdi-016.jpg" alt="Mobile — BDI Documents tab showing Monthly and Mortgage Statement sections" width="320">
+<img src="/.gitbook/assets/bdi-016.jpg" alt="Mobile — BDI Documents tab showing Monthly and Mortgage Statement sections" style="width:320px;max-width:100%">
 
 ---
 
@@ -221,7 +221,7 @@ Activated by clicking/tapping the membership dropdown. On desktop this is a stan
 
 ![Desktop — BDI membership dropdown open with multiple options](/.gitbook/assets/bdi-017.jpg)
 
-<img src="/.gitbook/assets/bdi-018.jpg" alt="Mobile — BDI membership picker with radio button selection" width="320">
+<img src="/.gitbook/assets/bdi-018.jpg" alt="Mobile — BDI membership picker with radio button selection" style="width:320px;max-width:100%">
 
 ---
 
@@ -246,9 +246,9 @@ Opened when you click or tap a specific statement date. Shows the full statement
 
 ![Desktop — BDI statement detail with account sections and View PDF button](/.gitbook/assets/bdi-019.jpg)
 
-<img src="/.gitbook/assets/bdi-020.jpg" alt="Mobile — BDI statement detail showing Classic Checking and Savings summaries" width="320">
+<img src="/.gitbook/assets/bdi-020.jpg" alt="Mobile — BDI statement detail showing Classic Checking and Savings summaries" style="width:320px;max-width:100%">
 
-<img src="/.gitbook/assets/bdi-021.jpg" alt="Mobile — BDI statement detail showing Money Market and Savings with View PDF" width="320">
+<img src="/.gitbook/assets/bdi-021.jpg" alt="Mobile — BDI statement detail showing Money Market and Savings with View PDF" style="width:320px;max-width:100%">
 
 ---
 
@@ -261,7 +261,7 @@ Accessed by tapping/clicking the **Disclosures** tab in the BDI portal navigatio
 | Disclosures section header | Section header | "Disclosures" label in dark navy | |
 | Online Statement Enrollment Disclosure | Link | Opens the full text of the E-SIGN / paperless enrollment disclosure | Required for regulatory compliance with electronic document delivery; you can review the terms of your paperless enrollment |
 
-<img src="/.gitbook/assets/bdi-022.jpg" alt="Mobile — BDI Disclosures tab with Online Statement Enrollment Disclosure" width="320">
+<img src="/.gitbook/assets/bdi-022.jpg" alt="Mobile — BDI Disclosures tab with Online Statement Enrollment Disclosure" style="width:320px;max-width:100%">
 
 ---
 
