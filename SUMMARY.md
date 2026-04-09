@@ -79,12 +79,3 @@
   * [Velera API Integration](integrations/velera-api-integration.md)
   * [Loan Origination SSO — MeridianLink](integrations/meridianlink-loan-origination-sso.md)
   * [Plaid IAV — Instant Account Verification](integrations/plaid-iav-implementation.md)
-
-## Reference Documents
-
-* [Reference Documents](reference/README.md)
-  * [Diamond CU Master Guide](reference/Diamond-CU-Master-Guide.md)
-  * [Delegated Access — Release Notes](reference/Delegated-Access-Release-Notes.md)
-  * [Certificate Management — Design Doc](reference/Certificate-Management-DesignDoc.md)
-  * [Custom Account Grouping — Release Notes](reference/Custom-Account-Grouping-Release-Notes.md)
-  * [Joint Owners & Beneficiary Names — Release Notes](reference/Joint-Owners-Beneficiary-Names-Release-Notes.md)
