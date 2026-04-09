@@ -77,5 +77,8 @@
   * [Mortgage Balances — FICS API](integrations/mortgage-balances-fics-api.md)
   * [eDocuments — BDI SSO](integrations/edocuments-bdi-sso.md)
   * [Velera API Integration](integrations/velera-api-integration.md)
+  * [Velera — Credit Card Management](integrations/velera-credit-card-management.md)
+  * [Velera — Dispute a Transaction](integrations/velera-dispute-transaction.md)
+  * [Velera — Credit Card eStatements & Rewards](integrations/velera-credit-card-statements-rewards.md)
   * [Loan Origination SSO — MeridianLink](integrations/meridianlink-loan-origination-sso.md)
   * [Plaid IAV — Instant Account Verification](integrations/plaid-iav-implementation.md)
