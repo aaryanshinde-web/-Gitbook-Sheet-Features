@@ -1,7 +1,5 @@
 # Table of contents
 
-* [Welcome](README.md)
-
 ## Authentication & Login
 
 * [Authentication & Login](authentication-and-onboarding/README.md)
