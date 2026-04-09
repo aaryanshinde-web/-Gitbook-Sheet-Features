@@ -107,9 +107,9 @@ Tapping this option triggers the SSO. A **Processing...** spinner appears briefl
 
 **Step 3 — BDI Portal Opens in Device Browser**
 
-The device's default browser launches and opens the BDI portal. The member lands on the **Documents** tab with their name and the membership dropdown pre-selected.
+The device's default browser launches and opens the BDI portal. The member lands on the **Documents** tab with their name and the membership dropdown pre-selected. The portal immediately displays the available document types — **Monthly Statement** and **Mortgage Statement** — with the three most recent entries per type.
 
-![Mobile — BDI portal Documents tab showing membership selector](/.gitbook/assets/bdi-007.jpg)
+![Mobile — BDI portal Documents tab showing membership selector and document list](/.gitbook/assets/bdi-009.jpg)
 
 **Step 4 — Select Membership**
 
@@ -119,9 +119,7 @@ Tapping the dropdown on mobile opens a radio-button picker showing all linked me
 
 **Step 5 — View Documents**
 
-After selecting a membership, the Documents page shows document type sections with dated entries and read/unread icons. The mobile layout shows **Monthly Statement** and **Mortgage Statement** sections, each with the three most recent entries and a "> View all past documents" link.
-
-![Mobile — BDI Documents tab showing Monthly Statement list with dates](/.gitbook/assets/bdi-009.jpg)
+After selecting a membership, the Documents page updates to show that membership's document sections. The mobile layout shows **Monthly Statement** and **Mortgage Statement** sections, each with the three most recent entries and a "> View all past documents" link.
 
 ![Mobile — BDI Documents tab showing Monthly Statement and Mortgage Statement sections](/.gitbook/assets/bdi-010.jpg)
 
