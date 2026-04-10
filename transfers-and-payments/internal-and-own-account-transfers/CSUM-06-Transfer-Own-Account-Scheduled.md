@@ -85,7 +85,7 @@ _Step 6: Transfer Complete — Success Screen_
 
 **Step 7 — View & Manage Scheduled Transfers**
 
-The Scheduled Transfers page is displayed with Summerville branding. A 'Schedule a new transfer' link is at the top. The schedule transfer type is set to 'Within SummerVille' and the account is 'Retail Checking Account (#0001)'. An active schedule card shows a transfer from Retail Checking to SHARE (0002) for $10.00 monthly, set to continue until cancelled with the next transfer date of Mar 18, 2026. Related Links and Upcoming Payments are shown in the right sidebar.
+The Scheduled Transfers page is displayed with Summerville branding. A 'Schedule a new transfer' link is at the top. The schedule transfer type is set to 'Within Summerville' and the account is 'Retail Checking Account (#0001)'. An active schedule card shows a transfer from Retail Checking to SHARE (0002) for $10.00 monthly, set to continue until cancelled with the next transfer date of Mar 18, 2026. Related Links and Upcoming Payments are shown in the right sidebar.
 
 <figure><img src="../../.gitbook/assets/img_3089efe2b435.png" alt="" width="620"><figcaption></figcaption></figure>
 

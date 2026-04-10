@@ -1,6 +1,6 @@
 ---
 description: >-
-  Official feature documentation for SummerVille Credit Union's nFinia Digital
+  Official feature documentation for Summerville Credit Union's nFinia Digital
   Banking platform — covering all tracked features, vendor integrations, and
   reference guides.
 cover: .gitbook/assets/cover.png
@@ -43,7 +43,7 @@ layout:
 | **Move Money**             | Transfer Hub (CSUM-05), Own Account & Member Transfers (CSUM-06–07), External ACH (CSUM-08), FedNow (CSUM-09), Wire (CSUM-12), Zelle (CSUM-11), Bill Pay (CSUM-14), Quick Pay (CSUM-13), Skip-A-Pay (CSUM-18), Mobile Check Deposit |
 | **More Menu**              | Alerts & Notifications (CSUM-16), Inbox (CSUM-17), Personal Info (CSUM-19), Settings (CSUM-20)                                                                                                                                      |
 | **Vendor Integrations**    | Prisma, Direct/Web Connect, ZenDesk, FICS API, BDI SSO, Velera, MeridianLink, Plaid IAV                                                                                                                                             |
-| **Reference Documents**    | SummerVille CU Master Guide, Delegated Access, Certificate Management, Custom Account Grouping, Joint Owners & Beneficiary                                                                                                          |
+| **Reference Documents**    | Summerville CU Master Guide, Delegated Access, Certificate Management, Custom Account Grouping, Joint Owners & Beneficiary                                                                                                          |
 
 ***
 

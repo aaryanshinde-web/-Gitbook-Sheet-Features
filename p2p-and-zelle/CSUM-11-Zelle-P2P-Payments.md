@@ -4,7 +4,7 @@
 
 ## Summary
 
-Zelle® is a real-time person-to-person (P2P) payment network integrated natively into the nFinia Move Money suite. It enables SummerVille Credit Union You to send and receive money directly with friends, family, and other trusted individuals — regardless of where those recipients bank — in a matter of minutes, using only the recipient's U.S. mobile phone number or email address.
+Zelle® is a real-time person-to-person (P2P) payment network integrated natively into the nFinia Move Money suite. It enables Summerville Credit Union You to send and receive money directly with friends, family, and other trusted individuals — regardless of where those recipients bank — in a matter of minutes, using only the recipient's U.S. mobile phone number or email address.
 
 The Zelle® integration within nFinia means You do not need a separate Zelle app or account. Transactions flow directly between bank accounts without storing money in a digital wallet. You can send money, request money from others, split bills across multiple people, and manage Zelle® activity and settings from within digital banking.
 

@@ -4,7 +4,7 @@
 
 ## Summary
 
-Bill Pay is an integrated payment service within the nFinia Move Money suite that enables You to pay bills — utilities, insurance, credit cards, subscriptions, and other recurring obligations — directly from their SummerVille CU account without leaving the digital banking platform. You can pay one-time bills on demand or set up recurring scheduled payments to ensure obligations are met on time every month.
+Bill Pay is an integrated payment service within the nFinia Move Money suite that enables You to pay bills — utilities, insurance, credit cards, subscriptions, and other recurring obligations — directly from their Summerville CU account without leaving the digital banking platform. You can pay one-time bills on demand or set up recurring scheduled payments to ensure obligations are met on time every month.
 
 The Bill Pay service is delivered through an integrated third-party provider that maintains a comprehensive payee database covering thousands of national and local billers. You can add payees manually or search the database. Electronic payments to e-pay-enabled billers arrive in 1–2 business days; check payments to non-electronic billers are mailed within 3–5 business days.
 

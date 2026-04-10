@@ -4,7 +4,7 @@
 
 ## Summary
 
-Quick Pay SSO is an integrated loan payment hub embedded within the nFinia digital banking platform that allows SummerVille Credit Union You to view all active loan accounts in a single payment interface and make payments without leaving digital banking. The SSO (Single Sign-On) design means You authenticated in nFinia are automatically authenticated in the Quick Pay portal without a separate login.
+Quick Pay SSO is an integrated loan payment hub embedded within the nFinia digital banking platform that allows Summerville Credit Union You to view all active loan accounts in a single payment interface and make payments without leaving digital banking. The SSO (Single Sign-On) design means You authenticated in nFinia are automatically authenticated in the Quick Pay portal without a separate login.
 
 You can pay the minimum amount due, a custom amount above the minimum, or a full payoff amount. Payments can be funded from any linked CU account. For You who want to pay a loan from an external bank account, the External Account for Loan Repayments feature allows adding and managing external payment sources.
 
@@ -53,6 +53,6 @@ The Quick Pay page displays the loan selection screen with red action buttons fo
 
 **Step 4 — Select Loan & Enter Payment Amount**
 
-The Bill Pay form is displayed from the SummerVille CU banking interface with form fields for entering payment details and selecting the loan to pay.
+The Bill Pay form is displayed from the Summerville CU banking interface with form fields for entering payment details and selecting the loan to pay.
 
 <figure><img src="../../.gitbook/assets/img_f019eb2801e6.png" alt="" width="480"><figcaption></figcaption></figure>
