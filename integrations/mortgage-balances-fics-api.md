@@ -73,7 +73,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 ### Request Payoff Information
 
 13. From the **Loan Information** screen, clicking **Request payoff information** opens a modal with the following fields:
-    * **I need this information on or before** (date, required): The date by which you needs the payoff quote.
+    * **I need this information on or before** (date, required): The date by which you need the payoff quote.
     * **Estimated date of payoff** (date, required): The date by which you intends to pay off the mortgage.
     * **Send payoff information to**: Radio selection — My email (pre-filled from profile), My mailing address, or My fax number. Each selection reveals the relevant detail field.
     * **Phone number** (pre-filled, required): Your contact number.
@@ -87,8 +87,8 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 ### Error Handling
 
 * **No mortgage accounts found**: If the authenticated member has no linked FICS loans, the Mortgage page displays: _"There are no mortgage accounts."_
-* **Invalid loan ID**: If the FICS API returns an error for a loan ID, you sees a generic error state on the account detail page with options to go back or return to the home page.
-* **Pay Now / SSO session expired**: If the SSO token has expired before you clicks Pay Now again, the external payment portal returns a **Login Error** screen. You should return to nFinia and retry.
+* **Invalid loan ID**: If the FICS API returns an error for a loan ID, you see a generic error state on the account detail page with options to go back or return to the home page.
+* **Pay Now / SSO session expired**: If the SSO token has expired before you click Pay Now again, the external payment portal returns a **Login Error** screen. You should return to nFinia and retry.
 
 ***
 

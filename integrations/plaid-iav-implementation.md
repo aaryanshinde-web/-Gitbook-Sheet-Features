@@ -64,20 +64,20 @@ These use cases reflect the reality that credit union members hold accounts acro
 
 **Step 1 — Navigate to External Account Verification** Navigate to the External Transfers section of nFinia and selects the option to add or verify an external account. The system detects that IAV is enabled and the account is personal-eligible, then launches the IAV entry point.
 
-**Step 2 — IAV Prompt: "Yes" or "Continue as Guest"** You is presented with a prompt asking whether they want to proceed with instant verification. Two options are available:
+**Step 2 — IAV Prompt: "Yes" or "Continue as Guest"** You are presented with a prompt asking whether they want to proceed with instant verification. Two options are available:
 
 * **"Yes"** — Proceeds to the Plaid Link flow for full instant verification
 * **"Continue as Guest"** — Proceeds through an alternative path (limited or deferred verification)
 
-**Step 3 — Institution Search & Selection** You is presented with the Plaid Link interface, which displays a searchable list of financial institutions. You searches for and selects their external institution (e.g., Bank of America, Chase, Wells Fargo).
+**Step 3 — Institution Search & Selection** You are presented with the Plaid Link interface, which displays a searchable list of financial institutions. You search for and selects their external institution (e.g., Bank of America, Chase, Wells Fargo).
 
-**Step 4 — Click "Continue to Login"** After selecting the institution, you clicks "Continue to Login." Plaid loads the institution-specific login interface within the embedded frame.
+**Step 4 — Click "Continue to Login"** After selecting the institution, you click "Continue to Login." Plaid loads the institution-specific login interface within the embedded frame.
 
-**Step 5 — Enter External Bank Credentials** A new secure window opens displaying the external institution's login form (served by Plaid). You enters their online banking username and password, then clicks "Sign In."
+**Step 5 — Enter External Bank Credentials** A new secure window opens displaying the external institution's login form (served by Plaid). You enter their online banking username and password, then clicks "Sign In."
 
 **Step 6 — Identity Verification Category Selection** _(conditional)_ If the external institution requires identity verification, you are prompted to select a verification category — for example, Social Security Number, email address, or phone number. This step varies by institution.
 
-**Step 7 — Multi-Factor Authentication / Get Code** _(conditional)_ If MFA is required, you clicks "Get Code." An OTP is sent to your registered contact method at the external institution. Enter the code to complete authentication.
+**Step 7 — Multi-Factor Authentication / Get Code** _(conditional)_ If MFA is required, you click "Get Code." An OTP is sent to your registered contact method at the external institution. Enter the code to complete authentication.
 
 **Step 8 — Account Selection** After successful authentication, Plaid returns a list of your eligible accounts at the external institution. Select the specific account(s) you want to verify and link.
 

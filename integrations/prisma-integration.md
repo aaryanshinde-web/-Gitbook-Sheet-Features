@@ -78,7 +78,7 @@ Campaign management is the core workflow in the Prisma console. The following sc
 * **Target Devices/Screens** — select specific screens (e.g., fund transfer landing page, accounts page) and device types (mobile, tablet)
 * **Resolution** — must match the placement zone requirements (e.g., 320×480 for some mobile banners)
 * **Creative Upload** — upload image assets; an AI image generator is also available in the console
-* **Funnel (Web Redirection)** — configure the URL you is directed to upon clicking the ad; can integrate with services like Accurify for sign-up flows or lightweight marketing applications built within Prisma
+* **Funnel (Web Redirection)** — configure the URL you are directed to upon clicking the ad; can integrate with services like Accurify for sign-up flows or lightweight marketing applications built within Prisma
 
 **Advanced Campaign Features:**
 

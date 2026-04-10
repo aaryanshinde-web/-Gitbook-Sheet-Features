@@ -69,7 +69,7 @@ The SSO integration is especially valuable for credit unions like Summerville th
 
 **Step 7 — Complete the 3-Step Application** You progress through MeridianLink's standard three-step application flow: (1) Loan Purpose & Product Selection, (2) Personal / Financial Information, (3) Review & Submit. Pre-populated fields from the tenderref reduce data entry burden.
 
-**Step 8 — Submission and Pipeline Entry** Upon submission, the application enters the credit union's MeridianLink loan pipeline for processing by the lending team. You receives an on-screen confirmation and may receive an email notification from MeridianLink.
+**Step 8 — Submission and Pipeline Entry** Upon submission, the application enters the credit union's MeridianLink loan pipeline for processing by the lending team. You receive an on-screen confirmation and may receive an email notification from MeridianLink.
 
 ### Decision Points & Branching
 
@@ -77,11 +77,11 @@ The SSO integration is especially valuable for credit unions like Summerville th
 * **If you select Vehicle Loans:** You proceed directly to purpose selection (Motor Home/Travel Trailer, New Boat, New Car or Truck, New Motorcycle) with no preliminary qualifier.
 * **If you select Credit Cards:** You select a purpose (Line Increase, MasterCard) and proceed to Continue. The Credit Card flow is the most abbreviated at the purpose-selection stage.
 * **If the tenderref is invalid or expired:** MeridianLink will reject the handoff. You may see an error page on the MeridianLink portal. Resolution requires you to return to nFinia and re-initiate the flow.
-* **If you is not authenticated in nFinia:** The Apply for Loans option is not accessible — authentication is enforced at the nFinia session level before the SSO link is ever generated.
+* **If you are not authenticated in nFinia:** The Apply for Loans option is not accessible — authentication is enforced at the nFinia session level before the SSO link is ever generated.
 
 ### Completion & Confirmation
 
-Upon submitting the completed application in MeridianLink, you receives a confirmation screen within the MeridianLink portal indicating the application has been received. The application is logged in the credit union's MeridianLink pipeline with the tenderref as the origination identifier. No explicit confirmation is sent back to the nFinia session (you remains on the MeridianLink portal after submission).
+Upon submitting the completed application in MeridianLink, you receive a confirmation screen within the MeridianLink portal indicating the application has been received. The application is logged in the credit union's MeridianLink pipeline with the tenderref as the origination identifier. No explicit confirmation is sent back to the nFinia session (you remains on the MeridianLink portal after submission).
 
 ### Error Handling
 
@@ -112,7 +112,7 @@ This is the entry point screen within the nFinia digital banking portal. It pres
 
 ### Screen 2 — Personal Loan Application (MeridianLink)
 
-After selecting Personal Loans, you is redirected to the MeridianLink consumer portal displaying the Personal Loan application. The credit union's branding (Summerville Credit Union logo) is rendered. The "Apply in 3 Steps" progress indicator is shown at the top. This is Step 1 of the MeridianLink application flow.
+After selecting Personal Loans, you are redirected to the MeridianLink consumer portal displaying the Personal Loan application. The credit union's branding (Summerville Credit Union logo) is rendered. The "Apply in 3 Steps" progress indicator is shown at the top. This is Step 1 of the MeridianLink application flow.
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 

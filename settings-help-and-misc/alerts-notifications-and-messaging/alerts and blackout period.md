@@ -218,7 +218,7 @@ The current DND window is shown (e.g., "10:00 PM PST to 07:00 AM PST") with Edit
 
 **Edit Form**
 
-Clicking **Edit** expands the form with the current values pre-populated. you adjusts Timezone, Start time, or End time and clicks **Set Do-Not-Disturb** to save.
+Clicking **Edit** expands the form with the current values pre-populated. you adjust Timezone, Start time, or End time and clicks **Set Do-Not-Disturb** to save.
 
 <figure><img src="../../.gitbook/assets/Screenshot_8_17.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
