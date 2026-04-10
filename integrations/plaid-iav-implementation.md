@@ -18,8 +18,7 @@
 2. [Use Cases](#2-use-cases)
 3. [End-to-End Workflow](#3-end-to-end-workflow)
 4. [Feature Overview — UI Walkthrough](#4-feature-overview--ui-walkthrough)
-5. [Configuration & Specifications](#5-configuration--specifications)
-6. [Quick Reference](#6-quick-reference)
+5. [Quick Reference](#5-quick-reference)
 
 ---
 
@@ -148,10 +147,6 @@ This is the initial prompt presented to you when external account verification i
 
 ![](/.gitbook/assets/plaid-002.png)
 
-**On click of "Continue as Guest":**
-
-![](/.gitbook/assets/plaid-003.png)
-
 ---
 
 ### Screen 2 — Institution Search & Selection
@@ -198,7 +193,7 @@ A new secure window opens displaying the external institution's login form, serv
 
 **New window opens — enter credentials, click Sign In:**
 
-![](/.gitbook/assets/plaid-006.png)
+![](/.gitbook/assets/plaid-016.png)
 
 ---
 
@@ -213,7 +208,7 @@ Some external institutions require identity verification as an additional authen
 
 **Select category for verify your identity:**
 
-![](/.gitbook/assets/plaid-007.png)
+![](/.gitbook/assets/plaid-017.png)
 
 ---
 
@@ -231,6 +226,10 @@ If the external institution requires MFA, you are prompted to request and enter 
 **On clicking "Get Code":**
 
 ![](/.gitbook/assets/plaid-008.png)
+
+**Enter the verification code received:**
+
+![](/.gitbook/assets/plaid-018.png)
 
 ---
 
@@ -250,75 +249,11 @@ After successful authentication, Plaid returns the list of eligible accounts at 
 
 ![](/.gitbook/assets/plaid-010.png)
 
-![](/.gitbook/assets/plaid-011.png)
+![](/.gitbook/assets/plaid-019.png)
 
-![](/.gitbook/assets/plaid-012.png)
-
-![](/.gitbook/assets/plaid-013.png)
-
-![](/.gitbook/assets/plaid-014.png)
+![](/.gitbook/assets/plaid-020.png)
 
 ![](/.gitbook/assets/plaid-015.png)
-
----
-
-## . Configuration & Specifications
-
-### System Configuration
-
-The IAV feature is controlled by the following system-level configuration parameters. These are set at the FI/platform level and are not configurable by end users.
-
-**`IAV_DETAILS` Configuration Key:**
-
-```json
-{
-  "fastLink": "https://cdn.plaid.com",
-  "appId": "10003600",
-  "enabled": "Y",
-  "applicableForBusiness": "N",
-  "applicableForPersonal": "Y",
-  "isBusinessApplicable": false,
-  "isPersonalApplicable": true,
-  "jsUrl": "https://cdn.plaid.com/link/v2/stable/link-initialize.js",
-  "is_terms_and_conditions_required": false,
-  "allow_someone_else_account": false,
-  "micro_deposit_flow_status": {
-    "isPersonalApplicable": false,
-    "isBusinessApplicable": true
-  }
-}
-```
-
-| Configuration Key | Value | Purpose |
-|-------------------|-------|---------|
-| `fastLink` | `https://cdn.plaid.com` | Plaid authentication base URL |
-| `appId` | `10003600` | Application identifier for Plaid integration |
-| `enabled` | `"Y"` | Master switch — enables/disables IAV feature |
-| `applicableForPersonal` | `"Y"` / `true` | IAV available for personal/retail accounts |
-| `applicableForBusiness` | `"N"` / `false` | IAV disabled for business accounts |
-| `jsUrl` | `https://cdn.plaid.com/link/v2/stable/link-initialize.js` | Plaid Link Web SDK JS file URL |
-| `is_terms_and_conditions_required` | `false` | No separate T&C prompt within IAV flow |
-| `allow_someone_else_account` | `false` | Restricts verification to member's own accounts only |
-| `micro_deposit_flow_status.isBusinessApplicable` | `true` | Business accounts use micro-deposit verification instead |
-
-**`IAV_VENDOR_NAME` Configuration Key:**
-
-```
-'IAV_VENDOR_NAME' => 'PLAID'
-```
-
-This key designates Plaid as the IAV vendor. Future vendor changes (e.g., switching to Finicity or MX) would require updating this key and corresponding `IAV_DETAILS` values.
-
-### Reference
-
-Full Plaid Link Web integration documentation: [https://plaid.com/docs/link/web/](https://plaid.com/docs/link/web/)
-
-### Branching / Release Info
-
-| Attribute | Value |
-|-----------|-------|
-| Fix Version | `10.45` |
-| OLB Branch | `NFIN-41731` |
 
 ---
 
