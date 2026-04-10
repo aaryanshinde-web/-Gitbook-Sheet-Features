@@ -4,15 +4,13 @@
 | ---------------------- |
 | nFinia Digital Banking |
 
-## nFinia Digital Banking
-
 _Module: Banking › Cards › Card Details › Link Card_
 
 **Link Card to Digital Wallet**
 
-|                        |
-| ---------------------- |
-| **01 PRODUCT SUMMARY** |
+
+
+## Summary
 
 Link Card to Digital Wallet lets you add your Summerville Credit Union debit or credit card to Apple Pay, Google Pay, or Samsung Pay directly from nFinia Digital Banking. Once linked, your card is ready for contactless tap-to-pay purchases in stores, in apps, and online — without needing to carry or enter your physical card details.
 

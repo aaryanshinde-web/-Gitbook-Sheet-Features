@@ -8,7 +8,7 @@ description: >-
 
 > **Module:** Banking › Accounts
 
-## Product Summary
+## Summary
 
 The Account Overview is your consolidated portfolio view within the nFinia digital banking platform. Accessed by clicking 'Accounts' from the top navigation on the Dashboard, this page displays all of your active accounts — Checking, Savings, Loans, Certificates of Deposit, Lines of Credit, and Membership accounts — as a structured list. Each entry presents the account name, masked account number, current balance, and available balance.
 
@@ -80,31 +80,27 @@ The Account Overview page shows all account types grouped by category — checki
 
 <figure><img src="../../.gitbook/assets/img_9f1b9baacbb0.png" alt="" width="340"><figcaption></figcaption></figure>
 
-**Step 8 — Access Related Links & Services**
-
-The full-page account overview is shown with all account categories, a promotional messaging banner, and a right sidebar containing Related Links and upcoming payments information.
-
 <p align="center"><img src="../../.gitbook/assets/unknown (3).png" alt=""></p>
 
-**Step 9 — Check Deposit from Account Detail**
+**Step 8 — Check Deposit from Account Detail**
 
 The Check Deposit page is displayed with a 'Check Deposit' header and a blue informational banner promoting direct deposit services. The deposit interface is accessible from this screen.
 
 <figure><img src="../../.gitbook/assets/img_1a38c1185c98.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 10 — Check Deposit — Select Membership**
+**Step 9— Check Deposit — Select Membership**
 
 The Check Deposit page shows a membership selection dropdown listing multiple membership accounts, each identified by number and name, for you to select before depositing a check.
 
 <figure><img src="../../.gitbook/assets/img_85a1a8c55024.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 11 — Check Deposit — Ensenta Welcome**
+**Step 10 — Check Deposit — Ensenta Welcome**
 
 The Ensenta remote deposit welcome screen is displayed, explaining the three-step deposit process: Select Account, Upload Check Images, and Confirm Deposit.
 
 <figure><img src="../../.gitbook/assets/img_f8f5e8db2d56.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 12 — Check Deposit — Enter Amount & Upload Images**
+**Step 11 — Check Deposit — Enter Amount & Upload Images**
 
 The check deposit form is shown with fields for selecting the account and entering the check amount, plus upload areas for capturing the check front and back images.
 

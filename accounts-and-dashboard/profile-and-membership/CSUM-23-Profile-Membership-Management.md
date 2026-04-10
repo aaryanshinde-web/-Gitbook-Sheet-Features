@@ -6,7 +6,7 @@ description: Switch between memberships and manage account display settings and 
 
 > **Module:** Banking › Profile / Accounts & Memberships
 
-## Product Summary
+## Summary
 
 The Profile & Membership Management section allows you with multiple credit union memberships to switch the active membership context, manage account-level display settings, and access membership-specific configurations. Switching memberships changes all screens in the platform to show data for the newly selected membership.
 
