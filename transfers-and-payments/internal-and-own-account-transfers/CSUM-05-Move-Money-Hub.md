@@ -16,14 +16,7 @@ The hub also surfaces transfer templates, multi-payee transfer options, and busi
 
 **At a Glance**
 
-| Attribute            | Detail                                                                     |
-| -------------------- | -------------------------------------------------------------------------- |
-| Module               | Move Money                                                                 |
-| Transfer Options     | Quick Pay, Own Account, Other You, External, FedNow, Zelle, Bill Pay, Wire |
-| Recipient Management | Accessible from Move Money hub                                             |
-| Online Forms         | ACH, Wire, Address, Skip Pay forms accessible here                         |
-| Business Features    | Transfer templates, Multi-payee, ACH batch (business accounts)             |
-| Related Reports      | CSUM-07–15 (all transfer/payment reports)                                  |
+<table><thead><tr><th width="254">Attribute</th><th>Detail</th></tr></thead><tbody><tr><td>Module</td><td>Move Money</td></tr><tr><td>Transfer Options</td><td>Quick Pay, Own Account, Other You, External, FedNow, Zelle, Bill Pay, Wire</td></tr><tr><td>Recipient Management</td><td>Accessible from Move Money hub</td></tr><tr><td>Online Forms</td><td>ACH, Wire, Address, Skip Pay forms accessible here</td></tr><tr><td>Business Features</td><td>Transfer templates, Multi-payee, ACH batch (business accounts)</td></tr></tbody></table>
 
 ## Key Use Cases
 
