@@ -43,7 +43,7 @@ Members can dispute either the full transaction amount or a partial amount, sele
 
 Login  →  Cards Overview  →  Cards  →  Transaction History  →  Kebab menu on transaction  →  Raise Dispute
 
-![](/.gitbook/assets/velera-dispute-001.png)
+<img src="/.gitbook/assets/velera-dispute-001.png" style="width:320px;max-width:100%">
 
 **Step 1  Navigate to Transaction History**
 
@@ -51,8 +51,8 @@ From the nFinia home screen, navigate to Banking › Cards and select the credit
 
 | ⚠️  Note: The Raise Dispute option is only available for Credit Card transactions. Velera does not support disputes for debit card transactions. If the transaction is outside the eligible dispute period, a notice will be shown to the member. |
 
-| ![](/.gitbook/assets/velera-dispute-002.png) |  | ![](/.gitbook/assets/velera-dispute-003.png) |
-| :---: | :---- | :---: |
+| <img src="/.gitbook/assets/velera-dispute-002.png" style="width:240px;max-width:100%"> | <img src="/.gitbook/assets/velera-dispute-003.png" style="width:240px;max-width:100%"> |
+| :---: | :---: |
 
 **Step 2  Select a Dispute Reason**
 
@@ -60,39 +60,39 @@ The dispute reason screen displays a list of reasons dynamically pulled from the
 
 | ℹ️  Tip: Dispute reasons are configured in the Velera Dispute Management Console by your credit union. The list shown to members reflects exactly what has been set up there. |
 
-| ![](/.gitbook/assets/velera-dispute-004.png) |  | ![](/.gitbook/assets/velera-dispute-005.png) |
-| :---: | :---- | :---: |
+| <img src="/.gitbook/assets/velera-dispute-004.png" style="width:240px;max-width:100%"> | <img src="/.gitbook/assets/velera-dispute-005.png" style="width:240px;max-width:100%"> |
+| :---: | :---: |
 
 **Step 3  Fraud Alert & Additional Questions**
 
 If the selected reason implies fraud (e.g. an unauthorized charge), an alert is shown prompting the member to consider reporting their card as lost or stolen. This ensures the appropriate fraud-handling steps are taken. For non-fraud reasons, additional questions specific to that reason type are shown — these questions are also configured in Velera and surfaced dynamically.
 
-| ![](/.gitbook/assets/velera-dispute-006.png) |  | ![](/.gitbook/assets/velera-dispute-007.png) |
-| :---: | :---- | :---: |
+| <img src="/.gitbook/assets/velera-dispute-006.png" style="width:240px;max-width:100%"> | <img src="/.gitbook/assets/velera-dispute-007.png" style="width:240px;max-width:100%"> |
+| :---: | :---: |
 
 **Step 4  Enter the Dispute Amount**
 
 Choose to dispute the full transaction amount or enter a partial amount. If disputing a partial amount, tap Partial and type in the specific dollar value you want to dispute. Complete any remaining required fields before proceeding.
 
-| ![](/.gitbook/assets/velera-dispute-008.png) |  | ![](/.gitbook/assets/velera-dispute-009.png) |  | ![](/.gitbook/assets/velera-dispute-010.png) |
-| :---: | :---- | :---: | :---- | :---: |
+| <img src="/.gitbook/assets/velera-dispute-008.png" style="width:240px;max-width:100%"> | <img src="/.gitbook/assets/velera-dispute-009.png" style="width:240px;max-width:100%"> | <img src="/.gitbook/assets/velera-dispute-010.png" style="width:240px;max-width:100%"> |
+| :---: | :---: | :---: |
 
 **Step 5  Review Dispute Details**
 
 Once all the details have been filled in, a summary screen is shown for review. Verify that the transaction details, reason, and amount are correct before submitting.
 
-![](/.gitbook/assets/velera-dispute-011.png)
+<img src="/.gitbook/assets/velera-dispute-011.png" style="width:320px;max-width:100%">
 
-| ![](/.gitbook/assets/velera-dispute-012.png) |  | ![](/.gitbook/assets/velera-dispute-013.png) |
-| :---: | :---- | :---: |
+| <img src="/.gitbook/assets/velera-dispute-012.png" style="width:240px;max-width:100%"> | <img src="/.gitbook/assets/velera-dispute-013.png" style="width:240px;max-width:100%"> |
+| :---: | :---: |
 
 **Step 6  Submit the Dispute**
 
 After reviewing the details, tap Submit to send the dispute to Velera. A Zendesk ticket is automatically created at the time of submission so the member can track the dispute status. If the Zendesk ticket submission fails, the member will have the opportunity to retry.
 
-![](/.gitbook/assets/velera-dispute-014.png)
+<img src="/.gitbook/assets/velera-dispute-014.png" style="width:320px;max-width:100%">
 
-![](/.gitbook/assets/velera-dispute-015.png)
+<img src="/.gitbook/assets/velera-dispute-015.png" style="width:320px;max-width:100%">
 
 | ■  Tracking Your Dispute via Support Messages |
 
@@ -104,15 +104,15 @@ Velera does not provide real-time dispute status updates directly to members. As
 
 After a dispute is submitted, open the Inbox from the nFinia navigation and tap Support Messages. The dispute thread is listed there with the current status (e.g. Submitted, In Review, Resolved). Status updates are reflected here as the credit union staff progresses the dispute in Velera and updates the Zendesk ticket.
 
-| ![](/.gitbook/assets/velera-dispute-016.png) |  | ![](/.gitbook/assets/velera-dispute-017.png) |
-| :---: | :---- | :---: |
+| <img src="/.gitbook/assets/velera-dispute-016.png" style="width:240px;max-width:100%"> | <img src="/.gitbook/assets/velera-dispute-017.png" style="width:240px;max-width:100%"> |
+| :---: | :---: |
 
 **Step 8  Reply with Additional Information**
 
 If the credit union requests more information or if the member has additional details to provide, they can reply directly in the Support Messages thread. The reply is sent to the credit union via Zendesk.
 
-| ![](/.gitbook/assets/velera-dispute-018.png) |  | ![](/.gitbook/assets/velera-dispute-019.png) |
-| :---: | :---- | :---: |
+| <img src="/.gitbook/assets/velera-dispute-018.png" style="width:240px;max-width:100%"> | <img src="/.gitbook/assets/velera-dispute-019.png" style="width:240px;max-width:100%"> |
+| :---: | :---: |
 
 | ℹ️  Tip: Keep an eye on your Notifications and Inbox for status alert emails from Zendesk. You will receive an alert each time the credit union updates the status of your dispute. |
 
