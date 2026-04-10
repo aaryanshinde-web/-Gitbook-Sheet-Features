@@ -1,10 +1,14 @@
 # Visa Push Provisioning — Link Card to Digital Wallet
 
+|                        |
+| ---------------------- |
+| nFinia Digital Banking |
+
 ## nFinia Digital Banking
 
-**Link Card to Digital Wallet**
-
 _Module: Banking › Cards › Card Details › Link Card_
+
+**Link Card to Digital Wallet**
 
 |                        |
 | ---------------------- |

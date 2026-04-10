@@ -100,11 +100,11 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 Accessible via the **Mortgage** icon in the left sidebar or through **Banking > Additional Services > Mortgage**. If you have no FICS-linked loans, the page shows an empty state. Otherwise, a loan selector appears.
 
-![Mortgage landing page — sidebar navigation and empty state](../.gitbook/assets/fics-001.jpg)
+<figure><img src="../.gitbook/assets/fics-001.jpg" alt=""><figcaption></figcaption></figure>
 
 When you have multiple FICS accounts, a **Select Account** dropdown appears populated with all linked FICS loan accounts.
 
-![FICS loan account selector dropdown](../.gitbook/assets/fics-002.jpg)
+<figure><img src="../.gitbook/assets/fics-002.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -112,7 +112,7 @@ When you have multiple FICS accounts, a **Select Account** dropdown appears popu
 
 The main account overview screen for a selected FICS loan. This is the hub from which you access all mortgage self-service functions.
 
-![Mortgage account detail — loan summary, Pay Now, Upcoming Payments, Quick Transfer](../.gitbook/assets/fics-003.jpg)
+<figure><img src="../.gitbook/assets/fics-003.jpg" alt=""><figcaption></figcaption></figure>
 
 | Field / Element              | Type    | Description                                                                        |
 | ---------------------------- | ------- | ---------------------------------------------------------------------------------- |
@@ -132,11 +132,11 @@ The main account overview screen for a selected FICS loan. This is the hub from 
 
 The transaction list under the account detail. Shows all historical FICS loan transactions with date, payment type, amount, and remaining balance. Configurable by date range.
 
-![Mortgage transaction history list](../.gitbook/assets/fics-004.jpg)
+<figure><img src="../.gitbook/assets/fics-004.jpg" alt=""><figcaption></figcaption></figure>
 
 Expanding a transaction row reveals the full payment breakdown (principal, interest, tax and insurance, deferred principal, subsidy, unapplied) along with the exact **Paid date** and a **Download** button to export the transaction record.
 
-![Expanded transaction detail with Download button](../.gitbook/assets/fics-005.jpg)
+<figure><img src="../.gitbook/assets/fics-005.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -144,7 +144,9 @@ Expanding a transaction row reveals the full payment breakdown (principal, inter
 
 The **About this loan** tab is the default view within the **Loan Information** section. It provides a comprehensive summary of all loan attributes and payment obligations.
 
-![Loan Information screen showing all five tabs](../.gitbook/assets/fics-006.jpg) ![About This Loan — full loan details with APR, payment breakdown](../.gitbook/assets/fics-007.jpg)
+<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.37.06 PM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/fics-006.jpg" alt=""><figcaption></figcaption></figure>
 
 | Field                     | Description                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
@@ -165,7 +167,7 @@ The **About this loan** tab is the default view within the **Loan Information** 
 
 Accessible via the **Edit** link in the **Contact information** section of **About this loan**. Updates the contact record in FICS for this loan account.
 
-![Update mortgage contact information modal](../.gitbook/assets/fics-008.jpg)
+<figure><img src="../.gitbook/assets/fics-008.jpg" alt=""><figcaption></figcaption></figure>
 
 | Field               | Required | Notes                       |
 | ------------------- | -------- | --------------------------- |
@@ -187,7 +189,7 @@ Accessible via the **Edit** link in the **Contact information** section of **Abo
 
 The **Balances** tab provides a real-time breakdown of all balance components on the FICS loan, plus year-to-date payment totals.
 
-![Balances tab — full balance breakdown and year-to-date totals](../.gitbook/assets/fics-009.jpg)
+<figure><img src="../.gitbook/assets/fics-009.jpg" alt=""><figcaption></figcaption></figure>
 
 The **Download balances year-to-date totals** link opens a print-formatted view of the balance report, which you can save as a PDF. The report header includes the credit union name, generation date/time, member name, loan number, and loan account number.
 
@@ -211,7 +213,9 @@ The **Download balances year-to-date totals** link opens a print-formatted view 
 
 The **Account notes** tab displays servicer-entered notes for this loan. Members can search notes by keyword and filter by date range.
 
-<img src="../.gitbook/assets/fics-011.jpg" alt="Account Notes tab — search, date filter, and notes list" data-size="original">
+<figure><img src="../.gitbook/assets/fics-011.jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/fics-011.jpg" alt=""><figcaption></figcaption></figure>
 
 | Element                | Description                                   |
 | ---------------------- | --------------------------------------------- |
@@ -226,7 +230,7 @@ The **Account notes** tab displays servicer-entered notes for this loan. Members
 
 The **Help** tab provides credit union mortgage contact information alongside a secure messaging form. Members can send a message directly to the mortgage department without leaving the banking session.
 
-![Help tab — support contact info and secure messaging form](../.gitbook/assets/fics-012.jpg)
+<figure><img src="../.gitbook/assets/fics-012.jpg" alt=""><figcaption></figcaption></figure>
 
 | Element               | Description                                                          |
 | --------------------- | -------------------------------------------------------------------- |
@@ -243,7 +247,9 @@ On successful submission, a green banner — _"Your message has been sent."_ —
 
 Accessible from the **Request payoff information** button on the **Loan Information** header. This function allows you to formally request a payoff quote from the credit union, specifying the delivery channel and date parameters.
 
-![Request Payoff Information form — OLB view with field tooltips](../.gitbook/assets/fics-013.jpg) ![Request Payoff Information — Mobile Banking app view](../.gitbook/assets/fics-014.jpg)
+<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.33.22 PM.png" alt="" width="333"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/fics-013.jpg" alt=""><figcaption></figcaption></figure>
 
 | Field                                | Required    | Description                                                |
 | ------------------------------------ | ----------- | ---------------------------------------------------------- |
@@ -259,7 +265,7 @@ Accessible from the **Request payoff information** button on the **Loan Informat
 
 On successful submission, the modal closes and a green confirmation banner appears on the Loan Information screen:
 
-![Payoff request submitted — success confirmation banner](../.gitbook/assets/fics-015.jpg)
+<figure><img src="../.gitbook/assets/fics-015.jpg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -267,7 +273,7 @@ On successful submission, the modal closes and a green confirmation banner appea
 
 The **Pay Now** button on the Account Detail screen redirects you to the FICS-integrated external payment portal via SSO. Before leaving the nFinia environment, the platform displays an **External Link Warning** dialog.
 
-![External Link Warning — Pay Now SSO redirect confirmation](../.gitbook/assets/fics-016.jpg)
+<figure><img src="../.gitbook/assets/fics-016.jpg" alt=""><figcaption></figcaption></figure>
 
 The dialog explains that you are navigating outside of nFinia to a third-party site and that the credit union is not responsible for the external site's policies. You may **Cancel** to stay, or click **Proceed** to complete the SSO handoff and open the payment portal.
 
@@ -277,7 +283,7 @@ The dialog explains that you are navigating outside of nFinia to a third-party s
 
 Members can control the visibility of their FICS loan accounts through **Account Settings** (accessible via the settings gear icon on the account). Accounts can be set to **Show account** or **Hide account**. Hidden accounts are suppressed from the primary Accounts view.
 
-![Account Settings — Show/Hide a FICS loan account](../.gitbook/assets/fics-017.jpg)
+<figure><img src="../.gitbook/assets/fics-017.jpg" alt=""><figcaption></figcaption></figure>
 
 > **Note:** Hiding a FICS loan via Account Settings suppresses it from the Accounts list but should not suppress it from the Mortgage feature. Ensure the correct visibility scoping is applied at the FI configuration level.
 
@@ -287,7 +293,7 @@ Members can control the visibility of their FICS loan accounts through **Account
 
 The Mortgage Balances — FICS feature is fully accessible through mobile browsers (Chrome, Safari). The layout adapts to smaller screens. Transaction detail screens display all fields vertically and include the same **Download** functionality available on desktop.
 
-![Mobile browser — expanded transaction detail on mobile](../.gitbook/assets/fics-018.jpg)
+<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.34.28 PM.png" alt="" width="327"><figcaption></figcaption></figure>
 
 ***
 

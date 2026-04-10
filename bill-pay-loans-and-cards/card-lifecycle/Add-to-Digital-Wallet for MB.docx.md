@@ -41,7 +41,7 @@ The process takes under a minute. From your Card Details, tap Add to Digital Wal
 
 **Step 1 Open Card Details**
 
-<figure><img src="../../.gitbook/assets/Add_to_Digital_Wallet_MB_img1.png" alt="Step 1 — Card Details screen" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-10 at 9.40.56 PM.png" alt=""><figcaption></figcaption></figure>
 
 From the nFinia Cards screen, locate the card you want to add to a digital wallet. Tap the card tile to open Card Details. Under the Manage Card section, tap Add to Digital Wallet.
 
@@ -49,7 +49,7 @@ _Card Details — Manage Card menu showing Add to Digital Wallet_
 
 **Step 2 Select Your Wallet**
 
-<figure><img src="../../.gitbook/assets/Add_to_Digital_Wallet_MB_img2.png" alt="Step 2 — Add to Digital Wallet option" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-10 at 9.41.40 PM.png" alt=""><figcaption></figcaption></figure>
 
 The Add to Digital Wallet screen shows your card details and the three available wallet options. Tap the wallet you want to use: Google Pay, Samsung Pay, or Apple Pay.
 
@@ -60,7 +60,7 @@ _Select wallet — Google Pay, Samsung Pay, or Apple Pay_
 
 **Step 3 Accept the Disclaimer**
 
-<figure><img src="../../.gitbook/assets/Add_to_Digital_Wallet_MB_img3.png" alt="Step 3 — Wallet selection screen" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-10 at 9.42.30 PM.png" alt=""><figcaption></figcaption></figure>
 
 A disclaimer appears confirming that by proceeding, you authorise Summerville Credit Union to provision your card to the selected wallet. Some card details — your name, card expiry date, and the first 6 and last 4 digits of your card number — will be shared with the wallet provider. Tap Continue to proceed, or Go back to cancel.
 
@@ -71,7 +71,7 @@ _Provisioning disclaimer — review and tap Continue_
 
 **Step 4 Complete the Wallet Setup on Your Device**
 
-<figure><img src="../../.gitbook/assets/Add_to_Digital_Wallet_MB_img5.png" alt="Step 4 — Provisioning disclaimer" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-10 at 9.43.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 After accepting the disclaimer, your device's native wallet app takes over to complete the provisioning. The steps vary slightly by wallet:
 
@@ -82,16 +82,6 @@ After accepting the disclaimer, your device's native wallet app takes over to co
 
 |  _Select device — iPhone or Apple Watch_ |   |  _Apple Pay Terms & Conditions_ |
 | :--------------------------------------: | - | :-----------------------------: |
-
-_Apple Pay — Card Added confirmation_
-
-**Step 5 Card Successfully Linked**
-
-<figure><img src="../../.gitbook/assets/Add_to_Digital_Wallet_MB_img6.png" alt="Step 5 — Card linked to wallet" width="340"><figcaption></figcaption></figure>
-
-Once the wallet setup is complete, nFinia shows a Card successfully linked confirmation. Your card is now active in the selected wallet and ready for contactless tap-to-pay purchases. Tap Done to return to Card Details.
-
-_nFinia — Card successfully linked to Apple Pay_
 
 | ℹ️ Tip: After linking, open your wallet app to confirm the card appears. On Apple Pay, check Settings › Wallet & Apple Pay. On Google Pay or Samsung Pay, check the Cards section of the app. |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
