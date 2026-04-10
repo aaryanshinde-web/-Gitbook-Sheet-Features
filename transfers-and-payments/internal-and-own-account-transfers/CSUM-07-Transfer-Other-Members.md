@@ -23,7 +23,6 @@ Transfers are processed the same business day and the recipient's account is cre
 | Multi-Recipient | Supported — split payment to multiple You in one transaction |
 | Transfer Speed  | Same business day                                            |
 | Steps           | 4 (From → Recipient → Amount → Confirm)                      |
-| Related Reports | CSUM-06 (Move Money Hub), CSUM-11 (Recipient Management)     |
 
 ## Key Use Cases
 
