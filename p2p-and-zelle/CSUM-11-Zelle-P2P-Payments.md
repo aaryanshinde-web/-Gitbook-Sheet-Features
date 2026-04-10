@@ -19,7 +19,7 @@ Because Zelle® payments to enrolled recipients are processed instantly and are 
 | Recipient Identifier | US mobile phone number or email address                      |
 | Transfer Speed       | Minutes to enrolled recipients; 14-day window for unenrolled |
 | Reversibility        | Cannot be cancelled once recipient is enrolled in Zelle      |
-| Related Reports      | CSUM-06 (Move Money Hub), CSUM-09 (External ACH)             |
+| Related Reports      |  (Move Money Hub),  (External ACH)             |
 
 ## Key Use Cases
 

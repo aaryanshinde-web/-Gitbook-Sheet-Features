@@ -23,7 +23,7 @@ Settings also provides access to Courtesy Pay enrollment status, Dark Theme togg
 | Account Display | Nicknames, order, visibility, icons                                             |
 | Preferences     | Dark Theme, Masking, Text Banking, Courtesy Pay                                 |
 | Navigation      | Accessible via top navigation gear icon or More menu                            |
-| Related Reports | CSUM-25 (Password & User ID), CSUM-19 (Alerts), CSUM-26 (Profile & Memberships) |
+| Related Reports |  (Password & User ID),  (Alerts),  (Profile & Memberships) |
 
 ## Key Use Cases
 

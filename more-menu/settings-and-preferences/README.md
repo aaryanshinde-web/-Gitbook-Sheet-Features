@@ -4,5 +4,5 @@ Settings & Preferences covers application-level options Summerville CU members c
 
 ## What's in this section
 
-* **Settings & Preferences** — CSUM-20 — the full preferences surface, including eStatement opt-in, default-account selection, and display options.
+* **Settings & Preferences** —  — the full preferences surface, including eStatement opt-in, default-account selection, and display options.
 

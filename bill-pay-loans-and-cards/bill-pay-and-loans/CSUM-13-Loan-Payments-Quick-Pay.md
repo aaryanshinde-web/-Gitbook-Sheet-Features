@@ -19,7 +19,7 @@ The Pay Loan from External Account feature allows You to link an external bank a
 | Payment Sources  | Any linked CU account; external account for loan repayments     |
 | Steps            | 2 (Select Loan → Enter Amount)                                  |
 | Same-Day Posting | Available when submitted before daily cut-off                   |
-| Related Reports  | CSUM-06 (Move Money Hub), CSUM-21 (Skip A Pay)                  |
+| Related Reports  |  (Move Money Hub),  (Skip A Pay)                  |
 
 ## Key Use Cases
 

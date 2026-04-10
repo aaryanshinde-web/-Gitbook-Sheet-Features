@@ -23,7 +23,7 @@ You managing your personal information through the app avoid the need for branch
 | Verification    | OTP required for phone/email changes                                 |
 | Trusted Devices | View, review, and remove registered trusted devices                  |
 | Address Types   | Mailing (for statements/cards) and Residential (for ID verification) |
-| Related Reports | CSUM-28 (Device Management), CSUM-25 (Settings), CSUM-01 (Login)     |
+| Related Reports |  (Device Management),  (Settings),  (Login)     |
 
 ## Key Use Cases
 

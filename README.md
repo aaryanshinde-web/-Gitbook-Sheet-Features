@@ -36,12 +36,12 @@ layout:
 
 | Section                    | What You'll Find                                                                                                                                                                                                                    |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Authentication & Login** | Login flow, MFA (CSUM-01, CSUM-22), Trusted Devices & Cryptographic Auth (CSUM-25)                                                                                                                                                  |
-| **Dashboard**              | Dashboard Activities (CSUM-02), Recent Activities & Insights (CSUM-21)                                                                                                                                                              |
-| **Accounts**               | Account Overview (CSUM-03, CSUM-04), Credit Score (CSUM-24), Profile & Membership (CSUM-23)                                                                                                                                         |
+| **Authentication & Login** | Login flow, MFA, Trusted Devices & Cryptographic Auth                                                                                                                                                   |
+| **Dashboard**              | Dashboard Activities, Recent Activities & Insights                                                                                                                                                               |
+| **Accounts**               | Account Overview, Credit Score, Profile & Membership                                                                                                                                          |
 | **Cards**                  | Card Controls, Card Alerts, Spending Limits, Location Controls, Usage Controls                                                                                                                                                      |
-| **Move Money**             | Transfer Hub (CSUM-05), Own Account & Member Transfers (CSUM-06–07), External ACH (CSUM-08), FedNow (CSUM-09), Wire (CSUM-12), Zelle (CSUM-11), Bill Pay (CSUM-14), Quick Pay (CSUM-13), Skip-A-Pay (CSUM-18), Mobile Check Deposit |
-| **More Menu**              | Alerts & Notifications (CSUM-16), Inbox (CSUM-17), Personal Info (CSUM-19), Settings (CSUM-20)                                                                                                                                      |
+| **Move Money**             | Transfer Hub, Own Account & Member Transfers, External ACH, FedNow, Wire, Zelle, Bill Pay, Quick Pay, Skip-A-Pay, Mobile Check Deposit |
+| **More Menu**              | Alerts & Notifications, Inbox, Personal Info, Settings                                                                                                                                       |
 | **Vendor Integrations**    | Prisma, Direct/Web Connect, ZenDesk, FICS API, BDI SSO, Velera, MeridianLink, Plaid IAV                                                                                                                                             |
 | **Reference Documents**    | Summerville CU Master Guide, Delegated Access, Certificate Management, Custom Account Grouping, Joint Owners & Beneficiary                                                                                                          |
 
@@ -55,7 +55,7 @@ layout:
 
 Documentation is organized into three tiers:
 
-1. **Step-by-step CSUM Guides** — End-to-end walkthroughs for every feature, with screenshots and use-case tables. Reference numbers follow the format `CSUM-XX`.
+1. **Step-by-step Feature Guides** — End-to-end walkthroughs for every feature, with screenshots and use-case tables.
 2. **Vendor Integration Pages** — Configuration, architecture, and member-facing flow documentation for all third-party integrations.
 
 ***

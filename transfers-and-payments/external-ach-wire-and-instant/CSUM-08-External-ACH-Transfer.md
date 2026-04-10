@@ -23,7 +23,7 @@ The ACH network processes transfers in 1–3 business days under standard ACH ru
 | Transfer Speed  | 1–3 business days (standard); Same-day ACH if available |
 | Verification    | OTP required for first-use or high-value transfers      |
 | Steps           | 5 (From → To → Amount → Verify OTP → Confirm)           |
-| Related Reports | CSUM-06 (Move Money), CSUM-11 (Recipient Management)    |
+| Related Reports |  (Move Money),  (Recipient Management)    |
 
 ## Key Use Cases
 

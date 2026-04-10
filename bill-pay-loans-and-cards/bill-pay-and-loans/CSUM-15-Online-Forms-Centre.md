@@ -23,7 +23,7 @@ The forms library also includes informational forms like FICO Score FAQs, privac
 | Pre-Population  | Member account data auto-filled where available                          |
 | Submission      | Digital submission routed to appropriate CU department                   |
 | Confirmation    | Inbox notification confirming form receipt                               |
-| Related Reports | CSUM-06 (Move Money Hub), CSUM-13 (Wire Transfers), CSUM-21 (Skip A Pay) |
+| Related Reports |  (Move Money Hub),  (Wire Transfers),  (Skip A Pay) |
 
 ## Key Use Cases
 

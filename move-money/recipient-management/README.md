@@ -4,5 +4,5 @@ Recipient Management is the single place where Summerville CU members maintain t
 
 ## What's in this section
 
-* **Recipient Management** — CSUM-10 — creating, editing, verifying, and removing recipients across ACH, wire, and P2P rails.
+* **Recipient Management** —  — creating, editing, verifying, and removing recipients across ACH, wire, and P2P rails.
 

@@ -4,5 +4,5 @@ Personal Information is where Summerville CU members review and update the conta
 
 ## What's in this section
 
-* **Personal Information Management** — CSUM-19 — updating email, phone, and address, including verification steps and downstream effects on alerts and statements.
+* **Personal Information Management** —  — updating email, phone, and address, including verification steps and downstream effects on alerts and statements.
 

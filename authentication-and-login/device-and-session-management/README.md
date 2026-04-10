@@ -4,5 +4,5 @@ Device & Session Management explains how Summerville CU members view, trust, and
 
 ## What's in this section
 
-* **Device Management & Trusted Devices** — CSUM-25 — the devices list, trusting a new device, removing a device, and how trust interacts with MFA prompts.
+* **Device Management & Trusted Devices** —  — the devices list, trusting a new device, removing a device, and how trust interacts with MFA prompts.
 

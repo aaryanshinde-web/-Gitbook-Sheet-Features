@@ -23,7 +23,7 @@ The Scheduled Transfers view also serves as a log for completed FedNow and ACH t
 | Schedule Types  | One-time, Weekly, Bi-weekly, Semi-monthly, Monthly      |
 | Steps           | 4 (From → To → Amount/Memo → Confirm → Success)         |
 | History View    | Completed FedNow and scheduled transfer records         |
-| Related Reports | CSUM-06 (Move Money Hub), CSUM-08 (Other You Transfer)  |
+| Related Reports |  (Move Money Hub),  (Other You Transfer)  |
 
 ## Key Use Cases
 

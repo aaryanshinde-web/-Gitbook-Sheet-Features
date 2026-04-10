@@ -23,7 +23,7 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 | International Network    | SWIFT                                                                            |
 | Domestic Settlement      | Same business day (if before cut-off)                                            |
 | International Settlement | 1–3 international banking days                                                   |
-| Related Reports          | CSUM-06 (Move Money Hub), CSUM-11 (Recipient Management), CSUM-19 (Online Forms) |
+| Related Reports          |  (Move Money Hub),  (Recipient Management),  (Online Forms) |
 
 ## Key Use Cases
 

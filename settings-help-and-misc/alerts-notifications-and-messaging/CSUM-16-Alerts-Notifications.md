@@ -23,7 +23,7 @@ Alert history is maintained in the Inbox, giving You a retrospective view of all
 | Delivery Channels | Push Notification, SMS, Email                                              |
 | Account-Specific  | Balance threshold and large transaction alerts per account                 |
 | Do Not Disturb    | Time-window to mute non-critical alerts                                    |
-| Related Reports   | CSUM-24 (Message Center), CSUM-25 (Settings & Security)                    |
+| Related Reports   |  (Message Center),  (Settings & Security)                    |
 
 ## Key Use Cases
 

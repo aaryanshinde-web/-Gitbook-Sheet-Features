@@ -19,7 +19,7 @@ The Bill Pay module includes full history of all past payments, management of pa
 | Schedules        | One-time, recurring (weekly, bi-weekly, monthly)        |
 | Payee Management | Add, edit, delete payees; view/edit payment details     |
 | History          | Full payment history with biller name, amount, and date |
-| Related Reports  | CSUM-06 (Move Money Hub), CSUM-13 (Wire Transfers)      |
+| Related Reports  |  (Move Money Hub),  (Wire Transfers)      |
 
 ## Key Use Cases
 

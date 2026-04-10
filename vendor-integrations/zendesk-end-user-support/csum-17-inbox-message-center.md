@@ -4,7 +4,7 @@ description: Inbox & Message Center
 
 # Inbox & Message Center
 
-> **Module:** Banking › Inbox | **Reference:** CSUM-20
+> **Module:** Banking › Inbox | **Reference:** 
 
 ## Summary
 
@@ -23,7 +23,7 @@ A notification badge on the Inbox icon in the Dashboard navigation shows unread 
 | Support Messages   | Two-way authenticated messaging with CU staff                      |
 | Security           | Encrypted, authenticated — secure for financial discussion         |
 | New Message        | You can initiate support requests directly from Inbox              |
-| Related Reports    | CSUM-19 (Alerts), CSUM-25 (Settings)                               |
+| Related Reports    |  (Alerts),  (Settings)                               |
 
 ## Key Use Cases
 

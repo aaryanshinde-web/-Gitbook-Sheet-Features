@@ -19,7 +19,7 @@ Transfer Templates are an advanced feature within recipient management that allo
 | Fields Stored      | Name, institution, routing, account number, account type, nickname |
 | Transfer Templates | Pre-configured full transfers reusable on demand                   |
 | Security           | Adding new recipients may trigger OTP verification                 |
-| Related Reports    | CSUM-09 (External ACH), CSUM-15 (Wire Transfers)                   |
+| Related Reports    |  (External ACH),  (Wire Transfers)                   |
 
 ## Key Use Cases
 

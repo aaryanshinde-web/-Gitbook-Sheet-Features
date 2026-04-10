@@ -4,6 +4,6 @@ Login & Security covers the foundational authentication surface of nFinia for Su
 
 ## What's in this section
 
-* **Login & Authentication** — CSUM-01 — the primary login flow, including User ID / password entry and post-login routing to the dashboard.
-* **Password, User ID & MFA** — CSUM-22 — credential management, multi-factor authentication setup, and recovery workflows.
+* **Login & Authentication** —  — the primary login flow, including User ID / password entry and post-login routing to the dashboard.
+* **Password, User ID & MFA** —  — credential management, multi-factor authentication setup, and recovery workflows.
 

@@ -71,7 +71,7 @@ When a transaction occurs on the card, Velera sends a webhook event to nFinia, w
 
 ---
 
-## Covered CSUM Guides
+## Covered Feature Guides
 
 | Guide | Reference |
 | --- | --- |

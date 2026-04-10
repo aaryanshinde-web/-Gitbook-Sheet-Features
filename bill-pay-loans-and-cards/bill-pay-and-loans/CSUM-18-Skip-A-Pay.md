@@ -21,7 +21,7 @@ The digital Skip-A-Pay workflow replaces paper or phone requests with a fully se
 | Effect on Loan  | One payment deferred; interest continues to accrue; term extended |
 | Fee             | Nominal processing fee may apply per CU policy                    |
 | Frequency       | Once per eligible period per loan (typically once per 12 months)  |
-| Related Reports | CSUM-14 (Loan Payments), CSUM-18 (Online Forms)                   |
+| Related Reports |  (Loan Payments),  (Online Forms)                   |
 
 ## Key Use Cases
 

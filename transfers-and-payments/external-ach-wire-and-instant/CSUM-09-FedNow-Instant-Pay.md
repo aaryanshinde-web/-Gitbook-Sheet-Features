@@ -23,7 +23,7 @@ Instant Pay History provides a log of all real-time payment transactions, giving
 | Settlement Speed | Seconds — 24/7/365 including weekends and holidays  |
 | Reversibility    | Irrevocable — cannot be recalled once sent          |
 | Steps            | 4 (From → Amount/Recipient → Terms → Final Confirm) |
-| Related Reports  | CSUM-06 (Move Money Hub), CSUM-09 (ACH Transfer)    |
+| Related Reports  |  (Move Money Hub),  (ACH Transfer)    |
 
 ## Key Use Cases
 

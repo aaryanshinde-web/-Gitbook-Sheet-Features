@@ -4,5 +4,5 @@ Zelle & P2P covers person-to-person payments through the integrated Zelle servic
 
 ## What's in this section
 
-* **Zelle & P2P Payments** — CSUM-11 — the full Zelle flow, including enrollment, sending, requesting, split-pay, and transaction history.
+* **Zelle & P2P Payments** —  — the full Zelle flow, including enrollment, sending, requesting, split-pay, and transaction history.
 
