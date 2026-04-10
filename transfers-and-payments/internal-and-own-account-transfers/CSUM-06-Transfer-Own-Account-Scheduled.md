@@ -45,7 +45,7 @@ _Step 1: Start from Dashboard_
 
 **Step 2 — Navigate to Move Money Hub**
 
-you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
+You click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
 <figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
 
@@ -61,7 +61,7 @@ _Step 3: Navigate from Dashboard to Own Account Transfer_
 
 **Step 4 — Enter Amount & Memo**
 
-Step 2 displays the transfer details form with fields for entering the transfer amount, an optional transaction memo, payment date selection, and a recurring payment checkbox.
+Step 4 displays the transfer details form with fields for entering the transfer amount, an optional transaction memo, payment date selection, and a recurring payment checkbox.
 
 <figure><img src="../../.gitbook/assets/img_973f2a676229.png" alt="" width="480"><figcaption></figcaption></figure>
 
