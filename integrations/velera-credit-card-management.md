@@ -47,16 +47,16 @@ The Cards Overview page lists all card accounts enrolled in nFinia. Each card ti
 
 Supported card types: Full-service credit cards (processed on PSCU/Optis) and In-House Credit (IHC) cards (processed on Wilmington or Optis). Debit cards are processed on the Wilmington platform.
 
-![]</.gitbook/assets/velera-card-mgmt-001.png>
+![](/.gitbook/assets/velera-card-mgmt-001.png)
 
 Depending on the rewards program the credit union has enrolled in, the card tile shows either Traditional Rewards points or Cash Back Rewards. The rewards balance is displayed directly on the tile for quick reference.
 
-| ![]</.gitbook/assets/velera-card-mgmt-002.png> |  | ![]</.gitbook/assets/velera-card-mgmt-003.png> |  | ![]</.gitbook/assets/velera-card-mgmt-004.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-002.png) |  | ![](/.gitbook/assets/velera-card-mgmt-003.png) |  | ![](/.gitbook/assets/velera-card-mgmt-004.png) |
 | :---: | :---- | :---: | :---- | :---: |
 
-![]</.gitbook/assets/velera-card-mgmt-005.png>
+![](/.gitbook/assets/velera-card-mgmt-005.png)
 
-![]</.gitbook/assets/velera-card-mgmt-006.png>
+![](/.gitbook/assets/velera-card-mgmt-006.png)
 
 | ■  Activate Card |
 
@@ -68,13 +68,13 @@ Members can activate a newly received credit card directly from nFinia without c
 
 From the Cards screen, find the Activate a New Card option in the Related Links section and tap it to begin.
 
-![]</.gitbook/assets/velera-card-mgmt-007.png>
+![](/.gitbook/assets/velera-card-mgmt-007.png)
 
 **Step 2  Enter Card Details & Confirm**
 
 Enter your card number and confirm the expiry date as prompted. Once verified, the card is activated immediately and ready for use.
 
-| ![]</.gitbook/assets/velera-card-mgmt-008.png> |  | ![]</.gitbook/assets/velera-card-mgmt-009.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-008.png) |  | ![](/.gitbook/assets/velera-card-mgmt-009.png) |
 | :---: | :---- | :---: |
 
 | ■  Card On/Off (Lock / Unlock) |
@@ -85,7 +85,7 @@ The Card On/Off toggle lets members temporarily lock their credit card to preven
 
 | ℹ️  Tip: Use Card On/Off as an immediate first step if you suspect your card has been misplaced — you can unlock it again if you find it, without going through the full lost/stolen process. |
 
-| ![]</.gitbook/assets/velera-card-mgmt-010.png> |  | ![]</.gitbook/assets/velera-card-mgmt-011.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-010.png) |  | ![](/.gitbook/assets/velera-card-mgmt-011.png) |
 | :---: | :---- | :---: |
 
 | ■  Card Controls: Spend Limits |
@@ -96,7 +96,7 @@ Members can set a per-transaction spend limit and/or a monthly spend limit on th
 
 | ⚠️  Note: Spend limits apply to all transactions including recurring ones. Make sure your thresholds are set high enough to accommodate any regular subscriptions or automatic payments. |
 
-| ![]</.gitbook/assets/velera-card-mgmt-012.png> |  | ![]</.gitbook/assets/velera-card-mgmt-013.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-012.png) |  | ![](/.gitbook/assets/velera-card-mgmt-013.png) |
 | :---: | :---- | :---: |
 
 | ■  Card Controls: Card Alerts |
@@ -124,9 +124,9 @@ When Selected Transactions is chosen, members can also configure:
 
 | ℹ️  Tip: Alert notifications are sent based on the channel preference (email, SMS, push) set in the main Alert Settings. Recurring transactions are excluded from amount-based alert thresholds. |
 
-![]</.gitbook/assets/velera-card-mgmt-014.png>
+![](/.gitbook/assets/velera-card-mgmt-014.png)
 
-| ![]</.gitbook/assets/velera-card-mgmt-015.png> |  | ![]</.gitbook/assets/velera-card-mgmt-016.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-015.png) |  | ![](/.gitbook/assets/velera-card-mgmt-016.png) |
 | :---: | :---- | :---: |
 
 | ■  Card Controls: Domestic Controls |
@@ -137,9 +137,9 @@ Domestic Controls allow members to restrict card usage to a specific geographic 
 
 | ⚠️  Note: The Velera (PSCU) API does not support location names containing numbers. If you search for a location with numbers in the name, try searching by the city or neighbourhood name instead. |
 
-![]</.gitbook/assets/velera-card-mgmt-017.png>
+![](/.gitbook/assets/velera-card-mgmt-017.png)
 
-| ![]</.gitbook/assets/velera-card-mgmt-018.png> |  | ![]</.gitbook/assets/velera-card-mgmt-019.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-018.png) |  | ![](/.gitbook/assets/velera-card-mgmt-019.png) |
 | :---: | :---- | :---: |
 
 | ■  Card Controls: International Controls |
@@ -150,11 +150,11 @@ International Controls let members block all in-store international transactions
 
 | ⚠️  Note: Map-based country selection is not supported because the Velera (PSCU) API does not accept coordinates. Use the country list to specify allowed locations. |
 
-![]</.gitbook/assets/velera-card-mgmt-020.png>
+![](/.gitbook/assets/velera-card-mgmt-020.png)
 
-![]</.gitbook/assets/velera-card-mgmt-021.png>
+![](/.gitbook/assets/velera-card-mgmt-021.png)
 
-| ![]</.gitbook/assets/velera-card-mgmt-022.png> |  | ![]</.gitbook/assets/velera-card-mgmt-023.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-022.png) |  | ![](/.gitbook/assets/velera-card-mgmt-023.png) |
 | :---: | :---- | :---: |
 
 | ■  Report Card Lost or Stolen |
@@ -165,11 +165,11 @@ If a member believes their card has been lost or stolen, they can report it dire
 
 | ℹ️  Tip: If you are not sure whether the card is lost or just misplaced, consider using the Card On/Off lock first. Use Report Lost/Stolen only when you are certain the card needs to be replaced. |
 
-![]</.gitbook/assets/velera-card-mgmt-024.png>
+![](/.gitbook/assets/velera-card-mgmt-024.png)
 
-![]</.gitbook/assets/velera-card-mgmt-025.png>
+![](/.gitbook/assets/velera-card-mgmt-025.png)
 
-| ![]</.gitbook/assets/velera-card-mgmt-026.png> |  | ![]</.gitbook/assets/velera-card-mgmt-027.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-026.png) |  | ![](/.gitbook/assets/velera-card-mgmt-027.png) |
 | :---: | :---- | :---: |
 
 | ■  Travel Notification |
@@ -182,22 +182,22 @@ Travel Notifications allow members to let the credit union know they will be tra
 
 From the Cards screen, select Travel Notice from the Related Links section. The Travel Itineraries screen lists all active and upcoming notices you have set.
 
-![]</.gitbook/assets/velera-card-mgmt-028.png>
+![](/.gitbook/assets/velera-card-mgmt-028.png)
 
 **Step 2  Add a Travel Itinerary**
 
 Tap Add to create a new travel notice. Enter your destination(s), travel start and end dates, and any notes. Tap Save to submit the notice to Velera.
 
-| ![]</.gitbook/assets/velera-card-mgmt-029.png> |  | ![]</.gitbook/assets/velera-card-mgmt-030.png> |  | ![]</.gitbook/assets/velera-card-mgmt-031.png> |
+| ![](/.gitbook/assets/velera-card-mgmt-029.png) |  | ![](/.gitbook/assets/velera-card-mgmt-030.png) |  | ![](/.gitbook/assets/velera-card-mgmt-031.png) |
 | :---: | :---- | :---: | :---- | :---: |
 
 **Step 3  View, Edit, or Delete a Notice**
 
 From the Travel Itineraries list, tap a notice to view its details or make changes to the destination or dates. Use the Delete option to remove a notice that is no longer needed.
 
-![]</.gitbook/assets/velera-card-mgmt-032.png>
+![](/.gitbook/assets/velera-card-mgmt-032.png)
 
-![]</.gitbook/assets/velera-card-mgmt-033.png>
+![](/.gitbook/assets/velera-card-mgmt-033.png)
 
 | ⚠️  Note: Only one travel notice can be active per card at a time. If you need to travel to multiple destinations on the same trip, add all countries within a single itinerary entry. |
 
