@@ -1,7 +1,5 @@
 # Marketing Automation — Prisma
 
-
-
 ***
 
 ## Summary
@@ -62,13 +60,21 @@ Prisma supports IAB (International Advertising Bureau) standard ad sizes across 
 
 Campaign management is the core workflow in the Prisma console. The following screenshots illustrate the key screens involved in configuring and managing ad campaigns.
 
-![](../.gitbook/assets/prisma-001.png) _Prisma Console — Campaign Overview / Banner List_
+&#x20;_Prisma Console — Campaign Overview / Banner List_
 
-![](../.gitbook/assets/prisma-002.png) _Banner Creation — Target Devices & Screens Configuration_
+<figure><img src="../.gitbook/assets/prisma-001.png" alt=""><figcaption></figcaption></figure>
 
-![](../.gitbook/assets/prisma-003.png) _Creative Upload — Image and HTML Ad Configuration_
+&#x20;_Banner Creation — Target Devices & Screens Configuration_
 
-![](../.gitbook/assets/prisma-004.png) _A/B Testing Setup and Audience Targeting_
+<figure><img src="../.gitbook/assets/prisma-002.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;_Creative Upload — Image and HTML Ad Configuration_
+
+<figure><img src="../.gitbook/assets/prisma-003.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;_A/B Testing Setup and Audience Targeting_
+
+<figure><img src="../.gitbook/assets/prisma-004.png" alt=""><figcaption></figcaption></figure>
 
 **Key campaign management capabilities:**
 
@@ -96,7 +102,9 @@ Campaign management is the core workflow in the Prisma console. The following sc
 
 Prisma provides campaign-level tracking and reporting for each active ad.
 
-![](../.gitbook/assets/prisma-005.png) _Prisma Analytics Dashboard — Reach, Clicks, and Conversion Tracking_
+&#x20;_Prisma Analytics Dashboard — Reach, Clicks, and Conversion Tracking_
+
+<figure><img src="../.gitbook/assets/prisma-005.png" alt=""><figcaption></figcaption></figure>
 
 **Tracked Metrics:**
 
