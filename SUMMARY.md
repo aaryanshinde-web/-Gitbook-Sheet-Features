@@ -63,7 +63,6 @@
 
 * [Alerts & Notifications](more-menu/alerts-and-notifications/README.md)
   * [Alerts & Notifications](settings-help-and-misc/alerts-notifications-and-messaging/CSUM-16-Alerts-Notifications.md)
-  * [Inbox & Message Center](settings-help-and-misc/alerts-notifications-and-messaging/CSUM-17-Inbox-Message-Center.md)
   * [Push Notifications & Blackout Period](<settings-help-and-misc/alerts-notifications-and-messaging/alerts and blackout period.md>)
 * [Personal Information](more-menu/personal-information/README.md)
   * [Personal Information Management](settings-help-and-misc/personal-information-and-contact/CSUM-19-Personal-Information-Management.md)
@@ -74,7 +73,8 @@
 
 * [Prisma — Full Edition](integrations/prisma-integration.md)
 * [Direct & Web Connect — Quicken / QuickBooks](integrations/direct-and-web-connect-quicken-quickbooks.md)
-* [End User Support Portal — ZenDesk](integrations/zendesk-end-user-support.md)
+* [End User Support Portal — ZenDesk](vendor-integrations/zendesk-end-user-support/README.md)
+  * [Inbox & Message Center](vendor-integrations/zendesk-end-user-support/csum-17-inbox-message-center.md)
 * [Mortgage Balances — FICS API](integrations/mortgage-balances-fics-api.md)
 * [eDocuments — BDI SSO](integrations/edocuments-bdi-sso.md)
 * [Velera API Integration](vendor-integrations/velera-api-integration/README.md)
