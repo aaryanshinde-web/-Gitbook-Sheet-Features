@@ -1,6 +1,6 @@
 # Sneak Peek
 
-## Product Summary
+## Summary
 
 Sneak Peek is a convenience feature in Summerville Credit Union's nFinia mobile banking platform that allows you to view your account balance on the pre-login Welcome screen — without requiring a full username/password/OTP authentication session. You opt in per account through Account Settings, and once enabled, a **Balance** widget on the Welcome screen surfaces your configured account's current balance with a single tap or swipe.
 

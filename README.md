@@ -28,9 +28,7 @@ layout:
 
 # README
 
-Welcome to the **Summerville Credit Union nFinia Platform Documentation** — the single authoritative reference for all features, integrations, and technical specifications tracked in the Feature Documentation Tracking sheet.
 
-This space is maintained by the Tyfone product and implementation team and is organized to mirror the nFinia app's own navigation structure, making it easy to locate documentation for any feature a member may encounter.
 
 ***
 
@@ -52,14 +50,13 @@ This space is maintained by the Tyfone product and implementation team and is or
 ## How to Use This Guide
 
 {% hint style="info" %}
-**Navigation Tip:** Use the left sidebar to browse by module, or press `Ctrl+K` / `Cmd+K` to search any feature by name or CSUM number.
+**Navigation Tip:** Use the left sidebar to browse by module, or press `Ctrl+K` / `Cmd+K` to search any feature by name.
 {% endhint %}
 
 Documentation is organized into three tiers:
 
 1. **Step-by-step CSUM Guides** — End-to-end walkthroughs for every feature, with screenshots and use-case tables. Reference numbers follow the format `CSUM-XX`.
 2. **Vendor Integration Pages** — Configuration, architecture, and member-facing flow documentation for all third-party integrations.
-3. **Reference Documents** — Release notes, design specifications, and master guides converted from source DOCX files.
 
 ***
 
@@ -67,37 +64,12 @@ Documentation is organized into three tiers:
 
 The **nFinia** digital banking platform from **Tyfone** powers Summerville Credit Union's member-facing digital experience across:
 
-| Channel         | Notes                                                      |
-| --------------- | ---------------------------------------------------------- |
-| **Web Browser** | Full-featured desktop experience at `diamondcu.nfinia.com` |
-| **iOS App**     | Native iPhone and iPad app with biometric authentication   |
-| **Android App** | Native Android app, feature-parity with iOS                |
+| Channel         | Notes                                                    |
+| --------------- | -------------------------------------------------------- |
+| **Web Browser** | Full-featured desktop experience                         |
+| **iOS App**     | Native iPhone and iPad app with biometric authentication |
+| **Android App** | Native Android app, feature-parity with iOS              |
 
-All channels share a unified feature set. Where channel-specific behavior exists, it is called out within the relevant CSUM guide.
-
-***
-
-## Document Conventions
-
-| Convention    | Meaning                                                 |
-| ------------- | ------------------------------------------------------- |
-| `CSUM-XX`     | Consolidated Step-by-Step Member guide reference number |
-| **Bold text** | UI element label, button, or field name                 |
-| `Code`        | System value, URL, or technical identifier              |
-| > Blockquote  | Important note or callout                               |
-| 💡 Hint block | Tip, warning, or prerequisite                           |
+All channels share a unified feature set. Where channel-specific behavior exists, it is called out within the relevant  guide.
 
 ***
-
-## Maintenance & Updates
-
-This documentation is synced via **GitHub Sync** from the repository `aaryanshinde-web/-Gitbook-Sheet-Features` (branch: `main`). Changes pushed to the repository are automatically reflected here within minutes.
-
-| Item                | Detail                                        |
-| ------------------- | --------------------------------------------- |
-| **Platform**        | Tyfone nFinia                                 |
-| **Client**          | Summerville Credit Union                      |
-| **Maintained by**   | Tyfone Product & Implementation Team          |
-| **Source Repo**     | `aaryanshinde-web/-Gitbook-Sheet-Features`    |
-| **Sync Branch**     | `main`                                        |
-| **Feature Tracker** | Feature Documentation Tracking (Google Sheet) |
