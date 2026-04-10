@@ -71,7 +71,7 @@
 
 ## Vendor Integrations
 
-* [Prisma — Full Edition](integrations/prisma-integration.md)
+* [Marketing Automation — Prisma](integrations/prisma-integration.md)
 * [Direct & Web Connect — Quicken / QuickBooks](integrations/direct-and-web-connect-quicken-quickbooks.md)
 * [End User Support Portal — ZenDesk](vendor-integrations/zendesk-end-user-support/README.md)
   * [Inbox & Message Center](vendor-integrations/zendesk-end-user-support/csum-17-inbox-message-center.md)

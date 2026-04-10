@@ -2,11 +2,11 @@
 
 ***
 
-## Product Summary
+## Summary
 
 The **eDocuments — BDI — SSO** feature enables you to access your electronic statements and documents directly from within the nFinia digital banking platform — both on web and mobile — without requiring a separate login. When you navigate to "Statements & Tax Forms," nFinia silently authenticates you to the BDI (Business Data, Inc.) document portal via Single Sign-On (SSO), then launches the BDI portal in a new tab or browser window. You land directly on your documents — no username, no password, no redirect friction.
 
-BDI is the third-party electronic document management system that stores and serves member statements (monthly statements, mortgage statements, and other document types). The integration is deployed at `businessdatainc.com` under the credit union's tenant path (e.g., `/SelfrelianceFCU/`). The SSO token is generated server-side by nFinia and passed securely to BDI, meaning your BDI session is fully authenticated from the moment the portal opens.
+BDI is the third-party electronic document management system that stores and serves member statements (monthly statements, mortgage statements, and other document types). The integration is deployed at `businessdatainc.com` under the credit union's tenant path (e.g., `/SummervileCU/`). The SSO token is generated server-side by nFinia and passed securely to BDI, meaning your BDI session is fully authenticated from the moment the portal opens.
 
 This feature serves retail and business members alike. It is especially valuable for credit unions with multi-membership households, as BDI's portal natively supports a membership selector dropdown — allowing a single digital banking user to switch between multiple linked account numbers and view statements for each. From the credit union's perspective, the integration reduces paper statement costs, supports regulatory disclosure delivery (the Disclosures tab surfaces the Online Statement Enrollment Disclosure), and provides a self-service archive that reduces inbound call volume from members asking for old statements.
 
@@ -59,7 +59,7 @@ Log in to nFinia and click **Statements and Tax Forms** in the left sidebar (als
 
 **Step 2 — BDI Portal Loads (Desktop)**
 
-The BDI portal opens at `uatestmt.businessdatainc.com/SelfrelianceFCU/ShowDocList.do`. The portal displays your name and a membership number dropdown pre-selected with your primary membership. The top navigation bar shows four tabs: **Documents**, **Enrollment**, **Disclosures**, and **Statement Search,**&#x49;f you have multiple account numbers linked, click the dropdown and select the desired membership. Each option is listed as `[MemberNumber] - [Name/Entity]`.
+The BDI portal opens at `uatestmt.businessdatainc.com/SummervilleCU/ShowDocList.do`. The portal displays your name and a membership number dropdown pre-selected with your primary membership. The top navigation bar shows four tabs: **Documents**, **Enrollment**, **Disclosures**, and **Statement Search,**&#x49;f you have multiple account numbers linked, click the dropdown and select the desired membership. Each option is listed as `[MemberNumber] - [Name/Entity]`.
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
@@ -128,116 +128,6 @@ Downstream effects: the document's read status updates in BDI when opened, suppo
 **No documents available:** If the selected membership has no statements in BDI yet (e.g., newly opened account), the document sections will be empty. The Enrollment tab can be used to verify paperless enrollment status.
 
 **Membership not found in BDI:** If your account number is not linked in BDI's system, the dropdown may not populate correctly. This is a back-office configuration issue requiring the FI's operations team to ensure the membership is enrolled in BDI's eStatements program.
-
-***
-
-## Feature Overview (UI Walkthrough)
-
-### Screen 1 — nFinia Mobile Side Menu (Entry Point)
-
-The side menu in the nFinia mobile app serves as the primary navigation panel for less frequently accessed features. "Statements & Tax Forms" is listed as a top-level menu item identifiable by the document icon and subtitle.
-
-| Field / Element        | Type                     | Description                                 | Notes                                                      |
-| ---------------------- | ------------------------ | ------------------------------------------- | ---------------------------------------------------------- |
-| Statements & Tax Forms | Menu item (tappable row) | Entry point to the eDocuments SSO feature   | Tapping initiates SSO token generation and redirect to BDI |
-| Document icon          | Icon                     | Visual indicator for the statements feature | Displayed left of the label                                |
-| Subtitle text          | Label                    | "View statements & Tax Forms"               | Descriptive help text below the feature name               |
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.17.00 PM.png" alt="" width="365"><figcaption></figcaption></figure>
-
-***
-
-### Screen 2 — nFinia Desktop: Statements and Tax Forms Page (Post-SSO)
-
-After clicking the sidebar link, nFinia displays a placeholder page confirming the SSO redirect fired. The BDI portal has already opened in a new browser tab.
-
-| Field / Element      | Type        | Description                                    | Notes                                              |
-| -------------------- | ----------- | ---------------------------------------------- | -------------------------------------------------- |
-| Page title           | Heading     | "Statements and Tax Forms"                     | Static heading on nFinia side                      |
-| Breadcrumb           | Label       | `Banking > More > eStatements`                 | Confirms navigation context                        |
-| Redirect info banner | Info banner | "This feature has been opened in another tab." | Confirms BDI portal opened successfully in new tab |
-| Left sidebar         | Navigation  | Full nFinia navigation remains accessible      | nFinia session stays active                        |
-
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
-
-***
-
-### Screen 3 — BDI Portal: Documents Tab
-
-The main landing screen of the BDI portal after SSO authentication. Displays your name, membership selector, and document type sections.
-
-| Field / Element                    | Type           | Description                                                         | Notes                                                             |
-| ---------------------------------- | -------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Member name header                 | Label          | Logged-in member's full name                                        | Pulled from nFinia SSO token                                      |
-| Membership dropdown                | Dropdown       | Selects which membership number's documents to display              | Format: `[Number] - [Name]`; pre-selected with primary membership |
-| Documents tab                      | Navigation tab | Active tab (default landing)                                        | Underlined indicator on active tab                                |
-| Enrollment tab                     | Navigation tab | Navigates to enrollment management screen                           |                                                                   |
-| Disclosures tab                    | Navigation tab | Navigates to legal disclosures screen                               |                                                                   |
-| Statement Search tab               | Navigation tab | Navigates to statement search (desktop only)                        | Not shown on mobile nav                                           |
-| Document type section header       | Section        | Groups documents by type (e.g., "Monthly Statement")                | Dark navy background, white text, with document-type icon         |
-| Document entry row                 | Tappable row   | Date of each statement (e.g., "Feb 28, 2025") with read-status icon | Tapping opens document detail                                     |
-| Read status icon (closed envelope) | Icon           | Document not yet viewed                                             |                                                                   |
-| Read status icon (open envelope)   | Icon           | Document previously viewed                                          |                                                                   |
-| View all past documents            | Link           | Expands full document archive                                       | Appears below three most recent entries                           |
-
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.18.52 PM.png" alt="" width="371"><figcaption></figcaption></figure>
-
-***
-
-### Screen 4 — BDI Portal: Membership Selector Dropdown
-
-Activated by clicking/tapping the membership dropdown. On desktop this is a standard HTML select list; on mobile it renders as a modal picker with radio buttons.
-
-| Field / Element                | Type                                        | Description                                             | Notes                                                                             |
-| ------------------------------ | ------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Membership dropdown            | Dropdown (desktop) / Radio picker (mobile)  | Lists all linked memberships for the authenticated user | Selecting a different membership reloads the document list for that member number |
-| Selected indicator             | Highlight (desktop) / Filled radio (mobile) | Marks the currently active membership                   |                                                                                   |
-| Membership entry               | List item                                   | Format: `[Number] - [Member Name or Entity]`            | Can include personal names and institutional names                                |
-| Section header (mobile picker) | Label                                       | Shows document type context (e.g., "Monthly Statement") | Displayed above the membership list in the mobile picker                          |
-
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.15.17 PM.png" alt="" width="363"><figcaption></figcaption></figure>
-
-***
-
-### Screen 5 — BDI Portal: Statement Detail View
-
-Opened when you click or tap a specific statement date. Shows the full statement with per-account summaries and a PDF download option.
-
-| Field / Element        | Type        | Description                                                             | Notes                                                |
-| ---------------------- | ----------- | ----------------------------------------------------------------------- | ---------------------------------------------------- |
-| Member name            | Label       | Full name of account holder                                             | Displayed at top of statement view                   |
-| Masked account number  | Label       | Format: `XXXXXXXX##` (last 2 digits visible)                            | Full number available in PDF version                 |
-| Period Ending          | Label       | Statement period end date (e.g., "Period Ending: 10/31/2024")           |                                                      |
-| View PDF               | Button/Link | Downloads or opens full PDF version of the statement                    | Shown with PDF icon in top-right of header area      |
-| Account section header | Section     | Account type and share number (e.g., "MONEY MARKET (#0008)")            | Dark navy background, white bold text                |
-| Starting Balance       | Data cell   | Opening balance for the statement period                                | Displayed in a 2-column or 3-column summary grid     |
-| Ending Balance         | Data cell   | Closing balance for the statement period                                |                                                      |
-| Debit(s)               | Data cell   | Total debits with transaction count (e.g., "114 Debit(s)")              |                                                      |
-| Credit(s)              | Data cell   | Total credits with transaction count                                    |                                                      |
-| YTD Dividends          | Data cell   | Year-to-date dividend amount for the account                            |                                                      |
-| Show details           | Button      | Toggle to expand full transaction-level detail for the account          | Expands beneath the summary grid                     |
-| Reporting Information  | Section     | Annual summary: Share Account Totals, Total Dividends Paid Year to Date | Labeled by year (e.g., "2024 REPORTING INFORMATION") |
-
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.16.17 PM.png" alt=""><figcaption></figcaption></figure>
-
-***
-
-### Screen 6 — BDI Portal: Disclosures Tab
-
-Accessed by tapping/clicking the **Disclosures** tab in the BDI portal navigation bar.
-
-| Field / Element                        | Type           | Description                                                         | Notes                                                                                                                       |
-| -------------------------------------- | -------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Disclosures section header             | Section header | "Disclosures" label in dark navy                                    |                                                                                                                             |
-| Online Statement Enrollment Disclosure | Link           | Opens the full text of the E-SIGN / paperless enrollment disclosure | Required for regulatory compliance with electronic document delivery; you can review the terms of your paperless enrollment |
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.18.52 PM.png" alt="" width="371"><figcaption></figcaption></figure>
 
 ***
 

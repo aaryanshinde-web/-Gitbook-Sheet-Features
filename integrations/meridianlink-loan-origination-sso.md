@@ -4,7 +4,7 @@
 
 ***
 
-## Product Summary
+## Summary
 
 The MeridianLink Loan Origination SSO feature enables you to initiate loan applications directly from within the online banking portal and be seamlessly transferred into the MeridianLink Consumer Loan Origination System (LOS) — without re-entering credentials or personal information. When you click "Apply for Loans" inside nFinia, the platform passes a secure tokenized reference (tenderref) to MeridianLink, establishing a pre-authenticated session on your behalf. This eliminates the friction of a separate login, reduces application abandonment, and positions the credit union's digital lending as a fully integrated experience rather than a bolted-on external tool.
 

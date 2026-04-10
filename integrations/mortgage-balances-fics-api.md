@@ -1,10 +1,8 @@
 # Mortgage Balances — FICS API
 
-### Feature Guide · nFinia Digital Banking Platform
-
 ***
 
-## Product Summary
+## Summary
 
 The **Mortgage Balances — FICS API** feature integrates nFinia's OLB (Online Banking) and Mobile Banking platforms with a credit union's FICS loan servicing system via API. It gives you direct, real-time visibility into your FICS-serviced mortgage loan accounts — without leaving the nFinia digital banking environment.
 
@@ -193,8 +191,6 @@ The **Balances** tab provides a real-time breakdown of all balance components on
 
 The **Download balances year-to-date totals** link opens a print-formatted view of the balance report, which you can save as a PDF. The report header includes the credit union name, generation date/time, member name, loan number, and loan account number.
 
-![Downloaded balance PDF — year-to-date totals report](../.gitbook/assets/fics-010.jpg)
-
 | Balance Component      | Description                                |
 | ---------------------- | ------------------------------------------ |
 | Principal              | Outstanding principal balance              |
@@ -272,8 +268,6 @@ On successful submission, the modal closes and a green confirmation banner appea
 ### Pay Now
 
 The **Pay Now** button on the Account Detail screen redirects you to the FICS-integrated external payment portal via SSO. Before leaving the nFinia environment, the platform displays an **External Link Warning** dialog.
-
-<figure><img src="../.gitbook/assets/fics-016.jpg" alt=""><figcaption></figcaption></figure>
 
 The dialog explains that you are navigating outside of nFinia to a third-party site and that the credit union is not responsible for the external site's policies. You may **Cancel** to stay, or click **Proceed** to complete the SSO handoff and open the payment portal.
 
