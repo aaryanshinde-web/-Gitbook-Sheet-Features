@@ -1,14 +1,12 @@
 # Card Alerts
 
-## nFinia Digital Banking
-
 **Card Alerts**
 
 _Module: Banking › Cards › Card Details › Card Controls › Card Alerts_
 
-|                        |
-| ---------------------- |
-| **01 PRODUCT SUMMARY** |
+|             |
+| ----------- |
+| **SUMMARY** |
 
 Card Alerts puts you in control of how, where, and when your card is used. From the Card Alerts tab inside Card Controls, you can set spend thresholds that trigger alerts, and selectively enable or disable specific transaction types and merchant categories. Every toggle takes effect immediately — no waiting and no calls required.
 

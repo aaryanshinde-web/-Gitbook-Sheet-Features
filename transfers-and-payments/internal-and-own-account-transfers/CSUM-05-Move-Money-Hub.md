@@ -6,7 +6,7 @@ description: Move Money Hub
 
 > **Module:** Banking › Move Money
 
-## Product Summary
+## Summary
 
 The Move Money Hub is the central launchpad for all payment and transfer activities within nFinia Digital Banking. From one consolidated screen, You can access Quick Pay (loan payments), Internal Transfers, transfers to other Credit Union You, external ACH transfers, FedNow Instant Pay, Zelle, Bill Pay, Wire Transfers, and more.
 

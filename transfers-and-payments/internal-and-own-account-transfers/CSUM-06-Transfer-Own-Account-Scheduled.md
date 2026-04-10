@@ -6,7 +6,7 @@ description: Transfer Own Account & Scheduled Transfers
 
 > **Module:** Banking › Move Money → Transfer / Scheduled
 
-## Product Summary
+## Summary
 
 The Transfer to Own Account feature enables You to move funds instantly between your own accounts held at the credit union — for example, from checking to savings, or from savings to a loan. Transfers between own accounts are processed in real time with immediate balance updates. The four-step wizard guides You through selecting source and destination accounts, entering amount and memo, reviewing the summary, and receiving a success confirmation.
 

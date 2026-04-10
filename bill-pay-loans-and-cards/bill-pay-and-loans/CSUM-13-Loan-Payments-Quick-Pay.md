@@ -2,7 +2,7 @@
 
 > **Module:** Banking › Move Money → Quick Pay
 
-## Product Summary
+## Summary
 
 Quick Pay SSO is an integrated loan payment hub embedded within the nFinia digital banking platform that allows SummerVille Credit Union You to view all active loan accounts in a single payment interface and make payments without leaving digital banking. The SSO (Single Sign-On) design means You authenticated in nFinia are automatically authenticated in the Quick Pay portal without a separate login.
 
@@ -33,11 +33,11 @@ The Pay Loan from External Account feature allows You to link an external bank a
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > 'Quick Pay' OR Dashboard account tile > Pay Now._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+\| _Navigation: Dashboard > Move Money > 'Quick Pay' OR Dashboard account tile > Pay Now._ |&#x20;
+
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 1: Start from Dashboard_
 
 **Step 2 — Navigate to Move Money Hub**
 
@@ -45,20 +45,14 @@ you click ‘Move Money' in the top navigation bar. The Move Money Hub displays 
 
 <figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
 
-_Step 2: Move Money Hub_
-
 **Step 3 — Navigate from Dashboard to Quick Pay**
 
 The Quick Pay page displays the loan selection screen with red action buttons for selecting different loan accounts to make a payment.
 
 <figure><img src="../../.gitbook/assets/img_cad422bef630.png" alt="" width="480"><figcaption></figcaption></figure>
 
-_Step 3: Navigate from Dashboard to Quick Pay_
-
 **Step 4 — Select Loan & Enter Payment Amount**
 
 The Bill Pay form is displayed from the SummerVille CU banking interface with form fields for entering payment details and selecting the loan to pay.
 
 <figure><img src="../../.gitbook/assets/img_f019eb2801e6.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 4: Select Loan & Enter Payment Amount_

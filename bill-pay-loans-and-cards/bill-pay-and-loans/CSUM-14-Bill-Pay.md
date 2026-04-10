@@ -2,7 +2,7 @@
 
 > **Module:** Banking › Move Money → Bill Pay
 
-## Product Summary
+## Summary
 
 Bill Pay is an integrated payment service within the nFinia Move Money suite that enables You to pay bills — utilities, insurance, credit cards, subscriptions, and other recurring obligations — directly from their SummerVille CU account without leaving the digital banking platform. You can pay one-time bills on demand or set up recurring scheduled payments to ensure obligations are met on time every month.
 
@@ -33,11 +33,11 @@ The Bill Pay module includes full history of all past payments, management of pa
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > 'Bill Pay'._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+_Navigation: Dashboard > Move Money > 'Bill Pay'._&#x20;
+
+**Step 1 — Start from Dashboard**  The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 1: Start from Dashboard_
 
 **Step 2 — Navigate to Move Money Hub**
 
@@ -45,12 +45,8 @@ you click ‘Move Money' in the top navigation bar. The Move Money Hub displays 
 
 <figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
 
-_Step 2: Move Money Hub_
-
 **Step 3 — Navigate from Dashboard to Bill Pay**
 
 The Bill Pay screen from the legacy banking interface is displayed, showing payment options and form fields for setting up or making a bill payment.
 
 <figure><img src="../../.gitbook/assets/Bill_Pay_img3.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 3: Navigate from Dashboard to Bill Pay_

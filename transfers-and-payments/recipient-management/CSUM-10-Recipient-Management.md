@@ -2,7 +2,7 @@
 
 > **Module:** Banking › Move Money → Recipient Management
 
-## Product Summary
+## Summary
 
 Recipient Management is the centralised address book for all transfer and payment recipients. You can store details for other CU You, external ACH bank accounts, domestic wire beneficiaries, international wire beneficiaries, and FedNow recipients. Saved recipients appear as quick-select options throughout all payment workflows, eliminating the need to re-enter banking details for each transaction.
 
@@ -33,19 +33,17 @@ Transfer Templates are an advanced feature within recipient management that allo
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > 'Recipient Management'._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+\| _Navigation: Dashboard > Move Money > 'Recipient Management'._ |&#x20;
+
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-_Step 1: Start from Dashboard_
-
 **Step 2 — Navigate to Move Money Hub**
 
-you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
+Click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
 <figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 2: Move Money Hub_
 
 **Step 3 — View Recipient List**
 
@@ -53,15 +51,11 @@ The Recipient Management page displays all saved recipients as cards in a grid l
 
 <figure><img src="../../.gitbook/assets/img_99e0eb4b18db.png" alt="" width="620"><figcaption></figcaption></figure>
 
-_Step 3: View Recipient List_
-
 **Step 4 — View Recipient Details & Linked Accounts**
 
 The Recipient Details page for Jane Smith is displayed. The Accounts section lists two linked external accounts with columns for Nickname, Payment method, and Financial Institution. Each account shows action buttons including 'Initiate Transfer' and a delete option. An 'Add Account' button and 'Remove recipient' link are available below.
 
 <figure><img src="../../.gitbook/assets/img_cb67ce7bddf8.png" alt="" width="620"><figcaption></figcaption></figure>
-
-_Step 4: View Recipient Details & Linked Accounts_
 
 **Step 5 — Add a New Recipient**
 
@@ -69,12 +63,8 @@ The Add Recipient form is displayed with a 'Recipient Details' section containin
 
 <figure><img src="../../.gitbook/assets/img_df2959b84f76.png" alt="" width="620"><figcaption></figcaption></figure>
 
-_Step 5: Add a New Recipient_
-
 **Step 6 — Add Account to Recipient**
 
 The Add Account modal is open with fields for Payment type (set to 'within CU'), Membership number, Account type (set to '1st savings account'), optional First name and Last name fields, and a Nickname field. Cancel and 'Save Account' buttons appear at the bottom.
 
 <figure><img src="../../.gitbook/assets/img_ce9e205f56ac.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 6: Add Account to Recipient_

@@ -4,11 +4,9 @@ description: External ACH Transfer
 
 # External ACH Transfer
 
-> **Module:** Banking › Move Money → External Accounts  |  **Reference:** CSUM-09
+> **Module:** Banking › Move Money → External Accounts |
 
-
-## Product Summary
-
+## Summary
 
 The External ACH Transfer feature allows You to send or pull funds between your credit union accounts and external bank accounts at other financial institutions via the ACH (Automated Clearing House) network. This is essential for You who maintain accounts at multiple banks, need to fund their CU account from an external source, or make payments to external obligations.
 
@@ -18,80 +16,77 @@ The ACH network processes transfers in 1–3 business days under standard ACH ru
 
 **At a Glance**
 
-| Attribute | Detail |
-| --- | --- |
-| Module | Move Money > Transfer to External Accounts |
-| Network | ACH — Automated Clearing House |
-| Transfer Speed | 1–3 business days (standard); Same-day ACH if available |
-| Verification | OTP required for first-use or high-value transfers |
-| Steps | 5 (From → To → Amount → Verify OTP → Confirm) |
-| Related Reports | CSUM-06 (Move Money), CSUM-11 (Recipient Management) |
-
+| Attribute       | Detail                                                  |
+| --------------- | ------------------------------------------------------- |
+| Module          | Move Money > Transfer to External Accounts              |
+| Network         | ACH — Automated Clearing House                          |
+| Transfer Speed  | 1–3 business days (standard); Same-day ACH if available |
+| Verification    | OTP required for first-use or high-value transfers      |
+| Steps           | 5 (From → To → Amount → Verify OTP → Confirm)           |
+| Related Reports | CSUM-06 (Move Money), CSUM-11 (Recipient Management)    |
 
 ## Key Use Cases
 
+| Use Case                | Who Uses It                         | What They Do                                                    | Business Value                                                            |
+| ----------------------- | ----------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Fund CU Account         | You topping up from external bank   | Select external account as From, CU account as To, submit       | Consolidates funds from multiple financial institutions                   |
+| Pay External Obligation | You paying from CU to external bank | Select CU account as From, external account as To               | Pays bills or obligations at other institutions without logging into them |
+| Large Transfer with OTP | You sending above-limit amounts     | Complete OTP verification step to authorise high-value transfer | Additional security layer protecting against fraudulent large transfers   |
+| ACH Collection          | Business or power you pulling funds | Initiate ACH pull from external account into CU                 | Automates regular funding from payroll or investment accounts             |
+|                         |                                     |                                                                 |                                                                           |
 
-
-| Use Case                     | Who Uses It                                                             | What They Do                                                    | Business Value                                                                                                                                                                                                    |
-| ---------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fund CU Account              | You topping up from external bank                                   | Select external account as From, CU account as To, submit       | Consolidates funds from multiple financial institutions                                                                                                                                                           |
-| Pay External Obligation      | You paying from CU to external bank                                 | Select CU account as From, external account as To               | Pays bills or obligations at other institutions without logging into them                                                                                                                                         |
-| Large Transfer with OTP      | You sending above-limit amounts                                     | Complete OTP verification step to authorise high-value transfer | Additional security layer protecting against fraudulent large transfers                                                                                                                                           |
-| ACH Collection               | Business or power you pulling funds                                   | Initiate ACH pull from external account into CU                 | Automates regular funding from payroll or investment accounts                                                                                                                                                     |
-| 
 ## Step-by-Step Guide
- | *Navigation: Dashboard > Move Money > 'Transfer to External Accounts'.* | **Step 1 — Start from Dashboard**                               | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
+\| _Navigation: Dashboard > Move Money > 'Transfer to External Accounts'._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
 
-<figure><img src="/.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-*Step 1: Start from Dashboard*
+_Step 1: Start from Dashboard_
 
 **Step 2 — Navigate to Move Money Hub**
 
 you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
-<figure><img src="/.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
 
-*Step 2: Move Money Hub*
+_Step 2: Move Money Hub_
 
 **Step 3 — Navigate from Dashboard to External Transfer**
 
 The Move Money hub is displayed as the landing page for initiating an external account transfer.
 
-<figure><img src="/.gitbook/assets/img_721f3b4eb101.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_721f3b4eb101.png" alt="" width="480"><figcaption></figcaption></figure>
 
-*Step 3: Navigate from Dashboard to External Transfer*
+_Step 3: Navigate from Dashboard to External Transfer_
 
 **Step 4 — Fill Transfer Details**
 
 Step 2 shows a simplified form with fields for entering the external account transfer details including the destination account information.
 
-<figure><img src="/.gitbook/assets/img_0fb04c63eb4a.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_0fb04c63eb4a.png" alt="" width="620"><figcaption></figcaption></figure>
 
-*Step 4: Fill Transfer Details*
+_Step 4: Fill Transfer Details_
 
 **Step 5 — Review Pre-Confirmation**
 
 The confirmation screen displays a $5.00 transfer from Retail Savings Account to an external Retail Savings Account, showing the description and scheduled transfer date.
 
-<figure><img src="/.gitbook/assets/img_d7a3f6fa32b6.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_d7a3f6fa32b6.png" alt="" width="480"><figcaption></figcaption></figure>
 
-*Step 5: Review Pre-Confirmation*
+_Step 5: Review Pre-Confirmation_
 
 **Step 6 — Select OTP Verification Method**
 
 A verification modal appears offering three authentication methods — 'Send me a message', 'Call me', or 'Send me an email' — to verify the external transfer before processing.
 
-<figure><img src="/.gitbook/assets/img_4406668196b9.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_4406668196b9.png" alt="" width="620"><figcaption></figcaption></figure>
 
-*Step 6: Select OTP Verification Method*
+_Step 6: Select OTP Verification Method_
 
 **Step 7 — Enter OTP & Submit**
 
 The verification page is displayed with a field to enter the verification code received via the selected authentication method to complete the external transfer.
 
-<figure><img src="/.gitbook/assets/img_a54afdf9f3c7.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_a54afdf9f3c7.png" alt="" width="620"><figcaption></figcaption></figure>
 
-*Step 7: Enter OTP & Submit*
-
+_Step 7: Enter OTP & Submit_

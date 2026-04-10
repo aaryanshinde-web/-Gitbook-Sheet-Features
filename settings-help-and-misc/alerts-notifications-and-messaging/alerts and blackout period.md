@@ -1,10 +1,10 @@
-# Alerts & Notifications — Feature Guide
+# Blackout Period
 
-**Summerville Credit Union | nFinia Digital Banking Platform** _Prepared by Jeeva Krishnamurthy, Senior Product Manager — Business Banking, Tyfone_
+**Summerville Credit Union | nFinia Digital Banking Platform**&#x20;
 
 ***
 
-## Product Summary
+## Summary
 
 The Alerts & Notifications feature in Summerville Credit Union's nFinia platform gives You real-time visibility into the activity on your accounts. You can subscribe to a range of alerts—from balance thresholds and deposit confirmations to security events like failed login attempts—and choose exactly how they receive them: push notification to a trusted device, SMS to a registered phone number, or email to a linked address. The system distinguishes between **Optional Alerts**, which You configure themselves, and **Mandatory Alerts**, which the platform automatically delivers regardless of individual preferences whenever security-critical events occur (e.g., password changes, account lockouts, new remembered device additions).
 
@@ -16,7 +16,7 @@ The Do-Not-Disturb (DND) sub-feature extends alert control further by letting Yo
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Feature Name**         | Alerts & Notifications                                                                                                                        |
 | **Module**               | More > Alerts (General Alerts, Account-Specific Alerts, Alert Settings, Do-Not-Disturb)                                                       |
-| **User Roles**           | Retail Member (all authenticated you)                                                                                                       |
+| **User Roles**           | Retail Member (all authenticated you)                                                                                                         |
 | **Access Level**         | Authenticated member; OTP verification required at login                                                                                      |
 | **Key Actions**          | Enable/disable alerts, configure alert channels, add account-specific alerts, set optional alert preferences, configure Do-Not-Disturb period |
 | **Regulatory Relevance** | BSA/AML-adjacent fraud detection; mandatory security alerts support NCUA examination expectations for member authentication safeguards        |
@@ -25,12 +25,12 @@ The Do-Not-Disturb (DND) sub-feature extends alert control further by letting Yo
 
 ## Use Cases
 
-| Use Case                                  | Who Uses It   | What They Do                                                                                                                                                                         | Business Value                                                                                                      |
-| ----------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| **Enable alert delivery channels**        | Retail Member | Navigates to Alert Settings tab, confirms or adjusts push, SMS, and email toggles to select preferred delivery channels                                                              | Ensures alerts reach you on your preferred channel; reduces missed notifications and support calls          |
+| Use Case                                  | Who Uses It   | What They Do                                                                                                                                                                         | Business Value                                                                                                  |
+| ----------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| **Enable alert delivery channels**        | Retail Member | Navigates to Alert Settings tab, confirms or adjusts push, SMS, and email toggles to select preferred delivery channels                                                              | Ensures alerts reach you on your preferred channel; reduces missed notifications and support calls              |
 | **Add an account-specific balance alert** | Retail Member | Selects Account-Specific Alerts tab, clicks "Add a new alert" under Balance Alerts, selects account, sets condition (e.g., Less than $1,000), saves                                  | Proactively warns You of low balances, reducing overdraft events and associated fees                            |
 | **Configure optional general alerts**     | Retail Member | On General Alerts tab, sets per-event preferences (Send all alerts / Send success alerts / Send failure alerts / Disable alerts) for events like Stop check request or Check reorder | Reduces noise for You who only care about outcomes, while keeping those who want full visibility fully informed |
-| **Set a Do-Not-Disturb quiet period**     | Retail Member | Navigates to Do-Not-Disturb tab, sets timezone, start time, and end time; confirms                                                                                                   | Prevents late-night alert fatigue; improves member satisfaction and alert engagement rates during active hours      |
+| **Set a Do-Not-Disturb quiet period**     | Retail Member | Navigates to Do-Not-Disturb tab, sets timezone, start time, and end time; confirms                                                                                                   | Prevents late-night alert fatigue; improves member satisfaction and alert engagement rates during active hours  |
 | **Edit an existing DND period**           | Retail Member | On Do-Not-Disturb tab, clicks Edit next to the active period, adjusts times, saves                                                                                                   | Gives You ongoing control without requiring them to remove and recreate preferences                             |
 | **Remove a DND period**                   | Retail Member | On Do-Not-Disturb tab, clicks Remove; system confirms removal and restores full-hour alert delivery                                                                                  | Allows You to re-enable all-hours alerting when their schedule changes (e.g., new work shift)                   |
 
@@ -54,7 +54,7 @@ Account-specific and general alerts together give Summerville CU You a layered n
 
 you navigate to the Summerville CU Online Banking portal and enters your User ID and password, then clicks **Log in**.
 
-<figure><img src="/.gitbook/assets/Screenshot_1_1.png" alt="Screenshot 1" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_1_1.png" alt="Screenshot 1" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -62,7 +62,7 @@ you navigate to the Summerville CU Online Banking portal and enters your User ID
 
 The system prompts for a One-Time Passcode. you select how to receive it: Send me a message, Call me, or Send me an email.
 
-<figure><img src="/.gitbook/assets/Screenshot_2_2.png" alt="Screenshot 2" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_2_2.png" alt="Screenshot 2" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -70,7 +70,7 @@ The system prompts for a One-Time Passcode. you select how to receive it: Send m
 
 After choosing "Send me a message," you select the registered phone number to receive the OTP.
 
-<figure><img src="/.gitbook/assets/Screenshot_3_3.png" alt="Screenshot 3" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_3_3.png" alt="Screenshot 3" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -78,7 +78,7 @@ After choosing "Send me a message," you select the registered phone number to re
 
 enter the 6-digit code sent to your selected contact. The **Remember Device/Browser** option is available to skip OTP on future logins from this device.
 
-<figure><img src="/.gitbook/assets/Screenshot_4_4.png" alt="Screenshot 4" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_4_4.png" alt="Screenshot 4" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -86,7 +86,7 @@ enter the 6-digit code sent to your selected contact. The **Remember Device/Brow
 
 After successful authentication, you land on the main Dashboard showing account balances and the Quick Transfer panel.
 
-<figure><img src="/.gitbook/assets/Screenshot_5_5.png" alt="Screenshot 5" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_5_5.png" alt="Screenshot 5" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -94,7 +94,7 @@ After successful authentication, you land on the main Dashboard showing account 
 
 you click **More** in the navigation bar. A panel expands showing Alerts options: Account Alerts, General Alerts, Do-Not-Disturb, and Alert Settings. you click **Alert Settings**.
 
-<figure><img src="/.gitbook/assets/Screenshot_6_6.png" alt="Screenshot 6" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_6_6.png" alt="Screenshot 6" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -107,7 +107,7 @@ The **Alert Settings** tab loads. you can:
 
 The screen displays the registered phone number and email address that alerts will be sent to.
 
-<figure><img src="/.gitbook/assets/Screenshot_7_7.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_7.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -124,7 +124,7 @@ The tab displays four alert categories, each with an "Add a new alert" link:
 * Deposit alerts
 * Withdrawal alerts
 
-<figure><img src="/.gitbook/assets/Screenshot_7_8.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_8.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -133,9 +133,9 @@ The tab displays four alert categories, each with an "Add a new alert" link:
 you click **+ Add a new alert** under Balance Alerts. A modal titled **"Add new 'Available balance alert'"** appears. you:
 
 1. Selects the account from the dropdown (e.g., Retail Checking Account #0001)
-2. Sets the condition: "Alert me if my available balance is [Less than] [$1,000]"
+2. Sets the condition: "Alert me if my available balance is \[Less than] \[$1,000]"
 
-<figure><img src="/.gitbook/assets/Screenshot_8_9.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_9.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -143,7 +143,7 @@ you click **+ Add a new alert** under Balance Alerts. A modal titled **"Add new 
 
 After clicking **Save**, the modal closes and the Account-Specific Alerts tab refreshes. A green success banner reads "Available balance alert successfully added." The new alert appears listed under Balance Alerts (1) with the account name, condition, and **Edit** / **Remove** actions.
 
-<figure><img src="/.gitbook/assets/Screenshot_9_10.png" alt="Screenshot 9" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_9_10.png" alt="Screenshot 9" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -158,7 +158,7 @@ The tab is divided into two sections:
 * **Optional Alerts**: Events you can configure (e.g., Stop check request, Check reorder). Each row has a dropdown with four options: Send all alerts / Send success alerts / Send failure alerts / Disable alerts.
 * **Mandatory Alerts**: Events that always trigger regardless of preferences (failed login attempt, password change, account lock, contact info update, new device remembered, A2A transfer micro-deposit).
 
-<figure><img src="/.gitbook/assets/Screenshot_7_11.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_11.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -166,7 +166,7 @@ The tab is divided into two sections:
 
 you click the dropdown on an optional alert row and selects the desired delivery option. The system saves the selection and displays a green success banner: "Alert has been updated successfully."
 
-<figure><img src="/.gitbook/assets/Screenshot_8_12.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_12.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -178,7 +178,7 @@ Steps 1–6 are identical. At Step 6, you click **Do-Not-Disturb**.
 
 The Do-Not-Disturb screen loads. A message states "You have not set a Do-Not-Disturb period." A **Set Do-Not-Disturb period** button is prominently displayed. A disclaimer in red text clarifies that mandatory alerts bypass DND and will always be delivered.
 
-<figure><img src="/.gitbook/assets/Screenshot_7_13.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_13.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -190,9 +190,9 @@ After clicking **Set Do-Not-Disturb period**, a form appears inline with three f
 * **Start time** (time picker, e.g., 10:00 PM)
 * **End time** (time picker, e.g., 7:00 AM)
 
-A preview message in red reads: "You will not receive alerts between [Start time] & [End time] the next day." you click **Set Do-Not-Disturb**.
+A preview message in red reads: "You will not receive alerts between \[Start time] & \[End time] the next day." you click **Set Do-Not-Disturb**.
 
-<figure><img src="/.gitbook/assets/Screenshot_8_14.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_14.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -200,7 +200,7 @@ A preview message in red reads: "You will not receive alerts between [Start time
 
 A green banner reads "Your Do-Not-Disturb period has been set." The page reflects the active DND window and shows a "Processing…" indicator as the system saves the preference.
 
-<figure><img src="/.gitbook/assets/Screenshot_9_15.png" alt="Screenshot 9" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_9_15.png" alt="Screenshot 9" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -212,7 +212,7 @@ After a DND period is active, the Do-Not-Disturb tab displays the current period
 
 The current DND window is shown (e.g., "10:00 PM PST to 07:00 AM PST") with Edit and Remove links. The red disclaimer about mandatory alerts remains visible.
 
-<figure><img src="/.gitbook/assets/Screenshot_7_16.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_16.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -220,7 +220,7 @@ The current DND window is shown (e.g., "10:00 PM PST to 07:00 AM PST") with Edit
 
 Clicking **Edit** expands the form with the current values pre-populated. you adjusts Timezone, Start time, or End time and clicks **Set Do-Not-Disturb** to save.
 
-<figure><img src="/.gitbook/assets/Screenshot_8_17.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_17.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -228,7 +228,7 @@ Clicking **Edit** expands the form with the current values pre-populated. you ad
 
 A green banner confirms "Your Do-Not-Disturb period has been set." The updated values are reflected immediately.
 
-<figure><img src="/.gitbook/assets/Screenshot_9_18.png" alt="Screenshot 9" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_9_18.png" alt="Screenshot 9" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -238,7 +238,7 @@ A green banner confirms "Your Do-Not-Disturb period has been set." The updated v
 
 On the Do-Not-Disturb tab, you click **Remove** next to the active period.
 
-<figure><img src="/.gitbook/assets/Screenshot_7_19.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_19.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -246,7 +246,7 @@ On the Do-Not-Disturb tab, you click **Remove** next to the active period.
 
 The system processes the request and displays a green banner: "Do-Not-Disturb-Period has been removed successfully." The page returns to the "no period set" state, restoring full-hour alert delivery.
 
-<figure><img src="/.gitbook/assets/Screenshot_8_20.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_20.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 ***
 
@@ -255,7 +255,7 @@ The system processes the request and displays a green banner: "Do-Not-Disturb-Pe
 * **Enable alerts toggle OFF**: All optional and mandatory alert delivery is suspended. Disabling does not delete configured alert rules—they resume when toggled back on.
 * **DND period active + mandatory alert triggered**: System bypasses DND and delivers the mandatory alert immediately on all active channels.
 * **No registered phone**: The SMS channel option will not be available; member must add a contact number via Personal Information before enabling SMS alerts.
-* **OTP not received**: you can click "Retry in [N] seconds" or select "Select another method" to switch OTP delivery channel.
+* **OTP not received**: you can click "Retry in \[N] seconds" or select "Select another method" to switch OTP delivery channel.
 
 ### Error Handling
 
@@ -271,15 +271,15 @@ The system processes the request and displays a green banner: "Do-Not-Disturb-Pe
 
 The entry point for all Summerville CU Online Banking sessions. You authenticate with User ID and password before reaching any alert configuration screens.
 
-<figure><img src="/.gitbook/assets/Screenshot_1_21.png" alt="Screenshot 1" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_1_21.png" alt="Screenshot 1" width="620"><figcaption></figcaption></figure>
 
 | Field / Element        | Type               | Description                        | Notes                                            |
 | ---------------------- | ------------------ | ---------------------------------- | ------------------------------------------------ |
-| User ID                | Text input         | your enrolled username         | Pre-filled if "Save User ID" was used previously |
-| Password               | Password input     | your account password          | Masked by default; eye icon to reveal            |
+| User ID                | Text input         | your enrolled username             | Pre-filled if "Save User ID" was used previously |
+| Password               | Password input     | your account password              | Masked by default; eye icon to reveal            |
 | I need help logging in | Link               | Navigates to account recovery flow | For forgotten User ID or password                |
 | Log in                 | Button             | Submits credentials                | Disabled until both fields are populated         |
-| Enroll                 | Button (top right) | Opens new member enrollment        | For prospective You only                     |
+| Enroll                 | Button (top right) | Opens new member enrollment        | For prospective You only                         |
 
 ***
 
@@ -287,7 +287,7 @@ The entry point for all Summerville CU Online Banking sessions. You authenticate
 
 Displayed after successful credential entry. Enforces step-up authentication before any account access.
 
-<figure><img src="/.gitbook/assets/Screenshot_2_22.png" alt="Screenshot 2" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_2_22.png" alt="Screenshot 2" width="620"><figcaption></figcaption></figure>
 
 | Field / Element   | Type              | Description                 | Notes                                |
 | ----------------- | ----------------- | --------------------------- | ------------------------------------ |
@@ -301,19 +301,19 @@ Displayed after successful credential entry. Enforces step-up authentication bef
 
 Shown after selecting "Send me a message." Displays masked registered phone numbers for you to choose from.
 
-<figure><img src="/.gitbook/assets/Screenshot_3_23.png" alt="Screenshot 3" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_3_23.png" alt="Screenshot 3" width="620"><figcaption></figcaption></figure>
 
-| Field / Element                   | Type            | Description                          | Notes                                               |
-| --------------------------------- | --------------- | ------------------------------------ | --------------------------------------------------- |
-| Select another method             | Link            | Returns to method selection screen   | Allows switching delivery method                    |
-| Contact number rows               | Selectable list | Masked phone numbers on record       | Member taps the desired number                      |
+| Field / Element                   | Type            | Description                          | Notes                                          |
+| --------------------------------- | --------------- | ------------------------------------ | ---------------------------------------------- |
+| Select another method             | Link            | Returns to method selection screen   | Allows switching delivery method               |
+| Contact number rows               | Selectable list | Masked phone numbers on record       | Member taps the desired number                 |
 | "Don't see your updated contact?" | Informational   | Link to retrieve latest contact info | Supports You who recently updated your profile |
 
 ***
 
 ### OTP Verification — Enter Code
 
-<figure><img src="/.gitbook/assets/Screenshot_4_24.png" alt="Screenshot 4" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_4_24.png" alt="Screenshot 4" width="620"><figcaption></figcaption></figure>
 
 | Field / Element                        | Type             | Description                          | Notes                                       |
 | -------------------------------------- | ---------------- | ------------------------------------ | ------------------------------------------- |
@@ -328,7 +328,7 @@ Shown after selecting "Send me a message." Displays masked registered phone numb
 
 Post-login landing screen. Starting point for navigation to all alert management features.
 
-<figure><img src="/.gitbook/assets/Screenshot_5_25.png" alt="Screenshot 5" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_5_25.png" alt="Screenshot 5" width="620"><figcaption></figcaption></figure>
 
 | Field / Element | Type          | Description                                        | Notes                          |
 | --------------- | ------------- | -------------------------------------------------- | ------------------------------ |
@@ -344,7 +344,7 @@ Post-login landing screen. Starting point for navigation to all alert management
 
 Expanded view of the More navigation menu. The Alerts section surfaces four alert-related destinations.
 
-<figure><img src="/.gitbook/assets/Screenshot_6_26.png" alt="Screenshot 6" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_6_26.png" alt="Screenshot 6" width="620"><figcaption></figcaption></figure>
 
 | Field / Element | Type      | Description                              | Notes                                         |
 | --------------- | --------- | ---------------------------------------- | --------------------------------------------- |
@@ -359,7 +359,7 @@ Expanded view of the More navigation menu. The Alerts section surfaces four aler
 
 Controls master alert delivery and individual channel preferences.
 
-<figure><img src="/.gitbook/assets/Screenshot_7_27.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_27.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 | Field / Element             | Type         | Description                                          | Notes                                         |
 | --------------------------- | ------------ | ---------------------------------------------------- | --------------------------------------------- |
@@ -379,7 +379,7 @@ Controls master alert delivery and individual channel preferences.
 
 Allows You to configure threshold-based alerts tied to specific accounts.
 
-<figure><img src="/.gitbook/assets/Screenshot_7_28.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_28.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 | Field / Element             | Type           | Description                             | Notes                  |
 | --------------------------- | -------------- | --------------------------------------- | ---------------------- |
@@ -395,7 +395,7 @@ Allows You to configure threshold-based alerts tied to specific accounts.
 
 Modal dialog for creating a threshold alert on a specific account.
 
-<figure><img src="/.gitbook/assets/Screenshot_8_29.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_29.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 | Field / Element    | Type           | Description                          | Notes                                    |
 | ------------------ | -------------- | ------------------------------------ | ---------------------------------------- |
@@ -409,7 +409,7 @@ Modal dialog for creating a threshold alert on a specific account.
 
 ### Account-Specific Alerts — Post-Save Confirmation
 
-<figure><img src="/.gitbook/assets/Screenshot_9_30.png" alt="Screenshot 9" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_9_30.png" alt="Screenshot 9" width="620"><figcaption></figcaption></figure>
 
 | Field / Element | Type                | Description                                   | Notes                                     |
 | --------------- | ------------------- | --------------------------------------------- | ----------------------------------------- |
@@ -422,7 +422,7 @@ Modal dialog for creating a threshold alert on a specific account.
 
 ### General Alerts Tab — Optional & Mandatory
 
-<figure><img src="/.gitbook/assets/Screenshot_7_31.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_31.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 | Field / Element          | Type           | Description                           | Notes                                                     |
 | ------------------------ | -------------- | ------------------------------------- | --------------------------------------------------------- |
@@ -436,7 +436,7 @@ Modal dialog for creating a threshold alert on a specific account.
 
 ### General Alerts — Post-Update Confirmation
 
-<figure><img src="/.gitbook/assets/Screenshot_8_32.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_32.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 | Field / Element   | Type                | Description                                        | Notes                                     |
 | ----------------- | ------------------- | -------------------------------------------------- | ----------------------------------------- |
@@ -447,7 +447,7 @@ Modal dialog for creating a threshold alert on a specific account.
 
 ### Do-Not-Disturb — No Period Set
 
-<figure><img src="/.gitbook/assets/Screenshot_7_33.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_33.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 | Field / Element            | Type               | Description                                 | Notes                                |
 | -------------------------- | ------------------ | ------------------------------------------- | ------------------------------------ |
@@ -459,14 +459,14 @@ Modal dialog for creating a threshold alert on a specific account.
 
 ### Do-Not-Disturb — Set Period Form
 
-<figure><img src="/.gitbook/assets/Screenshot_8_34.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_34.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 | Field / Element    | Type            | Description                                                          | Notes                                      |
 | ------------------ | --------------- | -------------------------------------------------------------------- | ------------------------------------------ |
-| Timezone           | Dropdown        | your local timezone (e.g., PST)                                  | Required; affects alert suppression window |
+| Timezone           | Dropdown        | your local timezone (e.g., PST)                                      | Required; affects alert suppression window |
 | Start time         | Time picker     | Beginning of quiet period (e.g., 10:00 PM)                           | Required                                   |
 | End time           | Time picker     | End of quiet period (e.g., 7:00 AM)                                  | Required; can cross midnight               |
-| Preview message    | Red inline text | "You will not receive alerts between [start] & [end] the next day" | Dynamically updates as times change        |
+| Preview message    | Red inline text | "You will not receive alerts between \[start] & \[end] the next day" | Dynamically updates as times change        |
 | Cancel             | Button          | Dismisses form without saving                                        |                                            |
 | Set Do-Not-Disturb | Button          | Saves DND period                                                     | Triggers success banner                    |
 
@@ -474,7 +474,7 @@ Modal dialog for creating a threshold alert on a specific account.
 
 ### Do-Not-Disturb — Period Active (Edit / Remove)
 
-<figure><img src="/.gitbook/assets/Screenshot_7_35.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_7_35.png" alt="Screenshot 7" width="620"><figcaption></figcaption></figure>
 
 | Field / Element       | Type        | Description                                                 | Notes                        |
 | --------------------- | ----------- | ----------------------------------------------------------- | ---------------------------- |
@@ -486,7 +486,7 @@ Modal dialog for creating a threshold alert on a specific account.
 
 ### Do-Not-Disturb — Period Removed Confirmation
 
-<figure><img src="/.gitbook/assets/Screenshot_8_36.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_8_36.png" alt="Screenshot 8" width="620"><figcaption></figcaption></figure>
 
 | Field / Element | Type                | Description                                            | Notes                            |
 | --------------- | ------------------- | ------------------------------------------------------ | -------------------------------- |
@@ -503,8 +503,8 @@ Modal dialog for creating a threshold alert on a specific account.
 | Change delivery channel (Push / SMS / Email) | More > Alert Settings > Alert Settings tab                                             | Any authenticated member | Registered contact required for SMS and Email             |
 | Add a balance alert                          | More > Alert Settings > Account-Specific Alerts tab > Balance Alerts > Add a new alert | Any authenticated member | Select account and set threshold amount                   |
 | Add a deposit or withdrawal alert            | More > Alert Settings > Account-Specific Alerts tab > Deposit/Withdrawal alerts        | Any authenticated member | Same modal flow as balance alert                          |
-| Edit or remove an account alert              | More > Alert Settings > Account-Specific Alerts tab > [Alert row] > Edit / Remove     | Any authenticated member | Edit opens same modal; Remove is immediate                |
-| Set optional general alert preference        | More > Alert Settings > General Alerts tab > [Event row] dropdown                     | Any authenticated member | Options: Send all / Send success / Send failure / Disable |
+| Edit or remove an account alert              | More > Alert Settings > Account-Specific Alerts tab > \[Alert row] > Edit / Remove     | Any authenticated member | Edit opens same modal; Remove is immediate                |
+| Set optional general alert preference        | More > Alert Settings > General Alerts tab > \[Event row] dropdown                     | Any authenticated member | Options: Send all / Send success / Send failure / Disable |
 | Set Do-Not-Disturb period                    | More > Alert Settings > Do-Not-Disturb tab > Set Do-Not-Disturb period                 | Any authenticated member | Mandatory alerts always bypass DND                        |
 | Edit Do-Not-Disturb period                   | More > Alert Settings > Do-Not-Disturb tab > Edit                                      | Any authenticated member | Pre-fills current values                                  |
 | Remove Do-Not-Disturb period                 | More > Alert Settings > Do-Not-Disturb tab > Remove                                    | Any authenticated member | Restores full-hour alert delivery immediately             |

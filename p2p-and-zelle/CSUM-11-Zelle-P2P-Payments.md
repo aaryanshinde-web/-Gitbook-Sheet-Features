@@ -2,7 +2,7 @@
 
 > **Module:** Banking › Move Money → Zelle
 
-## Product Summary
+## Summary
 
 Zelle® is a real-time person-to-person (P2P) payment network integrated natively into the nFinia Move Money suite. It enables SummerVille Credit Union You to send and receive money directly with friends, family, and other trusted individuals — regardless of where those recipients bank — in a matter of minutes, using only the recipient's U.S. mobile phone number or email address.
 
@@ -33,11 +33,11 @@ Because Zelle® payments to enrolled recipients are processed instantly and are 
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > 'Zelle'._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+\| _Navigation: Dashboard > Move Money > 'Zelle'._ |&#x20;
+
+**Step 1 — Start from Dashboard**  The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
 
 <figure><img src="../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 1: Start from Dashboard_
 
 **Step 2 — Navigate to Move Money Hub**
 
@@ -45,15 +45,11 @@ you click ‘Move Money' in the top navigation bar. The Move Money Hub displays 
 
 <figure><img src="../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
 
-_Step 2: Move Money Hub_
-
 **Step 3 — Navigate from Dashboard to Zelle**
 
 The Move Money hub is shown with payment options including Pay Bills, Quick Pay, Zelle Payment, and various transfer services available as tiles.
 
 <figure><img src="../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 3: Navigate from Dashboard to Zelle_
 
 **Step 4 — Send a Zelle Payment**
 
@@ -61,12 +57,8 @@ The Zelle Payment form page is displayed from a legacy banking interface with fo
 
 <figure><img src="../.gitbook/assets/Zelle_P2P_img4.png" alt="" width="480"><figcaption></figcaption></figure>
 
-_Step 4: Send a Zelle Payment_
-
 **Step 5 — Verify Zelle Payment**
 
 The Zelle verification screen prompts you to enter a 6-digit verification code sent via SMS to verify and complete the Zelle transaction.
 
 <figure><img src="../.gitbook/assets/img_3b24cb4ab0a1.png" alt="" width="620"><figcaption></figcaption></figure>
-
-_Step 5: Verify Zelle Payment_

@@ -63,7 +63,7 @@
 
 * [Alerts & Notifications](more-menu/alerts-and-notifications/README.md)
   * [Alerts & Notifications](settings-help-and-misc/alerts-notifications-and-messaging/CSUM-16-Alerts-Notifications.md)
-  * [Push Notifications & Blackout Period](<settings-help-and-misc/alerts-notifications-and-messaging/alerts and blackout period.md>)
+  * [Blackout Period](<settings-help-and-misc/alerts-notifications-and-messaging/alerts and blackout period.md>)
 * [Personal Information](more-menu/personal-information/README.md)
   * [Personal Information Management](settings-help-and-misc/personal-information-and-contact/CSUM-19-Personal-Information-Management.md)
 * [Settings & Preferences](more-menu/settings-and-preferences/README.md)

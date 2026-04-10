@@ -4,9 +4,9 @@ description: Transfer to Other Credit Union You
 
 # Transfer to Other Members
 
-> **Module:** Banking › Move Money → Other You
+> **Module:** Banking › Move Money&#x20;
 
-## Product Summary
+## Summary
 
 The Transfer to Other You feature allows authenticated You to send funds directly to another your account at the same credit union. This peer transfer is ideal for splitting expenses, paying back family You, or making informal payments within the credit union network. The workflow mirrors the own-account transfer but requires selecting a saved recipient or entering the destination your account number.
 

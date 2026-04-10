@@ -1,29 +1,14 @@
-**Diamond CU FCU**  
-Mobile Check Deposit (RDC) Feature Guide
+# Mobile Check Deposit — RDC
 
-Platform: nFinia Mobile Banking | Prepared by: Jeeva PM | April 2026
+Platform: nFinia Mobile Banking&#x20;
 
-**1. PRODUCT SUMMARY**
+**SUMMARY**
 
-Mobile Check Deposit — also known as Remote Deposit Capture (RDC) — on
-nFinia enables Diamond CU FCU business You to deposit checks
-directly from your mobile device, eliminating the need for a branch
-visit. You use your device camera to photograph the front and back
-of a check through a guided capture interface with green
-corner-alignment overlays that ensure image quality.
+Mobile Check Deposit — also known as Remote Deposit Capture (RDC) — on nFinia enables Summerville CU  to deposit checks directly from your mobile device, eliminating the need for a branch visit. You use your device camera to photograph the front and back of a check through a guided capture interface with green corner-alignment overlays that ensure image quality.
 
-The deposit flow walks You through each step: selecting the target
-account, entering the check amount, capturing check images using guided
-tips, reviewing thumbnails, and submitting. The system validates the
-amount against configured deposit limits and checks image quality before
-processing.
+The deposit flow walks You through each step: selecting the target account, entering the check amount, capturing check images using guided tips, reviewing thumbnails, and submitting. The system validates the amount against configured deposit limits and checks image quality before processing.
 
-For Diamond CU FCU, Mobile Check Deposit reduces teller traffic,
-extends deposit availability beyond branch hours, and provides business
-You — especially those with limited time to visit in person — with a
-fully digital deposit channel. All deposits create an auditable record
-in Check Deposit History, supporting Reg CC compliance and BSA/AML
-monitoring.
+For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposit availability beyond branch hours, and provides business You — especially those with limited time to visit in person — with a fully digital deposit channel. All deposits create an auditable record in Check Deposit History, supporting Reg CC compliance and BSA/AML monitoring.
 
 **At-a-Glance**
 
@@ -31,7 +16,7 @@ monitoring.
 | -------------------- | ---------------------------------------------------------------------- |
 | **Attribute**        | **Detail**                                                             |
 | Feature Name         | Mobile Check Deposit (Remote Deposit Capture / RDC)                    |
-| Module               | Accounts > Deposit                                                    |
+| Module               | Accounts > Deposit                                                     |
 | User Roles           | Enrolled Member, Business Account Holder                               |
 | Access Level         | Requires RDC enrollment and account eligibility                        |
 | Key Actions          | Select account, enter amount, capture front/back check images, submit  |
@@ -54,8 +39,7 @@ monitoring.
 
 • RDC enrollment active for you account
 
-• Account eligible for mobile check deposit (configured by Diamond CU
-FCU)
+• Account eligible for mobile check deposit (configured by Summerville CU )
 
 • nFinia mobile app installed with camera permission granted
 
@@ -87,34 +71,31 @@ FCU)
 
 **3.4 Completion**
 
-Upon successful submission, a confirmation screen is displayed. The
-transaction is recorded in Check Deposit History with status
-"Submitted," timestamp, amount, and channel (Mobile). An audit log entry
-is created with deposit event details for BSA/AML and Reg CC compliance.
+Upon successful submission, a confirmation screen is displayed. The transaction is recorded in Check Deposit History with status "Submitted," timestamp, amount, and channel (Mobile). An audit log entry is created with deposit event details for BSA/AML and Reg CC compliance.
 
 **4. FEATURE OVERVIEW — UI WALKTHROUGH**
 
 **Screen 1: Deposit Form — Initial State**
 
-<figure><img src="/.gitbook/assets/64afc208a3772843837d1c9c315c68a6ed676afc.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/64afc208a3772843837d1c9c315c68a6ed676afc.png" alt="" width="340"><figcaption></figcaption></figure>
 
-*Figure 1: Deposit form with account selector and camera buttons*
+_Figure 1: Deposit form with account selector and camera buttons_
 
-|                             |                       |                                                            |
-| --------------------------- | --------------------- | ---------------------------------------------------------- |
-| **Field / Element**         | **Type**              | **Description**                                            |
-| To Account                  | Dropdown              | Selects the target deposit account (e.g. Student Checking) |
-| Check Amount                | Numeric input         | Dollar amount of check being deposited; required           |
-| Email                       | Text input (optional) | Email address for deposit confirmation notification        |
-| Front Check [camera icon] | Button                | Opens camera or Photo Tips modal for front image capture   |
-| Back Check [camera icon]  | Button                | Opens camera for endorsed back image capture               |
-| Bottom Nav                  | Navigation bar        | Accounts | Deposit | Transfer | Bill Pay                   |
+|                            |                       |                                                            |
+| -------------------------- | --------------------- | ---------------------------------------------------------- |
+| **Field / Element**        | **Type**              | **Description**                                            |
+| To Account                 | Dropdown              | Selects the target deposit account (e.g. Student Checking) |
+| Check Amount               | Numeric input         | Dollar amount of check being deposited; required           |
+| Email                      | Text input (optional) | Email address for deposit confirmation notification        |
+| Front Check \[camera icon] | Button                | Opens camera or Photo Tips modal for front image capture   |
+| Back Check \[camera icon]  | Button                | Opens camera for endorsed back image capture               |
+| Bottom Nav                 | Navigation bar        | Accounts                                                   |
 
 **Screen 2: Photo Tips Modal**
 
-<figure><img src="/.gitbook/assets/e03a6bc5d4860110e2dbe8ed156d240f649b3f6c.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/e03a6bc5d4860110e2dbe8ed156d240f649b3f6c.png" alt="" width="340"><figcaption></figcaption></figure>
 
-*Figure 2: Photo Tips guidance before camera opens*
+_Figure 2: Photo Tips guidance before camera opens_
 
 |                     |              |                                                                      |
 | ------------------- | ------------ | -------------------------------------------------------------------- |
@@ -124,10 +105,9 @@ is created with deposit event details for BSA/AML and Reg CC compliance.
 
 **Screen 3: Deposit Form — Account & Amount Selected**
 
-<figure><img src="/.gitbook/assets/e0f8dd163bc5a4b2d9aa373fa9c7e8ea55809399.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/e0f8dd163bc5a4b2d9aa373fa9c7e8ea55809399.png" alt="" width="340"><figcaption></figcaption></figure>
 
-*Figure 3: Account selected (Student Checking) and amount $2,700
-entered*
+_Figure 3: Account selected (Student Checking) and amount $2,700 entered_
 
 |                         |                   |                                                           |
 | ----------------------- | ----------------- | --------------------------------------------------------- |
@@ -138,10 +118,9 @@ entered*
 
 **Screen 4: Front Check Camera (Landscape)**
 
-<figure><img src="/.gitbook/assets/c5080b3fd480e9b55e0c6ebe434616bdede0a906.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/c5080b3fd480e9b55e0c6ebe434616bdede0a906.png" alt="" width="620"><figcaption></figcaption></figure>
 
-*Figure 4: Camera viewfinder with green corner alignment guides for
-front of check*
+_Figure 4: Camera viewfinder with green corner alignment guides for front of check_
 
 |                     |             |                                                                  |
 | ------------------- | ----------- | ---------------------------------------------------------------- |
@@ -152,9 +131,9 @@ front of check*
 
 **Screen 5: Back Check Camera (Landscape)**
 
-<figure><img src="/.gitbook/assets/459e49c05b3731e5b9c010ad9cf2257fb35ee201.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/459e49c05b3731e5b9c010ad9cf2257fb35ee201.png" alt="" width="620"><figcaption></figcaption></figure>
 
-*Figure 5: Camera view for capturing endorsed back of check*
+_Figure 5: Camera view for capturing endorsed back of check_
 
 |                         |             |                                             |
 | ----------------------- | ----------- | ------------------------------------------- |
@@ -165,10 +144,9 @@ front of check*
 
 **Screen 6: Review & Submit**
 
-<figure><img src="/.gitbook/assets/acfa3869fc989a7fff84017541cf0f041e4823dc.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/acfa3869fc989a7fff84017541cf0f041e4823dc.png" alt="" width="340"><figcaption></figcaption></figure>
 
-*Figure 6: Review screen with front and back thumbnails before
-submission*
+_Figure 6: Review screen with front and back thumbnails before submission_
 
 |                     |                  |                                                       |
 | ------------------- | ---------------- | ----------------------------------------------------- |
@@ -180,9 +158,9 @@ submission*
 
 **Screen 7: Front Check Retake View**
 
-<figure><img src="/.gitbook/assets/21700c244149842d703e2ff4fbc2e99a5e71de76.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21700c244149842d703e2ff4fbc2e99a5e71de76.png" alt="" width="340"><figcaption></figcaption></figure>
 
-*Figure 7: Front image review with retake option available*
+_Figure 7: Front image review with retake option available_
 
 |                     |           |                                                        |
 | ------------------- | --------- | ------------------------------------------------------ |
@@ -193,10 +171,9 @@ submission*
 
 **Screen 8: Back Check Retake View**
 
-<figure><img src="/.gitbook/assets/deb630aa4b4b10a13730ed0850b566322c6c5e20.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/deb630aa4b4b10a13730ed0850b566322c6c5e20.png" alt="" width="340"><figcaption></figcaption></figure>
 
-*Figure 8: Back image review with retake option — shows endorsement
-area*
+_Figure 8: Back image review with retake option — shows endorsement area_
 
 |                     |           |                                                       |
 | ------------------- | --------- | ----------------------------------------------------- |
@@ -207,11 +184,11 @@ area*
 
 **5. QUICK REFERENCE**
 
-|                           |                                                 |                              |                                                 |
-| ------------------------- | ----------------------------------------------- | ---------------------------- | ----------------------------------------------- |
-| **Task**                  | **Navigation Path**                             | **Who Can Do It**            | **Notes**                                       |
-| Deposit a check           | App > Deposit tab > Fill form > Submit       | Enrolled member (RDC active) | Camera permission required                      |
+|                           |                                               |                              |                                                 |
+| ------------------------- | --------------------------------------------- | ---------------------------- | ----------------------------------------------- |
+| **Task**                  | **Navigation Path**                           | **Who Can Do It**            | **Notes**                                       |
+| Deposit a check           | App > Deposit tab > Fill form > Submit        | Enrolled member (RDC active) | Camera permission required                      |
 | View deposit history      | App > Deposit > History tab                   | Member                       | Shows all channels: Mobile, Online, Branch, ATM |
 | Retake check image        | Deposit flow > Review screen > Retake Picture | Member                       | Available before submission only                |
-| Check deposit limit       | Deposit form — displayed automatically          | Member                       | Configured per account type by Diamond CU FCU  |
-| View deposit confirmation | Success screen after submit                     | Member                       | Shows receipt number, amount, status            |
+| Check deposit limit       | Deposit form — displayed automatically        | Member                       | Configured per account type by Summerville CU   |
+| View deposit confirmation | Success screen after submit                   | Member                       | Shows receipt number, amount, status            |

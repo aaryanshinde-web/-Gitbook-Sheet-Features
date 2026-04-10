@@ -6,7 +6,7 @@ description: Wire Transfers — Domestic & International
 
 > **Module:** Banking › Move Money → Wire Transfer
 
-## Product Summary
+## Summary
 
 Summerville Credit Union offers both Domestic and International Outgoing Wire Transfers through the nFinia digital banking platform. Wire transfers are the preferred instrument for time-critical, high-value payments that require same-day or guaranteed settlement — real estate closings, escrow deposits, large business disbursements, and international supplier payments.
 
@@ -37,19 +37,17 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > Online Forms > Wire Transfer Form._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+\| _Navigation: Dashboard > Move Money > Online Forms > Wire Transfer Form._ |&#x20;
+
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-_Step 1: Start from Dashboard_
+**Step 2 — Navigate to Forms**
 
-**Step 2 — Navigate to Move Money Hub**
+The Forms list page is displayed showing all available form types. you can review the submitted wire transfer status or access other form types such as ACH Origination, Address Change, Card Order, and more from this screen.
 
-you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
-
-<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 2: Move Money Hub_
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Open the Wire Transfer Form**
 
@@ -57,12 +55,6 @@ The Domestic Outgoing Wire Transfer Request form is displayed within the Online 
 
 <figure><img src="../../.gitbook/assets/img_c21ec81c1fad.png" alt="" width="340"><figcaption></figcaption></figure>
 
-_Step 3: Open the Wire Transfer Form_
-
 **Step 4 — Review & Submit**
 
 The Forms list page is displayed showing all available form types. you can review the submitted wire transfer status or access other form types such as ACH Origination, Address Change, Card Order, and more from this screen.
-
-<figure><img src="../../.gitbook/assets/img_450340c5a085.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 4: Review & Submit_
