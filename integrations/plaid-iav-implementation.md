@@ -197,35 +197,46 @@ A new secure window opens displaying the external institution's login form, serv
 
 ---
 
-### Screen 5 — Identity Verification Category Selection *(conditional)*
+### Screen 5 — Phone Verification Prompt *(conditional)*
 
-Some external institutions require identity verification as an additional authentication step. Select the appropriate category based on the options presented by the institution.
+Before entering the Plaid identity verification flow, nFinia may present a phone verification popup. This step confirms your registered phone number at the nFinia level and initiates delivery of the one-time code used in the next step. Click **Get Code** to trigger the OTP and proceed.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
-| Verification category list | Radio / Selectable List | Options such as SSN, email, phone number | Institution-dependent; not all banks require this step |
-| **"Continue"** / **"Next"** button | Button | Proceeds with selected verification method | Triggers delivery of OTP or further identity check |
+| Phone verification popup | Modal | Prompts member to verify via their registered phone number before proceeding | nFinia-level verification; appears prior to the Plaid identity verification step |
+| **"Get Code"** button | Button | Sends a one-time code to member's registered phone | Triggers delivery of OTP; transitions to Plaid's identity verification screen |
 
-**Select category for verify your identity:**
+**Phone verification prompt — click Get Code:**
+
+![](/.gitbook/assets/plaid-008.png)
+
+---
+
+### Screen 6 — Verify Your Identity — Select Contact Method *(conditional)*
+
+Within the Plaid Link interface, after the phone verification prompt, you are asked how Plaid should get in touch to verify your identity. Select your preferred contact method — for example, **Mobile** — and click **Get code**. Plaid will send a one-time security code to the selected contact.
+
+| Field / Element | Type | Description | Notes |
+|-----------------|------|-------------|-------|
+| "Verify your identity" header | Label | Prompts member to select a contact method for identity verification | Displayed within the Plaid Link interface; appears when external institution requires MFA |
+| "Tell us how" / contact method field | Dropdown / Input | Member selects how they want to receive the code (e.g., Mobile) | Available options depend on what the external institution has on file for the member |
+| **"Get code"** button | Button | Sends a one-time security code to the selected contact method | Proceeds to the code entry screen |
+
+**Select contact method and click Get code:**
 
 ![](/.gitbook/assets/plaid-017.png)
 
 ---
 
-### Screen 6 — Multi-Factor Authentication — Get Code *(conditional)*
+### Screen 7 — Enter Verification Code
 
-If the external institution requires MFA, you are prompted to request and enter a one-time passcode. This step is served through the Plaid Link interface and varies by institution.
+After requesting the code, you receive a one-time security code at your registered contact (e.g., phone number ending in 1111). Enter the code in the **Code** field and click **Submit** to complete authentication. This step validates your identity before Plaid proceeds to account selection.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
-| Verification method indicator | Label | Shows how the OTP will be delivered (SMS, email, etc.) | Determined by external institution's MFA configuration |
-| **"Get Code"** button | Button | Requests OTP from external institution | Triggers delivery to member's registered contact |
-| OTP entry field | Text Input | Field to enter the received one-time code | Time-limited; member must enter before expiry |
-| **"Submit"** button | Button | Submits OTP for validation | Proceeds to account selection on success |
-
-**On clicking "Get Code":**
-
-![](/.gitbook/assets/plaid-008.png)
+| Verification header | Label | Confirms where the security code was sent (masked phone number or email) | Displayed by Plaid; destination varies by institution MFA configuration |
+| **Code** field | Text Input | Field for entering the one-time security code received | Time-limited; must be entered before the code expires |
+| **"Submit"** button | Button | Submits the entered code for validation | On success, proceeds to account selection; on failure, allows retry |
 
 **Enter the verification code received:**
 
@@ -233,25 +244,67 @@ If the external institution requires MFA, you are prompted to request and enter 
 
 ---
 
-### Screen 7 — Account Selection & Submission
+### Screen 8 — Account Selection & Data Sharing Consent
 
-After successful authentication, Plaid returns the list of eligible accounts at the external institution. Select the account(s) to link and click "Continue."
+After successful authentication, Plaid presents a list of your eligible accounts at the external institution. Select the account(s) you want to link using the checkboxes. Below the account list, a summary shows the standard data that will be shared with your credit union (Account Name, Balance, Transactions, etc.) and optional additional fields. Review the data sharing details and click **Continue** to advance to the confirmation screen.
 
 | Field / Element | Type | Description | Notes |
 |-----------------|------|-------------|-------|
-| Account list | Checkbox List | Shows available accounts (checking, savings, etc.) | Retrieved from external institution post-authentication |
-| Account type indicator | Label | Shows account type and last 4 digits | Helps member identify the correct account |
-| **"Continue"** button | Button | Confirms account selection and completes verification | Triggers Plaid's account verification handshake with nFinia |
+| Account list | Checkbox List | Lists all available accounts (checking, savings, loans, etc.) with masked account numbers | Select one or more accounts; checked accounts will be linked and verified |
+| Standard data access summary | Label | Lists the standard information to be shared: Account Name, Description, Balance, Account, Transactions, Statement Date, Payment Details | Pre-determined by the institution and Plaid; these fields are always shared |
+| Additional information checkboxes | Checkbox | Optional: Account holder name(s) & Role(s); Account number and routing number | Member controls whether to share these additional data points |
+| **"Continue"** button | Button | Confirms account selection and data sharing consent; advances to the confirmation screen | Triggers the next step in the Plaid verification handshake |
 
-**On clicking "Submit" — select accounts and click Continue:**
-
-![](/.gitbook/assets/plaid-009.png)
-
-![](/.gitbook/assets/plaid-010.png)
+**Select accounts and confirm data sharing consent:**
 
 ![](/.gitbook/assets/plaid-019.png)
 
+---
+
+### Screen 9 — Connect Account Information — Confirm
+
+This screen provides a complete summary of all account information that will be shared before the connection is finalized. It lists the selected cash accounts, discloses what financial statements will be shared, and outlines the profile information that will be visible to the authorized third party. Accept the Terms and Conditions and click **Connect account information** to complete the Plaid verification. The external account is then linked and immediately ACH-ready in nFinia.
+
+| Field / Element | Type | Description | Notes |
+|-----------------|------|-------------|-------|
+| Cash accounts summary | Label | Displays the specific accounts selected for linking | Read-only confirmation of the member's account selection from the previous step |
+| Statements disclosure | Label | Discloses that checking, savings, mortgage, home equity, HELOC, and credit card statements will be shared as they become available online | Informational; member must read before accepting |
+| Profile information disclosure | Label | Discloses that account ownership, name, primary address, email, and phone number will be shared with the authorized third party | Ensures full transparency on PII shared with the institution |
+| **Terms and Conditions** checkbox | Checkbox | "I have read and accept the Terms and Conditions" | Must be checked to activate the Connect button |
+| **"Connect account information"** button | Button | Finalizes the Plaid link and returns the member to nFinia with the external account verified | Triggers Plaid's final verification handshake; account becomes ACH-ready |
+
+**Review disclosures, accept Terms & Conditions, and connect:**
+
 ![](/.gitbook/assets/plaid-020.png)
+
+---
+
+### Screen 10 — Your Linked Accounts Overview
+
+After the connection is confirmed, Plaid displays an overview of all accounts that have been successfully linked at the external institution. This screen serves as a confirmation that the correct accounts were selected and verified before the flow completes.
+
+| Field / Element | Type | Description | Notes |
+|-----------------|------|-------------|-------|
+| Linked accounts list | Display | Shows all verified accounts connected at the external institution | Read-only; confirms member's account selection was processed correctly |
+
+**Linked accounts overview:**
+
+![](/.gitbook/assets/plaid-009.png)
+
+---
+
+### Screen 11 — Save Credentials & Success
+
+After the account connection is finalized, Plaid may prompt you to save your external bank credentials for faster re-linking in future sessions. Clicking **Save [Bank] with Plaid** stores your credentials securely within Plaid (not within nFinia). A success screen then confirms the external account is verified, linked, and immediately available for ACH transfers.
+
+| Field / Element | Type | Description | Notes |
+|-----------------|------|-------------|-------|
+| Save credentials prompt | Modal | Asks whether to save the external bank login with Plaid for future use | Optional; credentials are stored by Plaid, not by nFinia — improves re-linking experience |
+| Success confirmation screen | Screen | Confirms the external account has been verified and is ACH-ready in nFinia | Member is returned to the nFinia interface with the linked account active and available |
+
+**Save credentials and success confirmation:**
+
+![](/.gitbook/assets/plaid-010.png)
 
 ![](/.gitbook/assets/plaid-015.png)
 
