@@ -32,22 +32,16 @@ Each sub-feature works independently and can be configured without affecting the
 
 _Navigation: Log in to Summerville Credit Union online banking. Click Cards, select your card, then click Card Controls._
 
-### Step 1 — Arrive at the Dashboard
+### Step 1 — Open Card Controls
 
-After logging in, you land on the Dashboard showing your account balances, recent payments, and quick-action shortcuts. Click Cards in the top navigation bar, then select the card you want to manage.
+After logging in, click **Cards** in the top navigation bar. Select the card you want to manage to open the Card Details page. The Card Details view displays your card information, card status, available credit, and current balance. Below the card summary, you will see quick-action links including **Card Controls**, **Set PIN**, **Deactivate / Replace Card**, and **View Account**.
 
-<img src="../../.gitbook/assets/Card_Controls_img1.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Card_Controls_Overview.png" alt="Card Details page with Card Controls" data-size="original"><figcaption><p>Step 1: Card Details page showing the card summary and Card Controls section with Spend Limits visible.</p></figcaption></figure>
 
-_Step 1: Dashboard — starting point for navigation._
+### Step 2 — Choose a Sub-Feature
 
-### Step 2 — Open Card Controls and Choose a Sub-Feature
+The Card Controls panel opens with four tabs: **Spending Limits**, **Usage Control**, **Card Alerts**, and **Location Controls**. Click any tab to configure that sub-feature. Each setting takes effect immediately when saved — no additional confirmation step is required.
 
-From the Card Details page, click Card Controls in the quick action row beneath the card balance summary. The Card Controls panel opens with four tabs: Spending Limits, Usage Control, Card Alerts, and Location Controls. Click any tab to configure that sub-feature. Each setting takes effect immediately when saved — no additional confirmation step is required.
-
-<img src="../../.gitbook/assets/Card_Controls_img2.png" alt="" data-size="original">
-
-_Step 2: Card Controls panel — select any tab to configure that control area._
-
----
+<figure><img src="../../.gitbook/assets/Card_Controls_img2.png" alt="Card Controls tabs" data-size="original"><figcaption><p>Step 2: Card Controls panel — select any tab to configure that control area.</p></figcaption></figure>
 
 > **Note:** Each Card Controls sub-feature has its own detailed guide. See **Spending Limits**, **Usage Control**, **Location Controls**, and **Card Alerts** for step-by-step instructions on each tab.
