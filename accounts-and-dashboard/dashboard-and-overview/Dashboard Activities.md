@@ -1,10 +1,10 @@
 ---
 description: >-
-  The post-login landing screen layout and how to navigate from the Dashboard
-  to Accounts, Move Money, and More.
+  The post-login landing screen layout and how to navigate from the Dashboard to
+  Accounts, Move Money, and More.
 ---
 
-# Dashboard & Activities
+# Dashboard
 
 ## Summary
 
@@ -12,13 +12,13 @@ The Dashboard is the first screen after login. It displays all account balances 
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-|---|---|---|---|
-| Morning Balance Check | Member starting their day | Opens app, views Dashboard for all account balances | Single-screen financial overview without navigating to each account |
-| Quick Transfer | Member moving funds between accounts | Uses the Quick Transfer widget on the right panel | Fastest path to internal transfer without full Move Money navigation |
-| Navigate to Accounts | Member needing transaction detail | Clicks "Accounts" in the top navigation bar | Direct path to full Account Overview and transaction history |
-| Navigate to Move Money | Member initiating a payment or transfer | Clicks "Move Money" in the top navigation bar | Access to all payment and transfer options |
-| Access More Features | Member needing alerts, settings, or credit score | Clicks "More" in the top navigation bar | Expands panel with all secondary features |
+| Use Case               | Who Uses It                                      | What They Do                                        | Business Value                                                       |
+| ---------------------- | ------------------------------------------------ | --------------------------------------------------- | -------------------------------------------------------------------- |
+| Morning Balance Check  | Member starting their day                        | Opens app, views Dashboard for all account balances | Single-screen financial overview without navigating to each account  |
+| Quick Transfer         | Member moving funds between accounts             | Uses the Quick Transfer widget on the right panel   | Fastest path to internal transfer without full Move Money navigation |
+| Navigate to Accounts   | Member needing transaction detail                | Clicks "Accounts" in the top navigation bar         | Direct path to full Account Overview and transaction history         |
+| Navigate to Move Money | Member initiating a payment or transfer          | Clicks "Move Money" in the top navigation bar       | Access to all payment and transfer options                           |
+| Access More Features   | Member needing alerts, settings, or credit score | Clicks "More" in the top navigation bar             | Expands panel with all secondary features                            |
 
 ## End-to-End Workflow
 
@@ -26,26 +26,11 @@ The Dashboard is the first screen after login. It displays all account balances 
 
 After logging in, the member lands on the Dashboard. The top navigation bar shows **Dashboard**, **Accounts**, **Move Money**, and **More**. The centre column displays account summary tiles. The right panel shows the Quick Transfer widget, Upcoming Payments, Credit Score meter, and Related Links.
 
-<figure><img src="/.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
 
 ### Step 2 — Click "Accounts" to View All Accounts
 
 Click **Accounts** in the top navigation bar. The Account Overview page loads, displaying all account types — Checking, Savings, Credit Card, Mortgage, Loans, Line of Credit, and Certificate accounts — each with their balance, account number, and action buttons (Recent Transactions, Account Details, Transfers, Deposit Direct, Account Enquiry).
 
-<figure><img src="/.gitbook/assets/accounts-overview.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/accounts-overview.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 3 — Click "Move Money" to Access Transfers and Payments
-
-Click **Move Money** in the top navigation bar. The Move Money Hub loads, displaying tiles for all available transfer and payment options: Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other Members, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
-
-<figure><img src="/.gitbook/assets/move-money-hub.png" alt="" width="480"><figcaption></figcaption></figure>
-
-### Step 4 — Click "More" to Access Additional Features
-
-Click **More** in the top navigation bar. The More panel expands, showing additional features organised in categories: Member Services (Check Deposit, eDocuments), Security (User ID and Password, One-Time Passcode, Manage Devices), Account & Membership (Accounts and Memberships, Forms, Skip A Pay), Notifications (Account Alerts, General Alerts, Do-Not-Disturb, Alert Settings), and Financial Tools (My Insights, Recent Activities, Card Services).
-
-<figure><img src="/.gitbook/assets/more-menu.png" alt="" width="480"><figcaption></figcaption></figure>
-
-Scroll down in the More panel to see additional options.
-
-<figure><img src="/.gitbook/assets/more-menu-scrolled.png" alt="" width="480"><figcaption></figcaption></figure>
