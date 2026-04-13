@@ -23,9 +23,8 @@ nFinia Digital Banking provides a comprehensive suite of credit card management 
 | **Rewards Programs**     | Traditional Rewards and Cash Back Rewards (shown on card tile)                   |
 | **Card Controls**        | Spend Limits, Card Alerts, Domestic Controls, International Controls             |
 | **Other Features**       | Activate Card, Lock/Unlock Card, Report Lost/Stolen, Travel Notification         |
-| **Channels**             | Online Banking ✓                                                                 |
+| **Channels**             | Online Banking                                                                   |
 | **Supported Cores**      | Correlation, Ultradata                                                           |
-| **Release Version**      | 10.38                                                                            |
 
 ### Key Use Cases
 
@@ -43,9 +42,9 @@ nFinia Digital Banking provides a comprehensive suite of credit card management 
 
 ### Step-by-Step Guide
 
-\| _📍 Navigation start: Banking › Cards_ |
+#### Card Information & Rewards
 
-\| ■ Card Information & Rewards |
+_Banking › Cards_
 
 The Cards Overview page lists all card accounts enrolled in nFinia. Each card tile displays the account name, balance or credit limit, masked card number (last 4 digits visible), card type, cardholder name, card status, and rewards balance — all in one view.
 
@@ -60,9 +59,9 @@ Depending on the rewards program the credit union has enrolled in, the card tile
 
 ![](../.gitbook/assets/velera-card-mgmt-005.png) ![](../.gitbook/assets/velera-card-mgmt-006.png)
 
-\| ■ Activate Card |
+#### Activate Card
 
-\| _📍 Navigation: Banking › Cards › Activate a New Card (or search "Activate Card")_ |
+&#x20;_Banking › Cards › Activate a New Card (or search "Activate Card")_
 
 Members can activate a newly received credit card directly from nFinia without calling the credit union. Navigate to Cards and select Activate a New Card from the Related Links section, or use the search function.
 
@@ -79,31 +78,31 @@ Enter your card number and confirm the expiry date as prompted. Once verified, t
 | ![](../.gitbook/assets/velera-card-mgmt-008.png) | ![](../.gitbook/assets/velera-card-mgmt-009.png) |
 | :----------------------------------------------: | :----------------------------------------------: |
 
-\| ■ Card On/Off (Lock / Unlock) |
+#### Card On/Off (Lock / Unlock)
 
-\| _📍 Navigation: Banking › Cards › \[select card] › Card Details › Card On/Off_ |
+_Banking › Cards › \[select card] › Card Details › Card On/Off_
 
 The Card On/Off toggle lets members temporarily lock their credit card to prevent unauthorised use, and unlock it again when needed. Locking the card blocks both card-present (in-store) and card-not-present (online) transactions. Recurring transactions already set up on the card will continue to process even when the card is locked.
 
-\| ℹ️ Tip: Use Card On/Off as an immediate first step if you suspect your card has been misplaced — you can unlock it again if you find it, without going through the full lost/stolen process. |
+Tip: Use Card On/Off as an immediate first step if you suspect your card has been misplaced — you can unlock it again if you find it, without going through the full lost/stolen process.
 
 | ![](../.gitbook/assets/velera-card-mgmt-010.png) | ![](../.gitbook/assets/velera-card-mgmt-011.png) |
 | :----------------------------------------------: | :----------------------------------------------: |
 
-\| ■ Card Controls: Spend Limits |
+#### Card Controls: Spend Limits
 
-\| _📍 Navigation: Banking › Cards › \[select card] › Card Details › Card Controls › Spend Limits_ |
+_Banking › Cards › \[select card] › Card Details › Card Controls › Spend Limits_&#x20;
 
 Members can set a per-transaction spend limit and/or a monthly spend limit on their card. Any card-present or card-not-present transaction that exceeds the threshold will be automatically declined. This also applies to recurring transactions set up on the card.
 
-\| ⚠️ Note: Spend limits apply to all transactions including recurring ones. Make sure your thresholds are set high enough to accommodate any regular subscriptions or automatic payments. |
+⚠️ Note: Spend limits apply to all transactions including recurring ones. Make sure your thresholds are set high enough to accommodate any regular subscriptions or automatic payments.
 
 | ![](../.gitbook/assets/velera-card-mgmt-012.png) | ![](../.gitbook/assets/velera-card-mgmt-013.png) |
 | :----------------------------------------------: | :----------------------------------------------: |
 
-\| ■ Card Controls: Card Alerts |
+#### Card Controls: Card Alerts&#x20;
 
-\| _📍 Navigation: Banking › Cards › \[select card] › Card Details › Card Controls › Card Alerts_ |
+_Banking › Cards › \[select card] › Card Details › Card Controls › Card Alerts_&#x20;
 
 Card Alerts notify members whenever their card is used, based on the preferences they configure. Three alert modes are available:
 
@@ -124,16 +123,16 @@ When Selected Transactions is chosen, members can also configure:
 
 • Transactions over a specific per-transaction amount.
 
-\| ℹ️ Tip: Alert notifications are sent based on the channel preference (email, SMS, push) set in the main Alert Settings. Recurring transactions are excluded from amount-based alert thresholds. |
+Tip: Alert notifications are sent based on the channel preference (email, SMS, push) set in the main Alert Settings. Recurring transactions are excluded from amount-based alert thresholds.
 
 ![](../.gitbook/assets/velera-card-mgmt-014.png)
 
 | ![](../.gitbook/assets/velera-card-mgmt-015.png) | ![](../.gitbook/assets/velera-card-mgmt-016.png) |
 | :----------------------------------------------: | :----------------------------------------------: |
 
-\| ■ Card Controls: Domestic Controls |
+#### Card Controls: Domestic Controls&#x20;
 
-\| _📍 Navigation: Banking › Cards › \[select card] › Card Details › Card Controls › Domestic Controls_ |
+_Banking › Cards › \[select card] › Card Details › Card Controls › Domestic Controls_
 
 Domestic Controls allow members to restrict card usage to a specific geographic area. Members can set a radius around a location within which card transactions are allowed; transactions attempted outside the radius will be declined. Alternatively, members can choose to allow transactions in all locations. The configurable radius range is set by the credit union.
 
@@ -144,35 +143,35 @@ Domestic Controls allow members to restrict card usage to a specific geographic 
 | ![](../.gitbook/assets/velera-card-mgmt-018.png) | ![](../.gitbook/assets/velera-card-mgmt-019.png) |
 | :----------------------------------------------: | :----------------------------------------------: |
 
-\| ■ Card Controls: International Controls |
+#### Card Controls: International Controls
 
-\| _📍 Navigation: Banking › Cards › \[select card] › Card Details › Card Controls › International Controls_ |
+_Banking › Cards › \[select card] › Card Details › Card Controls › International Controls_&#x20;
 
 International Controls let members block all in-store international transactions or specify a list of countries where their card should remain active. This is useful for preventing international fraud while still allowing transactions in countries the member frequently visits.
 
-\| ⚠️ Note: Map-based country selection is not supported because the Velera (PSCU) API does not accept coordinates. Use the country list to specify allowed locations. |
+⚠️ Note: Map-based country selection is not supported because the Velera (PSCU) API does not accept coordinates. Use the country list to specify allowed locations.
 
 ![](../.gitbook/assets/velera-card-mgmt-020.png) ![](../.gitbook/assets/velera-card-mgmt-021.png)
 
 | ![](../.gitbook/assets/velera-card-mgmt-022.png) | ![](../.gitbook/assets/velera-card-mgmt-023.png) |
 | :----------------------------------------------: | :----------------------------------------------: |
 
-\| ■ Report Card Lost or Stolen |
+#### Report Card Lost or Stolen
 
-\| _📍 Navigation: Banking › Cards › \[select card] › Card Details › Report Lost/Stolen_ |
+_Banking › Cards › \[select card] › Card Details › Report Lost/Stolen_
 
 If a member believes their card has been lost or stolen, they can report it directly from the card tile in nFinia. Reporting the card immediately flags it for the credit union and initiates the replacement process. Both debit and credit cards can be reported through this flow.
 
-\| ℹ️ Tip: If you are not sure whether the card is lost or just misplaced, consider using the Card On/Off lock first. Use Report Lost/Stolen only when you are certain the card needs to be replaced. |
+Tip: If you are not sure whether the card is lost or just misplaced, consider using the Card On/Off lock first. Use Report Lost/Stolen only when you are certain the card needs to be replaced.
 
 ![](../.gitbook/assets/velera-card-mgmt-024.png) ![](../.gitbook/assets/velera-card-mgmt-025.png)
 
 | ![](../.gitbook/assets/velera-card-mgmt-026.png) | ![](../.gitbook/assets/velera-card-mgmt-027.png) |
 | :----------------------------------------------: | :----------------------------------------------: |
 
-\| ■ Travel Notification |
+#### Travel Notification
 
-\| _📍 Navigation: Banking › Cards › Travel Notice (via Related Links on the Cards screen)_ |
+_Banking › Cards › Travel Notice (via Related Links on the Cards screen)_
 
 Travel Notifications allow members to let the credit union know they will be travelling internationally, preventing their card from being falsely flagged for fraud while abroad. Members can set one active travel notice per card at a time, view all upcoming and ongoing notices, edit an itinerary, or delete a notice they no longer need.
 
@@ -195,4 +194,4 @@ From the Travel Itineraries list, tap a notice to view its details or make chang
 
 ![](../.gitbook/assets/velera-card-mgmt-032.png) ![](../.gitbook/assets/velera-card-mgmt-033.png)
 
-\| ⚠️ Note: Only one travel notice can be active per card at a time. If you need to travel to multiple destinations on the same trip, add all countries within a single itinerary entry. |
+⚠️ Note: Only one travel notice can be active per card at a time. If you need to travel to multiple destinations on the same trip, add all countries within a single itinerary entry.
