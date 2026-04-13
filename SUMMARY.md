@@ -16,14 +16,12 @@
 ## Dashboard
 
 * [Dashboard Activities](accounts-and-dashboard/dashboard-and-overview/CSUM-02-Dashboard-Activities.md)
-* [Recent Activities & Insights](accounts-and-dashboard/dashboard-and-overview/CSUM-21-Recent-Activities-Insights.md)
+* [Credit Score & Financial Tools](accounts-and-dashboard/account-features/CSUM-24-Credit-Score-Financial-Tools.md)
 
 ## Accounts
 
 * [Account Overview & Transaction History](accounts-and-dashboard/account-features/CSUM-03-Account-Overview-Transaction-History.md)
 * [Account Detail - All Types](accounts-and-dashboard/account-features/CSUM-04-Account-Detail-All-Types.md)
-* [Credit Score & Financial Tools](accounts-and-dashboard/account-features/CSUM-24-Credit-Score-Financial-Tools.md)
-* [Profile & Membership Management](accounts-and-dashboard/profile-and-membership/CSUM-23-Profile-Membership-Management.md)
 
 ## Cards
 
@@ -47,8 +45,6 @@
   * [External ACH Transfer](transfers-and-payments/external-ach-wire-and-instant/CSUM-08-External-ACH-Transfer.md)
   * [FedNow Instant Pay](transfers-and-payments/external-ach-wire-and-instant/CSUM-09-FedNow-Instant-Pay.md)
   * [Wire Transfers](transfers-and-payments/external-ach-wire-and-instant/CSUM-12-Wire-Transfers.md)
-* [Check Deposit - RDC](move-money/check-deposit-rdc/README.md)
-  * [Mobile Check Deposit - RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
 * [Recipient Management](move-money/recipient-management/README.md)
   * [Recipient Management](transfers-and-payments/recipient-management/CSUM-10-Recipient-Management.md)
 * [Zelle & P2P](move-money/zelle-and-p2p/README.md)
@@ -56,8 +52,6 @@
 * [Bill Pay & Loans](move-money/bill-pay-and-loans/README.md)
   * [Bill Pay](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-14-Bill-Pay.md)
   * [Loan Payments & Quick Pay](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-13-Loan-Payments-Quick-Pay.md)
-  * [Skip-A-Pay](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-18-Skip-A-Pay.md)
-  * [Online Forms](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-15-Online-Forms-Centre.md)
 
 ## More Menu
 
@@ -68,6 +62,12 @@
   * [Personal Information Management](settings-help-and-misc/personal-information-and-contact/CSUM-19-Personal-Information-Management.md)
 * [Settings & Preferences](more-menu/settings-and-preferences/README.md)
   * [Settings & Preferences](settings-help-and-misc/settings-and-preferences/CSUM-20-Settings-Preferences.md)
+* [Profile & Membership Management](accounts-and-dashboard/profile-and-membership/CSUM-23-Profile-Membership-Management.md)
+* [Recent Activities & Insights](accounts-and-dashboard/dashboard-and-overview/CSUM-21-Recent-Activities-Insights.md)
+* [Check Deposit — RDC](move-money/check-deposit-rdc/README.md)
+  * [Mobile Check Deposit — RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
+* [Online Forms](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-15-Online-Forms-Centre.md)
+* [Skip-A-Pay](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-18-Skip-A-Pay.md)
 
 ## Vendor Integrations
 

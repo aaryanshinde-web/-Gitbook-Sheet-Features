@@ -38,23 +38,25 @@ All account detail pages follow a consistent layout: balance summary at top, tra
 
 ## Step-by-Step Guide
 
+| _Navigation: Dashboard > Accounts > \[Account Name]._ |&#x20;
+
 **Step 1 — Start from Dashboard**
 
 You begin at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Open the More Menu**
+**Step 2 — Navigate to Accounts**
 
-Click 'More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
-
-<figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
-
-**Step 3 — Navigate from Dashboard to Account Detail**
-
-The Account Overview page is shown in membership view with checking and savings accounts displaying their balances. A promotional banner and the Quick Transfer section are visible on the right side.
+Click 'Accounts' in the top navigation bar. The Account Overview page loads, showing all your accounts organized by type — checking, savings, credit cards, and loans — with balances and quick-action links for each account.
 
 <figure><img src="../../.gitbook/assets/img_57d573490ef8.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 3 — Open Account Detail**
+
+Click on any account tile or the 'Account Details' link to view the full detail page for that account. The layout varies by account type but follows a consistent structure.
+
+<figure><img src="../../.gitbook/assets/img_f201cdebf6f4.png" alt="" width="480"><figcaption></figcaption></figure>
 
 **Step 4 — View Checking Account Balance & History**
 
