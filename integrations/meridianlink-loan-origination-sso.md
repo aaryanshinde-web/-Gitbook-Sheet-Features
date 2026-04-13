@@ -1,6 +1,8 @@
-# Loan Origination SSO — MeridianLink
+# Loan Origination SSO - MeridianLink
 
-**Feature:** MeridianLink Loan Origination — Single Sign-On (SSO) **Platform:** nFinia Digital Banking (Tyfone)
+**Feature:** MeridianLink Loan Origination — Single Sign-On (SSO)&#x20;
+
+**Platform:** nFinia Digital Banking (Tyfone)
 
 ***
 
@@ -12,7 +14,7 @@ This feature is available to authenticated retail members — both primary accou
 
 For the credit union, this integration directly impacts loan volume by reducing the steps required to start an application. Historically, redirecting you to an external LOS meant re-authentication, re-entry of known data, and significant drop-off. With SSO, your identity context travels with you into MeridianLink's "Apply in 3 Steps" flow, creating a cohesive brand experience under the Summerville Credit Union identity. For you, the benefit is speed and confidence — they are never asked to prove who they are twice within the same session.
 
-This feature lives in the nFinia platform under **Banking > More > Apply for Loans**, and connects outward to the MeridianLink consumer portal at `app.consumer.meridianlink.com`.
+This feature lives in the nFinia platform under **Banking > More > Apply for Loans**, and connects outward to the MeridianLink consumer portal.
 
 | Attribute            | Detail                                                                                                    |
 | -------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -36,8 +38,6 @@ This feature lives in the nFinia platform under **Banking > More > Apply for Loa
 | Credit union branding continuity | Member navigating the application | MeridianLink renders the Summerville Credit Union logo and branding across the Apply in 3 Steps flow                                                                                              | Maintains member trust and brand recognition; reduces perception of leaving the credit union's environment                    |
 | Application dropout recovery     | Loan officer / Digital Admin      | Monitors MeridianLink pipeline for incomplete applications; tenderref token links back to the originating nFinia member record                                                                    | Enables proactive outreach to members who started but did not complete an application                                         |
 
-The SSO integration is especially valuable for credit unions like Summerville that serve members who may not distinguish between the digital banking app and the loan application experience. By presenting a unified, branded journey, the credit union reduces cognitive friction at the exact moment a lending decision is being made.
-
 ***
 
 ## End-to-End Workflow
@@ -45,13 +45,15 @@ The SSO integration is especially valuable for credit unions like Summerville th
 ### Prerequisites
 
 * Member must have an active, authenticated nFinia digital banking session (username + password verified; MFA completed if required).
-* The MeridianLink SSO integration must be configured in the nFinia back-office with the credit union's MeridianLink tenant URL and tenderref generation logic.
-* You's account must be in good standing (no hard login locks or security freezes that would block session continuation).
+* The MeridianLink SSO integration must be configured in  nFinia with the credit union's MeridianLink tenant URL and tenderref generation logic.
+* Your account must be in good standing (no hard login locks or security freezes that would block session continuation).
 * MeridianLink must have the credit union's consumer portal active and the relevant loan products (Personal, Vehicle, Credit Card) enabled.
 
 ### Step-by-Step Flow
 
 **Step 1 — Navigate to Apply for Loans** The authenticated member is on the nFinia dashboard. They navigate to **Banking > More > Apply for Loans**. The Apply for Loans screen displays three product categories: Personal Loans, Vehicle Loans, and Credit Cards. Upcoming payment summaries may be displayed in a right-side panel for context.
+
+
 
 **Step 2 — Select a Loan Type** Click one of the three loan type options. The nFinia platform registers the selection and initiates the SSO handoff process.
 
