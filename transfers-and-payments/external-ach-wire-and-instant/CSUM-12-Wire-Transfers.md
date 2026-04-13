@@ -37,19 +37,13 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > Online Forms > Wire Transfer Form._ |
+**Step 1 — Navigate to Move Money Hub**
 
-**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
-
-<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
-
-**Step 2 — Navigate to Move Money Hub**
-
-navigate to move money hub and then from there click on domestic wire transfers,this would redirect you to Wire Transfer Forms
+Navigate to move money hub and then from there click on Domestic Wire Transfers and it would be redirected  to Wire Transfer Forms
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Step 3 — Open the Wire Transfer Form**
+**Step 2 — Open the Wire Transfer Form**
 
 The Domestic Outgoing Wire Transfer Request form is displayed within the Online Forms section, showing the form title and multiple input fields for initiating a wire transfer request.
 
