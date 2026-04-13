@@ -4,7 +4,7 @@ description: Inbox & Message Center
 
 # Inbox & Message Center
 
-> **Module:** Banking › Inbox | **Reference:** 
+> **Module:** Banking › Inbox |&#x20;
 
 ## Summary
 
@@ -23,7 +23,7 @@ A notification badge on the Inbox icon in the Dashboard navigation shows unread 
 | Support Messages   | Two-way authenticated messaging with CU staff                      |
 | Security           | Encrypted, authenticated — secure for financial discussion         |
 | New Message        | You can initiate support requests directly from Inbox              |
-| Related Reports    |  (Alerts),  (Settings)                               |
+| Related Reports    | (Alerts), (Settings)                                               |
 
 ## Key Use Cases
 
@@ -37,38 +37,40 @@ A notification badge on the Inbox icon in the Dashboard navigation shows unread 
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Inbox (bell/envelope icon in top navigation)._ |&#x20;
+\| _Navigation: Dashboard > Inbox (bell/envelope icon in top navigation)._ |
 
-**Step 1 — Start from Dashboard**  The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Open the More Menu**
-
-you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
-
-<figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
-
-**Step 3 — Navigate from Dashboard to Inbox**
+**Step 2 — Navigate from Dashboard to Inbox**
 
 The Inbox page displays a list of support tickets in a table format with columns for ID, Subject, Last Updated, Assigned To, and Status. Tickets include Account Inquiry, Transaction Inquiry, and General inquiries.
-
-<figure><img src="../../.gitbook/assets/img_48cfc445ce8c.png" alt="" width="480"><figcaption></figcaption></figure>
-
-**Step 4 — View Support Messages**
-
-The Inbox interface shows the support messages view with a table listing various support tickets and your details including status and assigned representative.
 
 <figure><img src="../../.gitbook/assets/img_806c7b1a7ffa.png" alt="" width="480"><figcaption></figcaption></figure>
 
 **Step 5 — Send a New Support Message**
 
-A 'Create New Ticket' modal is displayed with fields for Inquiry Type (set to General Inquiry), Subject, Message body, and a file attachment option with a 20 MB size limit.
+Go to Help> Message Us. A 'Create New Ticket' modal is displayed with fields for Inquiry Type (General Inquiry, Account inquiry, Transaction Inquiry, etc). The member can fill in the Subject, Message body, and a file attachment option with a 20 MB size limit.
 
-<figure><img src="../../.gitbook/assets/img_fdb8e24d3d09.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 **Step 6 — Reply to a Support Thread**
 
-A success message modal confirms the ticket was created successfully with ID 07703. The list of recently created support tickets is visible in the background.
+A success message modal confirms the ticket was created successfully with ID number. The list of recently created support tickets is visible in the background.
 
 <figure><img src="../../.gitbook/assets/img_fe8c1cbfcfcf.png" alt="" width="620"><figcaption></figcaption></figure>
+
+Other ways to create a support ticket is from Account Overview page > Account Tile > Account Inquiry. This will create an Account Inquiry ticket directly.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+Another way is from Account Detail Page > Transaction History> Inquire. This will create a Transaction Inquiry ticket instantly.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
