@@ -1,22 +1,20 @@
 ---
-description: >-
-  Log in securely using multi-factor authentication with OTP verification
+description: Log in securely using multi-factor authentication with OTP verification
 ---
 
 # Login & Authentication
 
 ## Summary
 
-The Login & Authentication module is the security gateway to the digital banking platform. Every session begins here — it is the single point of identity verification before any account data, transaction capability, or self-service function is accessible. The authentication flow employs a multi-layer design: the member supplies a registered username and password, then completes a one-time passcode (OTP) challenge delivered to a pre-registered email or mobile number. During OTP verification, a "Remember this device" option allows the member to skip OTP on future logins from the same browser or device. After successful verification, the member lands on the Dashboard with full access to all banking features. Biometric login (Touch ID / Face ID) is available on supported devices for returning members. Self-service recovery options (Forgot User ID, Forgot Password, Unlock Account) are accessible from the login screen and documented separately.
+The Login & Authentication module is the security gateway to the digital banking platform. Every session begins here — it is the single point of identity verification before any account data, transaction capability, or self-service function is accessible. The authentication flow employs a multi-layer design: the member supplies a registered username and password, then completes a one-time passcode (OTP) challenge delivered to a pre-registered email or mobile number. After successful verification, the member lands on the Dashboard with full access to all banking features. Biometric login (Touch ID / Face ID) is available on supported devices for returning members. Self-service recovery options (Forgot User ID, Forgot Password, Unlock Account) are accessible from the login screen and documented separately.
 
 ## Key Use Cases
 
-- Sign in to digital banking with username, password, and OTP verification
-- Select OTP delivery method (text message, phone call, or email)
-- Remember a device or browser to skip OTP on future logins
-- Complete first-time login and establish an authenticated session
-- Enable biometric login (Touch ID / Face ID) on a trusted device
-- Access self-service recovery options from the login screen
+* Sign in to digital banking with username, password, and OTP verification
+* Select OTP delivery method (text message, phone call, or email)
+* Complete first-time login and establish an authenticated session
+* Enable biometric login (Touch ID / Face ID) on a trusted device
+* Access self-service recovery options from the login screen
 
 ## End-to-End Workflow
 
@@ -44,11 +42,9 @@ If the member selected email delivery, the screen displays the "Send me an email
 
 <figure><img src="../../.gitbook/assets/img_d002b4246e94.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 5: Enter OTP code and optionally remember this device**
+**Step 5: Enter OTP code**
 
 A verification code entry form appears with an "Enter code" text field. The member enters the one-time passcode received via their chosen delivery method. A "Didn't receive your code? Resend" link is available below the input if the member needs the OTP re-sent.
-
-Below the code entry field, a "Remember this device" checkbox is displayed. If the member checks this option, the system registers the current browser or device as remembered. On subsequent logins from this same device and browser, the OTP step is skipped entirely — the member only needs to enter their User ID and password to access their account. Remembered devices can be viewed and managed from the Device Management page under the More menu. If the member does not check "Remember this device," OTP verification will be required on every login from this device.
 
 <figure><img src="../../.gitbook/assets/img_a44197ff9ff7.png" alt="" width="480"><figcaption></figcaption></figure>
 
