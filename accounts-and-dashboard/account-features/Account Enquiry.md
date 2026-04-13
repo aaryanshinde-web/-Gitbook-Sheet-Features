@@ -20,7 +20,9 @@ Account Enquiry allows members to send a secure message to the credit union abou
 
 **Step 1: Open Account Enquiry from Account Overview**
 
-The member is viewing the Account Overview page. The member clicks "Account Enquiry" on any account row. A Compose Message modal opens over the Account Overview page, with the account context automatically populated in the message.
+The member clicks "Accounts" in the top navigation bar to open the Account Overview page. All accounts are listed with their balances and action buttons. The member clicks "Account Enquiry" on any account row. A Compose Message modal opens over the Account Overview page, with the account context automatically populated in the message.
+
+<figure><img src="/.gitbook/assets/accounts-overview-group.png" alt="" width="480"><figcaption></figcaption></figure>
 
 **Step 2: Compose and send the message**
 
