@@ -20,7 +20,9 @@ Members can initiate a transfer directly from any account in the Account Overvie
 
 **Step 1: Initiate transfer from Account Overview**
 
-The member is viewing the Account Overview page. The member clicks "Transfers" on any account row. The Transfer Funds to Own Account page loads with the selected account pre-set as the "From" account. The member then selects the destination account from the "To" dropdown menu, showing all other eligible accounts available for transfer.
+The member clicks "Accounts" in the top navigation bar to open the Account Overview page. All accounts are listed with their balances and action buttons. The member clicks "Transfers" on any account row. The Transfer Funds to Own Account page loads with the selected account pre-set as the "From" account. The member then selects the destination account from the "To" dropdown menu, showing all other eligible accounts available for transfer.
+
+<figure><img src="/.gitbook/assets/accounts-overview-group.png" alt="" width="480"><figcaption></figcaption></figure>
 
 **Step 2: Enter transfer details and confirm**
 
