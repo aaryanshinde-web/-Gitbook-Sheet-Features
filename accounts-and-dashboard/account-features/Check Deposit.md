@@ -19,7 +19,9 @@ Members can initiate a check deposit directly from the Account Overview by click
 
 **Step 1: Access Check Deposit from Account Overview**
 
-The member is viewing the Account Overview page. The member clicks "Deposit Direct" or "Deposit Check" on any account row. The Check Deposit page loads with the Membership Number field pre-populated with the member's membership information.
+The member clicks "Accounts" in the top navigation bar to open the Account Overview page. All accounts are listed with their balances and action buttons. The member clicks "Deposit Direct" or "Deposit Check" on any account row. The Check Deposit page loads with the Membership Number field pre-populated with the member's membership information.
+
+<figure><img src="/.gitbook/assets/accounts-overview-group.png" alt="" width="480"><figcaption></figcaption></figure>
 
 **Step 2: Proceed to check capture and handle popup window**
 
