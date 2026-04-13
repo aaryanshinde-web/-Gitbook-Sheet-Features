@@ -35,13 +35,19 @@ The process takes less than a minute. You navigate to the card you want to link,
 
 _Navigation: Banking › Cards › \[select card] › Card Details › Link Card_
 
-### Step 1 — Navigate to Link Card
+### Step 1 — Navigate to Cards List
 
-From the nFinia top navigation, click **Cards**. Locate the card you want to add to a digital wallet and click to open Card Details. Inside Card Details, find and click the **Link Card to Digital Wallet** option. The Link Card screen opens showing the three available wallet options: Google Pay, Samsung Pay, and Apple Pay.
+From Dashboard navigate to Cards Module,where it displays the list of cards
 
 <figure><img src="../../.gitbook/assets/Link_Card_to_Digital_Wallet_img1.png" alt="Link Card to Digital Wallet — wallet selection" width="563"><figcaption><p>Step 1: The Link Card screen showing available digital wallet options.</p></figcaption></figure>
 
-### Step 2 — Select Your Digital Wallet and Accept the Disclaimer
+### Step 2 — Navigate to Link Card
+
+From the nFinia top navigation, click **Cards**. Locate the card you want to add to a digital wallet and click to open Card Details. Inside Card Details, find and click the **Link Card to Digital Wallet** option. The Link Card screen opens showing the three available wallet options: Google Pay, Samsung Pay, and Apple Pay.
+
+<figure><img src="../../.gitbook/assets/Link_Card_to_Digital_Wallet_img2.png" alt="Provisioning disclaimer" width="563"><figcaption><p>Step 2: Review and accept the provisioning disclaimer before your card is linked.</p></figcaption></figure>
+
+### Step 3 — Select Your Digital Wallet and Accept the Disclaimer
 
 
 
@@ -51,7 +57,7 @@ Tap the wallet you want to link your card to. After selecting, a **Disclaimer** 
 
 > **Note:** You must accept the disclaimer to complete provisioning. If you navigate away without accepting, the process is cancelled and your card is not added to the wallet.
 
-### Step 3 — Card Linked Successfully
+### Step 4 — Card Linked Successfully
 
 Once the disclaimer is accepted, provisioning completes immediately. The Link Card screen updates to confirm your card is now linked — for example, the Apple Pay row will read **"This card is linked to Apple Pay."** Open your wallet app on your device to verify the card appears and is ready for contactless tap-to-pay purchases.
 
