@@ -47,13 +47,15 @@ you click ‘More' in the top navigation bar. The More options panel expands to 
 
 **Step 3 — User ID and Password Settings**&#x20;
 
-The User ID and Password Settings page is displayed with a password change form containing 'Enter a new password' and 'Confirm new password' fields, along with a list of Password Requirements.
+The User ID and Password Settings page is displayed with User ID tab. This tab has the option to change the User ID for digital banking access with a list of User ID requirements.  The password tab  contains the option to change the password with a list of Password Requirements.
+
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/img_496966521d78.png" alt="" width="620"><figcaption></figcaption></figure>
 
 **Step 4 — View MFA Settings**
 
-The User ID and Password Settings page shows tabs for User ID, Password, and Multi-Factor Authentication options available for you to configure.
+In the Multi-Factor Authentication tab, options are available for you to configure the contact preferences for recieving the OTP.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_f25e080818ae.png" alt="" width="620"><figcaption></figcaption></figure>
 

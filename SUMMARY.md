@@ -20,7 +20,6 @@
   * [Upcoming Payments](<accounts-and-dashboard/dashboard-and-overview/Dashboard Upcoming Payments.md>)
   * [Related Links](<accounts-and-dashboard/dashboard-and-overview/Dashboard Related Links.md>)
   * [Credit Score Widget](<accounts-and-dashboard/dashboard-and-overview/Dashboard Credit Score Widget.md>)
-  * [Inbox](dashboard/dashboard-and-overview/inbox.md)
 
 ## Accounts
 
