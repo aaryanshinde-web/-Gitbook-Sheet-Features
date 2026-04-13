@@ -4,11 +4,11 @@
 
 ## Summary
 
-The **eDocuments — BDI — SSO** feature enables you to access your electronic statements and documents directly from within the nFinia digital banking platform, both on web and mobile, without requiring a separate login. When you navigate to "Statements & Tax Forms," nFinia silently authenticates you to the BDI (Business Data, Inc.) document portal via Single Sign-On (SSO), then launches the BDI portal in a new tab or browser window. You land directly on your documents, no username, no password, no redirect friction.
+The **eDocuments — BDI — SSO** feature enables you to access your electronic statements and documents directly from within the nFinia digital banking platform, both on web and mobile, without requiring a separate login.&#x20;
 
-BDI is the third-party electronic document management system that stores and serves member statements (monthly statements, mortgage statements, and other document types). The integration is deployed at `businessdatainc.com` under the credit union's tenant path (e.g., `/SummervileCU/`). The SSO token is generated server-side by nFinia and passed securely to BDI, meaning your BDI session is fully authenticated from the moment the portal opens.
+BDI is the third-party electronic document management system that stores and serves member statements (monthly statements, mortgage statements, and other document types). The SSO token is generated server-side by nFinia and passed securely to BDI, meaning your BDI session is fully authenticated from the moment the portal opens.
 
-This feature serves retail and business members alike. It is especially valuable for credit unions with multi-membership households, as BDI's portal natively supports a membership selector dropdown — allowing a single digital banking user to switch between multiple linked account numbers and view statements for each. From the credit union's perspective, the integration reduces paper statement costs, supports regulatory disclosure delivery (the Disclosures tab surfaces the Online Statement Enrollment Disclosure), and provides a self-service archive that reduces inbound call volume from members asking for old statements.
+This feature serves retail and business members alike.&#x20;
 
 | Attribute            | Detail                                                                                                         |
 | -------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -53,19 +53,19 @@ The BDI SSO integration is particularly important for credit unions with diverse
 
 **Step 1 — Navigate to eStatements**
 
-Log in to nFinia and click **Statements and Tax Forms** in the left sidebar (also accessible via **More** in the navigation menu). The breadcrumb path reads: `Banking > More > eStatements`.
+Log in to nFinia and click **Statements and Tax Forms** in the  **More** section in the navigation menu. The breadcrumb path reads: `Banking > More > eStatements`.
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — BDI Portal Loads (Desktop)**
 
-The BDI portal opens at `uatestmt.businessdatainc.com/SummervilleCU/ShowDocList.do`. The portal displays your name and a membership number dropdown pre-selected with your primary membership. The top navigation bar shows four tabs: **Documents**, **Enrollment**, **Disclosures**, and **Statement Search,**&#x49;f you have multiple account numbers linked, click the dropdown and select the desired membership. Each option is listed as `[MemberNumber] - [Name/Entity]`.
+The BDI portal opens in a new tab or within iFrame (based on the configuration chosen by the credit union) The portal displays your name and a membership number dropdown pre-selected with your primary membership. The top navigation bar shows four tabs: **Documents**, **Enrollment**, **Disclosures**, and **Statement Search,**&#x49;f you have multiple account numbers linked, click the dropdown and select the desired membership. Each option is listed as `[MemberNumber] - [Name/Entity]`.
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — View Documents and open a statement**
 
-After selecting a membership, the Documents tab populates with document type sections (e.g., **Monthly Statement**, **Mortgage Statement**). Each section shows the three most recent documents by date with read/unread envelope icons. A "> View all past documents" link provides access to the full archive,Clicking a statement date opens the document detail view. The page displays your name, masked account number (e.g., `XXXXXXXX05`), Period Ending date, and a **View PDF** button. Each account appears as a labeled section (e.g., MONEY MARKET (#0008), SAVINGS (#0100), CLASSIC CHECKING (#0001)) with a summary grid showing Starting Balance, Ending Balance, Debit(s), Credit(s), and YTD Dividends. A **Show details** button expands the full transaction list. A reporting information section at the bottom shows annual totals.
+After selecting a membership, the Documents tab populates. The page displays your name, masked account number (e.g., `XXXXXXXX05`), Period Ending date, and a **View PDF** button. Each account appears as a labeled section (e.g., MONEY MARKET (#0008), SAVINGS (#0100), CLASSIC CHECKING (#0001)) with a summary grid showing Starting Balance, Ending Balance, Debit(s), Credit(s), and YTD Dividends. A **Show details** button expands the full transaction list. A reporting information section at the bottom shows annual totals.
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
@@ -85,7 +85,7 @@ Tapping this option triggers the SSO. A **Processing...** spinner appears briefl
 
 **Step 3 — BDI Portal Opens in Device Browser**
 
-The device's default browser launches and opens the BDI portal. You land on the **Documents** tab with your name and the membership dropdown pre-selected. The portal immediately displays the available document types — **Monthly Statement** and **Mortgage Statement** — with the three most recent entries per type.
+The device's default browser launches and opens the BDI portal. You land on the **Documents** tab with your name and the membership dropdown pre-selected. The portal immediately displays the available document types  with the three most recent entries per type.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.14.39 PM.png" alt="" width="244"><figcaption></figcaption></figure>
 
@@ -114,12 +114,6 @@ Tapping a statement date opens the detail view: your name, masked account number
 **Read vs. unread documents:** A closed envelope icon indicates the document has not been opened before; an open envelope icon indicates you have previously viewed it. This provides a visual delivery confirmation for each statement.
 
 **Mobile vs. desktop behavior:** On desktop, BDI opens in a new tab and nFinia remains open in the original tab. On mobile, BDI opens in the device's default browser as a separate session; the nFinia native app remains running in the background.
-
-### Completion & Confirmation
-
-You have successfully accessed your eDocuments when the BDI portal loads with your name, membership dropdown, and document list visible. On the nFinia side, the "This feature has been opened in another tab" banner (desktop) or the browser opening (mobile) confirms SSO was initiated successfully.
-
-Downstream effects: the document's read status updates in BDI when opened, supporting the FI's electronic delivery tracking for E-SIGN compliance purposes.
 
 ### Error Handling
 
