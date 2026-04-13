@@ -18,11 +18,17 @@ The Accounts and Memberships page allows members to view and manage their member
 
 ## End-to-End Workflow
 
-**Step 1: Navigate to Accounts and Memberships page**
+**Step 1: Open Account Overview**
+
+The member clicks "Accounts" in the top navigation bar to open the Account Overview page. All accounts are listed with their balances and action buttons. From here, the member navigates to the Accounts and Memberships page using the More menu.
+
+<figure><img src="/.gitbook/assets/accounts-overview-group.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 2: Navigate to Accounts and Memberships page**
 
 The member clicks "More" in the top navigation bar. A dropdown menu appears displaying various options. The member clicks "Accounts and Memberships" from the menu. The Accounts and Memberships page loads, displaying the current membership information with the membership number and associated account details.
 
-**Step 2: Add a new membership or account**
+**Step 3: Add a new membership or account**
 
 The member views the current membership details on the page. The page displays a link labeled "Open a new account or Apply for a new membership" at Tyfone. The member clicks the "Go to site" button to proceed to the account opening or membership application process. The browser opens the Tyfone site where the member can complete the application for a new account or membership.
 
