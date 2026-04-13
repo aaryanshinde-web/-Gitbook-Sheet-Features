@@ -16,7 +16,7 @@
 ## Dashboard
 
 * [Dashboard](accounts-and-dashboard/dashboard-and-overview/README.md)
-  * [Dashboard & Activities](<accounts-and-dashboard/dashboard-and-overview/Dashboard Activities.md>)
+  * [Dashboard](<accounts-and-dashboard/dashboard-and-overview/Dashboard Activities.md>)
   * [Quick Pay & Quick Transfer](<accounts-and-dashboard/dashboard-and-overview/Dashboard Quick Pay.md>)
   * [Upcoming Payments](<accounts-and-dashboard/dashboard-and-overview/Dashboard Upcoming Payments.md>)
   * [Related Links](<accounts-and-dashboard/dashboard-and-overview/Dashboard Related Links.md>)
