@@ -47,6 +47,11 @@
   * [Spending Limits](<bill-pay-loans-and-cards/card-controls-and-spending/Spending Limits.md>)
   * [Location Controls](<bill-pay-loans-and-cards/card-controls-and-spending/Location Controls.md>)
   * [Usage Control](<bill-pay-loans-and-cards/card-controls-and-spending/Usage Control.md>)
+  * [Deactivate / Replace Card](<bill-pay-loans-and-cards/card-lifecycle/Deactivate Replace Card.md>)
+  * [Activate New Card](<bill-pay-loans-and-cards/card-lifecycle/Activate New Card.md>)
+  * [Set Card PIN](<bill-pay-loans-and-cards/card-lifecycle/Set PIN.md>)
+  * [Freeze Card](<bill-pay-loans-and-cards/card-lifecycle/Freeze Card.md>)
+  * [Travel Notice](<bill-pay-loans-and-cards/card-lifecycle/Travel Notice.md>)
 
 ## Move Money
 
