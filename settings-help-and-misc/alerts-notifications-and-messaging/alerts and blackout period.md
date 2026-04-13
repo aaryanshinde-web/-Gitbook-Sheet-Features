@@ -50,9 +50,47 @@ Account-specific and general alerts together give Summerville CU You a layered n
 
 ### Step-by-Step Flow — Alert Preferences (Channel Setup)
 
-> **Prerequisite:** You must be logged in and on the Dashboard. For login and OTP verification steps, see the [Login & Authentication](../../authentication-and-onboarding/login-and-security/CSUM-01-Login-Authentication.md) guide.
+**Step 1 — Log in to Online Banking**
 
-**Step 1 — Open More > Alert Settings**
+you navigate to the Summerville CU Online Banking portal and enters your User ID and password, then clicks **Log in**.
+
+<figure><img src="../../.gitbook/assets/Screenshot_1_1.png" alt="Screenshot 1" width="620"><figcaption></figcaption></figure>
+
+***
+
+**Step 2 — Complete OTP Verification (Select Method)**
+
+The system prompts for a One-Time Passcode. you select how to receive it: Send me a message, Call me, or Send me an email.
+
+<figure><img src="../../.gitbook/assets/Screenshot_2_2.png" alt="Screenshot 2" width="620"><figcaption></figcaption></figure>
+
+***
+
+**Step 3 — Select Contact Number**
+
+After choosing "Send me a message," you select the registered phone number to receive the OTP.
+
+<figure><img src="../../.gitbook/assets/Screenshot_3_3.png" alt="Screenshot 3" width="620"><figcaption></figcaption></figure>
+
+***
+
+**Step 4 — Enter OTP**
+
+enter the 6-digit code sent to your selected contact. The **Remember Device/Browser** option is available to skip OTP on future logins from this device.
+
+<figure><img src="../../.gitbook/assets/Screenshot_4_4.png" alt="Screenshot 4" width="620"><figcaption></figcaption></figure>
+
+***
+
+**Step 5 — Dashboard Loads**
+
+After successful authentication, you land on the main Dashboard showing account balances and the Quick Transfer panel.
+
+<figure><img src="../../.gitbook/assets/Screenshot_5_5.png" alt="Screenshot 5" width="620"><figcaption></figcaption></figure>
+
+***
+
+**Step 6 — Open More > Alert Settings**
 
 you click **More** in the navigation bar. A panel expands showing Alerts options: Account Alerts, General Alerts, Do-Not-Disturb, and Alert Settings. you click **Alert Settings**.
 
@@ -60,7 +98,7 @@ you click **More** in the navigation bar. A panel expands showing Alerts options
 
 ***
 
-**Step 2 — Alert Settings Tab: Configure Channels**
+**Step 7 — Alert Settings Tab: Configure Channels**
 
 The **Alert Settings** tab loads. you can:
 
@@ -75,9 +113,9 @@ The screen displays the registered phone number and email address that alerts wi
 
 ### Step-by-Step Flow — Add an Account-Specific Alert
 
-Step 1 is identical to the Alert Preferences flow above (More → Alert Settings). From there, you navigate to the **Account-Specific Alerts** tab.
+Steps 1–6 are identical to the Alert Preferences flow above (login → OTP → Dashboard → More → Alert Settings). At Step 6, you instead navigates to the **Account-Specific Alerts** tab.
 
-**Step 2 — Account-Specific Alerts Tab**
+**Step 7 — Account-Specific Alerts Tab**
 
 The tab displays four alert categories, each with an "Add a new alert" link:
 
@@ -90,7 +128,7 @@ The tab displays four alert categories, each with an "Add a new alert" link:
 
 ***
 
-**Step 3 — Open Add Alert Modal**
+**Step 8 — Open Add Alert Modal**
 
 you click **+ Add a new alert** under Balance Alerts. A modal titled **"Add new 'Available balance alert'"** appears. you:
 
@@ -101,7 +139,7 @@ you click **+ Add a new alert** under Balance Alerts. A modal titled **"Add new 
 
 ***
 
-**Step 4 — Confirmation: Alert Added Successfully**
+**Step 9 — Confirmation: Alert Added Successfully**
 
 After clicking **Save**, the modal closes and the Account-Specific Alerts tab refreshes. A green success banner reads "Available balance alert successfully added." The new alert appears listed under Balance Alerts (1) with the account name, condition, and **Edit** / **Remove** actions.
 
@@ -111,9 +149,9 @@ After clicking **Save**, the modal closes and the Account-Specific Alerts tab re
 
 ### Step-by-Step Flow — Configure General (Optional) Alerts
 
-Step 1 is identical to the Alert Preferences flow above. From the Alert Settings page, you navigate to the **General Alerts** tab.
+Steps 1–6 are identical. At Step 6, you navigate to **General Alerts** tab.
 
-**Step 2 — General Alerts Tab**
+**Step 7 — General Alerts Tab**
 
 The tab is divided into two sections:
 
@@ -124,7 +162,7 @@ The tab is divided into two sections:
 
 ***
 
-**Step 3 — Set Optional Alert Preference**
+**Step 8 — Set Optional Alert Preference**
 
 you click the dropdown on an optional alert row and selects the desired delivery option. The system saves the selection and displays a green success banner: "Alert has been updated successfully."
 
@@ -134,9 +172,9 @@ you click the dropdown on an optional alert row and selects the desired delivery
 
 ### Step-by-Step Flow — Set Do-Not-Disturb Period
 
-Step 1 is identical to the Alert Preferences flow above. From the Alert Settings page, you click **Do-Not-Disturb**.
+Steps 1–6 are identical. At Step 6, you click **Do-Not-Disturb**.
 
-**Step 2 — Do-Not-Disturb Landing (No Period Set)**
+**Step 7 — Do-Not-Disturb Landing (No Period Set)**
 
 The Do-Not-Disturb screen loads. A message states "You have not set a Do-Not-Disturb period." A **Set Do-Not-Disturb period** button is prominently displayed. A disclaimer in red text clarifies that mandatory alerts bypass DND and will always be delivered.
 
@@ -144,7 +182,7 @@ The Do-Not-Disturb screen loads. A message states "You have not set a Do-Not-Dis
 
 ***
 
-**Step 3 — Set DND Form**
+**Step 8 — Set DND Form**
 
 After clicking **Set Do-Not-Disturb period**, a form appears inline with three fields:
 
@@ -158,7 +196,7 @@ A preview message in red reads: "You will not receive alerts between \[Start tim
 
 ***
 
-**Step 4 — DND Confirmation**
+**Step 9 — DND Confirmation**
 
 A green banner reads "Your Do-Not-Disturb period has been set." The page reflects the active DND window and shows a "Processing…" indicator as the system saves the preference.
 
