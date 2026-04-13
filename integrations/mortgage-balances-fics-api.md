@@ -8,15 +8,14 @@ The **Mortgage Balances - FICS API** feature integrates nFinia's OLB (Online Ban
 
 Members with active FICS mortgage loans can view loan details (property address, interest rate, payment schedule), review transaction history, monitor balance breakdowns, manage contact information on file with the servicer, request payoff quotes, access account notes, and message the credit union's mortgage department — all from within the same digital banking session they use for deposits and transfers.
 
-For the credit union, this integration reduces inbound servicing calls by surfacing self-service mortgage data within the primary member channel. It also eliminates the friction of redirecting you to a separate mortgage servicing portal. The feature lives under **Banking > Accounts > \[FICS Loan Account]** and is also accessible from the **Mortgage** item in the left-hand sidebar navigation.
+For the credit union, this integration reduces inbound servicing calls by surfacing self-service mortgage data within the primary member channel. It also eliminates the friction of redirecting you to a separate mortgage servicing portal. The feature lives under **Banking > Accounts > \[FICS Loan Account]** and is also accessible from the **Mortgage** item in the More section.
 
 | Attribute        | Detail                                                                                                                                                                    |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Feature Name     | Mortgage Balances — FICS API                                                                                                                                              |
-| Module           | Banking > Accounts > FICS Loan / Sidebar > Mortgage                                                                                                                       |
+| Module           | Banking > Accounts > FICS Loan  > Mortgage                                                                                                                                |
 | Platforms        | OLB (Web), Mobile Banking (iOS/Android), Mobile Browser                                                                                                                   |
 | User Roles       | Retail member with active FICS-serviced mortgage loan(s)                                                                                                                  |
-| Access Level     | Member-authenticated; account-scoped                                                                                                                                      |
 | Key Actions      | View loan details, view balances, view transaction history, edit contact info, request payoff, send secure message, access statements, initiate payment (Pay Now via SSO) |
 | Integration Type | API (FICS loan servicing system)                                                                                                                                          |
 | SSO Dependencies | Pay Now, Paperless Statements (external redirect via SSO token)                                                                                                           |
@@ -43,7 +42,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 ### Prerequisites
 
 * Member must have an active FICS-serviced mortgage loan linked to their nFinia account.
-* The credit union must have the FICS API integration configured and enabled in the nFinia admin settings.
+* The credit union must have the FICS API integration configured and enabled in  nFinia&#x20;
 * For **Pay Now** and **Paperless Statements**, a valid SSO token configuration must be in place between nFinia and the FICS payment/document portal.
 * Members with multiple FICS loans will see all linked loans in the account selector dropdown.
 
@@ -51,24 +50,36 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 **Accessing the Mortgage Feature**
 
-1. After logging in, click **Mortgage** in the left-hand sidebar, or navigate via **Banking > Additional Services > Mortgage**, or select a FICS loan account directly from the **Accounts** list.
-2. The system calls the FICS API and retrieves all linked mortgage accounts for the authenticated member.
-3. If you have a single loan, the platform loads it directly. If multiple loans exist, a **Select Account** dropdown appears — select the desired loan.
+1. After logging in, click **Mortgage** in the More section, or navigate to **Banking > Additional Services > Mortgage**, or select a FICS loan account directly from the **Accounts** list. The system calls the FICS API and retrieves all linked mortgage accounts for the authenticated member. If you have a single loan, the platform loads it directly. If multiple loans exist, a **Select Account** dropdown appears — select the desired loan.
 
-**Mortgage Account Dashboard**
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-4. The **Account Detail** screen loads, displaying the FICS loan identifier, remaining balance, interest rate, next due amount and date, remaining term, and an **Upcoming Payments** panel. A **Pay Now** button and **Quick Transfer** panel are available in the right-hand column.
-5. Below the summary, the **Transactions** section lists all historical payments. Each row shows date, amount, principal/interest/tax-insurance split, and remaining balance. Clicking a row expands the transaction detail view, which includes a **Download** button to save an individual transaction record as a PDF.
+2. There is an option to view the **Account Detail** screen, displaying the FICS loan identifier, remaining balance, interest rate, next due amount and date, remaining term.
 
-**Loan Information Tabs**
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-6. Clicking **View more loan information** or navigating to the **Fics Loan** account detail opens the tabbed **Loan Information** view with five tabs: **About this loan**, **Balances**, **Account notes**, **Statement and documents**, and **Help**.
-7. **About this loan** (default): Displays a full loan detail card — property address, date registered, next due payment amount and date, current interest rate (APR), payment frequency, remaining term, maturity date, a **Current payment breakdown** section (principal and interest, tax and insurance, total), and a **Contact information** section showing home phone, business phone, email address, and mailing address with an **Edit** link.
-8. Clicking **Edit** opens the **Update mortgage contact information** modal. All fields are required unless marked optional. Fields include: First name (Optional), Last name (Optional), Address 1, Address 2 (Optional), City/Town, State, ZIP Code, Email address, Phone number (home), Business phone (Optional), and Extension (Optional). Clicking **Save** submits the update to FICS. A success banner appears on confirmation.
-9. **Balances**: Displays a detailed balance breakdown pulled from FICS — Principal, Deferred principal, Tax and insurance, Subsidy, Unapplied, Unpaid late charges, Returned check charges, Loss draft, and Negative amortization. Below is a **Current year-to-date totals** section. A **Download balances year-to-date totals** link opens the browser's print dialog for you to save or print the balance report as a PDF.
-10. **Account notes**: Displays any servicer-entered notes on the account. A search bar and date-range filter are available. Notes are displayed in chronological order with a sort option.
-11. **Statement and documents**: Provides access to your paperless statements via SSO redirect to the FICS document portal.
-12. **Help**: Displays credit union mortgage contact information (phone number, support hours, mailing address) and a **Send us a message** text area. Submitting the message delivers a secure inquiry to the credit union's mortgage team. A success confirmation banner appears after submission.
+2. Below the summary, the **Transactions** section lists all historical payments. Each row shows date, amount, principal/interest/tax-insurance split, and remaining balance. Clicking a row expands the transaction detail view, which includes a **Download** button to save an individual transaction record as a PDF.
+3. Clicking **View more loan information**  opens the tabbed **Loan Information** view with five tabs: **About this loan**, **Balances**, **Account notes**, **Statement and documents**, and **Help**.
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+* **About this loan** (default): Displays a full loan detail card — property address, date registered, next due payment amount and date, current interest rate (APR), payment frequency, remaining term, maturity date, a **Current payment breakdown** section (principal and interest, tax and insurance, total), and a **Contact information** section showing home phone, business phone, email address, and mailing address with an **Edit** link.
+* Accessible via the Edit link in the Contact information section of About this loan. Updates the contact record in FICS for this loan account. All fields are required unless marked optional. Fields include: First name (Optional), Last name (Optional), Address 1, Address 2 (Optional), City/Town, State, ZIP Code, Email address, Phone number (home), Business phone (Optional), and Extension (Optional). Clicking **Save** submits the update to FICS. A success banner appears on confirmation.
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+4. **Balances**: Displays a detailed balance breakdown pulled from FICS — Principal, Deferred principal, Tax and insurance, Subsidy, Unapplied, Unpaid late charges, Returned check charges, Loss draft, and Negative amortization. Below is a **Current year-to-date totals** section. A **Download balances year-to-date totals** link opens the browser's print dialog for you to save or print the balance report as a PDF.
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+4. **Account notes**: Displays any servicer-entered notes on the account. A search bar and date-range filter are available. Notes are displayed in chronological order with a sort option.
+
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+4. **Statement and documents**: Provides access to your paperless statements via SSO redirect to the FICS document portal.
+5. **Help**: Displays credit union mortgage contact information (phone number, support hours, mailing address) and a **Send us a message** text area. Submitting the message delivers a secure inquiry to the credit union's mortgage team. A success confirmation banner appears after submission.
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ### Request Payoff Information
 
@@ -77,199 +88,23 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
     * **Estimated date of payoff** (date, required): The date by which you intends to pay off the mortgage.
     * **Send payoff information to**: Radio selection — My email (pre-filled from profile), My mailing address, or My fax number. Each selection reveals the relevant detail field.
     * **Phone number** (pre-filled, required): Your contact number.
-14. Clicking **Submit** sends the payoff request to the FICS system. On success, a green confirmation banner — "Your request for payoff information has been successfully sent." — appears on the Loan Information screen.
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+13. Clicking **Submit** sends the payoff request to the FICS system. On success, a green confirmation banner — "Your request for payoff information has been successfully sent." — appears on the Loan Information screen.
 
 ### Pay Now
 
 15. On the **Account Detail** screen, clicking **Pay Now** displays an **External Link Warning** dialog informing you that you are navigating outside of nFinia to the FICS payment portal. The dialog shows a disclaimer about external site policies and offers **Cancel** and **Proceed** buttons.
 16. Clicking **Proceed** initiates the SSO handoff and opens the FICS payment portal in a new browser tab, pre-authenticated via SSO token.
 
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
 ### Error Handling
 
 * **No mortgage accounts found**: If the authenticated member has no linked FICS loans, the Mortgage page displays: _"There are no mortgage accounts."_
 * **Invalid loan ID**: If the FICS API returns an error for a loan ID, you see a generic error state on the account detail page with options to go back or return to the home page.
 * **Pay Now / SSO session expired**: If the SSO token has expired before you click Pay Now again, the external payment portal returns a **Login Error** screen. You should return to nFinia and retry.
-
-***
-
-## Screen-by-Screen Walkthrough
-
-### Mortgage Landing Page
-
-Accessible via the **Mortgage** icon in the left sidebar or through **Banking > Additional Services > Mortgage**. If you have no FICS-linked loans, the page shows an empty state. Otherwise, a loan selector appears.
-
-<figure><img src="../.gitbook/assets/fics-001.jpg" alt=""><figcaption></figcaption></figure>
-
-When you have multiple FICS accounts, a **Select Account** dropdown appears populated with all linked FICS loan accounts.
-
-<figure><img src="../.gitbook/assets/fics-002.jpg" alt=""><figcaption></figcaption></figure>
-
-***
-
-### Mortgage Account Detail
-
-The main account overview screen for a selected FICS loan. This is the hub from which you access all mortgage self-service functions.
-
-<figure><img src="../.gitbook/assets/fics-003.jpg" alt=""><figcaption></figcaption></figure>
-
-| Field / Element              | Type    | Description                                                                        |
-| ---------------------------- | ------- | ---------------------------------------------------------------------------------- |
-| FICS LOAN \[Account Number]  | Label   | Loan identifier pulled from FICS                                                   |
-| Loan account in Membership # | Label   | Linked membership/share account number                                             |
-| Payment Due / Next Due Date  | Label   | Next scheduled payment amount and due date, highlighted in orange when approaching |
-| Interest Rate                | Label   | Current annual interest rate (APR)                                                 |
-| Interest Paid YTD            | Label   | Year-to-date interest paid, with info icon tooltip                                 |
-| Remaining term               | Label   | Months remaining on the loan                                                       |
-| Pay now                      | Button  | Initiates SSO redirect to FICS payment portal                                      |
-| Upcoming Payments panel      | Display | Shows next scheduled payment with loan type and due date                           |
-| Quick Transfer               | Panel   | Allows standard nFinia internal transfer to linked accounts                        |
-
-***
-
-### Transaction History
-
-The transaction list under the account detail. Shows all historical FICS loan transactions with date, payment type, amount, and remaining balance. Configurable by date range.
-
-<figure><img src="../.gitbook/assets/fics-004.jpg" alt=""><figcaption></figcaption></figure>
-
-Expanding a transaction row reveals the full payment breakdown (principal, interest, tax and insurance, deferred principal, subsidy, unapplied) along with the exact **Paid date** and a **Download** button to export the transaction record.
-
-<figure><img src="../.gitbook/assets/fics-005.jpg" alt=""><figcaption></figcaption></figure>
-
-***
-
-### Loan Information — About This Loan
-
-The **About this loan** tab is the default view within the **Loan Information** section. It provides a comprehensive summary of all loan attributes and payment obligations.
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.37.06 PM.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/fics-006.jpg" alt=""><figcaption></figcaption></figure>
-
-| Field                     | Description                                                               |
-| ------------------------- | ------------------------------------------------------------------------- |
-| Property address          | Physical address of the mortgaged property                                |
-| Date registered           | Date the mortgage was originated/registered                               |
-| Next due payment amount   | Amount of the next scheduled payment                                      |
-| Next due payment date     | Date the next payment is due                                              |
-| Current interest rate     | Stated as X.XXX% APR                                                      |
-| Payment frequency         | Monthly, bi-weekly, etc.                                                  |
-| Remaining term            | Months remaining                                                          |
-| Maturity date             | Final payment date of the loan                                            |
-| Current payment breakdown | Principal and interest / Tax and insurance / Total payment amount         |
-| Contact information       | Home phone, Business phone, Email address, Mailing address with Edit link |
-
-***
-
-### Edit Contact Information
-
-Accessible via the **Edit** link in the **Contact information** section of **About this loan**. Updates the contact record in FICS for this loan account.
-
-<figure><img src="../.gitbook/assets/fics-008.jpg" alt=""><figcaption></figcaption></figure>
-
-| Field               | Required | Notes                       |
-| ------------------- | -------- | --------------------------- |
-| First name          | Optional | Pre-filled from FICS record |
-| Last name           | Optional | Pre-filled from FICS record |
-| Address 1           | Required | Street address              |
-| Address 2           | Optional | Apartment/suite/unit        |
-| City/Town           | Required | —                           |
-| State               | Required | Dropdown                    |
-| ZIP Code            | Required | —                           |
-| Email address       | Required | —                           |
-| Phone number (Home) | Required | —                           |
-| Business phone      | Optional | —                           |
-| Extension           | Optional | —                           |
-
-***
-
-### Loan Information — Balances
-
-The **Balances** tab provides a real-time breakdown of all balance components on the FICS loan, plus year-to-date payment totals.
-
-<figure><img src="../.gitbook/assets/fics-009.jpg" alt=""><figcaption></figcaption></figure>
-
-The **Download balances year-to-date totals** link opens a print-formatted view of the balance report, which you can save as a PDF. The report header includes the credit union name, generation date/time, member name, loan number, and loan account number.
-
-| Balance Component      | Description                                |
-| ---------------------- | ------------------------------------------ |
-| Principal              | Outstanding principal balance              |
-| Deferred principal     | Any deferred principal amount              |
-| Tax and insurance      | Escrow balance for taxes and insurance     |
-| Subsidy                | Any subsidy applied to the loan            |
-| Unapplied              | Funds received but not yet applied         |
-| Unpaid late charges    | Outstanding late fees                      |
-| Returned check charges | NSF/returned check fees                    |
-| Loss draft             | Insurance loss draft balance               |
-| Negative amortization  | Negative amortization amount if applicable |
-
-***
-
-### Loan Information — Account Notes
-
-The **Account notes** tab displays servicer-entered notes for this loan. Members can search notes by keyword and filter by date range.
-
-<figure><img src="../.gitbook/assets/fics-011.jpg" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/fics-011.jpg" alt=""><figcaption></figcaption></figure>
-
-| Element                | Description                                   |
-| ---------------------- | --------------------------------------------- |
-| Search for notes       | Keyword search field                          |
-| From / To date pickers | Filter notes by date range                    |
-| Sort by                | Dropdown — Newest first / Oldest first        |
-| Notes list             | Displayed chronologically; shows note content |
-
-***
-
-### Loan Information — Help
-
-The **Help** tab provides credit union mortgage contact information alongside a secure messaging form. Members can send a message directly to the mortgage department without leaving the banking session.
-
-<figure><img src="../.gitbook/assets/fics-012.jpg" alt=""><figcaption></figcaption></figure>
-
-| Element               | Description                                                          |
-| --------------------- | -------------------------------------------------------------------- |
-| Phone support timings | Credit union mortgage department hours                               |
-| Mailing address       | Physical mailing address                                             |
-| Send us a message     | Free-text input, 249 character limit                                 |
-| Submit button         | Sends secure message; activates only when message field is populated |
-
-On successful submission, a green banner — _"Your message has been sent."_ — appears above the message field.
-
-***
-
-### Request Payoff Information
-
-Accessible from the **Request payoff information** button on the **Loan Information** header. This function allows you to formally request a payoff quote from the credit union, specifying the delivery channel and date parameters.
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.33.22 PM.png" alt="" width="333"><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/fics-013.jpg" alt=""><figcaption></figcaption></figure>
-
-| Field                                | Required    | Description                                                |
-| ------------------------------------ | ----------- | ---------------------------------------------------------- |
-| I need this information on or before | Required    | Date picker — desired receipt date for the payoff quote    |
-| Estimated date of payoff             | Required    | Date picker — intended mortgage payoff date                |
-| Send payoff information to           | Required    | Radio: My email / My mailing address / My fax number       |
-| Email field                          | Conditional | Shown when "My email" is selected; pre-filled from profile |
-| Mailing address field                | Conditional | Shown when "My mailing address" is selected                |
-| Fax number field                     | Conditional | Shown when "My fax number" is selected; member must enter  |
-| Phone number                         | Required    | Pre-filled from profile; editable                          |
-
-> **Note:** Both the **Payoff Date** and **Estimated payoff date** fields are required. Submitting without completing them returns field-level validation errors. The selected delivery channel field (email, address, or fax) is also required — leaving it blank triggers a validation error reading _"Send Payoff To field cannot be empty."_
-
-On successful submission, the modal closes and a green confirmation banner appears on the Loan Information screen:
-
-<figure><img src="../.gitbook/assets/fics-015.jpg" alt=""><figcaption></figcaption></figure>
-
-***
-
-### Pay Now
-
-The **Pay Now** button on the Account Detail screen redirects you to the FICS-integrated external payment portal via SSO. Before leaving the nFinia environment, the platform displays an **External Link Warning** dialog.
-
-The dialog explains that you are navigating outside of nFinia to a third-party site and that the credit union is not responsible for the external site's policies. You may **Cancel** to stay, or click **Proceed** to complete the SSO handoff and open the payment portal.
 
 ***
 
@@ -280,14 +115,6 @@ Members can control the visibility of their FICS loan accounts through **Account
 <figure><img src="../.gitbook/assets/fics-017.jpg" alt=""><figcaption></figcaption></figure>
 
 > **Note:** Hiding a FICS loan via Account Settings suppresses it from the Accounts list but should not suppress it from the Mortgage feature. Ensure the correct visibility scoping is applied at the FI configuration level.
-
-***
-
-### Mobile Browser Experience
-
-The Mortgage Balances — FICS feature is fully accessible through mobile browsers (Chrome, Safari). The layout adapts to smaller screens. Transaction detail screens display all fields vertically and include the same **Download** functionality available on desktop.
-
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.34.28 PM.png" alt="" width="327"><figcaption></figcaption></figure>
 
 ***
 
