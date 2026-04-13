@@ -36,6 +36,6 @@ The member clicks "GEAR" in the top rIght of accounts.&#x20;
 
 **Step 3: Add a new membership or account**
 
-The member views the current membership details on the page. The page displays a link labeled "Open a new account or Apply for a new membership" at Tyfone. The member clicks the "Go to site" button to proceed to the account opening or membership application process. The browser opens the Tyfone site where the member can complete the application for a new account or membership.
+The member views the current membership details on the page. The page displays a link labeled "Open a new account or Apply for a new membership". The member clicks the "Go to site" button to proceed to the account opening or membership application process. The browser opens the Tyfone site where the member can complete the application for a new account or membership.
 
 <figure><img src="../../.gitbook/assets/accounts-memberships.png" alt="" width="480"><figcaption></figcaption></figure>

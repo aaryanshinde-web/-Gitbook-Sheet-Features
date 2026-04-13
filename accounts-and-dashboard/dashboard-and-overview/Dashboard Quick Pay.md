@@ -33,15 +33,15 @@ Click the dollar amount field in the Quick Transfer widget and type the amount t
 
 <figure><img src="../../.gitbook/assets/quick-transfer-amount.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 3 — Select the "To" Account
+### Step 3 — Select the "FROM" Account
 
-Click the **"Send money to"** dropdown. A list of all accounts under the membership appears — Checking, Savings, Visa Credit Card, Mortgage, and Loan accounts — each showing the account name and number. Select the destination account.
+Click the **"Send money From"** dropdown. A list of all accounts under the membership appears — Checking, Savings, Visa Credit Card, Mortgage, and Loan accounts — each showing the account name and number. Select the destination account.
 
 <figure><img src="../../.gitbook/assets/quick-transfer-select-to.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 4 — Review the Selected Account
+### Step 4 — Select the "TO" account
 
-After selecting the destination, the dropdown closes and the selected account is displayed in the "Send money to" field. Optionally add a memo and select the transfer frequency.
+Click the **"Send money TO"** dropdown. A list of all accounts under the membership appears — Checking, Savings, Visa Credit Card, Mortgage, and Loan accounts — each showing the account name and number. Select the destination account.
 
 <figure><img src="../../.gitbook/assets/quick-transfer-to-selected.png" alt="" width="480"><figcaption></figcaption></figure>
 
