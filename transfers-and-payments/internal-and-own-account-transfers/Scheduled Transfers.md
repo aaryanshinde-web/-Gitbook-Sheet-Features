@@ -8,25 +8,25 @@ Scheduled Transfers let you automate recurring or future-dated movements of mone
 
 ## At a Glance
 
-| Attribute | Detail |
-| --- | --- |
-| Module | Move Money › Scheduled Transfers |
-| Who Can Use | All nFinia Digital Banking members |
-| Schedule Types | One-time future-dated, Weekly, Bi-weekly, Semi-monthly, Monthly |
-| End Conditions | Continue until cancelled, End by date, After N occurrences |
+| Attribute       | Detail                                                             |
+| --------------- | ------------------------------------------------------------------ |
+| Module          | Move Money › Scheduled Transfers                                   |
+| Who Can Use     | All nFinia Digital Banking members                                 |
+| Schedule Types  | One-time future-dated, Weekly, Bi-weekly, Semi-monthly, Monthly    |
+| End Conditions  | Continue until cancelled, End by date, After N occurrences         |
 | Execution Speed | Runs automatically on the scheduled date (instant for own-account) |
-| History View | Active schedules and completed scheduled transfer records |
-| Availability | 24 / 7 — via web or mobile |
+| History View    | Active schedules and completed scheduled transfer records          |
+| Availability    | 24 / 7 — via web or mobile                                         |
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| --- | --- | --- | --- |
-| **Automate monthly savings** | Member with a savings goal | Schedule a weekly transfer from checking to savings after payday | Set-and-forget savings automation |
-| **Recurring loan payment** | Borrower with monthly obligation | Schedule a monthly transfer from checking to loan | Avoids missed payments and late fees |
-| **Future-dated one-time transfer** | Member planning a large purchase | Schedule a one-time transfer for a specific future date | Move funds exactly when needed, not earlier |
-| **Bill-aligned cash flow** | Member with due-date patterns | Schedule semi-monthly transfers aligned to bill cycles | Keeps cash positioned to cover obligations |
-| **Review & manage schedules** | Any member | Open Scheduled Transfers to view, edit, or cancel any schedule | Full visibility into all upcoming automated transfers |
+| Use Case                           | Who Uses It                      | What They Do                                                     | Business Value                                        |
+| ---------------------------------- | -------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
+| **Automate monthly savings**       | Member with a savings goal       | Schedule a weekly transfer from checking to savings after payday | Set-and-forget savings automation                     |
+| **Recurring loan payment**         | Borrower with monthly obligation | Schedule a monthly transfer from checking to loan                | Avoids missed payments and late fees                  |
+| **Future-dated one-time transfer** | Member planning a large purchase | Schedule a one-time transfer for a specific future date          | Move funds exactly when needed, not earlier           |
+| **Bill-aligned cash flow**         | Member with due-date patterns    | Schedule semi-monthly transfers aligned to bill cycles           | Keeps cash positioned to cover obligations            |
+| **Review & manage schedules**      | Any member                       | Open Scheduled Transfers to view, edit, or cancel any schedule   | Full visibility into all upcoming automated transfers |
 
 ## Step-by-Step Guide
 
@@ -40,39 +40,33 @@ From the top navigation, click **Move Money** to open the Move Money Hub. The hu
 
 ### Step 2 — Create a Scheduled Transfer
 
-Select **Scheduled Transfers** from the Move Money Hub. The **Transfer Funds to Own Account** wizard opens. Complete the form: select the **From** account, select the **To** account, enter the transfer amount, add an optional transaction memo, and choose the payment date. Check the **Make payment recurring** box to expose recurrence controls — choose a frequency (Weekly, Bi-weekly, Semi-monthly, Monthly) and an end condition (Continue until cancelled, End by date, or After N occurrences). Click **Continue** to proceed.
+Select **Scheduled Transfers** from the Move Money Hub. Click on schedule a new transfer,this takes you ot the move money hub.
 
-<figure><img src="../../.gitbook/assets/Scheduled_Transfer_Setup.png" alt="Transfer Funds to Own Account form with recurring payment option"><figcaption><p>Step 2: Enter amount, date, and check <strong>Make payment recurring</strong> to configure the schedule.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 3.22.43 AM.png" alt=""><figcaption></figcaption></figure>
 
-### Step 3 — Return to the Move Money Hub
+### Step 3 — Move Money HUB&#x20;
 
-After setting up the schedule, you are returned to the Move Money Hub. From here you can initiate the matching instant transfer now — or navigate to **Internal Transfers** to execute a linked movement alongside your scheduled automation.
+once guided back to Move money hub on clicking schedule a new transfer,Click on unsternal transfers.
 
-<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub_2.png" alt="Move Money hub with additional options expanded"><figcaption><p>Step 3: Back at the Move Money Hub — choose your next action.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub with all transfer and payment options"><figcaption><p>Step 1: Open the Move Money Hub from the top navigation.</p></figcaption></figure>
 
 ### Step 4 — Open Internal Transfers
 
-Select **Internal Transfers** to initiate a same-membership transfer that pairs with the schedule you just created. The Internal Transfers screen surfaces quick entry points for account-to-account transfers, scheduled transfer management, and related utilities.
+Select **Internal Transfers** and Source and Destination Account and enter the amount($100 here),then select a date to schedule a transfer and you can also make the payments recurring by selecting frequency,repetition and end date for the schedule transfer and click on continue.
 
-<figure><img src="../../.gitbook/assets/Scheduled_Internal_Transfers.png" alt="Internal Transfers screen with transfer options"><figcaption><p>Step 4: Open <strong>Internal Transfers</strong> to complete the matching movement.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.47.24 AM.png" alt=""><figcaption></figcaption></figure>
 
-### Step 5 — Confirm the Transfer
-
-A **Confirm your transfer** modal appears showing the full transfer summary — **From** account, **To** account, **Amount**, **Transfer on** date, and **Description**. Review each field carefully. Click **Confirm** to submit, or **Cancel** to go back and edit.
-
-<figure><img src="../../.gitbook/assets/Scheduled_Confirm_Modal.png" alt="Confirm your transfer modal dialog"><figcaption><p>Step 5: Review the transfer details and click <strong>Confirm</strong>.</p></figcaption></figure>
-
-### Step 6 — Final Review Screen
+### Step 5 — Final Review Screen
 
 A final review screen appears reiterating the transfer summary before the platform commits the movement. This second confirmation protects against accidental double-submission and gives you one last chance to verify the amount and destination.
 
-<figure><img src="../../.gitbook/assets/Scheduled_Confirm_Modal.png" alt="Final confirmation screen"><figcaption><p>Step 6: Final confirmation — verify once more and submit.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.48.38 AM (1).png" alt=""><figcaption></figcaption></figure>
 
-### Step 7 — Success Confirmation
+### Step 6 — Succesfully Scheduled
 
-A success confirmation screen displays with a **green checkmark**, confirming that the transfer has been submitted. Your scheduled transfer is now active and will execute on the configured date(s); the instant internal transfer, if initiated, has posted in real time. Balances update immediately for own-account movements.
+on clicking confirm you get to the screen which tells you the schedule has been succesfull,Click on done and return back to dashboard.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="Success screen with green checkmark"><figcaption><p>Step 7: Green checkmark — transfer submitted and schedule active.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.49.06 AM (1).png" alt=""><figcaption></figcaption></figure>
 
 ## End-to-End Workflow
 
@@ -82,6 +76,5 @@ A success confirmation screen displays with a **green checkmark**, confirming th
 4. **Open Internal Transfers** — Member selects Internal Transfers to initiate the matching instant movement.
 5. **Confirm transfer** — The confirmation modal displays full details; member clicks Confirm.
 6. **Final review** — A second confirmation screen verifies the transfer before commit.
-7. **Success** — Green-check success screen confirms the transfer is submitted and the schedule is active.
 
-> **Note:** Use **[Transfer to Own Account](<CSUM-06-Transfer-Own-Account-Scheduled.md>)** for one-off instant transfers. Use **Scheduled Transfers** (this page) whenever the movement needs to happen on a future date or repeat on a schedule.
+> **Note:** Use [**Transfer to Own Account**](CSUM-06-Transfer-Own-Account-Scheduled.md) for one-off instant transfers. Use **Scheduled Transfers** (this page) whenever the movement needs to happen on a future date or repeat on a schedule.
