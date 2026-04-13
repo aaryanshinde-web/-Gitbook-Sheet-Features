@@ -9,8 +9,6 @@
 * [Biometrics & Access Security](authentication-and-login/biometrics-and-access-security/README.md)
   * [Face ID - Biometric Auth](<authentication-and-onboarding/biometrics-and-access-security/face id.md>)
   * [Sneak Peek](<authentication-and-onboarding/biometrics-and-access-security/sneak peek.md>)
-* [Device & Session Management](authentication-and-login/device-and-session-management/README.md)
-  * [Device Management & Trusted Devices](authentication-and-onboarding/device-and-session-management/CSUM-25-Device-Management-Trusted-Devices.md)
 
 ## Dashboard
 
@@ -20,6 +18,7 @@
   * [Upcoming Payments](<accounts-and-dashboard/dashboard-and-overview/Dashboard Upcoming Payments.md>)
   * [Related Links](<accounts-and-dashboard/dashboard-and-overview/Dashboard Related Links.md>)
   * [Credit Score Widget](<accounts-and-dashboard/dashboard-and-overview/Dashboard Credit Score Widget.md>)
+  * [Inbox](dashboard/dashboard-and-overview/inbox.md)
 
 ## Accounts
 
@@ -54,8 +53,6 @@
   * [External ACH Transfer](transfers-and-payments/external-ach-wire-and-instant/CSUM-08-External-ACH-Transfer.md)
   * [FedNow Instant Pay](transfers-and-payments/external-ach-wire-and-instant/CSUM-09-FedNow-Instant-Pay.md)
   * [Wire Transfers](transfers-and-payments/external-ach-wire-and-instant/CSUM-12-Wire-Transfers.md)
-* [Check Deposit - RDC](move-money/check-deposit-rdc/README.md)
-  * [Mobile Check Deposit - RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
 * [Recipient Management](move-money/recipient-management/README.md)
   * [Recipient Management](transfers-and-payments/recipient-management/CSUM-10-Recipient-Management.md)
 * [Zelle & P2P](move-money/zelle-and-p2p/README.md)
@@ -71,10 +68,15 @@
   * [Blackout Period](more-menu/alerts-and-notifications/blackout-period.md)
 * [Personal Information](more-menu/personal-information/README.md)
   * [Personal Information Management](more-menu/personal-information/personal-information-management.md)
+* [Device & Session Management](more-menu/device-and-session-management/README.md)
+  * [Device Management & Trusted Devices](more-menu/device-and-session-management/csum-25-device-management-trusted-devices.md)
 * [Settings & Preferences](more-menu/settings-and-preferences/README.md)
   * [Settings & Preferences](more-menu/settings-and-preferences/settings-and-preferences.md)
 * [Skip-A-Pay](more-menu/skip-a-pay.md)
 * [User ID and Password](more-menu/user-id-and-password.md)
+* [Check Deposit - RDC](more-menu/check-deposit-rdc/README.md)
+  * [Mobile Check Deposit - RDC](more-menu/check-deposit-rdc/mobile-check-deposit-guide.md)
+  * [Check Deposit(OLB)](more-menu/check-deposit-rdc/check-deposit-olb.md)
 
 ## Vendor Integrations
 

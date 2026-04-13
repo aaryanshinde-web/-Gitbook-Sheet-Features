@@ -50,7 +50,7 @@ you click ‘More' in the top navigation bar. The More options panel expands to 
 
 The Skip A Pay page shows the current loans such as Line of credits and Used automobiles loan which you con selet to skip.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 4 — Select Loan & Review Fee Details**
 
