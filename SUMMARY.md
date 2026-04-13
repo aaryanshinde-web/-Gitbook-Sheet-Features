@@ -81,5 +81,5 @@
   * [Velera — Credit Card Management](integrations/velera-credit-card-management.md)
   * [Velera — Dispute a Transaction](integrations/velera-dispute-transaction.md)
   * [Velera — Credit Card eStatements & Rewards](integrations/velera-credit-card-statements-rewards.md)
-* [Loan Origination SSO — MeridianLink](integrations/meridianlink-loan-origination-sso.md)
+* [Loan Origination SSO - MeridianLink](integrations/meridianlink-loan-origination-sso.md)
 * [Plaid IAV - Instant Account Verification](integrations/plaid-iav-implementation.md)
