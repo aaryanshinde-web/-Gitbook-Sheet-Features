@@ -48,7 +48,7 @@
   * [FedNow Instant Pay](transfers-and-payments/external-ach-wire-and-instant/CSUM-09-FedNow-Instant-Pay.md)
   * [Wire Transfers](transfers-and-payments/external-ach-wire-and-instant/CSUM-12-Wire-Transfers.md)
 * [Check Deposit - RDC](move-money/check-deposit-rdc/README.md)
-  * [Mobile Check Deposit — RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
+  * [Mobile Check Deposit - RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
 * [Recipient Management](move-money/recipient-management/README.md)
   * [Recipient Management](transfers-and-payments/recipient-management/CSUM-10-Recipient-Management.md)
 * [Zelle & P2P](move-money/zelle-and-p2p/README.md)
@@ -72,7 +72,7 @@
 ## Vendor Integrations
 
 * [Marketing Automation — Prisma](integrations/prisma-integration.md)
-* [Direct & Web Connect — Quicken / QuickBooks](integrations/direct-and-web-connect-quicken-quickbooks.md)
+* [Direct & Web Connect - Quicken / QuickBooks](integrations/direct-and-web-connect-quicken-quickbooks.md)
 * [End User Support Portal - ZenDesk](vendor-integrations/zendesk-end-user-support/README.md)
   * [Inbox & Message Center](vendor-integrations/zendesk-end-user-support/csum-17-inbox-message-center.md)
 * [Mortgage Balances - FICS API](integrations/mortgage-balances-fics-api.md)
