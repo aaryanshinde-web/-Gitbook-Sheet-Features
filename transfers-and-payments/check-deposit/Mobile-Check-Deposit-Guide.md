@@ -1,4 +1,4 @@
-# Mobile Check Deposit - RDC
+# Remote Check Deposit - Mobile
 
 Platform: nFinia Mobile Banking&#x20;
 
@@ -125,7 +125,7 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 | RETAKE PICTURE      | Button    | Discards current front image and reopens camera        |
 | Check Details       | Display   | Date, check amount, account info displayed below image |
 
-**Step 8(Optional): Back Check Retake View**
+**Step 8 (Optional): Back Check Retake View**
 
 <figure><img src="../../.gitbook/assets/deb630aa4b4b10a13730ed0850b566322c6c5e20.png" alt="" width="340"><figcaption></figcaption></figure>
 
@@ -136,7 +136,13 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 | RETAKE PICTURE      | Button    | Discards back image and reopens camera for re-capture |
 | Endorsement Area    | Visual    | Back image should show member endorsement signature   |
 
-**3.2 Decision Points & Error Handling**
+**Step 9 — Completion**
+
+Upon successful submission, a confirmation screen is displayed. The transaction is recorded in Check Deposit History with status "Submitted," timestamp, amount, and channel (Mobile). An audit log entry is created with deposit event details for BSA/AML and Reg CC compliance.
+
+
+
+**5. Decision Points & Error Handling**
 
 |                                          |                                                                      |
 | ---------------------------------------- | -------------------------------------------------------------------- |
@@ -146,11 +152,7 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 | Account not eligible for RDC             | Account not shown in deposit dropdown                                |
 | Network failure during submission        | Draft preserved; retry option shown on next app open                 |
 
-**3.4 Completion**
-
-Upon successful submission, a confirmation screen is displayed. The transaction is recorded in Check Deposit History with status "Submitted," timestamp, amount, and channel (Mobile). An audit log entry is created with deposit event details for BSA/AML and Reg CC compliance.
-
-**5. QUICK REFERENCE**
+**7. QUICK REFERENCE**
 
 |                           |                                               |                              |                                                 |
 | ------------------------- | --------------------------------------------- | ---------------------------- | ----------------------------------------------- |

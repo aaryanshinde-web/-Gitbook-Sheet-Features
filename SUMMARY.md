@@ -74,7 +74,7 @@
   * [Settings & Preferences](more-menu/settings-and-preferences/settings-and-preferences.md)
 * [Skip-A-Pay](more-menu/skip-a-pay.md)
 * [Check Deposit - RDC](move-money/check-deposit-rdc/README.md)
-  * [Mobile Check Deposit - RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
+  * [Remote Check Deposit - Mobile](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
   * [Remote Check Deposit (Desktop)](more-menu/check-deposit-rdc/check-deposit-olb.md)
 
 ## Vendor Integrations
