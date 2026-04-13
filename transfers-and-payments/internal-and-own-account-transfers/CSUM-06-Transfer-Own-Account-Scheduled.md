@@ -63,7 +63,7 @@ _Step 3: Navigate from Dashboard to Own Account Transfer_
 
 Step 4 displays the transfer details form with fields for entering the transfer amount, an optional transaction memo, payment date selection, and a recurring payment checkbox.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 4: Enter Amount & Memo_
 

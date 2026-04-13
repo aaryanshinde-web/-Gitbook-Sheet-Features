@@ -45,11 +45,11 @@ You managing your personal information through the app avoid the need for branch
 
 **Step 2 — Open the More Menu**
 
-you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+You can click ‘More' in the top navigation bar. The More options panel expands to show Personal Information. Or you can Navigate from Dashboard to Personal Information directly
 
-<figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Navigate from Dashboard to Personal Information**
+**Step 3 — Personal Information page**
 
 The Personal Information page is displayed showing the Devices tab. A list of registered devices is shown, each with a 'Forget Device' button for removing access.
 
@@ -63,24 +63,18 @@ The Personal Information page shows the Contact Information section displayed in
 
 **Step 5 — View Mailing Address**
 
-The Mailing Address section displays your current address at 5841 INDEPENDENCE DR, UTICA, MI 48451-7871 with an 'Edit addresses' button available.
+The Mailing Address section displays your current address  with an 'Edit addresses' button available.
 
 <figure><img src="../../.gitbook/assets/img_da4b7977eac6.png" alt="" width="480"><figcaption></figcaption></figure>
 
 **Step 6 — View Residential Address**
 
-The Personal Information page shows tabs for Contact Information, Address, Residential Address, Devices, and Trusted Device. The residential address section is currently active.
+&#x20;The residential address section displays your residential address with an 'Edit addresses' button available.
 
-<figure><img src="../../.gitbook/assets/img_18d0ab4e695b.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step 7 — View Trusted Device Detail**
 
-The Trusted Device section is displayed with a shield icon and a message indicating the trusted device status has been successfully registered.
+The Trusted Device section is displayed with a shield icon and a message indicating the current device  has been successfully trusted.
 
 <figure><img src="../../.gitbook/assets/img_23d0e9af31eb.png" alt="" width="620"><figcaption></figcaption></figure>
-
-**Step 8 — Edit Contact Information**
-
-The Personal Information contact editing form is shown with multiple input fields for updating your contact details such as phone numbers and email addresses.
-
-<figure><img src="../../.gitbook/assets/img_abc04ea1d848.png" alt="" width="480"><figcaption></figcaption></figure>

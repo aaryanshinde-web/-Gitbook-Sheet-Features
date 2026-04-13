@@ -62,7 +62,7 @@ _Step 3: Navigate from Dashboard to Other You Transfer_
 
 This screen allows you to choose a recipient from your list and input the necessary transfer details, such as amount and message, to ensure accurate and effective money transfers.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 4: Select Recipient & Enter Details_
 
