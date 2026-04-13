@@ -52,7 +52,8 @@
 
 * [Move Money Hub](transfers-and-payments/internal-and-own-account-transfers/CSUM-05-Move-Money-Hub.md)
 * [Own Account & Member Transfers](move-money/own-account-and-member-transfers/README.md)
-  * [Transfer to Own Account & Scheduled](transfers-and-payments/internal-and-own-account-transfers/CSUM-06-Transfer-Own-Account-Scheduled.md)
+  * [Transfer to Own Account](transfers-and-payments/internal-and-own-account-transfers/CSUM-06-Transfer-Own-Account-Scheduled.md)
+  * [Scheduled Transfers](<transfers-and-payments/internal-and-own-account-transfers/Scheduled Transfers.md>)
   * [Transfer to Other Members](transfers-and-payments/internal-and-own-account-transfers/CSUM-07-Transfer-Other-Members.md)
 * [External Transfers](move-money/external-transfers/README.md)
   * [External ACH Transfer](transfers-and-payments/external-ach-wire-and-instant/CSUM-08-External-ACH-Transfer.md)
