@@ -54,13 +54,13 @@ The confirmation screen shows a $5.00 transfer between Retail Savings and Retail
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step 6 — Transfer Complete — Success Screen**
+**Step 4 — Transfer Complete — Success Screen**
 
 A success confirmation page is displayed with a green checkmark, confirming the completed $5.00 transfer between accounts with a transfer date of Apr 01, 2026.
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step 7 — View & Manage Scheduled Transfers**
+**Step 5 — View & Manage Scheduled Transfers**
 
 In this page, the member must select transfer type and account to see all the schedules. An active schedule card shows a transfer from Retail Checking to SHARE (0002) for $10.00 monthly, set to continue until cancelled with the next transfer date of Mar 18, 2026.&#x20;
 
