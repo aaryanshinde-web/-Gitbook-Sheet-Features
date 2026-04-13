@@ -55,19 +55,19 @@ The Inbox page displays a list of support tickets in a table format with columns
 
 <figure><img src="../../.gitbook/assets/img_48cfc445ce8c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 4 — View Support Messages**
+**Step 3 — View Support Messages**
 
 The Inbox interface shows the support messages view with a table listing various support tickets and your details including status and assigned representative.
 
 <figure><img src="../../.gitbook/assets/img_806c7b1a7ffa.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 5 — Send a New Support Message**
+**Step 4 — Send a New Support Message**
 
 A 'Create New Ticket' modal is displayed with fields for Inquiry Type (set to General Inquiry), Subject, Message body, and a file attachment option with a 20 MB size limit.
 
 <figure><img src="../../.gitbook/assets/img_fdb8e24d3d09.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 6 — Reply to a Support Thread**
+**Step 5 — Reply to a Support Thread**
 
 A success message modal confirms the ticket was created successfully with ID 07703. The list of recently created support tickets is visible in the background.
 

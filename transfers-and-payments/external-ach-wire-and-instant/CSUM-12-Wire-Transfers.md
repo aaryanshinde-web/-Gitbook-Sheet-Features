@@ -4,7 +4,9 @@ description: Wire Transfers — Domestic & International
 
 # Wire Transfers
 
-> **Module:** Banking › Move Money → Wire Transfer
+> **Module:** Banking › Move Money → Domestic Wired Transfer
+>
+> **Alternate Path:** More → Online Forms → Wire Transfer Form
 
 ## Summary
 
@@ -18,7 +20,8 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 | Attribute                | Detail                                                                           |
 | ------------------------ | -------------------------------------------------------------------------------- |
-| Module                   | Move Money > Online Forms > Wire Transfer                                        |
+| Module (Primary)         | Move Money > Domestic Wired Transfer                                             |
+| Module (Alternate)       | More > Online Forms > Wire Transfer Form                                         |
 | Domestic Network         | Federal Reserve Fedwire                                                          |
 | International Network    | SWIFT                                                                            |
 | Domestic Settlement      | Same business day (if before cut-off)                                            |
@@ -37,15 +40,17 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > Online Forms > Wire Transfer Form._ |&#x20;
+\| _Navigation: Dashboard > Move Money > Domestic Wired Transfer tile — or — Dashboard > More > Online Forms > Wire Transfer Form._ |&#x20;
 
 **Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Navigate to Forms**
+**Step 2 — Navigate to Move Money**
 
-The Forms list page is displayed showing all available form types. you can review the submitted wire transfer status or access other form types such as ACH Origination, Address Change, Card Order, and more from this screen.
+Click **Move Money** in the top navigation bar. The Move Money Hub displays all available transfer and payment tiles. Locate and click the **Domestic Wired Transfer** tile to begin a new wire request.
+
+> **Alternate path:** You can also access wire transfers via **More → Online Forms → Wire Transfer Form**. The Forms route opens the same wire transfer request form through the Online Forms portal.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -57,4 +62,4 @@ The Domestic Outgoing Wire Transfer Request form is displayed within the Online 
 
 **Step 4 — Review & Submit**
 
-The Forms list page is displayed showing all available form types. you can review the submitted wire transfer status or access other form types such as ACH Origination, Address Change, Card Order, and more from this screen.
+Review all wire details — originating account, beneficiary name, bank routing/SWIFT code, and amount. Click **Submit** to send the wire request. A confirmation screen displays the submitted wire reference number and status. You can track the wire status from your Inbox notifications.
