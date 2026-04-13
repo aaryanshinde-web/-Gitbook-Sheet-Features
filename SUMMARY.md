@@ -28,7 +28,7 @@
 ## Cards
 
 * [Card Lifecycle](cards/card-lifecycle/README.md)
-  * [Visa Push Provisioning — Link Card to Digital Wallet](<bill-pay-loans-and-cards/card-lifecycle/Link Card to Digital Wallet.md>)
+  * [Visa Push Provisioning - Link Card to Digital Wallet](<bill-pay-loans-and-cards/card-lifecycle/Link Card to Digital Wallet.md>)
   * [Add to Digital Wallet (Mobile)](<bill-pay-loans-and-cards/card-lifecycle/Add-to-Digital-Wallet for MB.docx.md>)
 * [Card Controls & Spending](cards/card-controls-and-spending/README.md)
   * [Card Controls](<bill-pay-loans-and-cards/card-controls-and-spending/Card Controls.md>)
