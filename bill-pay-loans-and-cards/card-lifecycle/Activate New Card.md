@@ -25,13 +25,13 @@ The Activate New Card feature lets you activate a newly issued or replacement de
 
 ## Step-by-Step Guide
 
-_Navigation: Banking › Cards › [select card] › Card Details › Activate Card_
+_Navigation: Banking › Cards › [select card] › Activate Card_
 
-### Step 1 — Open the Card from the Cards Dashboard
+### Step 1 — Open the Cards Dashboard
 
-From the Cards dashboard, locate the card you need to activate and click it to open Card Details. When a card has been deactivated, the **Deactivate / Replace Card** button on the Card Details screen is automatically replaced with an **Activate Card** button. Click **Activate Card** to begin.
+From the top navigation, click **Cards** to open the Cards dashboard. Locate the card you need to activate. When a card has been deactivated, the **Deactivate / Replace Card** link on the card row is automatically replaced with an **Activate Card** link. Click **Activate Card** to begin.
 
-<figure><img src="../../.gitbook/assets/Card_Controls_Overview.png" alt="Cards dashboard showing card details" data-size="original"><figcaption><p>Step 1: Open the card from the Cards dashboard. For deactivated cards, the same button now reads <strong>Activate Card</strong>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Cards_List.png" alt="Cards dashboard listing all user cards" data-size="original"><figcaption><p>Step 1: Open the Cards dashboard. For deactivated cards, the row action changes from <strong>Deactivate / Replace Card</strong> to <strong>Activate Card</strong>.</p></figcaption></figure>
 
 ### Step 2 — Enter Card Details
 
@@ -45,4 +45,4 @@ A confirmation message appears: **"Your card has been successfully activated."**
 
 <figure><img src="../../.gitbook/assets/Activate_Card_Success.png" alt="Card successfully activated" data-size="original"><figcaption><p>Step 3: Confirmation — the card is activated and ready for use.</p></figcaption></figure>
 
-> **Note:** Once a card has been deactivated via **Deactivate / Replace Card**, the same action button on the Card Details screen changes to **Activate Card**. Use that button to activate your replacement card when it arrives.
+> **Note:** Once a card has been deactivated via **Deactivate / Replace Card**, the same action on the Cards dashboard and Card Details screen changes to **Activate Card**. Use that action to activate your replacement card when it arrives.
