@@ -32,15 +32,13 @@ When you enable location-based permissions, you can add up to 3 named locations.
 
 _Navigation: Log in to Summerville Credit Union online banking. From the Dashboard, click Cards, select your card, click Card Controls, then select Location Controls._
 
-<figure><img src="../../.gitbook/assets/Location_Controls_img1.png" alt=""><figcaption></figcaption></figure>
-
 ### Step 1 — Open Location Controls (Default State)
 
-<figure><img src="../../.gitbook/assets/Location_Controls_img2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Location_Controls_img1.png" alt=""><figcaption></figcaption></figure>
 
 From Card Details, click **Card Controls** in the quick-action row. In the Card Controls panel, select the **Location Controls** tab. By default, the **Allow International Transactions** toggle is set to **Off**, meaning card transactions are restricted to domestic use only. You will see two scope options — **All Countries** and **Selected Countries** — both inactive until you enable the toggle.
 
-<figure><img src="../../.gitbook/assets/Location_Controls_Default.png" alt="Location Controls default state — international transactions disabled"><figcaption><p>Step 1: Location Controls tab with international transactions turned off by default.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Location_Controls_img2.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 — Enable International Transactions
 
@@ -57,8 +55,6 @@ Once locations have been added, they appear in the **Enabled Locations** list be
 ### Step 4 — Add a New Location
 
 Click **Add a Location** to open the location search panel. Enter a city, state, or zip code into the search field. The interactive map zooms to the area and displays a boundary circle — transactions will be approved for any use within that marked boundary. You can assign a nickname for easy identification. Click **Save Location** to add it, or **Cancel** to discard.
-
-<figure><img src="../../.gitbook/assets/Location_Controls_img3.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Location_Controls_Add_Location.png" alt="Add a Location panel with interactive map"><figcaption><p>Step 4: Search for a location and define a geographic boundary on the interactive map.</p></figcaption></figure>
 
