@@ -86,6 +86,6 @@
   * [Inbox & Message Center](vendor-integrations/zendesk-end-user-support/csum-17-inbox-message-center.md)
 * [Mortgage Balances - FICS API](integrations/mortgage-balances-fics-api.md)
 * [eDocuments - BDI SSO](integrations/edocuments-bdi-sso.md)
-* [Velera API Integration](vendor-integrations/velera-api-integration.md)
+* [Velera API Integration](vendor-integrations/velera-api-integration/README.md)
 * [Loan Origination SSO - MeridianLink](integrations/meridianlink-loan-origination-sso.md)
 * [Plaid IAV - Instant Account Verification](integrations/plaid-iav-implementation.md)

@@ -10,21 +10,21 @@ Spending Limits are found under Card Controls in the Card Details view. Each lim
 
 ## At a Glance
 
-| Attribute | Detail |
-| --- | --- |
-| Module | Banking › Cards › Card Details › Card Controls › Spending Limits |
-| Per Transaction Limit | Declines any single transaction exceeding the set amount |
-| Per Month Limit | Declines transactions once the monthly spend cap is reached |
-| Toggle | Each limit can be independently enabled or disabled |
-| Related Features | Location Controls, Card Alerts, Usage Control |
+| Attribute             | Detail                                                           |
+| --------------------- | ---------------------------------------------------------------- |
+| Module                | Banking › Cards › Card Details › Card Controls › Spending Limits |
+| Per Transaction Limit | Declines any single transaction exceeding the set amount         |
+| Per Month Limit       | Declines transactions once the monthly spend cap is reached      |
+| Toggle                | Each limit can be independently enabled or disabled              |
+| Related Features      | Location Controls, Card Alerts, Usage Control                    |
 
 ## Key Use Cases
 
-| Use Case | Who It's For |
-| --- | --- |
+| Use Case                      | Who It's For                               |
+| ----------------------------- | ------------------------------------------ |
 | **Cap per-transaction spend** | Member managing a shared or secondary card |
-| **Set a monthly budget** | Member tracking monthly expenses |
-| **Disable a limit** | Member who no longer needs a cap |
+| **Set a monthly budget**      | Member tracking monthly expenses           |
+| **Disable a limit**           | Member who no longer needs a cap           |
 
 ## Step-by-Step Guide
 
@@ -34,7 +34,7 @@ _Navigation: Log in to Summerville Credit Union online banking. From the Dashboa
 
 After logging in, you land on the Dashboard. Click Cards in the top navigation to open your card list, then select the card you want to configure. From Card Details, click Card Controls to open the controls panel.
 
-<img src="../../.gitbook/assets/Spending_Limits_img1.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Spending_Limits_img1.png" alt=""><figcaption></figcaption></figure>
 
 _Step 1: Dashboard — click Cards to begin._
 
@@ -42,6 +42,6 @@ _Step 1: Dashboard — click Cards to begin._
 
 The Spending Limits tab opens under Card Controls. You will see two limit types: Per Transaction and Per Month. Toggle either limit on to activate it, then enter the maximum dollar amount in the input field. For Per Month, your current monthly spend is shown for reference. Toggle a limit off at any time to remove it. Changes take effect immediately.
 
-<img src="../../.gitbook/assets/Spending_Limits_img2.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Spending_Limits_img2.png" alt=""><figcaption></figcaption></figure>
 
 _Step 2: Per Transaction and Per Month limits — set the maximum dollar amounts._

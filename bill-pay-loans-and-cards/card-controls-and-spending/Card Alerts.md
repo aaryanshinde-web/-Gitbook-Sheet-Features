@@ -8,25 +8,25 @@ Card Alerts puts you in control of how, where, and when your card is used. From 
 
 ## At a Glance
 
-| Attribute | Detail |
-| --- | --- |
-| Module Location | Banking › Cards › Card Details › Card Controls › Card Alerts |
-| Who Can Use | All nFinia Digital Banking members with an enrolled card |
-| Spend Alerts | Set a per-transaction dollar threshold to flag large purchases |
-| Transaction Types | In Store, Mail / Phone Order, ATM, eCommerce, Other, Grocery |
+| Attribute           | Detail                                                                              |
+| ------------------- | ----------------------------------------------------------------------------------- |
+| Module Location     | Banking › Cards › Card Details › Card Controls › Card Alerts                        |
+| Who Can Use         | All nFinia Digital Banking members with an enrolled card                            |
+| Spend Alerts        | Set a per-transaction dollar threshold to flag large purchases                      |
+| Transaction Types   | In Store, Mail / Phone Order, ATM, eCommerce, Other, Grocery                        |
 | Merchant Categories | Department Store, Gas Station, Household, Restaurant, Age Restricted, Personal Care |
-| Changes Take Effect | Immediately upon saving |
-| Availability | 24 / 7 — via web or mobile |
+| Changes Take Effect | Immediately upon saving                                                             |
+| Availability        | 24 / 7 — via web or mobile                                                          |
 
 ## Key Use Cases
 
-| Use Case | Description |
-| --- | --- |
-| Set a spend alert threshold | Get notified when a transaction exceeds a set amount |
-| Disable ATM withdrawals | Prevent card from being used at ATMs |
-| Block eCommerce purchases | Stop online purchases while keeping in-store use active |
-| Restrict merchant categories | Prevent card from being used at specific merchant types |
-| Enable only specific categories | Allow card use only where you need it |
+| Use Case                        | Description                                             |
+| ------------------------------- | ------------------------------------------------------- |
+| Set a spend alert threshold     | Get notified when a transaction exceeds a set amount    |
+| Disable ATM withdrawals         | Prevent card from being used at ATMs                    |
+| Block eCommerce purchases       | Stop online purchases while keeping in-store use active |
+| Restrict merchant categories    | Prevent card from being used at specific merchant types |
+| Enable only specific categories | Allow card use only where you need it                   |
 
 ## Step-by-Step Guide
 
@@ -36,13 +36,13 @@ _📍 Navigation path: Banking › Cards › \[select card] › Card Details ›
 
 From the nFinia top navigation, select Cards. Locate the card you want to configure and click **Card Controls** at the bottom of that card tile. This opens the Card Details page.
 
-<img src="../../.gitbook/assets/Card_Alerts_img1.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Card_Alerts_img1.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 — Select the Card Alerts Tab
 
 Inside Card Details, find the Card Controls section. Select the **Card Alerts** tab. The page will show two sub-sections: **Spend Alerts** at the top, followed by **Transaction Type** and **Merchant Categories** controls below.
 
-<img src="../../.gitbook/assets/Card_Alerts_img2.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Card_Alerts_img2.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3 — Configure Spend Alerts
 
@@ -54,24 +54,24 @@ In the Spend Alerts section, you will see **Per Transaction** toggles. Toggle on
 
 The Transaction Type section lets you enable or disable specific ways your card can be used. Toggle any type Off to block that transaction method immediately.
 
-| Transaction Type | Description |
-| --- | --- |
-| In Store | Physical card-present purchases at retail locations |
-| Mail / Phone Order | Orders placed by phone or mail using card details |
-| ATM | Cash withdrawals and balance inquiries at ATMs |
-| eCommerce | Online purchases and card-not-present transactions |
-| Other | All other transaction types not listed above |
-| Grocery | Purchases at grocery stores and supermarkets |
+| Transaction Type   | Description                                         |
+| ------------------ | --------------------------------------------------- |
+| In Store           | Physical card-present purchases at retail locations |
+| Mail / Phone Order | Orders placed by phone or mail using card details   |
+| ATM                | Cash withdrawals and balance inquiries at ATMs      |
+| eCommerce          | Online purchases and card-not-present transactions  |
+| Other              | All other transaction types not listed above        |
+| Grocery            | Purchases at grocery stores and supermarkets        |
 
 ### Step 5 — Configure Merchant Category Controls
 
-| Merchant Category | Description |
-| --- | --- |
-| Department Store | Purchases at department and general merchandise stores |
-| Gas Station | Fuel and convenience store purchases |
-| Household | Home improvement, utilities, and household supply stores |
-| Restaurant | Dining, cafes, bars, and food delivery services |
-| Age Restricted | Merchants that sell age-restricted goods (e.g. tobacco, alcohol) |
-| Personal Care | Salons, spas, pharmacies, and personal care services |
+| Merchant Category | Description                                                      |
+| ----------------- | ---------------------------------------------------------------- |
+| Department Store  | Purchases at department and general merchandise stores           |
+| Gas Station       | Fuel and convenience store purchases                             |
+| Household         | Home improvement, utilities, and household supply stores         |
+| Restaurant        | Dining, cafes, bars, and food delivery services                  |
+| Age Restricted    | Merchants that sell age-restricted goods (e.g. tobacco, alcohol) |
+| Personal Care     | Salons, spas, pharmacies, and personal care services             |
 
 > ⚠️ **Note:** Disabling a Transaction Type or Merchant Category blocks ALL cards on that account for that control. Changes are instant — ensure you intend to restrict the category before toggling Off.

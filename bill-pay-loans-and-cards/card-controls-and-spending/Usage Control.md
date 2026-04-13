@@ -10,23 +10,23 @@ Each transaction type and merchant category can be toggled on or off individuall
 
 ## At a Glance
 
-| Attribute | Detail |
-| --- | --- |
-| Module | Banking › Cards › Card Details › Card Controls › Usage Control |
-| Transaction Types | In Store, ATM, Mail / Phone Order, eCommerce, Household, Restaurant, Grocery, Personal Care, Other, Age Restricted |
-| Merchant Categories | Department Store, Gas Station, and more |
-| Toggle | Each type and category is controlled independently |
-| Effect | Declined transactions for any disabled type or category |
-| Related Features | Spending Limits, Location Controls, Card Alerts |
+| Attribute           | Detail                                                                                                             |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Module              | Banking › Cards › Card Details › Card Controls › Usage Control                                                     |
+| Transaction Types   | In Store, ATM, Mail / Phone Order, eCommerce, Household, Restaurant, Grocery, Personal Care, Other, Age Restricted |
+| Merchant Categories | Department Store, Gas Station, and more                                                                            |
+| Toggle              | Each type and category is controlled independently                                                                 |
+| Effect              | Declined transactions for any disabled type or category                                                            |
+| Related Features    | Spending Limits, Location Controls, Card Alerts                                                                    |
 
 ## Key Use Cases
 
-| Use Case | Who It's For |
-| --- | --- |
-| **Block online purchases** | Member wanting to prevent eCommerce fraud |
-| **Restrict ATM withdrawals** | Member who only uses card for purchases |
-| **Limit merchant categories** | Member managing a household budget |
-| **Re-enable a category** | Member who needs to restore a transaction type |
+| Use Case                      | Who It's For                                   |
+| ----------------------------- | ---------------------------------------------- |
+| **Block online purchases**    | Member wanting to prevent eCommerce fraud      |
+| **Restrict ATM withdrawals**  | Member who only uses card for purchases        |
+| **Limit merchant categories** | Member managing a household budget             |
+| **Re-enable a category**      | Member who needs to restore a transaction type |
 
 ## Step-by-Step Guide
 
@@ -36,7 +36,7 @@ _Navigation: Log in to Summerville Credit Union online banking. From the Dashboa
 
 After logging in, you land on the Dashboard. Click Cards in the top navigation, select your card, then open Card Controls from the Card Details page.
 
-<img src="../../.gitbook/assets/Usage_Control_img1.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Usage_Control_img1.png" alt=""><figcaption></figcaption></figure>
 
 _Step 1: Dashboard — click Cards to begin._
 
@@ -44,6 +44,6 @@ _Step 1: Dashboard — click Cards to begin._
 
 The Usage Control tab displays two columns: Transaction Type and Merchant Categories. Each item has a toggle that can be turned on or off. Disabled items show an Off indicator. Toggle any type or category to control whether your card is accepted for that use. Changes take effect immediately — no save button is needed.
 
-<img src="../../.gitbook/assets/Usage_Control_img2.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Usage_Control_img2.png" alt=""><figcaption></figcaption></figure>
 
 _Step 2: Toggle transaction types and merchant categories on or off._
