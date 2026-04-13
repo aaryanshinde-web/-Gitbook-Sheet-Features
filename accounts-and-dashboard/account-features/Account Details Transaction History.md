@@ -1,5 +1,7 @@
 ---
-description: "View detailed account information and complete transaction history with chronological records"
+description: >-
+  View detailed account information and complete transaction history with
+  chronological records
 ---
 
 # Account Details & Transaction History
@@ -10,11 +12,11 @@ The Account Details page displays the full detail view and transaction history f
 
 ## Key Use Cases
 
-- Review complete transaction history for an account
-- Verify a specific transaction details
-- Track deposits and withdrawals over time
-- Access account-level enquiry actions and support
-- Monitor account activity patterns
+* Review complete transaction history for an account
+* Verify a specific transaction details
+* Track deposits and withdrawals over time
+* Access account-level enquiry actions and support
+* Monitor account activity patterns
 
 ## End-to-End Workflow
 
@@ -22,23 +24,37 @@ The Account Details page displays the full detail view and transaction history f
 
 The member is viewing the Account Overview page. The member clicks "Recent Transactions" on any account row. Recent transactions expand inline below that account, showing the latest entries with transaction dates, descriptions, and amounts in a compact list format.
 
-<figure><img src="/.gitbook/assets/accounts-recent-transactions.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/accounts-recent-transactions.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2: Check recent transactions for a different account**
 
-The member clicks on a different account's "Recent Transactions" button. The recent transactions section for the previous account closes, and the recent transactions for the newly selected account expand inline, displaying its latest entries.
 
-<figure><img src="/.gitbook/assets/accounts-recent-transactions-2.png" alt="" width="480"><figcaption></figcaption></figure>
-
-**Step 3: Open the full Account Details page**
+**Step 2: Open the full Account Details page**
 
 The member clicks "Account Details" on any account row. The full Account Details page loads, displaying the account name (e.g., "Retail Checking Account (#0001)"), the account number, and the complete Transaction History with all transactions listed in chronological order. Each transaction entry shows the date, description, amount, and running balance.
 
-<figure><img src="/.gitbook/assets/account-details-checking.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-details-checking.png" alt="" width="480"><figcaption></figcaption></figure>
 
 **Step 4: View additional transactions and account actions**
 
-The member scrolls down the Account Details page to see additional transactions beyond the first screen. The Account Enquiry sidebar appears on the right side, displaying quick links for related actions such as submitting an account inquiry, viewing alerts, or accessing other account-level services.
+The member scrolls down the Account Details page to see additional transactions. There are time period filters that the member can use to look at transactions for a specific time period. And the member can export and print the transactions in CSV, QFX, QBO, OFX formats for a specific time period.&#x20;
 
-<figure><img src="/.gitbook/assets/account-details-scrolled.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-details-scrolled.png" alt="" width="480"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+**Step 7: Add Note**
+
+In the three-dotted menu of a transaction, there is an option to add a note to the transaction.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+**Step 8: Download/Print Transaction**&#x20;
+
+In the three-dotted menu of a transaction, there is an option to download/print the transaction. This opens a new tab showing the transaction detail with option to print & download.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

@@ -47,19 +47,19 @@ Instant Pay History provides a log of all real-time payment transactions, giving
 
 you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 3 — Navigate from Dashboard to FedNow**
 
 The Move Money hub is shown as the landing page for initiating a FedNow Instant Payment transfer. Step 2 of the FedNow transfer shows a form with fields for entering transfer details and recipient information for the instant payment. The FedNow Terms and Conditions page is displayed with checkboxes for accepting the agreement before proceeding with the instant payment.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Step 4 — Enter source,recipient and amount
 
 select the source account and recipient account,enter the amount to be paid and select the date for this transfer and click on continue.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 5 — Final Confirmation & Send**
 

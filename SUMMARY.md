@@ -27,9 +27,8 @@
   * [Transaction Search](<accounts-and-dashboard/account-features/Transaction Search.md>)
   * [Account Transfers](<accounts-and-dashboard/account-features/Account Transfers.md>)
   * [Check Deposit](<accounts-and-dashboard/account-features/Check Deposit.md>)
-  * [Account Enquiry](<accounts-and-dashboard/account-features/Account Enquiry.md>)
+  * [Account Inquiry](<accounts-and-dashboard/account-features/Account Enquiry.md>)
   * [Accounts & Memberships](<accounts-and-dashboard/account-features/Accounts Memberships.md>)
-  * [Account Alerts](<accounts-and-dashboard/account-features/Account Alerts.md>)
 
 ## Cards
 

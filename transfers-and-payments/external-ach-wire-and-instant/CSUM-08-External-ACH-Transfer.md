@@ -63,7 +63,7 @@ _Step 3: Navigate from Dashboard to External Transfer_
 
 Sshows a simplified form with fields for entering the source account and external recipient,enter an amount of $100 and select the date and click on continue.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 4: Fill Transfer Details_
 

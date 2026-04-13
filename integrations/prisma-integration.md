@@ -63,13 +63,13 @@ Campaign management is the core workflow in the Prisma console. The following sc
 
 _Segment Creation: Go to Segments > New Segment. Segments can be created from queries, from another segment or from a spreadsheet. You can find more information in the Prisma Resources_ [_here_](https://help.prismacampaigns.com/getting-started/integrate-data-segments/create-segments/)_._
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 &#x20;_Campaign Creation & Audience Targeting :_ Once the Segment is created, you can go over to the Campaigns > New Campaign to create an Ad and select the segment for targeting.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -83,7 +83,7 @@ _Banner Creation :_ You can create campaigns for multiple channels in this secti
 
 _Funnel Configuration :_ The funnel consists of everything that happens from the moment a person shows interest in a campaign.  You can read more about it [here](https://help.prismacampaigns.com/getting-started/channel-design/add-banners/)&#x20;
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Key campaign management capabilities:**
 
@@ -113,7 +113,7 @@ Prisma provides campaign-level tracking and reporting for each active ad.&#x20;
 
 &#x20;_Prisma Analytics Dashboard — Reach, Clicks, and Conversion Tracking_
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Tracked Metrics:**
 

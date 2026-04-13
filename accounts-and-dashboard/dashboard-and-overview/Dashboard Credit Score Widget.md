@@ -32,4 +32,4 @@ After clicking "Show My Score," the Credit Score page loads under More > Credit 
 
 <figure><img src="../../.gitbook/assets/credit-score-consent.png" alt="" width="480"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>

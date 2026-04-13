@@ -62,7 +62,7 @@ _Step 3: Navigate from Dashboard to Other You Transfer_
 
 This screen allows you to choose a recipient from your list and input the necessary transfer details, such as amount and message, to ensure accurate and effective money transfers.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 4: Select Recipient & Enter Details_
 
@@ -70,7 +70,7 @@ _Step 4: Select Recipient & Enter Details_
 
 A confirmation overlay displays the transfer details for a $100.00 transfer, showing the source and destination account information for member review before submission.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 5: Review Transfer Summary_
 

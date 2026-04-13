@@ -28,7 +28,7 @@ The member clicks "Accounts" in the top navigation bar to open the Account Overv
 
 **Step 2: Navigate to Accounts and Memberships page**
 
-The member clicks "GEAR" in the top rIght of accounts.&#x20;
+The member clicks "gear" in the top rIght of accounts.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-04-13 at 4.15.26 PM.png" alt="" width="534"><figcaption></figcaption></figure>
 

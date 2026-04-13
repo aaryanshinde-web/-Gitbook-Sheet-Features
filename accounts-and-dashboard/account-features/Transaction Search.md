@@ -28,12 +28,18 @@ The member clicks "Accounts" in the top navigation bar to open the Account Overv
 
 **Step 2: Access Transaction Search from Account Details**
 
-On the Account details page click on search traasactions, you can also check trasactions from a specific date to another.
+On the Account details page click on search transactions. You also have the option to filter the transactions from and to a specific date.
 
 <figure><img src="../../.gitbook/assets/account-details-checking.png" alt="" width="536"><figcaption></figcaption></figure>
 
-**Step 3: Review search results and additional transactions**
+**Step 3: Search**&#x20;
 
-The member scrolls down the Transaction Search results page to view additional matching transactions. The Promotional and Self Service sidebar appears on the right side of the page, offering additional resources and service options.
+Members can search for a particular transaction by entering amount, keywords in transaction meta data and then filter by memberships & accounts and Transaction Categories.&#x20;
 
-<figure><img src="../../.gitbook/assets/transaction-search-scrolled.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+There are advanced search options such as : \
+1\. Amount equal to, over & under.\
+2\. Search in Notes & Descriptions, Notes only, Description only&#x20;
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
