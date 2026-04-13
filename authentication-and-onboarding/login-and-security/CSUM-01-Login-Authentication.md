@@ -10,7 +10,7 @@ description: >-
 
 ## Summary
 
-The Login & Authentication module is the security gateway to the Summerville Credit Union digital banking platform. Every session begins here — it is the single point of identity verification before any account data, transaction capability, or self-service function is accessible. The authentication flow employs a multi-layer design: you supply a registered username and password, then complete a one-time passcode (OTP) challenge delivered to a pre-registered email or mobile number.
+The Login & Authentication module is the security gateway to the Summerville CU digital banking platform. Every session begins here — it is the single point of identity verification before any account data, transaction capability, or self-service function is accessible. The authentication flow employs a multi-layer design: you supply a registered username and password, then complete a one-time passcode (OTP) challenge delivered to a pre-registered email or mobile number.
 
 Beyond standard username/password entry, the module supports forgotten credentials recovery (Forgot User ID, Forgot Password), account unlock for locked-out members, biometric login (Touch ID / Face ID) on supported devices, and a 'Save User ID' convenience feature. A 'Sneak Peek' option on supported configurations allows you to preview your account balances before completing full authentication.
 
