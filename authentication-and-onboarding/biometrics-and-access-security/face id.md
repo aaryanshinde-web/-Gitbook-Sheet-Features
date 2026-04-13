@@ -1,12 +1,12 @@
-# Face ID — CDA Biometric Auth
+# Face ID - Biometric Auth
 
 ## Summary
 
-Face ID is a biometric authentication feature within the nFinia mobile banking platform that enables you to log into your digital banking account using facial recognition instead of (or in addition to) a traditional username and password. The feature is surfaced as an opt-in checkbox—**Enable Face ID**—directly on the standard Log In screen, making activation frictionless and contextual at the moment of first credential entry.
+Face ID is a biometric authentication feature within the nFinia mobile banking platform that enables you to log into your digital banking account using facial recognition instead of (or in addition to) a traditional username and password. The feature is surfaced as an opt-in checkbox **Enable Face ID** - directly on the standard Log In screen, making activation frictionless and contextual at the moment of first credential entry.
 
 The feature leverages the native biometric framework of your mobile device (iOS Face ID / Android BiometricPrompt), meaning that no facial data is transmitted to or stored on Tyfone's or Summerville's servers. The device itself performs the biometric match and passes an authenticated signal to the nFinia app. This architecture separates credential security from biometric data entirely, reducing PII exposure risk and simplifying compliance.
 
-Face ID serves all authenticated nFinia users—both retail members and business banking users—who access the platform via a compatible mobile device. Once enrolled, you can authenticate subsequent sessions with a glance, eliminating password entry friction while maintaining a strong second-factor assurance level. This is particularly valuable if you log in frequently to monitor cash flow, approve transactions, or review commercial activity throughout the day.
+Face ID serves all authenticated nFinia users both retail members and business banking users who access the platform via a compatible mobile device. Once enrolled, you can authenticate subsequent sessions with a glance, eliminating password entry friction while maintaining a strong second-factor assurance level. This is particularly valuable if you log in frequently to monitor cash flow, approve transactions, or review commercial activity throughout the day.
 
 **At a Glance**
 
