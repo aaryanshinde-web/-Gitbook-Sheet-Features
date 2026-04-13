@@ -21,7 +21,7 @@
 ## Accounts
 
 * [Account Overview & Transaction History](accounts-and-dashboard/account-features/CSUM-03-Account-Overview-Transaction-History.md)
-* [Account Detail — All Types](accounts-and-dashboard/account-features/CSUM-04-Account-Detail-All-Types.md)
+* [Account Detail - All Types](accounts-and-dashboard/account-features/CSUM-04-Account-Detail-All-Types.md)
 * [Credit Score & Financial Tools](accounts-and-dashboard/account-features/CSUM-24-Credit-Score-Financial-Tools.md)
 * [Profile & Membership Management](accounts-and-dashboard/profile-and-membership/CSUM-23-Profile-Membership-Management.md)
 
