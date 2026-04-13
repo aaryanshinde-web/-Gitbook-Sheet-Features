@@ -32,28 +32,22 @@ When you enable location-based permissions, you can add up to 3 named locations.
 
 _Navigation: Log in to Summerville Credit Union online banking. From the Dashboard, click Cards, select your card, click Card Controls, then select Location Controls._
 
-### Step 1 — Arrive at the Dashboard
+### Step 1 — Open Location Controls
 
-After logging in, you land on the Dashboard. Click Cards in the top navigation, select your card, and open Card Controls from the Card Details page.
+From Card Details, click **Card Controls** in the quick-action row. In the Card Controls panel, select the **Location Controls** tab. By default, the **Allow International Transactions** toggle is set to **Off**, meaning card transactions are restricted to domestic use only. You will see two scope options — **All Countries** and **Selected Countries** — both inactive until you enable the toggle.
 
-<img src="../../.gitbook/assets/Location_Controls_img1.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/Location_Controls_Default.png" alt="Location Controls default state — international transactions disabled" data-size="original"><figcaption><p>Step 1: Location Controls tab with international transactions turned off by default.</p></figcaption></figure>
 
-_Step 1: Dashboard — click Cards to begin._
+### Step 2 — Enable International Transactions
 
-### Step 2 — View Location Controls (Default State)
+Toggle **Allow International Transactions** to **On**. Once enabled, choose your scope: select **All Countries** to allow transactions worldwide, or select **Selected Countries** to restrict transactions to specific locations you define. If you choose Selected Countries, you can add up to 3 locations using the **Add a Location** button. Your enabled locations will appear below.
 
-The Location Controls tab opens. By default, the **Allow International Transactions** toggle is set to Off, meaning card transactions are restricted to domestic use. You can switch to **All Countries** to allow transactions globally, or select **Selected Countries** to define specific permitted locations.
+<figure><img src="../../.gitbook/assets/Location_Controls_Enabled.png" alt="Location Controls enabled — Selected Countries with saved locations" data-size="original"><figcaption><p>Step 2: International transactions enabled with Selected Countries scope. Saved locations are listed below.</p></figcaption></figure>
 
-### Step 3 — Review Saved Locations
+### Step 3 — Add a New Location
 
-<img src="../../.gitbook/assets/Location_Controls_img2.png" alt="" data-size="original">
+Click **Add a Location** to open the location search panel. Enter a city, state, or zip code into the search field. The interactive map zooms to the area and displays a boundary circle — transactions will be approved for any use within that marked boundary. You can assign a nickname for easy identification. Click **Save Location** to add it, or **Cancel** to discard. Up to 3 locations can be active at once.
 
-_Step 3: Saved locations shown — up to 3 locations can be active at once._
+<figure><img src="../../.gitbook/assets/Location_Controls_Add_Location.png" alt="Add a Location panel with interactive map" data-size="original"><figcaption><p>Step 3: Search for a location and define a geographic boundary on the map.</p></figcaption></figure>
 
-### Step 4 — Add a New Location
-
-The Add a Location panel opens with a search field for city, state, or zip code, and a nickname field for easy identification. As you search, the interactive map zooms to the area and displays a boundary circle. Transactions will be approved for any use within that marked boundary. Click **Save Location** to add it, or **Cancel** to discard.
-
-<img src="../../.gitbook/assets/Location_Controls_img3.png" alt="" data-size="original">
-
-_Step 4: Search for a location and define a geographic boundary on the map._
+> **Note:** When you are done traveling, return to Location Controls and toggle **Allow International Transactions** back to Off to restore domestic-only restrictions. Saved locations are retained so you can re-enable them for future trips without re-entering the details.
