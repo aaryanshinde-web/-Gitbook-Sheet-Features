@@ -40,25 +40,25 @@ The Scheduled Transfers view also serves as a log for completed FedNow and ACH t
 
 You click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other Members, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — Navigate to Internal Transfers**
 
 In this step, the member can enter the transfer details such as entering the transfer amount, an optional transaction memo, payment date selection, and a recurring payment checkbox.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 3 — Review Transfer Summary**
 
 The confirmation screen shows a $5.00 transfer between Retail Savings and Retail Checking accounts, displaying the description and scheduled date for member review.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 6 — Transfer Complete — Success Screen**
 
 A success confirmation page is displayed with a green checkmark, confirming the completed $5.00 transfer between accounts with a transfer date of Apr 01, 2026.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 7 — View & Manage Scheduled Transfers**
 
