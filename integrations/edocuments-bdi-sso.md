@@ -1,10 +1,10 @@
-# eDocuments — BDI SSO
+# eDocuments - BDI SSO
 
 ***
 
 ## Summary
 
-The **eDocuments — BDI — SSO** feature enables you to access your electronic statements and documents directly from within the nFinia digital banking platform — both on web and mobile — without requiring a separate login. When you navigate to "Statements & Tax Forms," nFinia silently authenticates you to the BDI (Business Data, Inc.) document portal via Single Sign-On (SSO), then launches the BDI portal in a new tab or browser window. You land directly on your documents — no username, no password, no redirect friction.
+The **eDocuments — BDI — SSO** feature enables you to access your electronic statements and documents directly from within the nFinia digital banking platform, both on web and mobile, without requiring a separate login. When you navigate to "Statements & Tax Forms," nFinia silently authenticates you to the BDI (Business Data, Inc.) document portal via Single Sign-On (SSO), then launches the BDI portal in a new tab or browser window. You land directly on your documents, no username, no password, no redirect friction.
 
 BDI is the third-party electronic document management system that stores and serves member statements (monthly statements, mortgage statements, and other document types). The integration is deployed at `businessdatainc.com` under the credit union's tenant path (e.g., `/SummervileCU/`). The SSO token is generated server-side by nFinia and passed securely to BDI, meaning your BDI session is fully authenticated from the moment the portal opens.
 
