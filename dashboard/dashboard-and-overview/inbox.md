@@ -41,7 +41,7 @@ The Support Messages view shows which Tyfone team member or group a ticket is as
 
 Click on the inbox widget on the top right of the screen next to log out
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Step 2 — Open the Inbox
 

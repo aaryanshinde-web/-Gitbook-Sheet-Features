@@ -16,22 +16,22 @@ Follow these steps to complete a remote check deposit based on the Summerville O
 
 1. Access the Main Dashboard: Log in to your Summerville Online Banking account. You will land on the primary Dashboard where your balances and accounts are displayed.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Open the Expanded Menu: Locate the top navigation bar and click on the "More" option (represented by a four-square grid icon).
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select Membership Profile: You will be directed to the Check Deposit membership selection screen.
    * Click the "Select membership" dropdown menu.
    * Choose the specific profile you want to deposit the check under (e.g., your personal account or an associated LLC).
    * Click the "Proceed" button.
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Select start a new deposit button after entering the link.
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3.  Enter Deposit Details & Upload Check: On the final Deposit entry screen:
 
@@ -40,4 +40,4 @@ Follow these steps to complete a remote check deposit based on the Summerville O
     * Check Images: Upload or drag-and-drop a clear photo of the Check Front into the left box, and a clear photo of the endorsed Check Back into the right box.
     * _Note: Submit the transaction using the primary action button (typically located at the bottom of the screen, below the image upload sections)_
 
-    <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>

@@ -47,7 +47,7 @@ You managing your personal information through the app avoid the need for branch
 
 You can click ‘More' in the top navigation bar. The More options panel expands to show Personal Information. Or you can Navigate from Dashboard to Personal Information directly
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Personal Information page**
 
@@ -71,7 +71,7 @@ The Mailing Address section displays your current address  with an 'Edit address
 
 &#x20;The residential address section displays your residential address with an 'Edit addresses' button available.
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step 7 — View Trusted Device Detail**
 

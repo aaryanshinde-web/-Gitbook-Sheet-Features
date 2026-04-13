@@ -37,13 +37,13 @@ The Accounts & Memberships settings allow You to customise how your accounts app
 
 **Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
-<figure><img src="../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — Open the More Menu**
 
 you click ‘More' in the top navigation bar. The More options panel expands to show additional features:  User ID and Password & Account & Membership Settings. Or Navigate directly from Dashboard to Settings using the search option.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — User ID and Password Settings**&#x20;
 
@@ -71,6 +71,6 @@ Navigate to  Accounts and Memberships settings page which is displayed  for mana
 
 The  Memberships settings page tab contains option to add an existing membership or delete an existing membership or set up preferences for masking or unmasking membership number across digital banking.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>

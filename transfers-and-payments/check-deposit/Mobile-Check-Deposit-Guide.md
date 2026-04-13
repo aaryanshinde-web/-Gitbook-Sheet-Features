@@ -1,4 +1,4 @@
-# Mobile Check Deposit — RDC
+# Mobile Check Deposit - RDC
 
 Platform: nFinia Mobile Banking&#x20;
 

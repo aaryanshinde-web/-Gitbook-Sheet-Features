@@ -68,14 +68,13 @@
   * [Blackout Period](more-menu/alerts-and-notifications/blackout-period.md)
 * [Personal Information](more-menu/personal-information/README.md)
   * [Personal Information Management](more-menu/personal-information/personal-information-management.md)
-* [Device & Session Management](more-menu/device-and-session-management/README.md)
-  * [Device Management & Trusted Devices](more-menu/device-and-session-management/csum-25-device-management-trusted-devices.md)
+* [Device & Session Management](authentication-and-login/device-and-session-management/README.md)
+  * [Device Management & Trusted Devices](authentication-and-onboarding/device-and-session-management/CSUM-25-Device-Management-Trusted-Devices.md)
 * [Settings & Preferences](more-menu/settings-and-preferences/README.md)
   * [Settings & Preferences](more-menu/settings-and-preferences/settings-and-preferences.md)
 * [Skip-A-Pay](more-menu/skip-a-pay.md)
-* [User ID and Password](more-menu/user-id-and-password.md)
-* [Check Deposit - RDC](more-menu/check-deposit-rdc/README.md)
-  * [Mobile Check Deposit - RDC](more-menu/check-deposit-rdc/mobile-check-deposit-guide.md)
+* [Check Deposit - RDC](move-money/check-deposit-rdc/README.md)
+  * [Mobile Check Deposit - RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
   * [Check Deposit(OLB)](more-menu/check-deposit-rdc/check-deposit-olb.md)
 
 ## Vendor Integrations
