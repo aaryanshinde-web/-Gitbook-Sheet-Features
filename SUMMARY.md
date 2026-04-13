@@ -25,10 +25,14 @@
 
 ## Accounts
 
-* [Account Overview & Transaction History](accounts-and-dashboard/account-features/CSUM-03-Account-Overview-Transaction-History.md)
-* [Account Detail - All Types](accounts-and-dashboard/account-features/CSUM-04-Account-Detail-All-Types.md)
-* [Credit Score & Financial Tools](accounts-and-dashboard/account-features/CSUM-24-Credit-Score-Financial-Tools.md)
-* [Profile & Membership Management](accounts-and-dashboard/profile-and-membership/CSUM-23-Profile-Membership-Management.md)
+* [Accounts Overview](accounts-and-dashboard/account-features/Accounts%20Overview.md)
+  * [Account Details & Transaction History](accounts-and-dashboard/account-features/Account%20Details%20Transaction%20History.md)
+  * [Transaction Search](accounts-and-dashboard/account-features/Transaction%20Search.md)
+  * [Account Transfers](accounts-and-dashboard/account-features/Account%20Transfers.md)
+  * [Check Deposit](accounts-and-dashboard/account-features/Check%20Deposit.md)
+  * [Account Enquiry](accounts-and-dashboard/account-features/Account%20Enquiry.md)
+  * [Accounts & Memberships](accounts-and-dashboard/account-features/Accounts%20Memberships.md)
+  * [Account Alerts](accounts-and-dashboard/account-features/Account%20Alerts.md)
 
 ## Cards
 
