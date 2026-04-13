@@ -15,7 +15,7 @@
 
 ## Dashboard
 
-* [Dashboard Activities](accounts-and-dashboard/dashboard-and-overview/CSUM-02-Dashboard-Activities.md)
+* [Dashboard](accounts-and-dashboard/dashboard-and-overview/CSUM-02-Dashboard-Activities.md)
 * [Recent Activities & Insights](accounts-and-dashboard/dashboard-and-overview/CSUM-21-Recent-Activities-Insights.md)
 
 ## Accounts
