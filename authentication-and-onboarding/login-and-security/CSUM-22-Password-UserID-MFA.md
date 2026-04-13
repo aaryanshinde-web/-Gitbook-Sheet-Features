@@ -4,13 +4,13 @@ description: >-
   authentication methods.
 ---
 
-# Password, User ID & MFA
+# Pre-Login fallback & Access Recovery
 
 > **Module:** Banking › Settings › User ID & Security
 
 ## Summary
 
-The Password, User ID & MFA Settings section gives you self-service control over your digital banking login credentials and authentication methods. You can change your username, update your password, add or remove MFA delivery methods, and review your security configuration — all without contacting the CU.
+The Pre-Login fallback & Access Recovery Settings section gives you self-service control over your digital banking login credentials and authentication methods. You can change your username, update your password, add or remove MFA delivery methods, and review your security configuration — all without contacting the CU.
 
 Changing a User ID requires the new ID to be unique across the platform and may require OTP verification. Password changes require entry of your current password for verification. All credential changes are logged as security events and trigger a notification to your registered contact.
 
