@@ -83,7 +83,9 @@ The **Account Settings** screen loads with your target account pre-selected (e.g
 
 A toast notification confirms: _"Your account settings have been updated."_ From this point forward, when you open the app without logging in, tapping **Balance** on the Welcome screen reveals your configured account's current balance — no authentication required.
 
-<figure><img src="../../.gitbook/assets/Account_Settings_with_Sneak_Peek_toggle_enabled__green___Act_9.jpeg" alt="Sneak Peek enabled" width="340"><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../../.gitbook/assets/Account_Settings_with_Sneak_Peek_toggle_enabled__green___Act_9.jpeg" alt="Sneak Peek enabled" width="340"><figcaption></figcaption></figure></div>
+
+<figure><img src="../../.gitbook/assets/image (61).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Decision Points
 

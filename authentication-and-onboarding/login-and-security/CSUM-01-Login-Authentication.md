@@ -1,6 +1,5 @@
 ---
-description: >-
-  Log in securely using multi-factor authentication with OTP verification
+description: Log in securely using multi-factor authentication with OTP verification
 ---
 
 # Login & Authentication
@@ -11,12 +10,12 @@ The Login & Authentication module is the security gateway to the digital banking
 
 ## Key Use Cases
 
-- Sign in to digital banking with username, password, and OTP verification
-- Select OTP delivery method (text message, phone call, or email)
-- Remember a device or browser to skip OTP on future logins
-- Complete first-time login and establish an authenticated session
-- Enable biometric login (Touch ID / Face ID) on a trusted device
-- Access self-service recovery options from the login screen
+* Sign in to digital banking with username, password, and OTP verification
+* Select OTP delivery method (text message, phone call, or email)
+* Remember a device or browser to skip OTP on future logins
+* Complete first-time login and establish an authenticated session
+* Enable biometric login (Touch ID / Face ID) on a trusted device
+* Access self-service recovery options from the login screen
 
 ## End-to-End Workflow
 
@@ -56,4 +55,4 @@ Below the code entry field, a "Remember this device" checkbox is displayed. If t
 
 The Dashboard loads successfully after authentication. The screen greets the member by name and displays account balances, a quick transfer widget, upcoming payments, and promotional messaging. The member now has full access to all digital banking features.
 
-<figure><img src="../../.gitbook/assets/img_76d367ae9a07.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
