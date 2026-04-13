@@ -6,6 +6,7 @@
 
 * [Login & Security](authentication-and-login/login-and-security/README.md)
   * [Login & Authentication](authentication-and-onboarding/login-and-security/CSUM-01-Login-Authentication.md)
+  * [Forgot Username, Password & Unlock Account](<authentication-and-onboarding/login-and-security/Forgot Username Password Unlock Account.md>)
 * [Biometrics & Access Security](authentication-and-login/biometrics-and-access-security/README.md)
   * [Face ID - Biometric Auth](<authentication-and-onboarding/biometrics-and-access-security/face id.md>)
   * [Sneak Peek](<authentication-and-onboarding/biometrics-and-access-security/sneak peek.md>)
