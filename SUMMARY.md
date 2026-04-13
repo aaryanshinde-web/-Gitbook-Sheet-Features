@@ -15,8 +15,13 @@
 
 ## Dashboard
 
-* [Dashboard Activities](accounts-and-dashboard/dashboard-and-overview/CSUM-02-Dashboard-Activities.md)
-* [Recent Activities & Insights](accounts-and-dashboard/dashboard-and-overview/CSUM-21-Recent-Activities-Insights.md)
+* [Dashboard](accounts-and-dashboard/dashboard-and-overview/README.md)
+  * [Dashboard & Activities](accounts-and-dashboard/dashboard-and-overview/Dashboard%20Activities.md)
+  * [Quick Pay & Quick Transfer](accounts-and-dashboard/dashboard-and-overview/Dashboard%20Quick%20Pay.md)
+  * [Upcoming Payments](accounts-and-dashboard/dashboard-and-overview/Dashboard%20Upcoming%20Payments.md)
+  * [Related Links](accounts-and-dashboard/dashboard-and-overview/Dashboard%20Related%20Links.md)
+  * [Credit Score Widget](accounts-and-dashboard/dashboard-and-overview/Dashboard%20Credit%20Score%20Widget.md)
+  * [Recent Activities & Insights](accounts-and-dashboard/dashboard-and-overview/CSUM-21-Recent-Activities-Insights.md)
 
 ## Accounts
 
