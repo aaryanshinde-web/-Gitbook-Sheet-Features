@@ -47,7 +47,7 @@ You managing your personal information through the app avoid the need for branch
 
 You can click ‘More' in the top navigation bar. The More options panel expands to show Personal Information. Or you can Navigate from Dashboard to Personal Information directly
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Personal Information page**
 
