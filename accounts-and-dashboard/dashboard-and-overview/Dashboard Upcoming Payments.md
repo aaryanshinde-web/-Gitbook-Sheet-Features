@@ -26,8 +26,8 @@ After logging in, look at the **Upcoming Payments** section on the right side of
 
 <figure><img src="/.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 2 — Navigate to Manage Payments (If Needed)
+### Step 2 — Click an Upcoming Payment
 
-The Upcoming Payments widget is view-only. To edit, cancel, or create payment instructions, click **Move Money** in the top navigation bar, then navigate to **Scheduled Transfers** or **Bill Pay** from the Move Money Hub.
+Click on any payment entry in the Upcoming Payments widget. The system navigates to the **Transfer Funds to Own Account** page, where the member can review and manage the transfer details — including the From and To accounts, amount, frequency, and scheduled date.
 
-<figure><img src="/.gitbook/assets/move-money-hub.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/transfer-funds-own-account.png" alt="" width="480"><figcaption></figcaption></figure>
