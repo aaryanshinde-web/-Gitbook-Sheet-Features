@@ -1,10 +1,10 @@
-# Mortgage Balances — FICS API
+# Mortgage Balances - FICS API
 
 ***
 
 ## Summary
 
-The **Mortgage Balances — FICS API** feature integrates nFinia's OLB (Online Banking) and Mobile Banking platforms with a credit union's FICS loan servicing system via API. It gives you direct, real-time visibility into your FICS-serviced mortgage loan accounts — without leaving the nFinia digital banking environment.
+The **Mortgage Balances - FICS API** feature integrates nFinia's OLB (Online Banking) and Mobile Banking platforms with a credit union's FICS loan servicing system via API. It gives you direct, real-time visibility into your FICS-serviced mortgage loan accounts — without leaving the nFinia digital banking environment.
 
 Members with active FICS mortgage loans can view loan details (property address, interest rate, payment schedule), review transaction history, monitor balance breakdowns, manage contact information on file with the servicer, request payoff quotes, access account notes, and message the credit union's mortgage department — all from within the same digital banking session they use for deposits and transfers.
 

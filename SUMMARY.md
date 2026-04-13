@@ -75,7 +75,7 @@
 * [Direct & Web Connect — Quicken / QuickBooks](integrations/direct-and-web-connect-quicken-quickbooks.md)
 * [End User Support Portal - ZenDesk](vendor-integrations/zendesk-end-user-support/README.md)
   * [Inbox & Message Center](vendor-integrations/zendesk-end-user-support/csum-17-inbox-message-center.md)
-* [Mortgage Balances — FICS API](integrations/mortgage-balances-fics-api.md)
+* [Mortgage Balances - FICS API](integrations/mortgage-balances-fics-api.md)
 * [eDocuments — BDI SSO](integrations/edocuments-bdi-sso.md)
 * [Velera API Integration](vendor-integrations/velera-api-integration/README.md)
   * [Velera — Credit Card Management](integrations/velera-credit-card-management.md)
