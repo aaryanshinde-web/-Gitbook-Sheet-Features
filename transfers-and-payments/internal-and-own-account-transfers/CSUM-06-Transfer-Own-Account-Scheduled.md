@@ -46,7 +46,7 @@ You click ‘Move Money' in the top navigation bar. The Move Money Hub displays 
 
 In this step, the member can enter the transfer details such as entering the transfer amount, an optional transaction memo, payment date selection, and a recurring payment checkbox.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Review Transfer Summary**
 
