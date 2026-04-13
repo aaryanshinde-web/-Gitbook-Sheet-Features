@@ -19,7 +19,6 @@ The Bill Pay module includes full history of all past payments, management of pa
 | Schedules        | One-time, recurring (weekly, bi-weekly, monthly)        |
 | Payee Management | Add, edit, delete payees; view/edit payment details     |
 | History          | Full payment history with biller name, amount, and date |
-| Related Reports  |  (Move Money Hub),  (Wire Transfers)      |
 
 ## Key Use Cases
 
@@ -29,24 +28,17 @@ The Bill Pay module includes full history of all past payments, management of pa
 | Set Up Recurring Payment | You automating monthly bills | Create a recurring payment schedule for a payee             | Automation ensures bills never miss due dates                       |
 | Add New Payee            | You adding a new biller      | Search payee database or manually enter biller details      | Builds personalised payee list for all regular obligations          |
 | Review Payment History   | You reconciling payments     | Open Bill Pay > History to view all past payments           | Complete audit trail of all bill payments made through the platform |
-|                          |                              |                                                             |                                                                     |
 
 ## Step-by-Step Guide
 
-_Navigation: Dashboard > Move Money > 'Bill Pay'._&#x20;
+**Step 1 — Navigate to Move Money Hub**
 
-**Step 1 — Start from Dashboard**  The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
-
-<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
-
-**Step 2 — Navigate to Move Money Hub**
-
-you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
+Click ‘Move Money' in the top navigation bar and select Pay Bills
 
 <figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 3 — Navigate from Dashboard to Bill Pay**
+**Step 3 — Navigate  to Bill Pay**
 
-The Bill Pay screen from the legacy banking interface is displayed, showing payment options and form fields for setting up or making a bill payment.
+The Bill Pay screen from the vendor banking interface is displayed, showing payment options and form fields for setting up or making a bill payment.
 
 <figure><img src="../../.gitbook/assets/Bill_Pay_img3.png" alt="" width="480"><figcaption></figcaption></figure>
