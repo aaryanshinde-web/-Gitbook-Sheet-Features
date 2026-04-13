@@ -44,18 +44,3 @@ you click ‘Move Money' in the top navigation bar. The Move Money Hub displays 
 
 _Step 2: Move Money Hub_
 
-**Step 3 — Navigate from Dashboard to Move Money**
-
-The Move Money hub is displayed, showing a grid of payment and transfer options including Pay Bills, Quick Pay, Zelle Payment, and various transfer types for different recipient categories.
-
-<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 3: Navigate from Dashboard to Move Money_
-
-**Step 4 — Browse Payment Options & Bill Pay**
-
-The Move Money hub continues with the same grid layout of payment options. A promotional banner appears below the grid, and an upcoming payments section on the right shows account balances.
-
-<figure><img src="../../.gitbook/assets/img_45cd7e736a9b.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 4: Browse Payment Options & Bill Pay_

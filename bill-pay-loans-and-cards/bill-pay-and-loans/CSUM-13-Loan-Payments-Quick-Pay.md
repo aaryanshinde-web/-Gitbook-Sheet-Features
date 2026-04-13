@@ -19,7 +19,7 @@ The Pay Loan from External Account feature allows You to link an external bank a
 | Payment Sources  | Any linked CU account; external account for loan repayments     |
 | Steps            | 2 (Select Loan → Enter Amount)                                  |
 | Same-Day Posting | Available when submitted before daily cut-off                   |
-| Related Reports  |  (Move Money Hub),  (Skip A Pay)                  |
+| Related Reports  | (Move Money Hub), (Skip A Pay)                                  |
 
 ## Key Use Cases
 
@@ -33,25 +33,19 @@ The Pay Loan from External Account feature allows You to link an external bank a
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > 'Quick Pay' OR Dashboard account tile > Pay Now._ |&#x20;
+\| _Navigation: Dashboard > Move Money > 'Quick Pay' OR Dashboard account tile > Pay Now._ |
 
-**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Navigate to Move Money Hub**
-
-you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
-
-<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
-
-**Step 3 — Navigate from Dashboard to Quick Pay**
+**Step 2 — Navigate from Dashboard to Quick Pay**
 
 The Quick Pay page displays the loan selection screen with red action buttons for selecting different loan accounts to make a payment.
 
-<figure><img src="../../.gitbook/assets/img_cad422bef630.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Step 4 — Select Loan & Enter Payment Amount**
+**Step 3 — Select Loan & Enter Payment Amount**
 
 The Bill Pay form is displayed from the Summerville CU banking interface with form fields for entering payment details and selecting the loan to pay.
 

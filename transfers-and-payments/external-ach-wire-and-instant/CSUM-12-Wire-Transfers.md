@@ -43,11 +43,11 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Navigate to Forms**
+**Step 2 — Navigate to Move Money Hub**
 
-The Forms list page is displayed showing all available form types. you can review the submitted wire transfer status or access other form types such as ACH Origination, Address Change, Card Order, and more from this screen.
+navigate to move money hub and then from there click on domestic wire transfers,this would redirect you to Wire Transfer Forms
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 3 — Open the Wire Transfer Form**
 

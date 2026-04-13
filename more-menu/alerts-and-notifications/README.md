@@ -4,6 +4,5 @@ Alerts & Notifications covers every alert surface available to Summerville CU me
 
 ## What's in this section
 
-* **Alerts & Notifications** —  — the alerts hub, including delivery channels (push, SMS, email), per-alert toggles, and history.
+* **Alerts & Notifications** — — the alerts hub, including delivery channels (push, SMS, email), per-alert toggles, and history.
 * **Blackout Period** — Configuring a daily Do-Not-Disturb window that silences non-critical alerts while preserving security-sensitive ones.
-

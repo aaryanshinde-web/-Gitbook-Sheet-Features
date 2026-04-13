@@ -23,7 +23,7 @@ The Scheduled Transfers view also serves as a log for completed FedNow and ACH t
 | Schedule Types  | One-time, Weekly, Bi-weekly, Semi-monthly, Monthly      |
 | Steps           | 4 (From → To → Amount/Memo → Confirm → Success)         |
 | History View    | Completed FedNow and scheduled transfer records         |
-| Related Reports |  (Move Money Hub),  (Other You Transfer)  |
+| Related Reports | (Move Money Hub), (Other You Transfer)                  |
 
 ## Key Use Cases
 
@@ -51,7 +51,7 @@ You click ‘Move Money' in the top navigation bar. The Move Money Hub displays 
 
 _Step 2: Move Money Hub_
 
-**Step 3 — Navigate from Dashboard to Own Account Transfer**
+**Step 3 — Navigate from Dashboard to Internal Transfers**
 
 Step 1 of the Own Account Transfer flow shows the account selection screen with a dropdown to choose the source account for the internal transfer.
 
@@ -63,7 +63,7 @@ _Step 3: Navigate from Dashboard to Own Account Transfer_
 
 Step 4 displays the transfer details form with fields for entering the transfer amount, an optional transaction memo, payment date selection, and a recurring payment checkbox.
 
-<figure><img src="../../.gitbook/assets/img_973f2a676229.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 4: Enter Amount & Memo_
 

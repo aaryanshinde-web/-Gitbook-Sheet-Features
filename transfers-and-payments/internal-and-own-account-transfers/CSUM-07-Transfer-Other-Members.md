@@ -50,7 +50,7 @@ you click ‘Move Money' in the top navigation bar. The Move Money Hub displays 
 
 _Step 2: Move Money Hub_
 
-**Step 3 — Navigate from Dashboard to Other You Transfer**
+**Step 3 — Navigate from Dashboard to Other Members**
 
 The Move Money hub is displayed with a tooltip providing help for selecting a recipient. This is the starting screen for the Transfer to Other You workflow.
 
@@ -60,23 +60,23 @@ _Step 3: Navigate from Dashboard to Other You Transfer_
 
 **Step 4 — Select Recipient & Enter Details**
 
-Step 2 of the other member transfer shows the account selection screen with a message indicating no eligible accounts and a modal prompting you to select a recipient.
+This screen allows you to choose a recipient from your list and input the necessary transfer details, such as amount and message, to ensure accurate and effective money transfers.
 
-<figure><img src="../../.gitbook/assets/img_34365f51c03d.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 4: Select Recipient & Enter Details_
 
 **Step 5 — Review Transfer Summary**
 
-A confirmation overlay displays the transfer details for a $5.00 transfer, showing the source and destination account information for member review before submission.
+A confirmation overlay displays the transfer details for a $100.00 transfer, showing the source and destination account information for member review before submission.
 
-<figure><img src="../../.gitbook/assets/img_e440833de365.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 5: Review Transfer Summary_
 
 **Step 6 — Transfer Complete**
 
-The success screen confirms the $5.00 transfer to another member with a green checkmark, displaying the transaction details and transfer date.
+The success screen confirms the $100.00 transfer to another member with a green checkmark, displaying the transaction details and transfer date.
 
 <figure><img src="../../.gitbook/assets/img_61c8bdec2005.png" alt="" width="480"><figcaption></figcaption></figure>
 

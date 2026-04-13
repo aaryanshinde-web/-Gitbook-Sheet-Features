@@ -53,9 +53,9 @@ The Inbox page displays a list of support tickets in a table format with columns
 
 Go to Help> Message Us. A 'Create New Ticket' modal is displayed with fields for Inquiry Type (General Inquiry, Account inquiry, Transaction Inquiry, etc). The member can fill in the Subject, Message body, and a file attachment option with a 20 MB size limit.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 6 — Reply to a Support Thread**
 
@@ -65,12 +65,12 @@ A success message modal confirms the ticket was created successfully with ID num
 
 Other ways to create a support ticket is from Account Overview page > Account Tile > Account Inquiry. This will create an Account Inquiry ticket directly.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Another way is from Account Detail Page > Transaction History> Inquire. This will create a Transaction Inquiry ticket instantly.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>

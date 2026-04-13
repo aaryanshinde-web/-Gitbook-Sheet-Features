@@ -168,7 +168,7 @@ This screen flow occurs within the **Intuit application** (not in nFinia). Navig
 
 This screen is accessed within the **nFinia digital banking platform** under your account transaction history.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 | Field / Element  | Type        | Description                              | Notes                                                       |
 | ---------------- | ----------- | ---------------------------------------- | ----------------------------------------------------------- |

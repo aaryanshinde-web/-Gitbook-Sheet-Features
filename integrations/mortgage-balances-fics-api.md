@@ -52,34 +52,34 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 1. After logging in, click **Mortgage** in the More section, or navigate to **Banking > Additional Services > Mortgage**, or select a FICS loan account directly from the **Accounts** list. The system calls the FICS API and retrieves all linked mortgage accounts for the authenticated member. If you have a single loan, the platform loads it directly. If multiple loans exist, a **Select Account** dropdown appears — select the desired loan.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. There is an option to view the **Account Detail** screen, displaying the FICS loan identifier, remaining balance, interest rate, next due amount and date, remaining term.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Below the summary, the **Transactions** section lists all historical payments. Each row shows date, amount, principal/interest/tax-insurance split, and remaining balance. Clicking a row expands the transaction detail view, which includes a **Download** button to save an individual transaction record as a PDF.
 3. Clicking **View more loan information**  opens the tabbed **Loan Information** view with five tabs: **About this loan**, **Balances**, **Account notes**, **Statement and documents**, and **Help**.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **About this loan** (default): Displays a full loan detail card — property address, date registered, next due payment amount and date, current interest rate (APR), payment frequency, remaining term, maturity date, a **Current payment breakdown** section (principal and interest, tax and insurance, total), and a **Contact information** section showing home phone, business phone, email address, and mailing address with an **Edit** link.
 * Accessible via the Edit link in the Contact information section of About this loan. Updates the contact record in FICS for this loan account. All fields are required unless marked optional. Fields include: First name (Optional), Last name (Optional), Address 1, Address 2 (Optional), City/Town, State, ZIP Code, Email address, Phone number (home), Business phone (Optional), and Extension (Optional). Clicking **Save** submits the update to FICS. A success banner appears on confirmation.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. **Balances**: Displays a detailed balance breakdown pulled from FICS — Principal, Deferred principal, Tax and insurance, Subsidy, Unapplied, Unpaid late charges, Returned check charges, Loss draft, and Negative amortization. Below is a **Current year-to-date totals** section. A **Download balances year-to-date totals** link opens the browser's print dialog for you to save or print the balance report as a PDF.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. **Account notes**: Displays any servicer-entered notes on the account. A search bar and date-range filter are available. Notes are displayed in chronological order with a sort option.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. **Statement and documents**: Provides access to your paperless statements via SSO redirect to the FICS document portal.
 5. **Help**: Displays credit union mortgage contact information (phone number, support hours, mailing address) and a **Send us a message** text area. Submitting the message delivers a secure inquiry to the credit union's mortgage team. A success confirmation banner appears after submission.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Request Payoff Information
 
@@ -89,7 +89,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
     * **Send payoff information to**: Radio selection — My email (pre-filled from profile), My mailing address, or My fax number. Each selection reveals the relevant detail field.
     * **Phone number** (pre-filled, required): Your contact number.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 13. Clicking **Submit** sends the payoff request to the FICS system. On success, a green confirmation banner — "Your request for payoff information has been successfully sent." — appears on the Loan Information screen.
 

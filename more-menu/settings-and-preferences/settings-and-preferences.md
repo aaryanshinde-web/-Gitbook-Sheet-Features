@@ -4,7 +4,7 @@ description: Settings — Account & General Preferences
 
 # Settings & Preferences
 
-> **Module:** Banking › Settings |&#x20;
+> **Module:** Banking › Settings |
 
 ## Summary
 
@@ -16,14 +16,14 @@ Settings also provides access to Courtesy Pay enrollment status, Dark Theme togg
 
 **At a Glance**
 
-| Attribute       | Detail                                                                          |
-| --------------- | ------------------------------------------------------------------------------- |
-| Module          | Settings                                                                        |
-| Security        | Password, MFA, Authentication configuration                                     |
-| Account Display | Nicknames, order, visibility, icons                                             |
-| Preferences     | Dark Theme, Masking, Text Banking, Courtesy Pay                                 |
-| Navigation      | Accessible via top navigation gear icon or More menu                            |
-| Related Reports |  (Password & User ID),  (Alerts),  (Profile & Memberships) |
+| Attribute       | Detail                                                  |
+| --------------- | ------------------------------------------------------- |
+| Module          | Settings                                                |
+| Security        | Password, MFA, Authentication configuration             |
+| Account Display | Nicknames, order, visibility, icons                     |
+| Preferences     | Dark Theme, Masking, Text Banking, Courtesy Pay         |
+| Navigation      | Accessible via top navigation gear icon or More menu    |
+| Related Reports | (Password & User ID), (Alerts), (Profile & Memberships) |
 
 ## Key Use Cases
 
@@ -37,9 +37,9 @@ Settings also provides access to Courtesy Pay enrollment status, Dark Theme togg
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Settings (gear icon) OR More > Settings._ |&#x20;
+\| _Navigation: Dashboard > Settings (gear icon) OR More > Settings._ |
 
-**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 

@@ -1,5 +1,7 @@
 ---
-description: "View membership details and add new membership associations to the member's profile"
+description: >-
+  View membership details and add new membership associations to the member's
+  profile
 ---
 
 # Accounts & Memberships
@@ -10,27 +12,30 @@ The Accounts and Memberships page allows members to view and manage their member
 
 ## Key Use Cases
 
-- View current membership details and status
-- Add a new membership association to the profile
-- Manage multiple memberships under one login
-- Apply for additional accounts
-- Link existing memberships to the account
+* View current membership details and status
+* Add a new membership association to the profile
+* Manage multiple memberships under one login
+* Apply for additional accounts
+* Link existing memberships to the account
 
 ## End-to-End Workflow
 
 **Step 1: Open Account Overview**
 
-The member clicks "Accounts" in the top navigation bar to open the Account Overview page. All accounts are listed with their balances and action buttons. From here, the member navigates to the Accounts and Memberships page using the More menu.
+The member clicks "Accounts" in the top navigation bar to open the Account Overview page. All accounts are listed with their balances and action buttons.
 
-<figure><img src="/.gitbook/assets/accounts-overview-group.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/accounts-overview-group.png" alt="" width="480"><figcaption></figcaption></figure>
 
 **Step 2: Navigate to Accounts and Memberships page**
 
-The member clicks "More" in the top navigation bar. A dropdown menu appears displaying various options. The member clicks "Accounts and Memberships" from the menu. The Accounts and Memberships page loads, displaying the current membership information with the membership number and associated account details.
+The member clicks "GEAR" in the top rIght of accounts.&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-13 at 4.15.26 PM.png" alt="" width="534"><figcaption></figcaption></figure>
+
+
 
 **Step 3: Add a new membership or account**
 
 The member views the current membership details on the page. The page displays a link labeled "Open a new account or Apply for a new membership" at Tyfone. The member clicks the "Go to site" button to proceed to the account opening or membership application process. The browser opens the Tyfone site where the member can complete the application for a new account or membership.
 
-<figure><img src="/.gitbook/assets/accounts-memberships.png" alt="" width="480"><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/accounts-memberships.png" alt="" width="480"><figcaption></figcaption></figure>

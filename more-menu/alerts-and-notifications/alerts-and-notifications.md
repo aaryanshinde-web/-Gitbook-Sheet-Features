@@ -4,7 +4,7 @@ description: Alerts & Notifications
 
 # Alerts & Notifications
 
-> **Module:** Banking › Settings → Alerts |&#x20;
+> **Module:** Banking › Settings → Alerts |
 
 ## Summary
 
@@ -23,7 +23,7 @@ Alert history is maintained in the Inbox, giving You a retrospective view of all
 | Delivery Channels | Push Notification, SMS, Email                                              |
 | Account-Specific  | Balance threshold and large transaction alerts per account                 |
 | Do Not Disturb    | Time-window to mute non-critical alerts                                    |
-| Related Reports   |  (Message Center),  (Settings & Security)                    |
+| Related Reports   | (Message Center), (Settings & Security)                                    |
 
 ## Key Use Cases
 
@@ -37,9 +37,9 @@ Alert history is maintained in the Inbox, giving You a retrospective view of all
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Settings (gear icon) > 'Alerts' OR More > Settings > Alerts._ |&#x20;
+\| _Navigation: Dashboard > Settings (gear icon) > 'Alerts' OR More > Settings > Alerts._ |
 
-**Step 1 — Start from Dashboard**  The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 

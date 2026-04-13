@@ -6,7 +6,6 @@
 
 * [Login & Security](authentication-and-login/login-and-security/README.md)
   * [Login & Authentication](authentication-and-onboarding/login-and-security/CSUM-01-Login-Authentication.md)
-  * [Pre-Login fallback & Access Recovery](authentication-and-onboarding/login-and-security/CSUM-22-Password-UserID-MFA.md)
 * [Biometrics & Access Security](authentication-and-login/biometrics-and-access-security/README.md)
   * [Face ID - Biometric Auth](<authentication-and-onboarding/biometrics-and-access-security/face id.md>)
   * [Sneak Peek](<authentication-and-onboarding/biometrics-and-access-security/sneak peek.md>)
@@ -65,18 +64,18 @@
 * [Bill Pay & Loans](move-money/bill-pay-and-loans/README.md)
   * [Bill Pay](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-14-Bill-Pay.md)
   * [Loan Payments & Quick Pay](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-13-Loan-Payments-Quick-Pay.md)
-  * [Skip-A-Pay](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-18-Skip-A-Pay.md)
-  * [Online Forms](bill-pay-loans-and-cards/bill-pay-and-loans/CSUM-15-Online-Forms-Centre.md)
 
 ## More Menu
 
 * [Alerts & Notifications](more-menu/alerts-and-notifications/README.md)
-  * [Alerts & Notifications](settings-help-and-misc/alerts-notifications-and-messaging/CSUM-16-Alerts-Notifications.md)
-  * [Blackout Period](<settings-help-and-misc/alerts-notifications-and-messaging/alerts and blackout period.md>)
+  * [Alerts & Notifications](more-menu/alerts-and-notifications/alerts-and-notifications.md)
+  * [Blackout Period](more-menu/alerts-and-notifications/blackout-period.md)
 * [Personal Information](more-menu/personal-information/README.md)
-  * [Personal Information Management](settings-help-and-misc/personal-information-and-contact/CSUM-19-Personal-Information-Management.md)
+  * [Personal Information Management](more-menu/personal-information/personal-information-management.md)
 * [Settings & Preferences](more-menu/settings-and-preferences/README.md)
-  * [Settings & Preferences](settings-help-and-misc/settings-and-preferences/CSUM-20-Settings-Preferences.md)
+  * [Settings & Preferences](more-menu/settings-and-preferences/settings-and-preferences.md)
+* [Skip-A-Pay](more-menu/skip-a-pay.md)
+* [User ID and Password](more-menu/user-id-and-password.md)
 
 ## Vendor Integrations
 

@@ -23,7 +23,7 @@ The ACH network processes transfers in 1–3 business days under standard ACH ru
 | Transfer Speed  | 1–3 business days (standard); Same-day ACH if available |
 | Verification    | OTP required for first-use or high-value transfers      |
 | Steps           | 5 (From → To → Amount → Verify OTP → Confirm)           |
-| Related Reports |  (Move Money),  (Recipient Management)    |
+| Related Reports | (Move Money), (Recipient Management)                    |
 
 ## Key Use Cases
 
@@ -53,7 +53,7 @@ _Step 2: Move Money Hub_
 
 **Step 3 — Navigate from Dashboard to External Transfer**
 
-The Move Money hub is displayed as the landing page for initiating an external account transfer.
+The Move Money hub is displayed as the landing page for initiating an external account transfer,click on same day transfers
 
 <figure><img src="../../.gitbook/assets/img_721f3b4eb101.png" alt="" width="480"><figcaption></figcaption></figure>
 
@@ -61,9 +61,9 @@ _Step 3: Navigate from Dashboard to External Transfer_
 
 **Step 4 — Fill Transfer Details**
 
-Step 2 shows a simplified form with fields for entering the external account transfer details including the destination account information.
+Sshows a simplified form with fields for entering the source account and external recipient,enter an amount of $100 and select the date and click on continue.
 
-<figure><img src="../../.gitbook/assets/img_0fb04c63eb4a.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
 _Step 4: Fill Transfer Details_
 

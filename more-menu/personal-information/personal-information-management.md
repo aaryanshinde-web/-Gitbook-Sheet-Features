@@ -4,7 +4,7 @@ description: Personal Information Management
 
 # Personal Information Management
 
-> **Module:** Banking › More → Personal Information |&#x20;
+> **Module:** Banking › More → Personal Information |
 
 ## Summary
 
@@ -23,7 +23,7 @@ You managing your personal information through the app avoid the need for branch
 | Verification    | OTP required for phone/email changes                                 |
 | Trusted Devices | View, review, and remove registered trusted devices                  |
 | Address Types   | Mailing (for statements/cards) and Residential (for ID verification) |
-| Related Reports |  (Device Management),  (Settings),  (Login)     |
+| Related Reports | (Device Management), (Settings), (Login)                             |
 
 ## Key Use Cases
 
@@ -37,9 +37,9 @@ You managing your personal information through the app avoid the need for branch
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > More > 'Personal Information'._ |&#x20;
+\| _Navigation: Dashboard > More > 'Personal Information'._ |
 
-**Step 1 — Start from Dashboard**  The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 

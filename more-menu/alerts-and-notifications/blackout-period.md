@@ -1,6 +1,6 @@
 # Blackout Period
 
-**Summerville Credit Union | nFinia Digital Banking Platform**&#x20;
+**Summerville Credit Union | nFinia Digital Banking Platform**
 
 ***
 
