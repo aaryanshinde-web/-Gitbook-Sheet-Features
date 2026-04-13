@@ -44,10 +44,14 @@ Toggle **Allow International Transactions** to **On**. Once enabled, choose your
 
 <figure><img src="../../.gitbook/assets/Location_Controls_Enabled.png" alt="Location Controls enabled — Selected Countries with saved locations" data-size="original"><figcaption><p>Step 2: International transactions enabled with Selected Countries scope. Saved locations are listed below.</p></figcaption></figure>
 
-### Step 3 — Add a New Location
+### Step 3 — Review Saved Locations
 
-Click **Add a Location** to open the location search panel. Enter a city, state, or zip code into the search field. The interactive map zooms to the area and displays a boundary circle — transactions will be approved for any use within that marked boundary. You can assign a nickname for easy identification. Click **Save Location** to add it, or **Cancel** to discard. Up to 3 locations can be active at once.
+Once locations have been added, they appear in the **Enabled Locations** list below the scope selector. Each location shows its name and can be edited or removed. Up to 3 locations can be active at once. Transactions will be approved for any use within the defined boundary of each saved location.
 
-<figure><img src="../../.gitbook/assets/Location_Controls_Add_Location.png" alt="Add a Location panel with interactive map" data-size="original"><figcaption><p>Step 3: Search for a location and define a geographic boundary on the map.</p></figcaption></figure>
+### Step 4 — Add a New Location
+
+Click **Add a Location** to open the location search panel. Enter a city, state, or zip code into the search field. The interactive map zooms to the area and displays a boundary circle — transactions will be approved for any use within that marked boundary. You can assign a nickname for easy identification. Click **Save Location** to add it, or **Cancel** to discard.
+
+<figure><img src="../../.gitbook/assets/Location_Controls_Add_Location.png" alt="Add a Location panel with interactive map" data-size="original"><figcaption><p>Step 4: Search for a location and define a geographic boundary on the map.</p></figcaption></figure>
 
 > **Note:** When you are done traveling, return to Location Controls and toggle **Allow International Transactions** back to Off to restore domestic-only restrictions. Saved locations are retained so you can re-enable them for future trips without re-entering the details.
