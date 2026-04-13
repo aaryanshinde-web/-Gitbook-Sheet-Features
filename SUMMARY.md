@@ -47,7 +47,7 @@
   * [External ACH Transfer](transfers-and-payments/external-ach-wire-and-instant/CSUM-08-External-ACH-Transfer.md)
   * [FedNow Instant Pay](transfers-and-payments/external-ach-wire-and-instant/CSUM-09-FedNow-Instant-Pay.md)
   * [Wire Transfers](transfers-and-payments/external-ach-wire-and-instant/CSUM-12-Wire-Transfers.md)
-* [Check Deposit — RDC](move-money/check-deposit-rdc/README.md)
+* [Check Deposit - RDC](move-money/check-deposit-rdc/README.md)
   * [Mobile Check Deposit — RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
 * [Recipient Management](move-money/recipient-management/README.md)
   * [Recipient Management](transfers-and-payments/recipient-management/CSUM-10-Recipient-Management.md)
