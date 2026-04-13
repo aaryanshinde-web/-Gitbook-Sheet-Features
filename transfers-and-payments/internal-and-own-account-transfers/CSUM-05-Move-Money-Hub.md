@@ -12,11 +12,11 @@ The Move Money Hub is the central launchpad for all payment and transfer activit
 
 This hub eliminates navigation complexity by surfacing every money-movement option in a clear tile layout. You identify the correct transfer type quickly and navigate directly to the appropriate workflow without searching through menus or sub-menus. The Move Money hub is also where Online Forms and Recipient Management are accessible.
 
-The hub also surfaces transfer templates, multi-payee transfer options, and business payment features under the same navigation node, making it the single entry point for all outgoing fund movements.
+
 
 **At a Glance**
 
-<table><thead><tr><th width="254">Attribute</th><th>Detail</th></tr></thead><tbody><tr><td>Module</td><td>Move Money</td></tr><tr><td>Transfer Options</td><td>Quick Pay, Own Account, Other You, External, FedNow, Zelle, Bill Pay, Wire</td></tr><tr><td>Recipient Management</td><td>Accessible from Move Money hub</td></tr><tr><td>Online Forms</td><td>ACH, Wire, Address, Skip Pay forms accessible here</td></tr><tr><td>Business Features</td><td>Transfer templates, Multi-payee, ACH batch (business accounts)</td></tr></tbody></table>
+<table><thead><tr><th width="254">Attribute</th><th>Detail</th></tr></thead><tbody><tr><td>Module</td><td>Move Money</td></tr><tr><td>Transfer Options</td><td>Quick Pay, Own Account, Other You, External, FedNow, Zelle, Bill Pay, Wire</td></tr><tr><td>Recipient Management</td><td>Accessible from Move Money hub</td></tr><tr><td>Online Forms</td><td>ACH, Wire, Address, Skip Pay forms accessible here</td></tr></tbody></table>
 
 ## Key Use Cases
 
@@ -30,17 +30,11 @@ The hub also surfaces transfer templates, multi-payee transfer options, and busi
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > 'Move Money' in top navigation bar._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+**Step 1 — Navigate to Move Money Hub**
 
-<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
+Start from the dashboard and navigate to Move Money. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other Members, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
-_Step 1: Start from Dashboard_
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Navigate to Move Money Hub**
 
-you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
-
-<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 2: Move Money Hub_
 

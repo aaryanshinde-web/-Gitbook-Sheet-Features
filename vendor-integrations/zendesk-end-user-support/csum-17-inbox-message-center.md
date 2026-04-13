@@ -53,7 +53,7 @@ The Inbox page displays a list of support tickets in a table format with columns
 
 Go to Help> Message Us. A 'Create New Ticket' modal is displayed with fields for Inquiry Type (General Inquiry, Account inquiry, Transaction Inquiry, etc). The member can fill in the Subject, Message body, and a file attachment option with a 20 MB size limit.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

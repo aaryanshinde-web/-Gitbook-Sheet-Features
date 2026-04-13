@@ -42,4 +42,4 @@ There are advanced search options such as : \
 1\. Amount equal to, over & under.\
 2\. Search in Notes & Descriptions, Notes only, Description only&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>

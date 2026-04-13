@@ -40,7 +40,7 @@ The member scrolls down the Account Details page to see additional transactions.
 
 <figure><img src="../../.gitbook/assets/account-details-scrolled.png" alt="" width="480"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -50,7 +50,7 @@ The member scrolls down the Account Details page to see additional transactions.
 
 In the three-dotted menu of a transaction, there is an option to add a note to the transaction.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 8: Download/Print Transaction**&#x20;
 

@@ -8,9 +8,9 @@ description: Transfer to Other Credit Union You
 
 ## Summary
 
-The Transfer to Other You feature allows authenticated You to send funds directly to another your account at the same credit union. This peer transfer is ideal for splitting expenses, paying back family You, or making informal payments within the credit union network. The workflow mirrors the own-account transfer but requires selecting a saved recipient or entering the destination your account number.
+The Transfer to Other Members feature allows authenticated members to send funds directly to another  account at the same credit union. This peer transfer is ideal for splitting expenses, paying back family members, or making informal payments within the credit union network. The workflow mirrors the own-account transfer but requires selecting a saved recipient or entering the destination your account number.
 
-Multi-recipient member transfers are also supported, allowing You to split a single payment to multiple recipient accounts in one transaction — useful for household expense splitting or distributing funds to joint family You.
+Multi-recipient member transfers are also supported, allowing members to split a single payment to multiple recipient accounts in one transaction — useful for household expense splitting or distributing funds to joint family members.
 
 Transfers are processed the same business day and the recipient's account is credited automatically. No additional verification is required for amounts within the standard limit.
 
@@ -19,10 +19,9 @@ Transfers are processed the same business day and the recipient's account is cre
 | Attribute       | Detail                                                       |
 | --------------- | ------------------------------------------------------------ |
 | Module          | Move Money > Transfer to Other You                           |
-| Recipient Type  | Other You at the same credit union                           |
+| Recipient Type  | Other Members at the same credit union                       |
 | Multi-Recipient | Supported — split payment to multiple You in one transaction |
 | Transfer Speed  | Same business day                                            |
-| Steps           | 4 (From → Recipient → Amount → Confirm)                      |
 
 ## Key Use Cases
 
@@ -36,48 +35,26 @@ Transfers are processed the same business day and the recipient's account is cre
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > 'Transfer to Other You'._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+**Step 1— Navigate to Move Money Hub**
 
-<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
+Click ‘Move Money' in the top navigation bar. The Move Money Hub displays the option to pay Other Members.&#x20;
 
-_Step 1: Start from Dashboard_
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Navigate to Move Money Hub**
+**Step 2 — Navigate to Other Members**
 
-you click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
+This is the starting screen for the Transfer to Other Members workflow. This screen allows you to choose a recipient from your list and input the necessary transfer details, such as amount and message, to ensure accurate and effective money transfers.
 
-<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-_Step 2: Move Money Hub_
+**Step 3 — Review Transfer Summary**
 
-**Step 3 — Navigate from Dashboard to Other Members**
+A confirmation overlay displays the transfer details for a  transfer, showing the source and destination account information for member review before submission.
 
-The Move Money hub is displayed with a tooltip providing help for selecting a recipient. This is the starting screen for the Transfer to Other You workflow.
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/img_ba0dcc1d207f.png" alt="" width="480"><figcaption></figcaption></figure>
+**Step 4 — Transfer Complete**
 
-_Step 3: Navigate from Dashboard to Other You Transfer_
+The success screen confirms the transfer to another member with a green checkmark, displaying the transaction details and transfer date.
 
-**Step 4 — Select Recipient & Enter Details**
-
-This screen allows you to choose a recipient from your list and input the necessary transfer details, such as amount and message, to ensure accurate and effective money transfers.
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-_Step 4: Select Recipient & Enter Details_
-
-**Step 5 — Review Transfer Summary**
-
-A confirmation overlay displays the transfer details for a $100.00 transfer, showing the source and destination account information for member review before submission.
-
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-_Step 5: Review Transfer Summary_
-
-**Step 6 — Transfer Complete**
-
-The success screen confirms the $100.00 transfer to another member with a green checkmark, displaying the transaction details and transfer date.
-
-<figure><img src="../../.gitbook/assets/img_61c8bdec2005.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 6: Transfer Complete_
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

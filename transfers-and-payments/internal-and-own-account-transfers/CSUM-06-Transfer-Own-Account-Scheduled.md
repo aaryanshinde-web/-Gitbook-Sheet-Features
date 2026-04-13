@@ -21,7 +21,6 @@ The Scheduled Transfers view also serves as a log for completed FedNow and ACH t
 | Module          | Move Money > Transfer Own Account / Scheduled Transfers |
 | Transfer Speed  | Instant (real-time for own-account transfers)           |
 | Schedule Types  | One-time, Weekly, Bi-weekly, Semi-monthly, Monthly      |
-| Steps           | 4 (From → To → Amount/Memo → Confirm → Success)         |
 | History View    | Completed FedNow and scheduled transfer records         |
 | Related Reports | (Move Money Hub), (Other You Transfer)                  |
 
@@ -37,56 +36,32 @@ The Scheduled Transfers view also serves as a log for completed FedNow and ACH t
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > 'Transfer to Own Account' OR 'Scheduled Transfers'._ | **Step 1 — Start from Dashboard** | you begins at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More. |
+**Step 1 — Navigate to Move Money Hub**
 
-<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
+You click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other Members, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
 
-_Step 1: Start from Dashboard_
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Navigate to Move Money Hub**
+**Step 2 — Navigate to Internal Transfers**
 
-You click ‘Move Money' in the top navigation bar. The Move Money Hub displays all payment and transfer options as tiles including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other You, Same-Day Transfers, Send Instantly, Manage Recipients, Add Recipient, Transaction History, Scheduled Transfers, and P2P Transfer.
+In this step, the member can enter the transfer details such as entering the transfer amount, an optional transaction memo, payment date selection, and a recurring payment checkbox.
 
-<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-_Step 2: Move Money Hub_
-
-**Step 3 — Navigate from Dashboard to Internal Transfers**
-
-Step 1 of the Own Account Transfer flow shows the account selection screen with a dropdown to choose the source account for the internal transfer.
-
-<figure><img src="../../.gitbook/assets/img_45280a2b3a91.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 3: Navigate from Dashboard to Own Account Transfer_
-
-**Step 4 — Enter Amount & Memo**
-
-Step 4 displays the transfer details form with fields for entering the transfer amount, an optional transaction memo, payment date selection, and a recurring payment checkbox.
-
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-_Step 4: Enter Amount & Memo_
-
-**Step 5 — Review Transfer Summary**
+**Step 3 — Review Transfer Summary**
 
 The confirmation screen shows a $5.00 transfer between Retail Savings and Retail Checking accounts, displaying the description and scheduled date for member review.
 
-<figure><img src="../../.gitbook/assets/img_d7a3f6fa32b6.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 5: Review Transfer Summary_
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step 6 — Transfer Complete — Success Screen**
 
 A success confirmation page is displayed with a green checkmark, confirming the completed $5.00 transfer between accounts with a transfer date of Apr 01, 2026.
 
-<figure><img src="../../.gitbook/assets/img_9ef0637ac3b6.png" alt="" width="480"><figcaption></figcaption></figure>
-
-_Step 6: Transfer Complete — Success Screen_
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 **Step 7 — View & Manage Scheduled Transfers**
 
-The Scheduled Transfers page is displayed with Summerville branding. A 'Schedule a new transfer' link is at the top. The schedule transfer type is set to 'Within Summerville' and the account is 'Retail Checking Account (#0001)'. An active schedule card shows a transfer from Retail Checking to SHARE (0002) for $10.00 monthly, set to continue until cancelled with the next transfer date of Mar 18, 2026. Related Links and Upcoming Payments are shown in the right sidebar.
+In this page, the member must select transfer type and account to see all the schedules. An active schedule card shows a transfer from Retail Checking to SHARE (0002) for $10.00 monthly, set to continue until cancelled with the next transfer date of Mar 18, 2026.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_3089efe2b435.png" alt="" width="620"><figcaption></figcaption></figure>
-
-_Step 7: View & Manage Scheduled Transfers_
