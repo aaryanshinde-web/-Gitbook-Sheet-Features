@@ -16,14 +16,14 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 **At a Glance**
 
-| Attribute                | Detail                                                                           |
-| ------------------------ | -------------------------------------------------------------------------------- |
-| Module                   | Move Money > Online Forms > Wire Transfer                                        |
-| Domestic Network         | Federal Reserve Fedwire                                                          |
-| International Network    | SWIFT                                                                            |
-| Domestic Settlement      | Same business day (if before cut-off)                                            |
-| International Settlement | 1–3 international banking days                                                   |
-| Related Reports          |  (Move Money Hub),  (Recipient Management),  (Online Forms) |
+| Attribute                | Detail                                                   |
+| ------------------------ | -------------------------------------------------------- |
+| Module                   | Move Money > Online Forms > Wire Transfer                |
+| Domestic Network         | Federal Reserve Fedwire                                  |
+| International Network    | SWIFT                                                    |
+| Domestic Settlement      | Same business day (if before cut-off)                    |
+| International Settlement | 1–3 international banking days                           |
+| Related Reports          | (Move Money Hub), (Recipient Management), (Online Forms) |
 
 ## Key Use Cases
 
@@ -37,9 +37,9 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 ## Step-by-Step Guide
 
-\| _Navigation: Dashboard > Move Money > Online Forms > Wire Transfer Form._ |&#x20;
+\| _Navigation: Dashboard > Move Money > Online Forms > Wire Transfer Form._ |
 
-**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.&#x20;
+**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
@@ -47,7 +47,7 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 The Forms list page is displayed showing all available form types. you can review the submitted wire transfer status or access other form types such as ACH Origination, Address Change, Card Order, and more from this screen.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Open the Wire Transfer Form**
 

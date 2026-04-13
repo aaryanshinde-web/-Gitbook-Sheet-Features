@@ -80,7 +80,7 @@ The Account Overview page shows all account types grouped by category — checki
 
 <figure><img src="../../.gitbook/assets/img_9f1b9baacbb0.png" alt="" width="340"><figcaption></figcaption></figure>
 
-<p align="center"><img src="../../.gitbook/assets/unknown (3).png" alt=""></p>
+<p align="center"><img src="../../.gitbook/assets/unknown (3) (1).png" alt=""></p>
 
 **Step 8 — Check Deposit from Account Detail**
 

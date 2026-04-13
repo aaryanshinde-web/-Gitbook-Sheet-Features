@@ -1,4 +1,4 @@
-# Marketing Automation — Prisma
+# Marketing Automation - Prisma
 
 ***
 
@@ -8,14 +8,11 @@ Prisma is an advertising and engagement platform integrated with Tyfone's nFinia
 
 The primary users of the Prisma console are FI marketing teams and Tyfone delivery/support managers who configure, schedule, and manage ad campaigns. End members (credit union members) are the consumers of these ads. For FIs, Prisma represents a direct revenue opportunity — either by monetizing ad inventory through partner offers or by promoting your own financial products (e.g., auto loans, credit cards, certificates) to you at key moments in your digital banking journey.
 
-| Attribute            | Detail                                                                                               |
-| -------------------- | ---------------------------------------------------------------------------------------------------- |
-| Feature Name         | Prisma Ad Integration                                                                                |
-| Module               | nFinia Platform — Advertising & Engagement Layer                                                     |
-| User Roles           | FI Marketing Admin, Tyfone Delivery Manager, Tyfone Support Manager                                  |
-| Access Level         | Manager-level; view access available for training                                                    |
-| Key Actions          | Create/configure banners, upload creatives, set targeting, publish, track analytics, manage opt-outs |
-| Regulatory Relevance | CCPA marketing opt-out, data tokenization (SSN replacement), user-level data handling                |
+| Attribute    | Detail                                                                                               |
+| ------------ | ---------------------------------------------------------------------------------------------------- |
+| Feature Name | Prisma Ad Integration                                                                                |
+| Module       | nFinia Platform — Advertising & Engagement Layer                                                     |
+| Key Actions  | Create/configure banners, upload creatives, set targeting, publish, track analytics, manage opt-outs |
 
 ***
 
@@ -54,7 +51,7 @@ Prisma supports IAB (International Advertising Bureau) standard ad sizes across 
 * **Device-specific creatives** must be configured separately for each device type (e.g., iPad vs. iPhone for interstitials). There is no automatic fallback — if a device-specific image is not set up, the ad will not render on that device.
 * The Mobile Login Banner is not recommended for other mobile pages due to interference with navigation elements such as the tab drawer.
 
-**Operational Note:** With Prisma Light, enabling any ad makes it visible to **all you** — there is no mechanism to restrict visibility to a subset of you. This is a critical consideration during testing (see Section 3.1).
+
 
 ### Campaign Management
 
@@ -62,19 +59,31 @@ Campaign management is the core workflow in the Prisma console. The following sc
 
 &#x20;_Prisma Console — Campaign Overview / Banner List_
 
-<figure><img src="../.gitbook/assets/prisma-001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;_Banner Creation — Target Devices & Screens Configuration_
+_Segment Creation: Go to Segments > New Segment. Segments can be created from queries, from another segment or from a spreadsheet. You can find more information in the Prisma Resources_ [_here_](https://help.prismacampaigns.com/getting-started/integrate-data-segments/create-segments/)_._
 
-<figure><img src="../.gitbook/assets/prisma-002.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;_Creative Upload — Image and HTML Ad Configuration_
 
-<figure><img src="../.gitbook/assets/prisma-003.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;_A/B Testing Setup and Audience Targeting_
+&#x20;_Campaign Creation & Audience Targeting :_ Once the Segment is created, you can go over to the Campaigns > New Campaign to create an Ad and select the segment for targeting.&#x20;
 
-<figure><img src="../.gitbook/assets/prisma-004.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+_Banner Creation :_ You can create campaigns for multiple channels in this section and choose from Banners, Email, SMS, Push, etc. You can read more about it [here](https://help.prismacampaigns.com/getting-started/channel-design/add-banners/)&#x20;
+
+<figure><img src="../.gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure>
+
+&#x20;_Creative Upload :_ _Image and HTML Ad also can be configured by directly adding the HTML code in the edit HTML Banner section._&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+_Funnel Configuration :_ The funnel consists of everything that happens from the moment a person shows interest in a campaign.  You can read more about it [here](https://help.prismacampaigns.com/getting-started/channel-design/add-banners/)&#x20;
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 **Key campaign management capabilities:**
 
@@ -100,11 +109,11 @@ Campaign management is the core workflow in the Prisma console. The following sc
 
 ### Reporting and Analytics
 
-Prisma provides campaign-level tracking and reporting for each active ad.
+Prisma provides campaign-level tracking and reporting for each active ad.&#x20;
 
 &#x20;_Prisma Analytics Dashboard — Reach, Clicks, and Conversion Tracking_
 
-<figure><img src="../.gitbook/assets/prisma-005.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 **Tracked Metrics:**
 
@@ -135,11 +144,11 @@ Prisma supports structured data sync (file-based with column mappings) for two k
 | Responsible Party        | Tyfone Delivery Manager                                                    |
 | Login Credentials        | Do NOT change; no self-service reset; requires Prisma support intervention |
 
-**Why this matters:** A test ad accidentally left live during US business hours will be displayed to all production you. For Prisma Light customers, there is no way to limit this to a subset of you. Always follow the testing window protocol strictly.
+**Why this matters:** A test ad accidentally left live during US business hours will be displayed to all production you.&#x20;
 
 ### Data Ingestion and User Identification
 
-Accurate member identification is foundational to Prisma's ad serving and segmentation capabilities.
+Accurate member identification is foundational to Prisma's ad serving and segmentation capabilities. You can read more about this [here](https://help.prismacampaigns.com/getting-started/integrate-data-segments/uploading-data-to-prisma/)&#x20;
 
 | Concern                | Current Approach                                                       |
 | ---------------------- | ---------------------------------------------------------------------- |
