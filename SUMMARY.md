@@ -8,7 +8,7 @@
   * [Login & Authentication](authentication-and-onboarding/login-and-security/CSUM-01-Login-Authentication.md)
   * [Password, User ID & MFA](authentication-and-onboarding/login-and-security/CSUM-22-Password-UserID-MFA.md)
 * [Biometrics & Access Security](authentication-and-login/biometrics-and-access-security/README.md)
-  * [Face ID — CDA Biometric Auth](<authentication-and-onboarding/biometrics-and-access-security/face id.md>)
+  * [Face ID - CDA Biometric Auth](<authentication-and-onboarding/biometrics-and-access-security/face id.md>)
   * [Sneak Peek](<authentication-and-onboarding/biometrics-and-access-security/sneak peek.md>)
 * [Device & Session Management](authentication-and-login/device-and-session-management/README.md)
   * [Device Management & Trusted Devices](authentication-and-onboarding/device-and-session-management/CSUM-25-Device-Management-Trusted-Devices.md)
