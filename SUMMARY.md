@@ -75,7 +75,7 @@
 * [Skip-A-Pay](more-menu/skip-a-pay.md)
 * [Check Deposit - RDC](move-money/check-deposit-rdc/README.md)
   * [Mobile Check Deposit - RDC](transfers-and-payments/check-deposit/Mobile-Check-Deposit-Guide.md)
-  * [Check Deposit(OLB)](more-menu/check-deposit-rdc/check-deposit-olb.md)
+  * [Remote Check Deposit (Desktop)](more-menu/check-deposit-rdc/check-deposit-olb.md)
 
 ## Vendor Integrations
 

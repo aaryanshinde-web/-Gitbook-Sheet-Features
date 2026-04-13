@@ -1,4 +1,4 @@
-# Check Deposit(OLB)
+# Remote Check Deposit (Desktop)
 
 **Summary**
 
@@ -7,7 +7,7 @@ The Remote Check Deposit feature within the Summerville Online Banking (OLB) pla
 **Use Cases**
 
 * Personal Banking Convenience: Individuals can deposit personal checks, payroll checks, or monetary gifts from the comfort of their home, saving a trip to the bank.
-* Small Business Management: Business owners with linked commercial accounts (e.g., "Green Thumb Landscaping LLC" or "Perfect Pitch Music Lessons LLC") can efficiently deposit client payments directly into their respective business accounts using a single login.
+* Small Business Management: Business owners with linked commercial accounts  can efficiently deposit client payments directly into their respective business accounts using a single login.
 * Remote/Traveling Customers: Users who are traveling, live in remote areas, or cannot access a physical branch during business hours can maintain cash flow and deposit funds from anywhere with an internet connection.
 
 **End-to-End Workflow**
@@ -18,7 +18,7 @@ Follow these steps to complete a remote check deposit based on the Summerville O
 
 <figure><img src="../../.gitbook/assets/image (51).png" alt="" width="563"><figcaption></figcaption></figure>
 
-2. Open the Expanded Menu: Locate the top navigation bar and click on the "More" option (represented by a four-square grid icon).
+2. Open the Expanded Menu: Locate the top navigation bar and click on the "More" option (represented by a four-square grid icon) and select "Check Deposit" option.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt="" width="563"><figcaption></figcaption></figure>
 
