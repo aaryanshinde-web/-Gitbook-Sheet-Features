@@ -36,6 +36,6 @@ The member enters a Subject line describing the inquiry topic. The member types 
 
 Similarly, in the transaction detail section of an account, there lies an option to inquire about the transaction inside the 3-dotted menu for a transaction.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>

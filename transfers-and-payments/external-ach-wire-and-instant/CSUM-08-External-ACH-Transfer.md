@@ -38,33 +38,33 @@ The ACH network processes transfers in 1–3 business days under standard ACH ru
 
 Click ‘Move Money' in the top navigation bar. The Move Money Hub displays External Transfer or Same Day Trander to other institutions as one of the options.&#x20;
 
-<figure><img src="/broken/files/iRZGJ5ZmJvK7IMKBqg6O" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-13 at 3.16.24 PM.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Click on External Transfer**
 
 This screen shoes a simplified form with fields for entering the source account and external recipient,enter an amount of $100 and select the date and click on continue.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4 — Review Pre-Confirmation**
 
 The confirmation screen displays a  transfer from Retail Savings Account to an external Retail Savings Account, showing the description and scheduled transfer date.
 
-<figure><img src="/broken/files/r7SKfQaz67J7s6ZuN1Nq" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5 — Select OTP Verification Method**
 
 A verification modal appears offering three authentication methods — 'Send me a message', 'Call me', or 'Send me an email' — to verify the external transfer before processing.
 
-<figure><img src="../../.gitbook/assets/img_4406668196b9.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_4406668196b9.png" alt=""><figcaption></figcaption></figure>
 
 **Step 6 — Enter OTP & Submit**
 
 The verification page is displayed with a field to enter the verification code received via the selected authentication method to complete the external transfer.
 
-<figure><img src="../../.gitbook/assets/img_a54afdf9f3c7.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_a54afdf9f3c7.png" alt=""><figcaption></figcaption></figure>
 
 _**Step 7: External Funds are Transfered Successfully**_ &#x20;
 
-<figure><img src="/broken/files/sa0V5qvQnGdUwQf4kaNy" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.15.16 AM.png" alt=""><figcaption></figcaption></figure>
 

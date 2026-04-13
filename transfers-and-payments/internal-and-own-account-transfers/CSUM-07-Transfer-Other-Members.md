@@ -39,22 +39,22 @@ Transfers are processed the same business day and the recipient's account is cre
 
 Click ‘Move Money' in the top navigation bar. The Move Money Hub displays the option to pay Other Members.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — Navigate to Other Members**
 
 This is the starting screen for the Transfer to Other Members workflow. This screen allows you to choose a recipient from your list and input the necessary transfer details, such as amount and message, to ensure accurate and effective money transfers.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 3 — Review Transfer Summary**
 
 A confirmation overlay displays the transfer details for a  transfer, showing the source and destination account information for member review before submission.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 4 — Transfer Complete**
 
 The success screen confirms the transfer to another member with a green checkmark, displaying the transaction details and transfer date.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>

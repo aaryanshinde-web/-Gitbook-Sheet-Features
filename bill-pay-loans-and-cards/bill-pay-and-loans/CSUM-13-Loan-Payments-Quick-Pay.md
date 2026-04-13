@@ -35,7 +35,7 @@ The Pay Loan from External Account feature allows You to link an external bank a
 
 Login to Digital Banking & search for Quick Pay. The Quick Pay page displays the loan selection screen with action buttons for selecting different loan accounts to make a payment.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — Pay Loan**
 
@@ -45,7 +45,7 @@ This step enables the member to pay their loan quikly using multiple payment met
 
 
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -53,6 +53,6 @@ This step enables the member to pay their loan quikly using multiple payment met
 
 My shares tab shows all the shares to deposit to.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Members can also see history of their Quick Pay transactions, Scheduled Transfers and Notifications (More Tab)
