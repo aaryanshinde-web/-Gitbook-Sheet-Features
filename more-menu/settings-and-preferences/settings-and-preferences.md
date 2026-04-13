@@ -12,18 +12,15 @@ The Settings module is your personal control panel for managing your digital ban
 
 The Accounts & Memberships settings allow You to customise how your accounts appear throughout the platform: setting nicknames, reordering accounts, hiding inactive accounts, and choosing display icons. These preferences persist across sessions and devices.
 
-Settings also provides access to Courtesy Pay enrollment status, Dark Theme toggle, masking/unmasking of account numbers, and text banking enable/disable. All settings changes take effect immediately and apply across web and mobile versions of the platform.
-
 **At a Glance**
 
-| Attribute       | Detail                                                  |
-| --------------- | ------------------------------------------------------- |
-| Module          | Settings                                                |
-| Security        | Password, MFA, Authentication configuration             |
-| Account Display | Nicknames, order, visibility, icons                     |
-| Preferences     | Dark Theme, Masking, Text Banking, Courtesy Pay         |
-| Navigation      | Accessible via top navigation gear icon or More menu    |
-| Related Reports | (Password & User ID), (Alerts), (Profile & Memberships) |
+| Attribute       | Detail                                               |
+| --------------- | ---------------------------------------------------- |
+| Module          | Settings                                             |
+| Security        | Password, MFA, Authentication configuration          |
+| Account Display | Nicknames, order, visibility, icons                  |
+| Preferences     | Dark Theme, Masking, Text Banking, Courtesy Pay      |
+| Navigation      | Accessible via top navigation gear icon or More menu |
 
 ## Key Use Cases
 
@@ -31,7 +28,6 @@ Settings also provides access to Courtesy Pay enrollment status, Dark Theme togg
 | --------------------- | ----------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- |
 | Set Account Nicknames | You with multiple similar accounts  | Open Settings > Account Display, enter nickname for each account | Makes account selection faster across all payment screens |
 | Enable Dark Theme     | You preferring dark mode display    | Toggle Dark Theme in Settings > Preferences                      | Reduces eye strain in low-light environments              |
-| Manage Courtesy Pay   | You reviewing overdraft enrollment  | Open Settings > Courtesy Pay to view/update enrollment status    | Self-service overdraft preference management              |
 | Change Password       | You rotating passwords for security | Open Settings > Security > Change Password                       | Self-service password update without contacting CU        |
 |                       |                                     |                                                                  |                                                           |
 
@@ -41,15 +37,15 @@ Settings also provides access to Courtesy Pay enrollment status, Dark Theme togg
 
 **Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
-<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — Open the More Menu**
 
-you click ‘More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features:  User ID and Password & Account & Membership Settings. Or Navigate directly from Dashboard to Settings using the search option.&#x20;
 
-<figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Navigate from Dashboard to Settings**
+**Step 3 — User ID and Password Settings**&#x20;
 
 The User ID and Password Settings page is displayed with a password change form containing 'Enter a new password' and 'Confirm new password' fields, along with a list of Password Requirements.
 
@@ -61,20 +57,18 @@ The User ID and Password Settings page shows tabs for User ID, Password, and Mul
 
 <figure><img src="../../.gitbook/assets/img_f25e080818ae.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 5 — View Accounts & Memberships Settings**
+**Step 5 —  Accounts & Memberships Settings**
 
-The Accounts and Memberships settings page is displayed with checkboxes for managing membership and account preferences.
+Navigate to  Accounts and Memberships settings page which is displayed  for managing membership and account preferences. In this page, account nickname can be added/edited, show or hide a particular account, include an account in the dashboard or acitvity since last login. You can also set default account for fund transfer, check deposit or text banking.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_d89dcb8f0776.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 6 — Update MFA Preferences**
 
-The Alert Settings page shows alert configuration options with toggle switches for enabling Push Notifications and SMS Alerts delivery channels.
 
-<figure><img src="../../.gitbook/assets/img_0e8421ca8c3e.png" alt="" width="480"><figcaption></figcaption></figure>
+**Step 7 — Membership Settings**
 
-**Step 7 — Additional Accounts & Memberships View**
+The  Memberships settings page tab contains option to add an existing membership or delete an existing membership or set up preferences for masking or unmasking membership number across digital banking.&#x20;
 
-The Accounts and Memberships settings page is shown with a loading state and options for managing memberships and account display preferences.
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/img_f0e24e109eec.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
