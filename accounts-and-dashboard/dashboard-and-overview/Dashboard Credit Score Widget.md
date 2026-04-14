@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Credit Score meter widget on the Dashboard — a visual gauge showing the
-  member's current credit score range without leaving the landing screen.
+ The Credit Score meter widget on the Dashboard — a visual gauge showing the
+ member's current credit score range without leaving the landing screen.
 ---
 
 # Credit Score Widget
@@ -12,11 +12,11 @@ The Credit Score Widget is a compact visual gauge displayed on the Dashboard's r
 
 ## Key Use Cases
 
-| Use Case                        | Who Uses It                                     | What They Do                                                     | Business Value                                               |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
-| Daily Score Glance              | Member monitoring credit health                 | Views the gauge on Dashboard after login — no navigation needed  | Instant credit awareness on every login without extra clicks |
-| First-Time Credit Score Access  | New member who hasn't accessed Credit Score yet | Clicks "Show My Score" on the widget, accepts consent disclosure | Drives adoption of Credit Score feature from the Dashboard   |
-| Navigate to Full Credit Details | Member who wants to understand score factors    | Clicks "Show My Score" to go to full Credit Score page           | Seamless path from widget to detailed feature                |
+| Daily Score Glance | Member monitoring credit health | Views the gauge on Dashboard after login — no navigation needed | Instant credit awareness on every login without extra clicks |
+| First-Time Credit Score Access | New member who hasn't accessed Credit Score yet | Clicks "Show My Score" on the widget, accepts consent disclosure | Drives adoption of Credit Score feature from the Dashboard |
+| Navigate to Full Credit Details | Member who wants to understand score factors | Clicks "Show My Score" to go to full Credit Score page | Seamless path from widget to detailed feature |
 
 ## End-to-End Workflow
 
