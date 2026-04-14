@@ -1,7 +1,7 @@
 ---
 description: >-
- The post-login landing screen layout and how to navigate from the Dashboard to
- Accounts, Move Money, and More.
+  The post-login landing screen layout and how to navigate from the Dashboard to
+  Accounts, Move Money, and More.
 ---
 
 # Dashboard
