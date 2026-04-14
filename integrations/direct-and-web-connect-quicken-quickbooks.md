@@ -27,12 +27,14 @@ For the credit union, this migration delivers meaningful operational benefits: r
 
 ## Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ---------------------------------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Initial Direct Connect Setup** | Member (QuickBooks/Quicken user) | Adds the credit union as a connected account in Quicken or QuickBooks using credentials; the OFX endpoint resolves to the new in-house server via Intuit's branding portal | Enables real-time transaction sync for members managing business or personal finances in Intuit software |
-| **Web Connect File Export** | Member | Logs into nFinia, navigates to account transaction history, and exports in QBO, QFX, OFX, or CSV format for manual import into QuickBooks or Quicken | Provides an alternative to Direct Connect for members who prefer or require manual import workflows |
-| **Post-Conversion Support & Issue Escalation** | FI Operations / Tyfone Support | During the 48-hour post-launch window, contact Tyfone CSM for issues; after that window, submit tickets via the Intuit partner portal | Ensures rapid resolution of connectivity issues with a defined escalation path; maintains SLA expectations |
-| **Transaction History Verification** | Member | After reconnecting, verifies that 90 days of transaction history (default) has synced correctly across linked accounts | Confirms data integrity post-migration and builds member confidence in the new integration |
+
+Member (QuickBooks/Quicken user) adds the credit union as a connected account in Quicken or QuickBooks using credentials; the OFX endpoint resolves to the new in-house server via Intuit's branding portal, enables real-time transaction sync for members managing business or personal finances in Intuit software.
+
+Member logs into nFinia, navigates to account transaction history, and exports in QBO, QFX, OFX, or CSV format for manual import into QuickBooks or Quicken, provides an alternative to Direct Connect for members who prefer or require manual import workflows.
+
+FI Operations / Tyfone Support during the 48-hour post-launch window, contact Tyfone CSM for issues; after that window, submit tickets via the Intuit partner portal, ensures rapid resolution of connectivity issues with a defined escalation path; maintains SLA expectations.
+
+Member after reconnecting, verifies that 90 days of transaction history (default) has synced correctly across linked accounts, confirms data integrity post-migration and builds member confidence in the new integration.
 
 The use cases above reflect the reality of a migration-heavy integration: the majority of member impact is concentrated in the reconnection workflow. Credit unions that proactively communicate with their Quicken and QuickBooks members before the conversion date will see significantly fewer support escalations in the days immediately following go-live.
 
