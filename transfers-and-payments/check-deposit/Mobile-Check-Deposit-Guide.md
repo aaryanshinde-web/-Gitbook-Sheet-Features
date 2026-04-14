@@ -12,8 +12,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 **At-a-Glance**
 
-| -------------------- | ---------------------------------------------------------------------- |
 | **Attribute** | **Detail** |
+| --- | --- |
 | Feature Name | Mobile Check Deposit (Remote Deposit Capture / RDC) |
 | Module | Accounts > Deposit |
 | User Roles | Enrolled Member, Business Account Holder |
@@ -23,8 +23,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 **2. USE CASES**
 
-| ------------------------------ | -------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | **Use Case** | **Who Uses It** | **What They Do** | **Business Value** |
+| --- | --- | --- | --- |
 | Standard Check Deposit | Business member | Selects deposit account, enters check amount, photographs front and back using guided capture, submits | Eliminates branch visit; deposit available within Reg CC timeframes |
 | First-Time Photo Capture | New RDC user | Reviews Photo Tips modal (endorse back, flat surface, align to green corners), then proceeds to capture | Reduces failed deposits and resubmission rates |
 | Retake Check Image | Member with blurry capture | Reviews thumbnail, taps Retake Picture on front or back image, recaptures | Improves image quality before submission; prevents processing delays |
@@ -47,8 +47,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 <figure><img src="../../.gitbook/assets/64afc208a3772843837d1c9c315c68a6ed676afc.png" alt="" width="340"><figcaption></figcaption></figure>
 
-| | -------------------------- | --------------------- | ---------------------------------------------------------- |
 | **Field / Element** | **Type** | **Description** |
+| --- | --- | --- |
 | To Account | Dropdown | Selects the target deposit account (e.g. Student Checking) |
 | Check Amount | Numeric input | Dollar amount of check being deposited; required |
 | Email | Text input (optional) | Email address for deposit confirmation notification |
@@ -60,8 +60,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 <figure><img src="../../.gitbook/assets/e03a6bc5d4860110e2dbe8ed156d240f649b3f6c.png" alt="" width="340"><figcaption></figcaption></figure>
 
-| | ------------------- | ------------ | -------------------------------------------------------------------- |
 | **Field / Element** | **Type** | **Description** |
+| --- | --- | --- |
 | Tip Text | Instructions | Endorse back of check; place on flat surface; align to green corners |
 | Proceed Button | Button | Dismisses modal and opens camera view for check capture |
 
@@ -69,8 +69,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 <figure><img src="../../.gitbook/assets/e0f8dd163bc5a4b2d9aa373fa9c7e8ea55809399.png" alt="" width="340"><figcaption></figcaption></figure>
 
-| | ----------------------- | ----------------- | --------------------------------------------------------- |
 | **Field / Element** | **Type** | **Description** |
+| --- | --- | --- |
 | To Account | Dropdown (filled) | Student Checking XXX-XXX-XXX-1234 selected |
 | Check Amount | Numeric (filled) | $2,700.00 entered |
 | Deposit Limit Indicator | Display | Configured limit shown (e.g. $2,700 max for this account) |
@@ -79,8 +79,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 <figure><img src="../../.gitbook/assets/c5080b3fd480e9b55e0c6ebe434616bdede0a906.png" alt="" width="620"><figcaption></figcaption></figure>
 
-| | ------------------- | ----------- | ---------------------------------------------------------------- |
 | **Field / Element** | **Type** | **Description** |
+| --- | --- | --- |
 | Camera Viewfinder | Live camera | Full-screen camera view oriented to capture check |
 | Green Corner Guides | Overlay | Visual alignment corners; turn green when check properly aligned |
 | Capture Button | Button | Takes photo when check is aligned and in focus |
@@ -89,8 +89,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 <figure><img src="../../.gitbook/assets/459e49c05b3731e5b9c010ad9cf2257fb35ee201.png" alt="" width="620"><figcaption></figcaption></figure>
 
-| | ----------------------- | ----------- | ------------------------------------------- |
 | **Field / Element** | **Type** | **Description** |
+| --- | --- | --- |
 | Camera Viewfinder | Live camera | Full-screen view for endorsed back of check |
 | Corner Alignment Guides | Overlay | Same guidance system as front capture |
 | Capture Button | Button | Takes photo of back of endorsed check |
@@ -99,8 +99,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 <figure><img src="../../.gitbook/assets/acfa3869fc989a7fff84017541cf0f041e4823dc.png" alt="" width="340"><figcaption></figcaption></figure>
 
-| | ------------------- | ---------------- | ----------------------------------------------------- |
 | **Field / Element** | **Type** | **Description** |
+| --- | --- | --- |
 | Front Thumbnail | Image preview | Captured front check image — tap to enlarge or retake |
 | Back Thumbnail | Image preview | Captured back (endorsed) check image |
 | SUBMIT Button | Primary action | Submits deposit for processing |
@@ -110,8 +110,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 <figure><img src="../../.gitbook/assets/21700c244149842d703e2ff4fbc2e99a5e71de76.png" alt="" width="340"><figcaption></figcaption></figure>
 
-| | ------------------- | --------- | ------------------------------------------------------ |
 | **Field / Element** | **Type** | **Description** |
+| --- | --- | --- |
 | Front Image Preview | Full view | Enlarged view of front check image for quality review |
 | RETAKE PICTURE | Button | Discards current front image and reopens camera |
 | Check Details | Display | Date, check amount, account info displayed below image |
@@ -120,8 +120,8 @@ For Summerville CU , Mobile Check Deposit reduces teller traffic, extends deposi
 
 <figure><img src="../../.gitbook/assets/deb630aa4b4b10a13730ed0850b566322c6c5e20.png" alt="" width="340"><figcaption></figcaption></figure>
 
-| | ------------------- | --------- | ----------------------------------------------------- |
 | **Field / Element** | **Type** | **Description** |
+| --- | --- | --- |
 | Back Image Preview | Full view | Enlarged view of back (endorsed) check image |
 | RETAKE PICTURE | Button | Discards back image and reopens camera for re-capture |
 | Endorsement Area | Visual | Back image should show member endorsement signature |
@@ -132,8 +132,8 @@ Upon successful submission, a confirmation screen is displayed. The transaction 
 
 **5. Decision Points & Error Handling**
 
-| ---------------------------------------- | -------------------------------------------------------------------- |
 | **Condition** | **System Behavior** |
+| --- | --- |
 | Amount exceeds configured deposit limit | "Exceeds deposit limit" error shown; deposit blocked until corrected |
 | Image quality insufficient (blurry/dark) | "Image quality insufficient" prompt; member directed to retake |
 | Account not eligible for RDC | Account not shown in deposit dropdown |
@@ -141,8 +141,8 @@ Upon successful submission, a confirmation screen is displayed. The transaction 
 
 **7. QUICK REFERENCE**
 
-| ------------------------- | --------------------------------------------- | ---------------------------- | ----------------------------------------------- |
 | **Task** | **Navigation Path** | **Who Can Do It** | **Notes** |
+| --- | --- | --- | --- |
 | Deposit a check | App > Deposit tab > Fill form > Submit | Enrolled member (RDC active) | Camera permission required |
 | View deposit history | App > Deposit > History tab | Member | Shows all channels: Mobile, Online, Branch, ATM |
 | Retake check image | Deposit flow > Review screen > Retake Picture | Member | Available before submission only |
