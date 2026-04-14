@@ -20,12 +20,14 @@ This is a fully self-service capability available around the clock via web or mo
 
 ## Key Use Cases
 
-| Use Case | Description |
-| --- | --- |
-| **Set PIN for a new card** | Create a PIN for a newly issued or replacement card before first ATM or chip-and-PIN use |
-| **Forgot current PIN** | Reset the PIN immediately through digital banking without calling support or visiting a branch |
-| **Routine PIN rotation** | Update the PIN periodically as part of personal security hygiene |
-| **PIN compromised** | Replace the PIN without delay when there is a suspected exposure or unauthorized card use |
+
+**Set PIN for a new card**: Create a PIN for a newly issued or replacement card before first ATM or chip-and-PIN use.
+
+**Forgot current PIN**: Reset the PIN immediately through digital banking without calling support or visiting a branch.
+
+**Routine PIN rotation**: Update the PIN periodically as part of personal security hygiene.
+
+**PIN compromised**: Replace the PIN without delay when there is a suspected exposure or unauthorized card use.
 
 ## Step-by-Step Guide
 
