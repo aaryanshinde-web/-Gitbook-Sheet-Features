@@ -1,7 +1,7 @@
 ---
 description: >-
-  View and manage trusted devices on your account, remove old devices, and
-  control device-based authentication.
+ View and manage trusted devices on your account, remove old devices, and
+ control device-based authentication.
 ---
 
 # Device Management & Trusted Devices
@@ -12,28 +12,28 @@ description: >-
 
 Device Management allows you to view and manage all devices registered as trusted for your digital banking account. A device becomes trusted when you complete a full login (username + password + OTP) and select 'Remember this device' during the OTP step, allowing future logins from that device to bypass the OTP verification.
 
-The Devices tab shows all trusted devices with their device name, OS, last login date, and trust status. You can remove any device from the trusted list — which immediately requires full OTP authentication on the next login from that device. This is essential for decommissioning old phones and for security response after a suspected compromise.
+The Devices tab shows all trusted devices with their device name, OS, last login date, and trust status. Members can remove any device from the trusted list — which immediately requires full OTP authentication on the next login from that device. This is essential for decommissioning old phones and for security response after a suspected compromise.
 
 Trusted Device Approval Required is an enhanced security mode available for some account types, where any new device login requires explicit approval from an already-trusted device before the session is established.
 
 **At a Glance**
 
-| Attribute      | Detail                                                                         |
+| Attribute | Detail |
 | -------------- | ------------------------------------------------------------------------------ |
-| Module         | Banking › More › Personal Information › Devices                                |
-| Trusted Device | Device where OTP step is bypassed after initial trust                          |
-| Trust Action   | Set during login by checking 'Remember this device'                            |
-| Revoke Trust   | Removing a device from the list re-requires OTP on next login                  |
-| Enhanced Mode  | Trusted Device Approval Required — new logins require existing device approval |
+| Module | Banking › More › Personal Information › Devices |
+| Trusted Device | Device where OTP step is bypassed after initial trust |
+| Trust Action | Set during login by checking 'Remember this device' |
+| Revoke Trust | Removing a device from the list re-requires OTP on next login |
+| Enhanced Mode | Trusted Device Approval Required — new logins require existing device approval |
 
 ## Key Use Cases
 
-| Use Case                    | Who Uses It                           | What They Do                                                | Business Value                                                         |
+| Use Case | Who Uses It | What They Do | Business Value |
 | --------------------------- | ------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Review Trusted Devices      | You auditing account security         | Open Devices tab to see all registered trusted devices      | Confirms which devices can log in without OTP, enabling security audit |
-| Remove Old Phone            | You replacing your device             | Click remove on the old device entry                        | Immediately revokes OTP bypass for the decommissioned device           |
-| Revoke After Security Event | You who suspect account compromise    | Remove ALL trusted devices to force OTP on every login      | Nuclear option that resets all trusted sessions, securing the account  |
-| Approve New Device Login    | You with Trusted Device Approval mode | Approve a new login attempt from an existing trusted device | Enhanced security requiring confirmation from a known good device      |
+| Review Trusted Devices | Members auditing account security | Open Devices tab to see all registered trusted devices | Confirms which devices can log in without OTP, enabling security audit |
+| Remove Old Phone | Members replacing your device | Click remove on the old device entry | Immediately revokes OTP bypass for the decommissioned device |
+| Revoke After Security Event | Members who suspect account compromise | Remove ALL trusted devices to force OTP on every login | Nuclear option that resets all trusted sessions, securing the account |
+| Approve New Device Login | Members with Trusted Device Approval mode | Approve a new login attempt from an existing trusted device | Enhanced security requiring confirmation from a known good device |
 
 ## Step-by-Step Guide
 
