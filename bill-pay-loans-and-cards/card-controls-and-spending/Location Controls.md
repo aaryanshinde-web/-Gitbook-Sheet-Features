@@ -10,23 +10,23 @@ When you enable location-based permissions, you can add up to 3 named locations.
 
 ## At a Glance
 
-| Attribute           | Detail                                                             |
+| Attribute | Detail |
 | ------------------- | ------------------------------------------------------------------ |
-| Module              | Banking › Cards › Card Details › Card Controls › Location Controls |
-| Default State       | International transactions disabled                                |
-| Scope Options       | All Countries or Selected Countries / locations                    |
-| Max Saved Locations | 3 locations                                                        |
-| Location Search     | By city, state, or zip code with interactive map                   |
-| Related Features    | Spending Limits, Card Alerts, Usage Control                        |
+| Module | Banking › Cards › Card Details › Card Controls › Location Controls |
+| Default State | International transactions disabled |
+| Scope Options | All Countries or Selected Countries / locations |
+| Max Saved Locations | 3 locations |
+| Location Search | By city, state, or zip code with interactive map |
+| Related Features | Spending Limits, Card Alerts, Usage Control |
 
 ## Key Use Cases
 
-| Use Case                         | Who It's For                               |
+| Use Case | Who It's For |
 | -------------------------------- | ------------------------------------------ |
-| **Enable card for travel**       | Member traveling internationally           |
+| **Enable card for travel** | Member traveling internationally |
 | **Restrict card to home region** | Member wanting geographic fraud protection |
-| **Add a new travel location**    | Member planning a trip                     |
-| **Remove a travel location**     | Member returned from a trip                |
+| **Add a new travel location** | Member planning a trip |
+| **Remove a travel location** | Member returned from a trip |
 
 ## Step-by-Step Guide
 
