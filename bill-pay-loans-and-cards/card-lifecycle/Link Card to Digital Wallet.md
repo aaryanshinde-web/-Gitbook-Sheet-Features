@@ -10,26 +10,26 @@ The process takes less than a minute. You navigate to the card you want to link,
 
 ## At a Glance
 
-| Attribute          | Detail                                                                          |
+| Attribute | Detail |
 | ------------------ | ------------------------------------------------------------------------------- |
-| Feature Name       | Link Card to Digital Wallet (Push Provisioning)                                 |
-| Module Location    | Banking › Cards › Card Details › Link Card                                      |
-| Who Can Use        | All nFinia Digital Banking members with an enrolled card                        |
-| Supported Wallets  | Apple Pay, Google Pay, Samsung Pay                                              |
+| Feature Name | Link Card to Digital Wallet (Push Provisioning) |
+| Module Location | Banking › Cards › Card Details › Link Card |
+| Who Can Use | All nFinia Digital Banking members with an enrolled card |
+| Supported Wallets | Apple Pay, Google Pay, Samsung Pay |
 | Provisioning Speed | Immediate — card is available in the wallet as soon as the request is confirmed |
-| Multiple Wallets   | The same card can be linked to more than one wallet                             |
-| Prerequisites      | Device must support the chosen digital wallet (NFC-enabled)                     |
-| Availability       | 24 / 7 — via web or mobile                                                      |
+| Multiple Wallets | The same card can be linked to more than one wallet |
+| Prerequisites | Device must support the chosen digital wallet (NFC-enabled) |
+| Availability | 24 / 7 — via web or mobile |
 
 ## Key Use Cases
 
-| Use Case                        | Description                                                       |
+| Use Case | Description |
 | ------------------------------- | ----------------------------------------------------------------- |
-| **Add card to Apple Pay**       | Enable tap-to-pay on iPhone or Apple Watch                        |
-| **Add card to Google Pay**      | Enable tap-to-pay on Android device                               |
-| **Add card to Samsung Pay**     | Enable tap-to-pay on Samsung Galaxy device                        |
+| **Add card to Apple Pay** | Enable tap-to-pay on iPhone or Apple Watch |
+| **Add card to Google Pay** | Enable tap-to-pay on Android device |
+| **Add card to Samsung Pay** | Enable tap-to-pay on Samsung Galaxy device |
 | **Link after card replacement** | Resume contactless payments with new card details post-reissuance |
-| **Check linked wallets**        | Confirm which wallets the card is currently linked to             |
+| **Check linked wallets** | Confirm which wallets the card is currently linked to |
 
 ## Step-by-Step Guide
 
@@ -48,8 +48,6 @@ From the nFinia top navigation, click **Cards**. Locate the card you want to add
 <figure><img src="../../.gitbook/assets/Link_Card_to_Digital_Wallet_img2.png" alt="Provisioning disclaimer" width="563"><figcaption><p>Step 2: Review and accept the provisioning disclaimer before your card is linked.</p></figcaption></figure>
 
 ### Step 3 — Select Your Digital Wallet and Accept the Disclaimer
-
-
 
 Tap the wallet you want to link your card to. After selecting, a **Disclaimer** screen appears. It explains that by proceeding, you will be redirected to the selected wallet provider and that some information — such as your Name, Card Expiration Date, and the first 6 and last 4 digits of your card number — will be shared. Read the disclosure and tap **Continue** to proceed, or **Cancel** to go back.
 
