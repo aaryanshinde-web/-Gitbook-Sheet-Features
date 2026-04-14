@@ -4,7 +4,9 @@ _Module: Banking › Move Money › Scheduled Transfers_
 
 ## Summary
 
-Scheduled Transfers let you automate recurring or future-dated movements of money between your own accounts (and eligible linked accounts) at Summerville. Schedule weekly, bi-weekly, semi-monthly, or monthly transfers that execute automatically on the configured date — ideal for automatic savings contributions, recurring loan payments, or planned one-time future transfers. The Scheduled Transfers screen also serves as a consolidated view of all active schedules and completed scheduled transfer history, so you always know what will move and what has already moved.
+Scheduled Transfers allow members to automate recurring or future-dated movements of funds between their own accounts at Summerville Credit Union. Rather than manually initiating a transfer each time, members set up a schedule — weekly, bi-weekly, semi-monthly, or monthly — and the platform executes each movement automatically on the configured date. This is especially useful for members building consistent savings habits, maintaining loan payment discipline, or aligning fund movements to known billing cycles.
+
+The Scheduled Transfers screen also serves as a consolidated view of all active schedules and completed transfer history, giving members full visibility into what has been configured and what has already executed. Members can create, review, edit, or cancel any scheduled transfer directly from this screen without contacting the credit union.
 
 ## At a Glance
 
@@ -22,11 +24,11 @@ Scheduled Transfers let you automate recurring or future-dated movements of mone
 
 | Use Case | Who Uses It | What They Do | Business Value |
 | ---------------------------------- | -------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
-| **Automate monthly savings** | Member with a savings goal | Schedule a weekly transfer from checking to savings after payday | Set-and-forget savings automation |
-| **Recurring loan payment** | Borrower with monthly obligation | Schedule a monthly transfer from checking to loan | Avoids missed payments and late fees |
-| **Future-dated one-time transfer** | Member planning a large purchase | Schedule a one-time transfer for a specific future date | Move funds exactly when needed, not earlier |
-| **Bill-aligned cash flow** | Member with due-date patterns | Schedule semi-monthly transfers aligned to bill cycles | Keeps cash positioned to cover obligations |
-| **Review & manage schedules** | Any member | Open Scheduled Transfers to view, edit, or cancel any schedule | Full visibility into all upcoming automated transfers |
+| **Automate monthly savings** | Member with a savings goal | Schedule a recurring transfer from checking to savings after payday | Set-and-forget savings automation with no manual effort each cycle |
+| **Recurring loan payment** | Borrower with a monthly obligation | Schedule a fixed monthly transfer from checking to loan account | Eliminates missed payments, reduces late fees, and improves loan standing |
+| **Future-dated one-time transfer** | Member planning a large purchase | Schedule a one-time transfer to execute on a specific future date | Moves funds precisely when needed without requiring manual action |
+| **Bill-aligned cash flow** | Member managing recurring bills | Schedule semi-monthly transfers aligned to billing cycles | Keeps cash consistently positioned to cover obligations on due dates |
+| **Review and manage schedules** | Any member | Open Scheduled Transfers to view, modify, pause, or cancel any active schedule | Full transparency into all upcoming automated fund movements |
 
 ## Step-by-Step Guide
 
@@ -34,47 +36,58 @@ _Navigation: Banking › Move Money › Scheduled Transfers_
 
 ### Step 1 — Open the Move Money Hub
 
-From the top navigation, click **Move Money** to open the Move Money Hub. The hub displays all payment and transfer options as tiles: Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other Members, Same-Day Transfers, Send Instantly, Manage Recipients, Transaction History, and **Scheduled Transfers**.
+From the top navigation bar, click **Move Money** to open the Move Money Hub. The hub presents all available payment and transfer options as tiles, including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other Members, Same-Day Transfers, Send Instantly, Manage Recipients, Transaction History, and **Scheduled Transfers**. This is the central starting point for all fund movement actions within nFinia.
 
-<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub with all transfer and payment options"><figcaption><p>Step 1: Open the Move Money Hub from the top navigation.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub with all transfer and payment options"><figcaption><p>Step 1: Open the Move Money Hub from the top navigation to access all transfer and payment options.</p></figcaption></figure>
 
-### Step 2 — Create a Scheduled Transfer
+### Step 2 — Navigate to Scheduled Transfers
 
-Select **Scheduled Transfers** from the Move Money Hub. Click on schedule a new transfer,this takes you ot the move money hub.
+From the Move Money Hub, select the **Scheduled Transfers** tile. The Scheduled Transfers page loads and displays all currently active schedules along with a history of past scheduled transfers. To set up a new schedule, click **Schedule a New Transfer**. This returns you to the Move Money Hub so you can select the transfer type and configure the schedule details in the next step.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 3.22.43 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 3.22.43 AM.png" alt="Scheduled Transfers page showing active schedules and the Schedule a New Transfer option"><figcaption><p>Step 2: On the Scheduled Transfers page, click Schedule a New Transfer to begin configuring a new recurring or future-dated transfer.</p></figcaption></figure>
 
-### Step 3 — Move Money HUB&#x20;
+### Step 3 — Return to the Move Money Hub
 
-once guided back to Move money hub on clicking schedule a new transfer,Click on unsternal transfers.
+After clicking **Schedule a New Transfer**, the platform routes you back to the Move Money Hub. From here, select **Internal Transfers** to proceed with configuring the scheduled transfer between your own Summerville accounts. The Internal Transfers flow is where frequency, amount, source, destination, and scheduling parameters are all configured.
 
-<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub with all transfer and payment options"><figcaption><p>Step 1: Open the Move Money Hub from the top navigation.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub — select Internal Transfers to configure the scheduled transfer"><figcaption><p>Step 3: Back at the Move Money Hub, select Internal Transfers to set up the schedule details.</p></figcaption></figure>
 
-### Step 4 — Open Internal Transfers
+### Step 4 — Configure the Transfer Details
 
-Select **Internal Transfers** and Source and Destination Account and enter the amount($100 here),then select a date to schedule a transfer and you can also make the payments recurring by selecting frequency,repetition and end date for the schedule transfer and click on continue.
+The Internal Transfers form loads. Complete all required fields to define the scheduled transfer:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.47.24 AM.png" alt=""><figcaption></figcaption></figure>
+- **Source Account** — Select the account funds will be drawn from (e.g., Checking).
+- **Destination Account** — Select the account funds will be deposited into (e.g., Savings or Loan).
+- **Amount** — Enter the dollar amount to transfer on each occurrence.
+- **Transfer Date** — Select the date for the first (or only) execution of the transfer.
+- **Make Payment Recurring** — Toggle this on to convert the transfer into a recurring schedule. Once enabled, additional fields appear:
+  - **Frequency** — Choose how often the transfer repeats: Weekly, Bi-weekly, Semi-monthly, or Monthly.
+  - **Repetition / End Condition** — Specify whether the schedule continues until cancelled, ends on a specific date, or ends after a set number of occurrences.
 
-### Step 5 — Final Review Screen
+Once all fields are complete, click **Continue** to proceed to the review screen.
 
-A final review screen appears reiterating the transfer summary before the platform commits the movement. This second confirmation protects against accidental double-submission and gives you one last chance to verify the amount and destination.
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.47.24 AM.png" alt="Internal Transfers form with source, destination, amount, date, frequency, and end condition fields"><figcaption><p>Step 4: Fill in the source account, destination account, amount, transfer date, and recurrence settings, then click Continue.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.48.38 AM (1).png" alt=""><figcaption></figcaption></figure>
+### Step 5 — Review the Transfer Summary
 
-### Step 6 — Succesfully Scheduled
+A final review screen appears showing the complete transfer summary before the schedule is committed. This includes the source and destination accounts, the transfer amount, the start date, and the recurrence frequency if applicable. Review all details carefully — this is your last opportunity to make changes before the schedule is saved. If anything needs adjusting, click **Back** to return to the form. When satisfied, click **Confirm** to finalise the schedule.
 
-on clicking confirm you get to the screen which tells you the schedule has been succesfull,Click on done and return back to dashboard.
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.48.38 AM (1).png" alt="Transfer review screen showing full schedule summary before confirmation"><figcaption><p>Step 5: Review the complete transfer schedule summary, then click Confirm to save it.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.49.06 AM (1).png" alt=""><figcaption></figcaption></figure>
+### Step 6 — Schedule Confirmed
+
+A success confirmation screen appears indicating that the transfer schedule has been created successfully. The screen displays the schedule reference and a summary of the configuration. Click **Done** to return to the Dashboard. The scheduled transfer is now active and will execute automatically on the configured date. You can return to the Scheduled Transfers screen at any time to view, edit, or cancel the schedule.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.49.06 AM (1).png" alt="Success screen confirming the scheduled transfer has been created"><figcaption><p>Step 6: Confirmation that the transfer schedule has been created successfully. Click Done to return to the Dashboard.</p></figcaption></figure>
 
 ## End-to-End Workflow
 
-1. **Open Move Money Hub** — Member clicks **Move Money** in the top nav.
-2. **Create scheduled transfer** — Member selects Scheduled Transfers, fills in From/To/Amount/Date, checks **Make payment recurring**, and picks frequency and end condition.
-3. **Return to Move Money Hub** — Member navigates back after configuring the schedule.
-4. **Open Internal Transfers** — Member selects Internal Transfers to initiate the matching instant movement.
-5. **Confirm transfer** — The confirmation modal displays full details; member clicks Confirm.
-6. **Final review** — A second confirmation screen verifies the transfer before commit.
+1. **Open Move Money Hub** — Click **Move Money** in the top navigation to access the hub.
+2. **Select Scheduled Transfers** — Choose the Scheduled Transfers tile to view existing schedules and access the option to create a new one.
+3. **Initiate a new schedule** — Click **Schedule a New Transfer**, which routes back to the Move Money Hub.
+4. **Select Internal Transfers** — Choose **Internal Transfers** from the Move Money Hub to access the scheduling form.
+5. **Configure transfer details** — Select source and destination accounts, enter the amount, choose the start date, toggle recurring on, and set the frequency and end condition.
+6. **Review and confirm** — Verify the full transfer summary on the review screen and click **Confirm** to save the schedule.
+7. **Confirmation** — A success screen confirms the schedule is active. Click **Done** to return to the Dashboard.
 
-> **Note:** Use [**Transfer to Own Account**](CSUM-06-Transfer-Own-Account-Scheduled.md) for one-off instant transfers. Use **Scheduled Transfers** (this page) whenever the movement needs to happen on a future date or repeat on a schedule.
+> **Note:** Use [**Transfer to Own Account**](CSUM-06-Transfer-Own-Account-Scheduled.md) for immediate one-off transfers between your accounts. Use **Scheduled Transfers** (this page) whenever the movement needs to occur on a future date or repeat on an ongoing schedule.
