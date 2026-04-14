@@ -33,13 +33,13 @@ Sneak Peek reduces unnecessary authentication events, lowers the risk of credent
 
 **Step 1 — Open the App (Welcome Screen)**
 
-You open the Summerville mobile app. The Welcome screen is displayed. Note the **Balance** widget at the bottom — it exists for all users but only shows data once Sneak Peek is configured. Tap **Log In** to begin the authentication session needed to configure the feature.
+Open the Summerville mobile app. The Welcome screen is displayed with two primary actions — **Enroll** and **Log In** — along with a **Balance** widget at the bottom of the screen. The Balance widget is visible to all users but will only display account data after Sneak Peek has been configured. To configure Sneak Peek, you first need to complete a full authenticated login and navigate to Account Settings. Tap **Log In** to begin.
 
 <figure><img src="../../.gitbook/assets/Welcome_Screen_showing_Balance_widget_and_pre-login_shortcut_1.jpeg" alt="Welcome Screen" width="340"><figcaption></figcaption></figure>
 
 **Step 2 — Log In**
 
-On the Log In screen, enter your **Username** and **Password**. Optional checkboxes are available for **Remember me** (saves username) and **Enable Face ID** (registers biometrics for future logins). Tap the **Log In** button to proceed.
+On the Log In screen, enter your registered **Username** and **Password** in the respective fields. Two optional checkboxes are displayed below the password field: **Remember me**, which saves your username for future visits, and **Enable Face ID**, which registers biometric authentication for subsequent sessions on this device. Tap the **Log In** button to proceed to the MFA verification step.
 
 <figure><img src="../../.gitbook/assets/Log_In_screen_with_username__password__Remember_Me_and_Face__2.jpeg" alt="Log In screen" width="340"><figcaption></figcaption></figure>
 
@@ -57,31 +57,31 @@ The **User Verification** screen confirms where the OTP was sent and provides an
 
 **Step 5 — Authenticated Dashboard**
 
-On successful OTP validation, you land on the **Dashboard**. The personalized greeting, account summary, and navigation bar confirm full authenticated access. Now open the side menu to reach Settings.
+After the OTP is validated successfully, you land on the main **Dashboard**. The personalised greeting, full account balance summary, and the top navigation bar confirm that you have full authenticated access. From here, you need to navigate to Account Settings to enable Sneak Peek. Tap the hamburger menu icon in the top-right corner to open the side navigation panel.
 
 <figure><img src="../../.gitbook/assets/Dashboard_showing_personalized_greeting__Credit_Score___Offe_5.jpeg" alt="Dashboard after successful login" width="340"><figcaption></figcaption></figure>
 
 **Step 6 — Open the Side Menu**
 
-Tap the hamburger icon (≡) at the top-right of the Dashboard. The **side menu / profile drawer** slides in, displaying your name, last login time, membership context, and a list of navigation items. Tap **Settings**.
+Tap the hamburger icon (≡) at the top-right of the Dashboard. The side menu slides in, displaying your name, last login time, membership context, and a list of navigation options. Scroll through the menu to find **Settings** and tap it to open the Settings hub.
 
 <figure><img src="../../.gitbook/assets/Side_menu_showing_member_profile__All_Personal_Memberships___6.jpeg" alt="Side menu" width="340"><figcaption></figcaption></figure>
 
 **Step 7 — Settings Hub**
 
-The **Settings** screen presents three options: Account Settings, Personal Information, and User ID and Password. Tap **Account Settings**.
+The Settings screen presents three main options: **Account Settings**, **Personal Information**, and **User ID and Password**. Each section manages a different aspect of your digital banking configuration. Tap **Account Settings** to access the per-account preferences where the Sneak Peek toggle is located.
 
 <figure><img src="../../.gitbook/assets/Settings_screen_with_Account_Settings__Personal_Information__7.jpeg" alt="Settings hub screen" width="340"><figcaption></figcaption></figure>
 
 **Step 8 — Account Settings: Enable Sneak Peek**
 
-The **Account Settings** screen loads with your target account pre-selected (e.g. Retail Checking Account #0001). You see the **Sneak Peek** toggle in the Settings panel — by default it is **off**. Tap the toggle to turn it **on**. The toggle turns green/active.
+The Account Settings screen loads with your target account pre-selected — for example, Retail Checking Account #0001. The Settings panel on the right side of the screen displays several account preferences, including the **Sneak Peek** toggle, which is set to **off** by default. Tap the toggle to turn Sneak Peek **on** for this account. The toggle turns green to confirm it is active. If you have multiple accounts and want Sneak Peek on more than one, select each account in turn and repeat this step.
 
 <figure><img src="../../.gitbook/assets/Account_Settings_showing_Retail_Checking_Account_selected__A_8.jpeg" alt="Account Settings — Sneak Peek toggle" width="340"><figcaption></figcaption></figure>
 
 **Step 9 — Confirmation & Pre-Login Use**
 
-A toast notification confirms: _"Your account settings have been updated."_ From this point forward, when you open the app without logging in, tapping **Balance** on the Welcome screen reveals your configured account's current balance — no authentication required.
+A toast notification confirms: _"Your account settings have been updated."_ From this point forward, every time you open the app without logging in, tapping **Balance** on the Welcome screen will immediately display your configured account's current balance — no username, password, or OTP required. This is the primary benefit of Sneak Peek: the most frequent banking question ("how much do I have?") can be answered in a single tap, without the overhead of a full authentication session.
 
 <div align="center"><figure><img src="../../.gitbook/assets/Account_Settings_with_Sneak_Peek_toggle_enabled__green___Act_9.jpeg" alt="Sneak Peek enabled" width="340"><figcaption></figcaption></figure></div>
 
