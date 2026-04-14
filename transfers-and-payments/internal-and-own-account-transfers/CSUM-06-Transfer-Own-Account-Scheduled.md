@@ -11,22 +11,21 @@ Transfer Between Own Accounts enables members to move funds between their Summer
 
 Business members set up recurring weekly transfers from a business savings account to a business checking account to pre-fund payroll ACH batches, ensuring the operating account is funded before the ACH processing window each pay period. Members use scheduled transfers to automate loan payment funding — moving the required amount from checking to the loan account on a defined schedule that matches the payment due date. Operations staff reviewing a business member's account set up use the scheduled transfer list to audit all active automated movements, confirming that recurring transfers are still relevant and correctly sized for the current business activity level.
 
-## Step-by-Step Guide
+## End-to-End Workflow
 
-**Step 1 — Open the Transfer Form and Select Accounts**
+1. **Entry point** — Member opens Move Money Hub.
+2. **Select accounts** — Chooses source and destination own accounts.
+3. **Enter details** — Amount, memo (optional), date.
+4. **Review** — Confirms the transfer summary.
+5. **Submit** — Transfer executes instantly; both balances update in real time.
+6. **Confirmation** — Success screen displays with transfer receipt.
 
-From Move Money, select **Transfer to Own Account**. Choose the source account from the **From** dropdown and the destination account from the **To** dropdown — all accounts linked to the member's profile are available for selection.
+> **Looking to schedule a recurring or future-dated transfer instead?** See the [**Scheduled Transfers**](Scheduled%20Transfers.md) guide.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Step 1: Open the Move Money Hub.</p></figcaption></figure>
 
-**Step 2 — Enter Amount and Configure the Schedule**
-
-Enter the transfer amount and select **One-Time** or **Recurring** for the transfer type. For recurring transfers, choose the frequency (weekly, biweekly, monthly) and the start date — the system will execute the transfer automatically on each scheduled date until the member cancels or modifies the schedule.
-
 <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Step 2: Enter amount, memo, and date for the transfer.</p></figcaption></figure>
 
-**Step 3 — Review and Confirm**
-
-The confirmation screen displays the transfer amount, source and destination accounts, frequency, and next scheduled execution date. Click **Confirm** to activate the transfer or schedule — recurring transfers immediately appear in the Scheduled Transfers list, accessible from the Dashboard Related Links or Move Money menu.
-
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Step 3: Review the transfer summary and confirm.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Step 4: Transfer complete — balances are updated in real time.</p></figcaption></figure>
