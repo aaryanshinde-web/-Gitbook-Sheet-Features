@@ -14,23 +14,23 @@ For recurring or future-dated transfers, see the separate [**Scheduled Transfers
 
 ## At a Glance
 
-| Attribute          | Detail                                                                  |
+| Attribute | Detail |
 | ------------------ | ----------------------------------------------------------------------- |
-| Module             | Move Money › Transfer to Own Account                                    |
-| Who Can Use        | All nFinia Digital Banking members                                      |
-| Transfer Speed     | Instant (real-time balance updates)                                     |
+| Module | Move Money › Transfer to Own Account |
+| Who Can Use | All nFinia Digital Banking members |
+| Transfer Speed | Instant (real-time balance updates) |
 | Accounts Supported | Checking, Savings, Loans, Line of Credit — between your own memberships |
-| Fees               | None for same-member own-account transfers                              |
-| Availability       | 24 / 7 — via web or mobile                                              |
+| Fees | None for same-member own-account transfers |
+| Availability | 24 / 7 — via web or mobile |
 
 ## Key Use Cases
 
-| Use Case                      | Who Uses It                  | What They Do                                             | Business Value                                  |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ----------------------------- | ---------------------------- | -------------------------------------------------------- | ----------------------------------------------- |
-| **Savings top-up**            | Member building savings      | Select checking as From, savings as To, enter amount     | Instant savings deposit without branch or ATM   |
-| **Cover an overdraft**        | Member low on checking       | Transfer from savings to checking immediately            | Avoids NSF / overdraft fees                     |
+| **Savings top-up** | Member building savings | Select checking as From, savings as To, enter amount | Instant savings deposit without branch or ATM |
+| **Cover an overdraft** | Member low on checking | Transfer from savings to checking immediately | Avoids NSF / overdraft fees |
 | **Loan payment from savings** | Member with funds in savings | Select savings as From, loan as To for immediate payment | Flexible payment source beyond primary checking |
-| **Rebalance across accounts** | Member managing cash flow    | Move funds between any combination of own accounts       | Real-time control over account balances         |
+| **Rebalance across accounts** | Member managing cash flow | Move funds between any combination of own accounts | Real-time control over account balances |
 
 ## Step-by-Step Guide
 
