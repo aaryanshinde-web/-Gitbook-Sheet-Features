@@ -1,7 +1,7 @@
 ---
 description: >-
-  The post-login landing screen layout and how to navigate from the Dashboard to
-  Accounts, Move Money, and More.
+ The post-login landing screen layout and how to navigate from the Dashboard to
+ Accounts, Move Money, and More.
 ---
 
 # Dashboard
@@ -12,13 +12,13 @@ The Dashboard is the first screen after login. It displays all account balances 
 
 ## Key Use Cases
 
-| Use Case               | Who Uses It                                      | What They Do                                        | Business Value                                                       |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ---------------------- | ------------------------------------------------ | --------------------------------------------------- | -------------------------------------------------------------------- |
-| Morning Balance Check  | Member starting their day                        | Opens app, views Dashboard for all account balances | Single-screen financial overview without navigating to each account  |
-| Quick Transfer         | Member moving funds between accounts             | Uses the Quick Transfer widget on the right panel   | Fastest path to internal transfer without full Move Money navigation |
-| Navigate to Accounts   | Member needing transaction detail                | Clicks "Accounts" in the top navigation bar         | Direct path to full Account Overview and transaction history         |
-| Navigate to Move Money | Member initiating a payment or transfer          | Clicks "Move Money" in the top navigation bar       | Access to all payment and transfer options                           |
-| Access More Features   | Member needing alerts, settings, or credit score | Clicks "More" in the top navigation bar             | Expands panel with all secondary features                            |
+| Morning Balance Check | Member starting their day | Opens app, views Dashboard for all account balances | Single-screen financial overview without navigating to each account |
+| Quick Transfer | Member moving funds between accounts | Uses the Quick Transfer widget on the right panel | Fastest path to internal transfer without full Move Money navigation |
+| Navigate to Accounts | Member needing transaction detail | Clicks "Accounts" in the top navigation bar | Direct path to full Account Overview and transaction history |
+| Navigate to Move Money | Member initiating a payment or transfer | Clicks "Move Money" in the top navigation bar | Access to all payment and transfer options |
+| Access More Features | Member needing alerts, settings, or credit score | Clicks "More" in the top navigation bar | Expands panel with all secondary features |
 
 ## End-to-End Workflow
 
@@ -27,6 +27,3 @@ The Dashboard is the first screen after login. It displays all account balances 
 After logging in, the member lands on the Dashboard. The top navigation bar shows **Dashboard**, **Accounts**, **Move Money**, and **More**. The centre column displays account summary tiles. The right panel shows the Quick Transfer widget, Upcoming Payments, Credit Score meter, and Related Links.
 
 <figure><img src="../../.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
-
-
-
