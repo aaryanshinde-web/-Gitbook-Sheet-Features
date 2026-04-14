@@ -13,20 +13,38 @@ Business members with seasonal revenue cycles use Skip-a-Pay during a slow month
 
 ## Step-by-Step Guide
 
-**Step 1 — Navigate to Skip-a-Pay from the More Menu**
+\| _Navigation: Dashboard > More > 'Skip A Pay'._ |
 
-From the More menu, select **Skip-a-Pay** to open the eligible loan list. The platform automatically identifies which loans are eligible for deferment based on the credit union's Skip-a-Pay program criteria — loans that do not qualify are excluded from the selection screen.
+**Step 1 — Start from Dashboard**
+
+The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Select the Loan and Review the Deferment Terms**
+**Step 2 — Open the More Menu**
 
-Select the loan for which the next payment will be skipped. The screen displays the payment amount being deferred, the new loan payoff date after adding one month to the term, and any applicable Skip-a-Pay fee charged by the credit union. Review the terms carefully before proceeding.
+Click ‘More' in the top navigation bar and find Skip A Pay option or **Navigate to Skip A Pay** from the search bar&#x20;
 
 <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Accept Terms and Confirm**
+**Step 3 — Skip A Pay page**&#x20;
 
-Check the acknowledgement checkbox confirming the deferment terms and click **Submit**. A confirmation screen confirms that the payment has been successfully deferred and provides the updated next payment due date. The loan account status remains current throughout the deferment period.
+The Skip A Pay page lists all eligible loans, such as a Line of Credit or Auto Loan. Select the loan you want to skip a payment for.
 
 <figure><img src="../.gitbook/assets/image (21).png" alt="" width="563"><figcaption></figcaption></figure>
+
+**Step 4 — Select Loan & Review Fee Details**
+
+The Skip A Pay confirmation page displays details about the selected loan, the applicable fee, the payment date, and payment method options. Review the terms and conditions, then check the agreement box before proceeding.
+
+<figure><img src="../.gitbook/assets/img_bfdb47ae6026.png" alt="" width="620"><figcaption></figcaption></figure>
+
+**Step 5 — Accept & Confirm Skip**
+
+A confirmation screen states 'Your request for a skip payment has been processed' with a Continue button to return to the main interface.
+
+<figure><img src="../.gitbook/assets/img_6ae501e73bc0.png" alt="" width="620"><figcaption></figcaption></figure>
+
+**Step 6 — Skip a pay History & Notifications Tab**&#x20;
+
+The Skip A Pay History tab shows a record of all previously skipped payments. The Notifications tab in More displays a history of all alert notifications sent to the member.
