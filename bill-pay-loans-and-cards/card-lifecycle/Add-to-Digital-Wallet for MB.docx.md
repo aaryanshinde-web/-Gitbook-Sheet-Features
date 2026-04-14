@@ -13,25 +13,25 @@ The process takes under a minute. From your Card Details, tap Add to Digital Wal
 
 **At a Glance**
 
-| Feature Name           | Add to Digital Wallet (Push Provisioning)               |
+| Feature Name | Add to Digital Wallet (Push Provisioning) |
 | ---------------------- | ------------------------------------------------------- |
-| **Module Location**    | Banking › Cards › Card Details › Add to Digital Wallet  |
-| **Supported Wallets**  | Apple Pay · Google Pay · Samsung Pay                    |
-| **Supported Cards**    | Credit cards and debit cards enrolled in nFinia         |
+| **Module Location** | Banking › Cards › Card Details › Add to Digital Wallet |
+| **Supported Wallets** | Apple Pay · Google Pay · Samsung Pay |
+| **Supported Cards** | Credit cards and debit cards enrolled in nFinia |
 | **Provisioning Speed** | Immediate — card ready in wallet once setup is complete |
-| **Multiple Wallets**   | The same card can be linked to more than one wallet     |
-| **Channels**           | Mobile Banking (iOS & Android)                          |
-| **Prerequisite**       | Device must support the chosen wallet (NFC-enabled)     |
+| **Multiple Wallets** | The same card can be linked to more than one wallet |
+| **Channels** | Mobile Banking (iOS & Android) |
+| **Prerequisite** | Device must support the chosen wallet (NFC-enabled) |
 
 | 02 KEY USE CASES |
 | ---------------- |
 
-| Use Case                | Member Goal                                          | Steps                                                                                               | Outcome                                                                            |
+| Use Case | Member Goal | Steps | Outcome |
 | ----------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Add card to Apple Pay   | Enable tap-to-pay on iPhone or Apple Watch           | Card Details › Add to Digital Wallet › Apple Pay › accept disclaimer › complete Apple Pay setup     | Card provisioned to Apple Pay; ready for contactless use on iPhone and Apple Watch |
-| Add card to Google Pay  | Enable tap-to-pay on Android device                  | Card Details › Add to Digital Wallet › Google Pay › accept disclaimer › complete Google Pay setup   | Card provisioned to Google Pay immediately                                         |
-| Add card to Samsung Pay | Enable tap-to-pay on Samsung Galaxy device           | Card Details › Add to Digital Wallet › Samsung Pay › accept disclaimer › complete Samsung Pay setup | Card provisioned to Samsung Pay; works at NFC and MST terminals                    |
-| Link after card reissue | Resume contactless payments after a card replacement | After reissuance, go to Card Details › Add to Digital Wallet and re-provision the new card          | New card number active in wallet for contactless payments                          |
+| Add card to Apple Pay | Enable tap-to-pay on iPhone or Apple Watch | Card Details › Add to Digital Wallet › Apple Pay › accept disclaimer › complete Apple Pay setup | Card provisioned to Apple Pay; ready for contactless use on iPhone and Apple Watch |
+| Add card to Google Pay | Enable tap-to-pay on Android device | Card Details › Add to Digital Wallet › Google Pay › accept disclaimer › complete Google Pay setup | Card provisioned to Google Pay immediately |
+| Add card to Samsung Pay | Enable tap-to-pay on Samsung Galaxy device | Card Details › Add to Digital Wallet › Samsung Pay › accept disclaimer › complete Samsung Pay setup | Card provisioned to Samsung Pay; works at NFC and MST terminals |
+| Link after card reissue | Resume contactless payments after a card replacement | After reissuance, go to Card Details › Add to Digital Wallet and re-provision the new card | New card number active in wallet for contactless payments |
 
 | 03 STEP-BY-STEP GUIDE |
 | --------------------- |
@@ -75,12 +75,12 @@ _Provisioning disclaimer — review and tap Continue_
 
 After accepting the disclaimer, your device's native wallet app takes over to complete the provisioning. The steps vary slightly by wallet:
 
-| Apple Pay       | Select the device (iPhone or Apple Watch) you want to add the card to, review Terms & Conditions, and tap Agree. Apple confirms the card has been added. |
+| Apple Pay | Select the device (iPhone or Apple Watch) you want to add the card to, review Terms & Conditions, and tap Agree. Apple confirms the card has been added. |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Google Pay**  | Follow the on-screen prompts in the Google Wallet app to verify and activate the card.                                                                   |
-| **Samsung Pay** | Follow the on-screen prompts in Samsung Wallet to verify and activate the card.                                                                          |
+| **Google Pay** | Follow the on-screen prompts in the Google Wallet app to verify and activate the card. |
+| **Samsung Pay** | Follow the on-screen prompts in Samsung Wallet to verify and activate the card. |
 
-|  _Select device — iPhone or Apple Watch_ |   |  _Apple Pay Terms & Conditions_ |
+| _Select device — iPhone or Apple Watch_ | | _Apple Pay Terms & Conditions_ |
 | :--------------------------------------: | - | :-----------------------------: |
 
 | ℹ️ Tip: After linking, open your wallet app to confirm the card appears. On Apple Pay, check Settings › Wallet & Apple Pay. On Google Pay or Samsung Pay, check the Cards section of the app. |
