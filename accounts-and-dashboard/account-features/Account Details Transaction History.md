@@ -1,7 +1,7 @@
 ---
 description: >-
- View detailed account information and complete transaction history with
- chronological records
+  View detailed account information and complete transaction history with
+  chronological records
 ---
 
 # Account Details & Transaction History
