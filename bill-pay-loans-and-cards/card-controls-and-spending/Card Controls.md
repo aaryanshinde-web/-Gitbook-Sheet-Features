@@ -1,47 +1,29 @@
 # Card Controls
 
-_Module: Banking › Cards › Card Details › Card Controls_
-
 ## Summary
 
-Card Controls is the central panel for managing how, where, and how much your card can be used. It brings together four sub-features — Spending Limits, Usage Control, Card Alerts, and Location Controls — in a single tabbed interface accessed from within any card's Card Details page.
-
-Each sub-feature works independently and can be configured without affecting the others. Together they give you comprehensive control over your card security and spending behavior, all without contacting the credit union. Card Controls are available for both debit and credit cards.
-
-## At a Glance
-
-| Attribute | Detail |
-| ----------------- | -------------------------------------------------------------------- |
-| Module | Banking › Cards › Card Details › Card Controls |
-| Spending Limits | Set per-transaction and per-month spending caps |
-| Usage Control | Enable or disable specific transaction types and merchant categories |
-| Card Alerts | Configure notification alerts for card activity |
-| Location Controls | Restrict or permit transactions by geographic location |
-| Related Documents | Spending Limits, Usage Control, Location Controls (separate guides) |
+Card Controls gives members direct management of their debit and credit card — lock/unlock, set spending limits, restrict transaction types, manage merchant category permissions, and configure geographic controls — all applied in real time without requiring a call to the credit union. For business members managing employee cards or personal cards linked to business accounts, Card Controls is the primary mechanism for enforcing spend discipline and responding immediately to a suspected compromise.
 
 ## Key Use Cases
 
-| Use Case | Who It's For |
-| --------------------------------- | ------------------------------------------ |
-| **Set spending limits** | Member managing a budget or secondary card |
-| **Block specific merchant types** | Member restricting card to certain uses |
-| **Enable card for travel** | Member traveling internationally |
-| **Review all controls** | Member wanting to audit card settings |
+Business members use Card Controls to instantly lock a card when a company card is misplaced, preventing any charges while the physical card is located — without the permanence of a full card cancellation. Members configuring a card for a specific business use case apply merchant category restrictions to limit the card to approved vendor types and prevent personal use charges. Operations staff and account holders monitoring for fraud use the real-time lock/unlock toggle as the first response to an unrecognised charge — lock the card immediately, investigate the transaction, then unlock or replace as appropriate.
 
 ## Step-by-Step Guide
 
-_Navigation: Log in to Summerville Credit Union online banking. Click Cards, select your card, then click Card Controls._
+**Step 1 — Open Card Controls from the Cards Dashboard**
 
-### Step 1 — Open Card Controls
-
-After logging in, click **Cards** in the top navigation bar. Select the card you want to manage to open the Card Details page. The Card Details view displays your card information, card status, available credit, and current balance. Below the card summary, you will see quick-action links including **Card Controls**, **Set PIN**, **Deactivate / Replace Card**, and **View Account**.
+From the top navigation, select **Cards** to open the Cards dashboard, which lists all debit and credit cards linked to the member's profile. Click **Card Controls** on the card tile to open the full controls panel for that card.
 
 <figure><img src="../../.gitbook/assets/Card_Controls_img1.png" alt=""><figcaption></figcaption></figure>
 
-### Step 2 — Choose a Sub-Feature
+**Step 2 — Lock or Unlock the Card**
 
-The Card Controls panel opens with four tabs: **Spending Limits**, **Usage Control**, **Card Alerts**, and **Location Controls**. Click any tab to configure that sub-feature. Each setting takes effect immediately when saved — no additional confirmation step is required.
+The Card Controls panel displays a prominent **Lock Card** toggle at the top. Toggle it to lock the card immediately — all new transactions will be declined until the card is unlocked. Toggle it back to restore normal card functionality; the lock and unlock actions both take effect in real time with no processing delay.
 
 <figure><img src="../../.gitbook/assets/Card_Controls_img2.png" alt=""><figcaption></figcaption></figure>
 
-> **Note:** Each Card Controls sub-feature has its own detailed guide. See **Spending Limits**, **Usage Control**, **Location Controls**, and **Card Alerts** for step-by-step instructions on each tab.
+**Step 3 — Configure Transaction Type and Category Controls**
+
+Select the **Card Alerts**, **Spending Limits**, **Usage Control**, or **Location Controls** tabs within Card Controls to configure additional restrictions. Each control category is applied independently, allowing members to combine geographic restrictions with merchant category limits and spend alerts to build a precisely defined permission profile for the card.
+
+
