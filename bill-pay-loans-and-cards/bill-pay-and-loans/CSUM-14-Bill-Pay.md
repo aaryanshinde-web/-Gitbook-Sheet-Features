@@ -1,44 +1,29 @@
 # Bill Pay
 
-> **Module:** Banking › Move Money → Bill Pay
-
 ## Summary
 
-Bill Pay is an integrated payment service within the nFinia Move Money suite that enables members to pay bills — utilities, insurance, credit cards, subscriptions, and other recurring obligations — directly from their Summerville CU account without leaving the digital banking platform. You can pay one-time bills on demand or set up recurring scheduled payments to ensure obligations are met on time every month.
-
-The Bill Pay service is delivered through an integrated third-party provider that maintains a comprehensive payee database covering thousands of national and local billers. You can add payees manually or search the database. Electronic payments to e-pay-enabled billers arrive in 1–2 business days; check payments to non-electronic billers are mailed within 3–5 business days.
-
-The Bill Pay module includes full history of all past payments, management of payee details (nickname, account number, delivery preference), and the ability to view pending payments and upcoming scheduled payments in one place.
-
-**At a Glance**
-
-| Attribute | Detail |
-| ---------------- | ------------------------------------------------------- |
-| Module | Move Money > Bill Pay |
-| Biller Types | Electronic (1–2 days) and check (3–5 days) |
-| Schedules | One-time, recurring (weekly, bi-weekly, monthly) |
-| Payee Management | Add, edit, delete payees; view/edit payment details |
-| History | Full payment history with biller name, amount, and date |
+Bill Pay enables members to schedule and send payments to businesses, utilities, service providers, and individuals — processed through the ACH network or by paper check for payees that cannot accept electronic payment. For business members managing recurring vendor invoices, utility bills, subscription services, and one-time supplier payments, Bill Pay provides a centralised payment scheduling tool that operates independently of the payee's banking infrastructure — the member never needs to log into a separate biller portal or manage individual payee credentials.
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ------------------------ | ---------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------- |
-| Pay Utility Bill | Members paying monthly utilities | Add utility as payee, enter amount, select pay date, submit | Single-platform bill payment without visiting each biller's site |
-| Set Up Recurring Payment | Members automating monthly bills | Create a recurring payment schedule for a payee | Automation ensures bills never miss due dates |
-| Add New Payee | Members adding a new biller | Search payee database or manually enter biller details | Builds personalised payee list for all regular obligations |
-| Review Payment History | Members reconciling payments | Open Bill Pay > History to view all past payments | Complete audit trail of all bill payments made through the platform |
+Business members use Bill Pay to schedule recurring monthly utility and lease payments with a fixed amount, eliminating the need to log in each month and reducing the risk of a late payment on a predictable obligation. Members managing variable vendor invoices schedule one-time payments each period after confirming the invoice amount, using the payee directory to initiate the payment without re-entering the payee's details. Operations staff reviewing business account payment history use the Bill Pay scheduled payments list to audit upcoming obligations and confirm that all active payees are still receiving payments at the expected amounts and frequencies.
 
 ## Step-by-Step Guide
 
-**Step 1 — Navigate to Move Money Hub**
+**Step 1 — Open Bill Pay and Add a Payee**
 
-Click ‘Move Money' in the top navigation bar and select Pay Bills
+From Move Money, select **Bill Pay** to open the Bill Pay dashboard. If this is the first payment to a new payee, click **Add Payee**, enter the company or individual name, and provide the account number the payee uses to identify your account with them. The platform searches its payee database and, where possible, routes the payment electronically — otherwise a paper check is mailed.
 
 <figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Navigate to Bill Pay**
+**Step 2 — Schedule the Payment**
 
-The Bill Pay screen from the vendor banking interface is displayed, showing payment options and form fields for setting up or making a bill payment.
+Select the payee from your payee directory, enter the payment amount, and choose the payment date. The Bill Pay calendar shows the earliest available processing date based on the payee's delivery method — allow additional days for paper check payees to ensure the payment arrives by the due date.
 
 <figure><img src="../../.gitbook/assets/Bill_Pay_img3.png" alt=""><figcaption></figcaption></figure>
+
+**Step 3 — Confirm and Review Scheduled Payments**
+
+Review the payment details on the confirmation screen — payee, amount, and delivery date — then click **Schedule Payment**. The payment appears in the Scheduled Payments list where it can be edited or cancelled before the processing date. A confirmation reference is issued and the payment amount is held from the source account balance on the scheduled date.
+
+
