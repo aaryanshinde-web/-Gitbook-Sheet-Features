@@ -1,7 +1,7 @@
 ---
 description: >-
- Quick Pay and Quick Transfer — the Dashboard widget that lets members move
- funds between their own accounts without leaving the landing screen.
+  Quick Pay and Quick Transfer — the Dashboard widget that lets members move
+  funds between their own accounts without leaving the landing screen.
 ---
 
 # Quick Pay & Quick Transfer
