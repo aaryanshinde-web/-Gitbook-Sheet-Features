@@ -3,66 +3,32 @@ description: >-
   View and manage trusted devices on your account, remove old devices, and
   control device-based authentication.
 ---
-
 # Device Management & Trusted Devices
-
-> **Module:** Banking › More › Personal Information › Devices
 
 ## Summary
 
-Device Management allows you to view and manage all devices registered as trusted for your digital banking account. A device becomes trusted when you complete a full login (username + password + OTP) and select 'Remember this device' during the OTP step, allowing future logins from that device to bypass the OTP verification.
-
-The Devices tab shows all trusted devices with their device name, OS, last login date, and trust status. Members can remove any device from the trusted list — which immediately requires full OTP authentication on the next login from that device. This is essential for decommissioning old phones and for security response after a suspected compromise.
-
-Trusted Device Approval Required is an enhanced security mode available for some account types, where any new device login requires explicit approval from an already-trusted device before the session is established.
-
-**At a Glance**
-
-| Attribute | Detail |
-| -------------- | ------------------------------------------------------------------------------ |
-| Module | Banking › More › Personal Information › Devices |
-| Trusted Device | Device where OTP step is bypassed after initial trust |
-| Trust Action | Set during login by checking 'Remember this device' |
-| Revoke Trust | Removing a device from the list re-requires OTP on next login |
-| Enhanced Mode | Trusted Device Approval Required — new logins require existing device approval |
+Device Management allows members to view, manage, and revoke all devices that have been registered as trusted — browsers and mobile devices that have been granted permission to skip the OTP step at login. For business members who access digital banking from multiple devices, or for members who need to revoke a device after disposing of hardware or suspecting unauthorised access, Device Management is the security control that governs which devices can bypass multi-factor authentication.
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| --------------------------- | ------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Review Trusted Devices | Members auditing account security | Open Devices tab to see all registered trusted devices | Confirms which devices can log in without OTP, enabling security audit |
-| Remove Old Phone | Members replacing your device | Click remove on the old device entry | Immediately revokes OTP bypass for the decommissioned device |
-| Revoke After Security Event | Members who suspect account compromise | Remove ALL trusted devices to force OTP on every login | Nuclear option that resets all trusted sessions, securing the account |
-| Approve New Device Login | Members with Trusted Device Approval mode | Approve a new login attempt from an existing trusted device | Enhanced security requiring confirmation from a known good device |
+Business members who replace a laptop or smartphone revoke the old device from the trusted device list immediately, preventing the discarded hardware from being used to access the business banking account with only a username and password. Members who notice an unfamiliar device in the trusted device list — indicating that their credentials may have been used on an unrecognised machine — remove the suspicious entry and change their password as an immediate security response. Operations staff conducting periodic security reviews of a business account audit the trusted device list to confirm that only current, authorised devices retain trusted status, removing any entries that correspond to former employees or retired hardware.
 
 ## Step-by-Step Guide
 
-**Step 1 — Start from Dashboard**
+**Step 1 — Navigate to Device Management**
 
-You begin at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
+From the More menu, select **Personal Information**, then open the **Devices** tab — or navigate to **Settings > Security > Device Management** depending on the platform configuration. The Devices tab lists every device currently registered as trusted, showing the device name or browser identifier and the date it was added.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Open the More Menu**
+**Step 2 — Review Registered Devices**
 
-Click 'More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+Review each entry in the trusted device list to confirm it corresponds to a device the member currently owns and actively uses. Unfamiliar device names or entries from dates when the member did not set up a new device should be treated as potential unauthorised registrations and removed immediately.
 
 <figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Navigate from Dashboard to Devices**
+**Step 3 — Remove a Trusted Device**
 
-The Account Overview page shows a detailed list of registered devices with columns for device type, date registered, and action buttons for managing each device.
-
-<figure><img src="../../.gitbook/assets/Device_Management_img3.png" alt=""><figcaption></figcaption></figure>
-
-**Step 4 — Review Device Details**
-
-The Personal Information page displays a comprehensive list of registered devices, each with a 'Forget Device' button for removing the device from your trusted device list.
+Click **Forget Device** next to any entry to immediately revoke that device's trusted status. The next login from that device will require full multi-factor authentication — username, password, and OTP — regardless of any previously stored session cookies. This action cannot be undone but does not prevent the device from being re-registered as trusted at the next successful login.
 
 <figure><img src="../../.gitbook/assets/Device_Management_img3.png" alt=""><figcaption></figcaption></figure>
-
-**Step 5 — Remove a Trusted Device**
-
-A confirmation modal asks 'Are you sure you want to forget this device?' with Cancel and Proceed buttons for you to confirm or cancel the device removal.
-
-<figure><img src="../../.gitbook/assets/img_02399f4ee5dd.png" alt=""><figcaption></figcaption></figure>
