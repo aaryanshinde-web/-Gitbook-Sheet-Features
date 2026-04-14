@@ -28,4 +28,3 @@ The member clicks "Accounts" in the top navigation bar to open the Account Overv
 The member clicks "Proceed" to continue to the check capture flow. A popup window opens to initiate the capture process. If the browser's popup blocker prevents the capture window from opening, the system displays a message with a link reading "Please click here to open in a new tab." The member clicks this link to proceed with the check deposit in a new browser tab.
 
 <figure><img src="/.gitbook/assets/check-deposit.png" alt="" width="480"><figcaption></figcaption></figure>
-
