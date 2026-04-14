@@ -3,33 +3,32 @@ description: >-
   The Credit Score meter widget on the Dashboard — a visual gauge showing the
   member's current credit score range without leaving the landing screen.
 ---
-
-# Credit Score Widget
+# Dashboard Credit Score Widget
 
 ## Summary
 
-The Credit Score Widget is a compact visual gauge displayed on the Dashboard's right panel, below the Upcoming Payments section. It shows a colour-coded semicircular gauge with score range labels — Poor, Below Average, Average, Good, and Excellent — indicating where the member's current score falls. A **"Show My Score"** button navigates to the full Credit Score page where the member can view score details, score factors, and manage consent. On first access, the member must accept a consent disclosure before the score is retrieved via a soft pull that does not affect their credit rating.
+The Credit Score Widget on the Dashboard surfaces the member's current credit score and score trend directly within the digital banking session, powered by a soft-pull credit inquiry that does not affect the member's credit. For credit union members exploring loan products, refinancing options, or credit-building goals, having the score visible on every login creates a natural connection between daily banking activity and long-term financial health — a differentiated value-add that large national banks use to drive product cross-sell.
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
-| Daily Score Glance | Member monitoring credit health | Views the gauge on Dashboard after login — no navigation needed | Instant credit awareness on every login without extra clicks |
-| First-Time Credit Score Access | New member who hasn't accessed Credit Score yet | Clicks "Show My Score" on the widget, accepts consent disclosure | Drives adoption of Credit Score feature from the Dashboard |
-| Navigate to Full Credit Details | Member who wants to understand score factors | Clicks "Show My Score" to go to full Credit Score page | Seamless path from widget to detailed feature |
+Members use the Credit Score Widget to monitor score changes month over month and understand which factors are driving improvements or declines. Business members evaluating their personal credit ahead of an SBA loan application or equipment financing use the widget to assess readiness before approaching the lending team. The widget also serves as a trigger for credit union staff conversations — a member who sees a score drop on the Dashboard is more likely to initiate a financial wellness conversation than one who discovers it at loan application time.
 
-## End-to-End Workflow
+## Step-by-Step Guide
 
-### Step 1 — View the Credit Score Widget on the Dashboard
+**Step 1 — View Your Credit Score on the Dashboard**
 
-After logging in, look at the **Credit Score** section on the right side of the Dashboard, below the Upcoming Payments widget. The widget displays a colour-coded gauge with ranges from Poor to Excellent and a prompt to start tracking the credit score. Click the **"Show My Score"** button to proceed.
+After logging in, the Credit Score Widget displays your current score prominently on the Dashboard alongside the score range indicator and a month-over-month trend arrow. No action is required — the score updates automatically each month via a soft-pull inquiry and reflects the latest data from the credit bureau.
 
 <figure><img src="../../.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 2 — Accept the Credit Score Consent Disclosure
+**Step 2 — Click the Widget to View Score Details**
 
-After clicking "Show My Score," the Credit Score page loads under More > Credit Score. A consent disclosure from SavvyMoney, Inc. is displayed, explaining that this is a soft pull that will not affect the member's score. The member checks the authorisation checkbox and clicks **Continue** to retrieve their credit score. The right sidebar shows feature highlights: Credit Confidence, Daily Score Update, and Money-Saving Offers.
+Click the Credit Score Widget to open the full Credit Score detail view, which breaks down the key factors influencing your score — payment history, credit utilization, account age, credit mix, and recent inquiries. Each factor is rated and explained so members understand specifically what to address to improve their score over time.
 
 <figure><img src="../../.gitbook/assets/credit-score-consent.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 3 — Review Score History and Offers**
+
+The detail screen displays a historical score chart showing month-over-month movement and may surface relevant credit union loan or credit card offers calibrated to the member's current score range. Members can use this view to track progress toward a target score or explore products available to them based on their current credit profile.
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
