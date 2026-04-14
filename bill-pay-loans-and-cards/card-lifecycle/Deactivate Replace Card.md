@@ -8,22 +8,22 @@ The Deactivate / Replace Card feature lets you permanently deactivate a card and
 
 ## At a Glance
 
-| Attribute    | Detail                                                     |
+| Attribute | Detail |
 | ------------ | ---------------------------------------------------------- |
-| Module       | Banking › Cards › Card Details › Deactivate / Replace Card |
-| Who Can Use  | All nFinia Digital Banking members with an active card     |
-| Action       | Permanently deactivates the current card                   |
-| Replacement  | Optional — request a replacement card during deactivation  |
-| Reversible   | No — deactivation is permanent                             |
-| Availability | 24 / 7 — via web or mobile                                 |
+| Module | Banking › Cards › Card Details › Deactivate / Replace Card |
+| Who Can Use | All nFinia Digital Banking members with an active card |
+| Action | Permanently deactivates the current card |
+| Replacement | Optional — request a replacement card during deactivation |
+| Reversible | No — deactivation is permanent |
+| Availability | 24 / 7 — via web or mobile |
 
 ## Key Use Cases
 
-| Use Case                | Description                                            |
+| Use Case | Description |
 | ----------------------- | ------------------------------------------------------ |
-| **Card is damaged**     | Request a replacement for a physically damaged card    |
-| **Card is compromised** | Immediately deactivate a card suspected of fraud       |
-| **No longer needed**    | Permanently disable a card that is no longer in use    |
+| **Card is damaged** | Request a replacement for a physically damaged card |
+| **Card is compromised** | Immediately deactivate a card suspected of fraud |
+| **No longer needed** | Permanently disable a card that is no longer in use |
 | **Replace and upgrade** | Deactivate and request a new card with updated details |
 
 ## Step-by-Step Guide
@@ -50,7 +50,7 @@ If you have chosen to request a replacement, the next screen shows the replaceme
 
 ### Step 4 — Deactivation Confirmed
 
-A confirmation message appears: **"Your card has been successfully deactivated."** The card is now permanently disabled. If a replacement was requested, the new card will be mailed to the address shown on the confirmation screen. You can click **Go to Cards** to return to your card list or **Go to Dashboard** to return home.
+A confirmation message appears: **"Your card has been successfully deactivated."** The card is now permanently disabled. If a replacement was requested, the new card will be mailed to the address shown on the confirmation screen. Click **Go to Cards** to return to your card list or **Go to Dashboard** to return home.
 
 <figure><img src="../../.gitbook/assets/Deactivate_Replace_Card_Success.png" alt="Card successfully deactivated"><figcaption><p>Step 4: Confirmation — the card has been deactivated and a replacement is on its way.</p></figcaption></figure>
 
