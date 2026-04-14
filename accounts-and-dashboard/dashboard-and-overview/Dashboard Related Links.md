@@ -9,41 +9,63 @@ description: >-
 
 ## Summary
 
-The Related Links sidebar is a panel at the bottom-right of the Dashboard that provides one-click access to frequently used self-service tasks. Rather than navigating through multiple menus, the member can jump directly from the Dashboard to Change Password, Download E-Statements, View Scheduled Transfers, or Direct Deposit Form.
+The Related Links sidebar is a configurable shortcut panel positioned on the Dashboard that gives members one-click access to the most operationally relevant self-service tasks — without navigating through menus. For business members who move money frequently, update credentials regularly, or need direct deposit forms for onboarding employees, this panel eliminates unnecessary clicks and surfaces high-value actions at the point where members are most likely to need them.
+
+The panel currently exposes four links — **Change Password**, **Download E-Statements**, **View Scheduled Transfers**, and **Direct Deposit Form** — each configured by the credit union based on member behavior and operational priorities. This is a credit union-controlled configuration, meaning Summerville CU can update which shortcuts appear as member needs evolve.
 
 ## Key Use Cases
 
 | Use Case | Who Uses It | What They Do | Business Value |
-| -------------------------- | --------------------------------------- | ------------------------------------------------------ | -------------------------------------------------------- |
-| Quick Password Change | Member who needs to update credentials | Clicks "Change Password" in Related Links | Reduces navigation from 3 clicks to 1 |
-| Download Monthly Statement | Member doing monthly bookkeeping | Clicks "Download E-Statements" from Dashboard | Immediate access without navigating to More > eDocuments |
-| Review Scheduled Transfers | Member checking upcoming auto-transfers | Clicks "View Scheduled Transfers" from Dashboard | Direct access to scheduled transfer list |
-| Direct Deposit Enrollment | Member starting a new job | Clicks "Direct Deposit Form" to access pre-filled form | Simplifies a high-value onboarding action |
+| --- | --- | --- | --- |
+| Rotate credentials quickly | Business member enforcing security hygiene | Clicks **Change Password** from the Dashboard without navigating to Settings | Reduces credential update friction for members managing business accounts with strict access controls |
+| Access monthly statements | Member reconciling books or preparing for tax filing | Clicks **Download E-Statements** directly from the Dashboard | Eliminates the multi-step path to More > eDocuments — critical for members on tight month-end timelines |
+| Review scheduled payment activity | Business member monitoring cash outflows | Clicks **View Scheduled Transfers** to audit all upcoming automated payments | Provides immediate visibility into scheduled obligations without leaving the primary account view |
+| Set up payroll direct deposit | New employee or business owner managing payroll routing | Clicks **Direct Deposit Form** to retrieve the pre-populated routing form | Pre-fills account number, member name, account type, and routing number — removes manual data entry risk |
+
+For credit unions with business banking members, the Related Links panel is a low-effort, high-impact configuration that directly reduces support call volume for commonly requested tasks.
 
 ## End-to-End Workflow
 
-### Step 1 — Locate the Related Links Sidebar
+### Prerequisites
 
-After logging in, scroll down on the right panel of the Dashboard to find the **Related Links** card below the Credit Score meter. The card displays links that are contextual to the page you are on. These links can be configured to be what the institution deems most useful based on their member behaviour and our data.
+* Active authenticated session in nFinia Digital Banking
+* Dashboard loaded and visible with the Related Links sidebar in the right panel
 
-For example, you can currently see four links in the Related Links: Change Password, Download E-Statements, View Scheduled Transfers, and Direct Deposit Form.
+### Step-by-Step Flow
+
+**Step 1 — Locate the Related Links Sidebar**
+
+After logging in, scroll to the lower-right section of the Dashboard to locate the **Related Links** card, positioned below the Credit Score widget. The panel displays the four configured shortcut links — **Change Password**, **Download E-Statements**, **View Scheduled Transfers**, and **Direct Deposit Form** — each launching its respective feature directly with a single click.
 
 <figure><img src="../../.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 2 — Click "Change Password"
+**Step 2 — Change Password**
 
-Click **Change Password** in the Related Links sidebar. The User ID and Password Settings page loads with three tabs: User ID, Password, and Multi-Factor Authentication. The Password tab is active, showing fields for Current Password and New Password with a **Change password** button.
+Click **Change Password** to navigate directly to the User ID and Password Settings page, which opens with the **Password** tab active. Enter the current password and the new password in the respective fields, then click **Change password** to apply the update immediately — no additional navigation required.
 
 <figure><img src="../../.gitbook/assets/change-password-page.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 3 — Click "View Scheduled Transfers"
+**Step 3 — View Scheduled Transfers**
 
-Click **View Scheduled Transfers** in the Related Links sidebar. The Scheduled Transfers page loads under Move Money, displaying a list of all scheduled and recurring transfers. Each entry shows the From account, To account, Amount, Frequency, and Next Transfer Date with options to edit or cancel.
+Click **View Scheduled Transfers** to open the Scheduled Transfers page under Move Money, which lists every active scheduled and recurring transfer on the account. Each entry displays the source account, destination account, transfer amount, frequency, and next scheduled execution date — with inline options to edit or cancel any entry.
 
 <figure><img src="../../.gitbook/assets/scheduled-transfers-page.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 4 — Click "Direct Deposit Form"
+**Step 4 — Direct Deposit Form**
 
-Click **Direct Deposit Form** in the Related Links sidebar in the Dashboard. The Payroll Direct Deposit Form loads, pre-populated with the member's Account Number Identification, Member Name, Account Type, and Credit Union Routing / Transit Number. The member can print or save this form to provide to their employer.
+Click **Direct Deposit Form** to load the Payroll Direct Deposit Form, pre-populated with the member's Account Number, Member Name, Account Type, and the Credit Union's Routing/Transit Number. The member can print or save the completed form and submit it directly to their employer's payroll department — no manual data entry required.
 
 <figure><img src="../../.gitbook/assets/direct-deposit-form.png" alt="" width="480"><figcaption></figcaption></figure>
+
+### Completion & Confirmation
+
+Each Related Links shortcut navigates directly to its target feature — the member completes the task within that feature and can return to the Dashboard via the navigation menu. No separate confirmation is generated by the Related Links panel itself; confirmations are handled by the destination feature (e.g., password change success banner, transfer cancellation confirmation).
+
+### Quick Reference
+
+| Task | Navigation Path | Notes |
+| --- | --- | --- |
+| Change Password | Dashboard > Related Links > Change Password | Opens directly to the Password tab in Settings |
+| Download E-Statements | Dashboard > Related Links > Download E-Statements | Launches BDI eDocuments portal via SSO |
+| View Scheduled Transfers | Dashboard > Related Links > View Scheduled Transfers | Opens Move Money > Scheduled Transfers list |
+| Direct Deposit Form | Dashboard > Related Links > Direct Deposit Form | Pre-populated with account and routing details |
