@@ -22,13 +22,16 @@ This level of granular control is particularly valuable for fraud prevention and
 
 ## Key Use Cases
 
-| Use Case | Description |
-| ------------------------------- | ------------------------------------------------------- |
-| Set a spend alert threshold | Receive a notification whenever a single transaction exceeds a set dollar amount, enabling real-time awareness of large or unexpected charges |
-| Disable ATM withdrawals | Block the card from being used at ATMs entirely, useful for members who only use digital payments and want to reduce cash-related fraud risk |
-| Block eCommerce purchases | Prevent the card from being used for online transactions while keeping in-store functionality active — an effective control for shared household cards |
-| Restrict merchant categories | Block the card from being used at specific merchant types such as gas stations or restaurants, supporting budgeting goals or parental controls |
-| Enable only specific categories | Limit card acceptance to only the categories a member has explicitly approved, providing the tightest possible control over card spending |
+
+Set a spend alert threshold: Receive a notification whenever a single transaction exceeds a set dollar amount, enabling real-time awareness of large or unexpected charges.
+
+Disable ATM withdrawals: Block the card from being used at ATMs entirely, useful for members who only use digital payments and want to reduce cash-related fraud risk.
+
+Block eCommerce purchases: Prevent the card from being used for online transactions while keeping in-store functionality active — an effective control for shared household cards.
+
+Restrict merchant categories: Block the card from being used at specific merchant types such as gas stations or restaurants, supporting budgeting goals or parental controls.
+
+Enable only specific categories: Limit card acceptance to only the categories a member has explicitly approved, providing the tightest possible control over card spending.
 
 ## Step-by-Step Guide
 
