@@ -1,47 +1,29 @@
 # Spending Limits
 
-_Module: Banking › Cards › Card Details › Card Controls › Spending Limits_
-
 ## Summary
 
-The Spending Limits feature gives you control over how much can be spent on your card within a given period. You can set per-transaction and per-month spending caps that will automatically decline any transaction exceeding the specified amounts.
-
-Spending Limits are found under Card Controls in the Card Details view. Each limit can be toggled on or off independently. When enabled, you enter a dollar amount that defines the maximum allowable spend for that period. This feature is particularly useful for managing budgets, controlling secondary cardholder spending, or adding a layer of fraud protection.
-
-## At a Glance
-
-| Attribute | Detail |
-| --------------------- | ---------------------------------------------------------------- |
-| Module | Banking › Cards › Card Details › Card Controls › Spending Limits |
-| Per Transaction Limit | Declines any single transaction exceeding the set amount |
-| Per Month Limit | Declines transactions once the monthly spend cap is reached |
-| Toggle | Each limit can be independently enabled or disabled |
-| Related Features | Location Controls, Card Alerts, Usage Control |
+Spending Limits allows members to set maximum dollar thresholds for card transactions — per transaction, per day, or per category — enforced in real time by the card processor. For business members issuing cards to employees or managing a card assigned to a specific cost centre, Spending Limits is the primary control for enforcing budget discipline without relying on after-the-fact expense review.
 
 ## Key Use Cases
 
-| Use Case | Who It's For |
-| ----------------------------- | ------------------------------------------ |
-| **Cap per-transaction spend** | Member managing a shared or secondary card |
-| **Set a monthly budget** | Member tracking monthly expenses |
-| **Disable a limit** | Member who no longer needs a cap |
+Business members use Spending Limits to cap a company card at the monthly petty cash budget, preventing any single transaction or cumulative daily spend from exceeding the authorised amount. Members setting up a travel card for a business trip apply a per-transaction limit that matches the per diem policy, blocking any charge above the approved threshold. Operations staff reviewing card controls use Spending Limits in combination with merchant category restrictions to create tightly defined card profiles — for example, a card that can only be used at fuel stations up to $150 per transaction.
 
 ## Step-by-Step Guide
 
-_Navigation: Log in to Summerville Credit Union online banking. From the Dashboard, click Cards, select your card, click Card Controls, then select Spending Limits._
+**Step 1 — Open Spending Limits from Card Controls**
 
-### Step 1 — Arrive at the Dashboard
-
-After logging in, you land on the Dashboard. Click Cards in the top navigation to open your card list, then select the card you want to configure. From Card Details, click Card Controls to open the controls panel.
+From the Cards dashboard, click **Card Controls** on the relevant card and select the **Spending Limits** tab. The screen displays current limit settings for per-transaction, daily, and category-based spend, with toggle switches to enable each limit type.
 
 <figure><img src="../../.gitbook/assets/Spending_Limits_img1.png" alt=""><figcaption></figcaption></figure>
 
-_Step 1: Dashboard — click Cards to begin._
+**Step 2 — Set the Limit Type and Amount**
 
-### Step 2 — Configure Spending Limits
-
-The Spending Limits tab opens under Card Controls. You will see two limit types: Per Transaction and Per Month. Toggle either limit on to activate it, then enter the maximum dollar amount in the input field. For Per Month, your current monthly spend is shown for reference. Toggle a limit off at any time to remove it. Changes take effect immediately.
+Enable the desired limit type — Per Transaction, Daily, or a specific category limit — and enter the maximum dollar amount. Click **Save** to apply the limit immediately; any transaction that would exceed the threshold will be declined in real time at the point of sale.
 
 <figure><img src="../../.gitbook/assets/Spending_Limits_img2.png" alt=""><figcaption></figcaption></figure>
 
-_Step 2: Per Transaction and Per Month limits — set the maximum dollar amounts._
+**Step 3 — Confirm and Monitor**
+
+The Spending Limits screen refreshes to display the active limits alongside the card's current spend for the period. Members can return to this screen at any time to adjust, increase, or remove a limit — changes take effect immediately without requiring a new card or a credit union call.
+
+
