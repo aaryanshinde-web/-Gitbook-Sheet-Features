@@ -55,19 +55,19 @@ Real-time transaction alerts are delivered from Velera to nFinia via webhook, wh
 ## End-to-End Workflow
 
 **Step 1 — Member logs into nFinia**\
-At login, nFinia fetches your card data from Velera using your linked card identifiers.
+When you log into the nFinia digital banking platform, the system automatically initiates a server-side call to the Velera API using your linked card identifiers. This happens in the background during session initialisation, so by the time you navigate to the Cards module, your card data is already loaded and ready to display.
 
 **Step 2 — Member navigates to Cards module**\
-The Cards dashboard displays all debit and credit cards linked to the Velera BIN, with current lock/unlock status, controls, and rewards balance.
+Navigate to the Cards section from the top navigation bar. The Cards dashboard displays all debit and credit cards issued under Summerville CU's Velera BIN. Each card tile shows its current lock/unlock status, and the detail view provides access to spending controls, alert configuration, and rewards balance — all populated in real time from Velera's API response.
 
 **Step 3 — Member makes a change**\
-Toggle a card off, sets a merchant category restriction, or configures an alert. nFinia sends the update to Velera via the REST API.
+When you make a change — such as toggling a card off, setting a merchant category restriction, or configuring a spend alert — nFinia immediately sends the updated preference to Velera via the REST API. The request is signed with the platform's OAuth 2.0 client credentials and contains only the specific change being made, not the member's full card details.
 
 **Step 4 — Velera processes the change**\
-Velera applies the control or preference in real time. The enforcement takes effect immediately for subsequent card transactions.
+Upon receiving the API request, Velera validates the change and applies it to the card's control profile in real time. Enforcement is immediate — the next transaction on that card will be subject to the updated rules. There is no batch processing or overnight sync required.
 
 **Step 5 — Real-time alerts delivered**\
-When a transaction occurs on the card, Velera sends a webhook event to nFinia, which dispatches a push notification to you.
+When a qualifying transaction occurs on the card, Velera's system dispatches a webhook event to the nFinia platform. nFinia processes the event payload and pushes a notification to your enrolled device — delivering the alert within seconds of the transaction occurring. This near-instant notification loop is what enables members to detect and respond to suspicious card activity in real time.
 
 ---
 
@@ -112,13 +112,13 @@ When a transaction occurs on the card, Velera sends a webhook event to nFinia, w
 Only debit and credit cards issued under Summerville Credit Union's Velera BIN are visible. Cards from other processors are not supported.
 
 **Q: Are card controls enforced immediately?**\
-Yes. Controls set via the API are enforced by Velera in real time on subsequent transactions.
+Yes. Controls set through the nFinia interface are transmitted to Velera via the REST API and applied to the card's control profile in real time. The very next transaction on the card will be subject to the updated setting — there is no delay, batch sync, or confirmation window.
 
-**Q: What happens if you travel internationally and haven't set a travel notification?**\
-International transactions may be declined by Velera's fraud detection. Members should set a travel notification in nFinia before traveling to prevent this.
+**Q: What happens if you travel internationally without setting a travel notification?**\
+Velera's fraud detection system may automatically decline international transactions if no travel notification is on file for those dates and destinations. This is a protective measure against card fraud, but it can result in legitimate purchases being blocked while abroad. Members should set a travel notification in nFinia before departure to ensure their cards are approved at international terminals during the travel window.
 
 **Q: Can rewards be redeemed through nFinia?**\
-The Velera integration currently displays the rewards balance. Redemption options depend on Velera's redemption portal configuration for Summerville CU.
+The current Velera integration surfaces your rewards balance within the nFinia Cards module so you can see your accumulated points at a glance. Redemption options — such as cash back, gift cards, or travel — depend on how Summerville CU has configured the Velera rewards portal. Contact the credit union or visit the Velera redemption portal for available options.
 
 ---
 
