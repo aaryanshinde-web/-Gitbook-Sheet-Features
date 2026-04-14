@@ -14,21 +14,22 @@ The Accounts & Memberships settings allow members to customise how your accounts
 
 **At a Glance**
 
-| Attribute | Detail |
+| Attribute       | Detail                                               |
 | --------------- | ---------------------------------------------------- |
-| Module | Settings |
-| Security | Password, MFA, Authentication configuration |
-| Account Display | Nicknames, order, visibility, icons |
-| Preferences | Dark Theme, Masking, Text Banking, Courtesy Pay |
-| Navigation | Accessible via top navigation gear icon or More menu |
+| Module          | Settings                                             |
+| Security        | Password, MFA, Authentication configuration          |
+| Account Display | Nicknames, order, visibility, icons                  |
+| Preferences     | Dark Theme, Masking, Text Banking, Courtesy Pay      |
+| Navigation      | Accessible via top navigation gear icon or More menu |
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| --------------------- | ----------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- |
-| Set Account Nicknames | Members with multiple similar accounts | Open Settings > Account Display, enter nickname for each account | Makes account selection faster across all payment screens |
-| Enable Dark Theme | Members preferring dark mode display | Toggle Dark Theme in Settings > Preferences | Reduces eye strain in low-light environments |
-| Change Password | Members rotating passwords for security | Open Settings > Security > Change Password | Self-service password update without contacting CU |
+| Use Case              | Who Uses It                             | What They Do                                                     | Business Value                                            |
+| --------------------- | --------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- |
+| Set Account Nicknames | Members with multiple similar accounts  | Open Settings > Account Display, enter nickname for each account | Makes account selection faster across all payment screens |
+| Enable Dark Theme     | Members preferring dark mode display    | Toggle Dark Theme in Settings > Preferences                      | Reduces eye strain in low-light environments              |
+| Change Password       | Members rotating passwords for security | Open Settings > Security > Change Password                       | Self-service password update without contacting CU        |
+
 ## Step-by-Step Guide
 
 \| _Navigation: Dashboard > Settings (gear icon) OR More > Settings._ |
@@ -51,19 +52,19 @@ The User ID and Password Settings page is displayed with User ID tab. This tab h
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/img_496966521d78.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_496966521d78.png" alt=""><figcaption></figcaption></figure>
 
 **Step 4 - View MFA Settings**
 
 In the Multi-Factor Authentication tab, options are available for you to configure the contact preferences for recieving the OTP.
 
-<figure><img src="../../.gitbook/assets/img_f25e080818ae.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_f25e080818ae.png" alt=""><figcaption></figcaption></figure>
 
 **Step 5 - Accounts & Memberships Settings**
 
 Navigate to Accounts and Memberships settings page which is displayed for managing membership and account preferences. In this page, account nickname can be added/edited, show or hide a particular account, include an account in the dashboard or activity since last login. Members can also set a default account for fund transfer, check deposit or text banking.
 
-<figure><img src="../../.gitbook/assets/img_d89dcb8f0776.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_d89dcb8f0776.png" alt=""><figcaption></figcaption></figure>
 
 **Step 7 - Membership Settings**
 
