@@ -6,4 +6,3 @@ Biometrics & Access Security covers the pre-login convenience and biometric auth
 
 * **Face ID — CDA Biometric Auth** — Face ID enrollment, binding, fallback behavior, and the Claimed Device Auth handshake used on iOS.
 * **Sneak Peek** — Pre-login account balance glimpse — what it shows, how it is enabled, and what it deliberately does not reveal.
-
