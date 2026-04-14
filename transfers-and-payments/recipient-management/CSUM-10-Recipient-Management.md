@@ -1,59 +1,29 @@
 # Recipient Management
 
-> **Module:** Banking › Move Money → Recipient Management
-
 ## Summary
 
-Recipient Management is the centralised address book for all transfer and payment recipients. Members can store details for other CU members, external ACH bank accounts, domestic wire beneficiaries, international wire beneficiaries, and FedNow recipients. Saved recipients appear as quick-select options throughout all payment workflows, eliminating the need to re-enter banking details for each transaction.
-
-The module supports multiple recipient types with different required fields: domestic wire recipients require an ABA routing number and account number, international wires require a SWIFT/BIC code and international address, external ACH accounts require routing and account number plus account type. You can view, add, edit, rename, delete, copy, and verify recipients from one management screen.
-
-**At a Glance**
-
-| Attribute | Detail |
-| --------------- | ------------------------------------------------------------------ |
-| Module | Move Money > Recipient Management |
-| Recipient Types | CU Member, External ACH, Domestic Wire, International Wire, FedNow |
-| Fields Stored | Name, institution, routing, account number, account type, nickname |
-| Security | Adding new recipients may trigger OTP verification |
-| Related Reports | (External ACH), (Wire Transfers) |
+Recipient Management allows members to create, maintain, and organise a directory of external payment recipients — storing their bank account details, routing numbers, and nicknames — so that recurring transfers and payments can be initiated without re-entering banking details each time. For business members who pay the same vendors, contractors, or suppliers on a regular basis, a well-managed recipient list is a core operational efficiency tool that reduces data entry errors and accelerates the payment initiation workflow.
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ---------------------- | ---------------------------- | ----------------------------------------------------- | --------------------------------------------------------- |
-| Add External Account | Members setting up ACH pull/push | Add external bank routing and account numbers | Required before initiating any external ACH transfers |
-| Add Wire Beneficiary | Members who send domestic wires | Enter ABA, account number, beneficiary name for wire | Saves wire recipient details for recurring wire transfers |
-| Audit Saved Recipients | Members reviewing payee list | View all saved recipients with masked account details | Identify and remove outdated or incorrect payees |
+Business members add a new vendor to the recipient directory when setting up a first-time ACH payment, storing the vendor's account and routing details once so that future payments can be initiated by selecting the recipient name rather than re-entering banking details. Members update a recipient's account information when a vendor changes banks — editing the stored record to reflect the new routing and account number before the next payment cycle. Operations staff auditing the payment recipient list review stored accounts to identify outdated or duplicate entries, removing recipients no longer used to maintain a clean and accurate payment directory.
 
 ## Step-by-Step Guide
 
-**Step 1 — Navigate to Move Money Hub**
+**Step 1 — Open Recipient Management**
 
-Click ‘Move Money' in the top navigation bar. Go to Manage Recipients
+From the Move Money menu, select **Recipients** or navigate to **Recipient Management** to open the recipient directory. All saved recipients are listed with their nickname, institution name, and last payment date — providing a complete view of all stored external payees.
 
 <figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — View Recipient List**
+**Step 2 — Add a New Recipient**
 
-The Recipient Management page displays all saved recipients as cards in a grid layout, each displaying the number of linked accounts.&#x20;
+Click **Add Recipient** to open the recipient entry form. Enter the recipient's nickname, full legal name, bank routing number, account number, and account type (checking or savings). Click **Save** — for ACH recipients, a micro-deposit verification may be required before the recipient can be used for transfers.
 
 <figure><img src="../../.gitbook/assets/img_99e0eb4b18db.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — View Recipient Details & Linked Accounts**
+**Step 3 — Edit or Remove a Recipient**
 
-Members can view the Recipient Details page by clicking on the Recipient. The Accounts section lists two linked external accounts with columns for Nickname, Payment method, and Financial Institution. Each account shows action buttons including 'Initiate Transfer' and a delete option. An 'Add Account' button and 'Remove recipient' link are available below.
+Select an existing recipient from the directory to open their record. Click **Edit** to update account details — such as a new routing number when a vendor changes banks — or click **Delete** to permanently remove the recipient from the directory. Changes take effect immediately and apply to all future transfers initiated to that recipient.
 
 <figure><img src="../../.gitbook/assets/img_cb67ce7bddf8.png" alt=""><figcaption></figcaption></figure>
-
-**Step 4 — Add a New Recipient**
-
-You can add a New Recipient by searching for it in the search bar or navigating from Move Money. The Add Recipient form is displayed with a 'Recipient Details' section containing a Name field. The Accounts area shows an 'Add Account' link to attach payment accounts to the new recipient.&#x20;
-
-<figure><img src="../../.gitbook/assets/img_df2959b84f76.png" alt=""><figcaption></figcaption></figure>
-
-**Step 5 — Add Account to Recipient**
-
-The Add Account modal is open with fields for Payment type (set to 'within CU'), Membership number, Account type (set to '1st savings account'), optional First name and Last name fields, and a Nickname field. The member can enter those details and 'Save Account' to the recipient successfully. .
-
-<figure><img src="../../.gitbook/assets/img_ce9e205f56ac.png" alt=""><figcaption></figcaption></figure>
