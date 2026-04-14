@@ -10,28 +10,28 @@ description: Switch between memberships and manage account display settings and 
 
 The Profile & Membership Management section allows you with multiple credit union memberships to switch the active membership context, manage account-level display settings, and access membership-specific configurations. Switching memberships changes all screens in the platform to show data for the newly selected membership.
 
-The Accounts & Memberships view within More provides detailed settings for each account: custom nicknames, display order, visibility toggle, and account-specific configurations. You can also view membership-level details such as membership number, account types, and linked services.
+The Accounts & Memberships view within More provides detailed settings for each account: custom nicknames, display order, visibility toggle, and account-specific configurations. Members can also view membership-level details such as membership number, account types, and linked services.
 
 For you who have been designated as a joint account holder on other memberships (such as a family account or a business account), the Profile screen is the access point for switching between those memberships without logging out and back in.
 
 **At a Glance**
 
-| Attribute          | Detail                                                          |
+| Attribute | Detail |
 | ------------------ | --------------------------------------------------------------- |
-| Module             | Banking › Profile / Accounts & Memberships                      |
-| Multi-Membership   | Switch context between personal, business, or joint memberships |
-| Account Settings   | Nicknames, display order, visibility per account                |
-| Access Path        | Profile icon (top nav) or More > Accounts & Memberships         |
-| Membership Details | Membership number, account types, linked services               |
+| Module | Banking › Profile / Accounts & Memberships |
+| Multi-Membership | Switch context between personal, business, or joint memberships |
+| Account Settings | Nicknames, display order, visibility per account |
+| Access Path | Profile icon (top nav) or More > Accounts & Memberships |
+| Membership Details | Membership number, account types, linked services |
 
 ## Key Use Cases
 
-| Use Case                   | Who Uses It                                | What They Do                                                | Business Value                                                |
+| Use Case | Who Uses It | What They Do | Business Value |
 | -------------------------- | ------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------- |
-| Switch to Business Account | You with personal and business memberships | Open Profile > select business membership to switch context | Changes entire app to business accounts without re-logging in |
-| Reorder Account Display    | You preferring a specific account order    | Open Accounts & Memberships > drag to reorder accounts      | Puts most-used account at the top of all account lists        |
-| Add Account Nickname       | You managing multiple similar accounts     | Open Account Settings > enter descriptive nickname          | Makes account identification faster throughout the platform   |
-| Open Additional Product    | You wanting a new account type             | Open Profile > Add New Account / Apply for New Account      | Self-service account opening without branch visit             |
+| Switch to Business Account | Members with personal and business memberships | Open Profile > select business membership to switch context | Changes entire app to business accounts without re-logging in |
+| Reorder Account Display | Members preferring a specific account order | Open Accounts & Memberships > drag to reorder accounts | Puts most-used account at the top of all account lists |
+| Add Account Nickname | Members managing multiple similar accounts | Open Account Settings > enter descriptive nickname | Makes account identification faster throughout the platform |
+| Open Additional Product | Members wanting a new account type | Open Profile > Add New Account / Apply for New Account | Self-service account opening without branch visit |
 
 ## Step-by-Step Guide
 
