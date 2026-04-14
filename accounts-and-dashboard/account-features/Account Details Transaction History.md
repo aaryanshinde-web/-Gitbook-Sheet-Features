@@ -1,7 +1,7 @@
 ---
 description: >-
-  View detailed account information and complete transaction history with
-  chronological records
+ View detailed account information and complete transaction history with
+ chronological records
 ---
 
 # Account Details & Transaction History
@@ -26,8 +26,6 @@ The member is viewing the Account Overview page. The member clicks "Recent Trans
 
 <figure><img src="../../.gitbook/assets/accounts-recent-transactions.png" alt="" width="480"><figcaption></figcaption></figure>
 
-
-
 **Step 2: Open the full Account Details page**
 
 The member clicks "Account Details" on any account row. The full Account Details page loads, displaying the account name (e.g., "Retail Checking Account (#0001)"), the account number, and the complete Transaction History with all transactions listed in chronological order. Each transaction entry shows the date, description, amount, and running balance.
@@ -42,10 +40,6 @@ The member scrolls down the Account Details page to see additional transactions.
 
 <figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
 **Step 7: Add Note**
 
 In the three-dotted menu of a transaction, there is an option to add a note to the transaction.&#x20;
@@ -57,4 +51,3 @@ In the three-dotted menu of a transaction, there is an option to add a note to t
 In the three-dotted menu of a transaction, there is an option to download/print the transaction. This opens a new tab showing the transaction detail with option to print & download.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
