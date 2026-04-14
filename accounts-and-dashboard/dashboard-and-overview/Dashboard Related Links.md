@@ -1,8 +1,8 @@
 ---
 description: >-
- The Related Links sidebar on the Dashboard — quick-access shortcuts to common
- self-service tasks like password changes, e-statements, and scheduled
- transfers.
+  The Related Links sidebar on the Dashboard — quick-access shortcuts to common
+  self-service tasks like password changes, e-statements, and scheduled
+  transfers.
 ---
 
 # Related Links
