@@ -25,14 +25,18 @@ The Do-Not-Disturb (DND) sub-feature extends alert control further by letting yo
 
 ## Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ----------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| **Enable alert delivery channels** | Retail Member | Navigates to Alert Settings tab, confirms or adjusts push, SMS, and email toggles to select preferred delivery channels | Ensures alerts reach you on your preferred channel; reduces missed notifications and support calls |
-| **Add an account-specific balance alert** | Retail Member | Selects Account-Specific Alerts tab, clicks "Add a new alert" under Balance Alerts, selects account, sets condition (e.g., Less than $1,000), saves | Proactively warns you of low balances, reducing overdraft events and associated fees |
-| **Configure optional general alerts** | Retail Member | On General Alerts tab, sets per-event preferences (Send all alerts / Send success alerts / Send failure alerts / Disable alerts) for events like Stop check request or Check reorder | Reduces noise for members who only care about outcomes, while keeping those who want full visibility fully informed |
-| **Set a Do-Not-Disturb quiet period** | Retail Member | Navigates to Do-Not-Disturb tab, sets timezone, start time, and end time; confirms | Prevents late-night alert fatigue; improves member satisfaction and alert engagement rates during active hours |
-| **Edit an existing DND period** | Retail Member | On Do-Not-Disturb tab, clicks Edit next to the active period, adjusts times, saves | Gives you ongoing control without requiring them to remove and recreate preferences |
-| **Remove a DND period** | Retail Member | On Do-Not-Disturb tab, clicks Remove; system confirms removal and restores full-hour alert delivery | Allows you to re-enable all-hours alerting when their schedule changes (e.g., new work shift) |
+
+Retail Member navigates to Alert Settings tab, confirms or adjusts push, SMS, and email toggles to select preferred delivery channels, ensures alerts reach you on your preferred channel; reduces missed notifications and support calls.
+
+Retail Member selects Account-Specific Alerts tab, clicks "Add a new alert" under Balance Alerts, selects account, sets condition (e.g., Less than $1,000), saves, proactively warns you of low balances, reducing overdraft events and associated fees.
+
+Retail Member on General Alerts tab, sets per-event preferences (Send all alerts / Send success alerts / Send failure alerts / Disable alerts) for events like Stop check request or Check reorder, reduces noise for members who only care about outcomes, while keeping those who want full visibility fully informed.
+
+Retail Member navigates to Do-Not-Disturb tab, sets timezone, start time, and end time; confirms, prevents late-night alert fatigue; improves member satisfaction and alert engagement rates during active hours.
+
+Retail Member on Do-Not-Disturb tab, clicks Edit next to the active period, adjusts times, saves, gives you ongoing control without requiring them to remove and recreate preferences.
+
+Retail Member on Do-Not-Disturb tab, clicks Remove; system confirms removal and restores full-hour alert delivery, allows you to re-enable all-hours alerting when their schedule changes (e.g., new work shift).
 
 Account-specific and general alerts together give Summerville CU you a layered notification model that mirrors what business-class banking platforms offer—a meaningful differentiator for credit unions competing with larger FIs for financially engaged you.
 
