@@ -1,7 +1,7 @@
 ---
 description: >-
- The Credit Score meter widget on the Dashboard — a visual gauge showing the
- member's current credit score range without leaving the landing screen.
+  The Credit Score meter widget on the Dashboard — a visual gauge showing the
+  member's current credit score range without leaving the landing screen.
 ---
 
 # Credit Score Widget
