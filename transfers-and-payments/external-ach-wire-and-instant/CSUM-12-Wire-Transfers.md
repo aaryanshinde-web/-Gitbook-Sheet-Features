@@ -1,52 +1,32 @@
 ---
 description: Wire Transfers — Domestic & International
 ---
-
 # Wire Transfers
-
-> **Module:** Banking › Move Money → Wire Transfer
 
 ## Summary
 
-Summerville Credit Union offers both Domestic and International Outgoing Wire Transfers through the nFinia digital banking platform. Wire transfers are the preferred instrument for time-critical, high-value payments that require same-day or guaranteed settlement — real estate closings, escrow deposits, large business disbursements, and international supplier payments.
-
-Domestic wires clear through the Federal Reserve Fedwire system and typically settle the same business day when submitted before the daily cut-off time. International wires route through the SWIFT network and typically settle within 1–3 international banking days, with additional time for correspondent bank processing.
-
-Wire transfers are captured as digital forms within the Online Forms portal. The system pre-populates available account information and guides members through all required fields. For international wires, a SWIFT/BIC code for the receiving bank is mandatory, as is a complete international beneficiary address.
-
-**At a Glance**
-
-| Attribute | Detail |
-| ------------------------ | -------------------------------------------------------- |
-| Module | Move Money > Online Forms > Wire Transfer |
-| Domestic Network | Federal Reserve Fedwire |
-| International Network | SWIFT |
-| Domestic Settlement | Same business day (if before cut-off) |
-| International Settlement | 1–3 international banking days |
-| Related Reports | (Move Money Hub), (Recipient Management), (Online Forms) |
+Wire Transfers enable members to send large-dollar, same-day domestic and international payments through the Fedwire network — the highest-assurance, irrevocable payment rail available in the nFinia platform. For business members making real estate closings, large vendor payments, or cross-border supplier transactions, wire transfer provides guaranteed same-day settlement with a definitive payment reference that satisfies counterparty settlement requirements.
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ------------------------------ | ---------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| Real Estate Closing | Members wiring earnest money or closing funds | Complete domestic wire form with title company's bank details | Same-day settlement meets real estate transaction deadlines |
-| International Supplier Payment | Business You paying overseas vendors | Complete international wire form with SWIFT, IBAN, and beneficiary address | SWIFT network reaches most global financial institutions |
-| Recurring Wire Payee | Members who wire to the same beneficiary regularly | Save recipient in Recipient Management; use template for repeat wires | Reduces data entry errors for known beneficiaries |
-| High-Value Urgent Payment | Members needing same-day guaranteed settlement | Use wire instead of ACH for amount-critical same-day needs | ACH cannot guarantee same-day; wire settles by end of business day |
+Business members initiate domestic wires to fund real estate escrow accounts on closing day, where ACH settlement timing would miss the transaction window and FedNow limits may be insufficient for the transaction size. Members use international wire for cross-border supplier payments in foreign currencies, entering SWIFT/BIC codes and IBAN numbers alongside the payment amount and currency. Operations staff handling business account wires use the wire initiation flow to document the business purpose, ensuring the transaction record satisfies BSA/AML documentation requirements for large-dollar outgoing transfers.
+
 ## Step-by-Step Guide
 
-**Step 1 — Navigate to Move Money Hub**
+**Step 1 — Navigate to Wire Transfer and Enter Beneficiary Details**
 
-Navigate to move money hub and then from there click on Domestic Wire Transfers and it would be redirected to Wire Transfer Forms
+From the Move Money menu, select **Wire Transfer** to open the wire initiation form. Enter the beneficiary's full name, bank name, ABA routing number (domestic) or SWIFT/BIC code (international), account number, and the beneficiary's address — all fields are required for the wire to process through the Fedwire network.
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Open the Wire Transfer Form**
+**Step 2 — Enter Amount, Currency, and Purpose**
 
-The Domestic Outgoing Wire Transfer Request form is displayed within the Online Forms section, showing the form title and multiple input fields for initiating a wire transfer request.
+Enter the wire amount and, for international wires, select the destination currency. Enter the payment purpose or memo in the reference field — for business wires, this should clearly describe the business purpose of the payment to support BSA/AML compliance documentation. Review the wire fee that will be charged to the source account.
 
 <figure><img src="../../.gitbook/assets/img_c21ec81c1fad.png" alt=""><figcaption></figcaption></figure>
 
-**Step 4 — Review & Submit**
+**Step 3 — Review, Confirm, and Submit**
 
-The Forms list page is displayed showing all available form types. you can review the submitted wire transfer status or access other form types such as ACH Origination, Address Change, Card Order, and more from this screen.
+The wire review screen displays all beneficiary details, the payment amount, the fee, and the estimated settlement time. Review every field carefully — wire transfers are irrevocable once submitted and funds cannot be recalled without the cooperation of the receiving institution. Click **Confirm Wire** to submit; a Fedwire reference number is returned upon successful submission.
+
+
