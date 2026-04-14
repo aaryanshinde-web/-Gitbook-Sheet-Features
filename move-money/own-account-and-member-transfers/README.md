@@ -4,6 +4,5 @@ Own Account & Member Transfers covers funds movement that stays inside Summervil
 
 ## What's in this section
 
-* **Transfer to Own Account & Scheduled** —  — one-time and scheduled transfers between the member’s own Summerville accounts, including recurring series.
-* **Transfer to Other Members** —  — member-to-member transfers within Summerville CU, including recipient lookup and confirmation.
-
+* **Transfer to Own Account & Scheduled** — — one-time and scheduled transfers between the member’s own Summerville accounts, including recurring series.
+* **Transfer to Other Members** — — member-to-member transfers within Summerville CU, including recipient lookup and confirmation.
