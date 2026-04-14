@@ -3,51 +3,32 @@ description: >-
   View detailed account information and complete transaction history with
   chronological records
 ---
-
 # Account Details & Transaction History
 
 ## Summary
 
-The Account Details page displays the full detail view and transaction history for a specific account. The member reaches it by clicking "Account Details" on any account row in the Account Overview, or by clicking "Recent Transactions" to preview transactions inline first. The Account Details page shows the account name, account number, and a chronological list of transactions with dates, descriptions, amounts, and running balances. An Account Enquiry sidebar provides quick links to related actions.
+Account Details gives members a comprehensive view of a single account — current balance, account metadata, and the full transaction history — in one screen. For business members reconciling daily activity, reviewing cleared checks, or preparing for an audit, the transaction history with search and filter capabilities eliminates the need to download statements for routine lookups. The view supports both retail and commercial accounts and is accessible from the Dashboard account tile or the Accounts menu.
 
 ## Key Use Cases
 
-* Review complete transaction history for an account
-* Verify a specific transaction details
-* Track deposits and withdrawals over time
-* Access account-level enquiry actions and support
-* Monitor account activity patterns
+Business members use Account Details to verify that a specific payment has posted before releasing a vendor hold, confirm that an incoming wire credit has cleared, and review year-to-date activity for a particular account without pulling a full statement. Members preparing for tax filings or loan applications use the transaction history to locate specific debits or credits within a date range. The account metadata view — routing number, account number, and account type — also supports members who need to provide banking details to a payroll provider or set up a direct deposit without visiting a branch.
 
-## End-to-End Workflow
+## Step-by-Step Guide
 
-**Step 1: View recent transactions inline from Account Overview**
+**Step 1 — Select an Account**
 
-The member is viewing the Account Overview page. The member clicks "Recent Transactions" on any account row. Recent transactions expand inline below that account, showing the latest entries with transaction dates, descriptions, and amounts in a compact list format.
+From the Dashboard or the Accounts menu, click the account tile for the account you want to review. The Account Details screen loads with the current balance, available balance, and account identifier at the top, followed by the full transaction history in reverse chronological order.
 
 <figure><img src="../../.gitbook/assets/accounts-recent-transactions.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2: Open the full Account Details page**
+**Step 2 — Search or Filter Transactions**
 
-The member clicks "Account Details" on any account row. The full Account Details page loads, displaying the account name (e.g., "Retail Checking Account (#0001)"), the account number, and the complete Transaction History with all transactions listed in chronological order. Each transaction entry shows the date, description, amount, and running balance.
+Use the search bar or date range filter to locate a specific transaction by description, amount, or date. The transaction list updates in real time as filters are applied, allowing members to isolate a single payment or a set of transactions within a reporting period without scrolling through the full history.
 
 <figure><img src="../../.gitbook/assets/account-details-checking.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 4: View additional transactions and account actions**
+**Step 3 — Click a Transaction for Detail**
 
-The member scrolls down the Account Details page to see additional transactions. There are time period filters that the member can use to look at transactions for a specific time period. And the member can export and print the transactions in CSV, QFX, QBO, OFX formats for a specific time period.&#x20;
+Click any transaction row to expand the detail view, which shows the full transaction description, posting date, amount, running balance, and any available check image or reference number. Members can use this detail view to initiate a transaction inquiry directly from the entry if a charge requires investigation.
 
 <figure><img src="../../.gitbook/assets/account-details-scrolled.png" alt="" width="480"><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Step 7: Add Note**
-
-In the three-dotted menu of a transaction, there is an option to add a note to the transaction.&#x20;
-
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Step 8: Download/Print Transaction**&#x20;
-
-In the three-dotted menu of a transaction, there is an option to download/print the transaction. This opens a new tab showing the transaction detail with option to print & download.&#x20;
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
