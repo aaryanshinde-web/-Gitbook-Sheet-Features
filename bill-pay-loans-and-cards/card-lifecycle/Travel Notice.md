@@ -21,12 +21,14 @@ Members can add multiple itineraries to cover back-to-back trips or multi-destin
 
 ## Key Use Cases
 
-| Use Case | Description |
-| --- | --- |
-| **International travel** | Enable card use in specific countries during a planned trip to prevent fraud blocks on legitimate purchases abroad |
-| **Domestic out-of-pattern travel** | Reduce friction from fraud-prevention declines when traveling to an unfamiliar domestic region |
-| **Multi-card trip** | Add a single travel notice covering multiple cards so all cards in your wallet are protected during the trip |
-| **Back-to-back trips** | Maintain multiple overlapping itineraries for consecutive travel dates without needing to remove and re-add notices |
+
+**International travel**: Enable card use in specific countries during a planned trip to prevent fraud blocks on legitimate purchases abroad.
+
+**Domestic out-of-pattern travel**: Reduce friction from fraud-prevention declines when traveling to an unfamiliar domestic region.
+
+**Multi-card trip**: Add a single travel notice covering multiple cards so all cards in your wallet are protected during the trip.
+
+**Back-to-back trips**: Maintain multiple overlapping itineraries for consecutive travel dates without needing to remove and re-add notices.
 
 ## Step-by-Step Guide
 
