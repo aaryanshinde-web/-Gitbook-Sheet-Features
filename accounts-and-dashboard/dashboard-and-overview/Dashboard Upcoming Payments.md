@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Upcoming Payments widget on the Dashboard — a summary of scheduled and
-  pending payments visible immediately after login.
+ The Upcoming Payments widget on the Dashboard — a summary of scheduled and
+ pending payments visible immediately after login.
 ---
 
 # Upcoming Payments
