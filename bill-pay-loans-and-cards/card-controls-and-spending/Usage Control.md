@@ -1,49 +1,29 @@
 # Usage Control
 
-_Module: Banking › Cards › Card Details › Card Controls › Usage Control_
-
 ## Summary
 
-Usage Control gives you granular control over where and how your card can be used. You can enable or disable specific transaction types — such as In Store, ATM, Mail / Phone Order, eCommerce, and more — as well as specific merchant categories like Department Store, Gas Station, Grocery, and Restaurant.
-
-Each transaction type and merchant category can be toggled on or off individually. When a category is disabled, transactions of that type will be declined automatically regardless of the amount or location. This is especially useful for restricting card use to specific spending scenarios or preventing misuse on specific merchant types.
-
-## At a Glance
-
-| Attribute | Detail |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Module | Banking › Cards › Card Details › Card Controls › Usage Control |
-| Transaction Types | In Store, ATM, Mail / Phone Order, eCommerce, Household, Restaurant, Grocery, Personal Care, Other, Age Restricted |
-| Merchant Categories | Department Store, Gas Station, and more |
-| Toggle | Each type and category is controlled independently |
-| Effect | Declined transactions for any disabled type or category |
-| Related Features | Spending Limits, Location Controls, Card Alerts |
+Usage Control lets members restrict the types of transactions their card can be used for — enabling or disabling in-store, online, ATM, contactless, and international transaction channels independently. For business members who issue cards for specific operational purposes, Usage Control ensures the card can only be used in the channels appropriate for its intended use case, reducing fraud exposure and eliminating misuse before it occurs.
 
 ## Key Use Cases
 
-| Use Case | Who It's For |
-| ----------------------------- | ---------------------------------------------- |
-| **Block online purchases** | Member wanting to prevent eCommerce fraud |
-| **Restrict ATM withdrawals** | Member who only uses card for purchases |
-| **Limit merchant categories** | Member managing a household budget |
-| **Re-enable a category** | Member who needs to restore a transaction type |
+Business members use Usage Control to disable ATM withdrawals on a company card designated solely for vendor purchases, preventing cash withdrawals that fall outside the card's authorised purpose. Members who primarily use a card for online vendor payments disable in-store and contactless channels to reduce the risk of physical card compromise at a point-of-sale terminal. Operations staff responding to a fraud alert use Usage Control to restrict the card to domestic-only transactions while an investigation is underway, without fully locking the card and disrupting authorised online payments.
 
 ## Step-by-Step Guide
 
-_Navigation: Log in to Summerville Credit Union online banking. From the Dashboard, click Cards, select your card, click Card Controls, then select Usage Control._
+**Step 1 — Open Usage Control from Card Controls**
 
-### Step 1 — Arrive at the Dashboard
-
-After logging in, you land on the Dashboard. Click Cards in the top navigation, select your card, then open Card Controls from the Card Details page.
+From the Cards dashboard, click **Card Controls** on the target card and navigate to the **Usage Control** tab. The screen displays a toggle for each transaction channel — In-Store, Online/eCommerce, ATM, Contactless, and International — each independently switchable without affecting the others.
 
 <figure><img src="../../.gitbook/assets/Usage_Control_img1.png" alt=""><figcaption></figcaption></figure>
 
-_Step 1: Dashboard — click Cards to begin._
+**Step 2 — Enable or Disable Channels**
 
-### Step 2 — Configure Transaction Types and Merchant Categories
-
-The Usage Control tab displays two columns: Transaction Type and Merchant Categories. Each item has a toggle that can be turned on or off. Disabled items show an Off indicator. Toggle any type or category to control whether your card is accepted for that use. Changes take effect immediately — no save button is needed.
+Toggle each transaction channel On or Off based on the card's intended use profile. Changes take effect immediately — a disabled channel will result in a real-time decline for any transaction attempted through that method, while enabled channels remain fully functional.
 
 <figure><img src="../../.gitbook/assets/Usage_Control_img2.png" alt=""><figcaption></figcaption></figure>
 
-_Step 2: Toggle transaction types and merchant categories on or off._
+**Step 3 — Save and Confirm**
+
+After configuring the desired channel settings, confirm the changes are displayed correctly on the Usage Control screen. No separate save action is required for most toggles — changes are applied in real time upon toggle, and the screen reflects the current active configuration for the card.
+
+
