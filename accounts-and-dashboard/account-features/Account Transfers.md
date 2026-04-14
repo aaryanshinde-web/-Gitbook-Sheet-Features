@@ -29,4 +29,3 @@ The member clicks "Accounts" in the top navigation bar to open the Account Overv
 The member enters the transfer amount in the Amount field. The member selects the transfer frequency from the available options (one-time, weekly, monthly, etc.). The member reviews the transfer details and clicks "Continue" to proceed to confirmation. The system confirms the transfer and displays a success message, with the transaction now scheduled to process.
 
 <figure><img src="/.gitbook/assets/account-transfer.png" alt="" width="480"><figcaption></figcaption></figure>
-
