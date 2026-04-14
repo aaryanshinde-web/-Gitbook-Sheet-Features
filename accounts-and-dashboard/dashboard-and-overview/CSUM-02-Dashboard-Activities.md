@@ -1,7 +1,7 @@
 ---
 description: >-
-  View your financial summary, recent transactions, and activity history since
-  your last login.
+ View your financial summary, recent transactions, and activity history since
+ your last login.
 ---
 
 # Dashboard Activities
@@ -18,22 +18,22 @@ The Activities Since Last Login feature (accessible via More > Recent Activities
 
 **At a Glance**
 
-| Attribute      | Detail                                                  |
+| Attribute | Detail |
 | -------------- | ------------------------------------------------------- |
-| Module         | Banking › Dashboard (post-login landing screen)         |
-| Accounts Shown | All accounts under the active membership                |
-| Quick Actions  | Transfer, Pay, Deposit, Alerts, Move Money              |
+| Module | Banking › Dashboard (post-login landing screen) |
+| Accounts Shown | All accounts under the active membership |
+| Quick Actions | Transfer, Pay, Deposit, Alerts, Move Money |
 | Activities Log | Events since last login (Recent Activities / More menu) |
-| Refresh        | Pull-to-refresh or auto-refresh on session open         |
+| Refresh | Pull-to-refresh or auto-refresh on session open |
 
 ## Key Use Cases
 
-| Use Case                   | Who Uses It                            | What They Do                                            | Business Value                                                      |
+| Use Case | Who Uses It | What They Do | Business Value |
 | -------------------------- | -------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------- |
-| Morning Balance Check      | You starting your day                  | Open app, view Dashboard for all account balances       | Single-screen financial overview without navigating to each account |
-| Quick Transfer             | You moving funds between accounts      | Tap Transfer tile on Dashboard, complete transfer       | Fastest path to internal transfer without full navigation           |
-| Post-Login Security Review | Security-conscious you                 | View Activities Since Last Login for unexpected events  | Instant detection of unauthorized account activity                  |
-| Sneak Peek Balance         | You wanting balance without full login | Enable Sneak Peek to view balance before authentication | Quick balance check without full credential entry                   |
+| Morning Balance Check | Members starting your day | Open app, view Dashboard for all account balances | Single-screen financial overview without navigating to each account |
+| Quick Transfer | Members moving funds between accounts | Tap Transfer tile on Dashboard, complete transfer | Fastest path to internal transfer without full navigation |
+| Post-Login Security Review | Security-conscious you | View Activities Since Last Login for unexpected events | Instant detection of unauthorized account activity |
+| Sneak Peek Balance | Members wanting balance without full login | Enable Sneak Peek to view balance before authentication | Quick balance check without full credential entry |
 
 ## Step-by-Step Guide
 
