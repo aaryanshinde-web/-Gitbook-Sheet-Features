@@ -3,61 +3,32 @@ description: >-
   View detailed information for each of your accounts, including balance,
   transaction history, and account-specific options.
 ---
-
-# Account Detail — All Types
-
-> **Module:** Banking › Accounts › \[Account]
+# Account Detail — All Account Types
 
 ## Summary
 
-Each account type in nFinia has a dedicated Account Detail page providing the full operational view of that account. The Checking Account Detail is the most-visited page for most you — it shows the real-time balance, complete transaction history, and provides direct access to all account services. Savings and dividends accounts add dividend rate information and earning summaries.
-
-Money Market accounts show tiered rate details alongside transaction history. Certificate of Deposit accounts display maturity date, interest rate, term, and renewal options. Loan accounts show the outstanding principal, next payment due, payment history, and provide direct access to the loan payment workflow. Line of Credit accounts display the credit limit, drawn amount, available credit, and transaction history including draw and repayment records.
-
-All account detail pages follow a consistent layout: balance summary at top, transaction history in the main panel, and related actions/links in the side panel or at the bottom. This consistency reduces the learning curve when managing multiple account types.
-
-**At a Glance**
-
-| Attribute | Detail |
-| --------------------- | ----------------------------------------------------------------------- |
-| Account Types Covered | Checking, Savings/Dividends, Money Market, CD, Loan, Line of Credit |
-| Common Features | Balance summary, Transaction history, Related Links, Transfer shortcuts |
-| Checking-Specific | Account/routing number, Stop Payment, Check Reorder |
-| Loan-Specific | Next payment due, Principal balance, Payment history, Pay Now shortcut |
-| CD-Specific | Maturity date, Interest rate, Term, Renewal election |
+The Account Detail screen provides a full-detail view for any account type in nFinia — checking, savings, money market, certificate, loan, line of credit, and credit card accounts — surfacing the data points most relevant to each account type alongside the complete transaction history. For business members managing accounts across multiple product types, the contextual data displayed for each account type — such as loan payoff balance, credit line utilisation, or certificate maturity date — eliminates the need for a separate inquiry to the credit union for routine account status questions.
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ------------------------ | ---------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Daily Balance Monitoring | Members checking account status | Open account detail for real-time balance and recent activity | Instant financial status without contacting the CU |
-| Stop Payment Request | Members stopping an issued check | Open checking detail > Related Links > Stop Payment | Prevents a check from clearing without branch visit |
-| Loan Payment Tracking | Members monitoring loan status | Open loan account detail to see principal, interest, and payment history | Full loan amortization visibility in one screen |
-| CD Maturity Election | Members with maturing certificates | Open CD account detail > Renewal Options before maturity date | Self-service CD renewal election without branch appointment |
-| Round Up to Savings | Members building savings automatically | Enable Round Up feature in account settings to round up debit transactions | Passive savings accumulation from everyday spending |
+Business members access the loan account detail view to confirm the current outstanding balance, next payment due date, and payoff amount ahead of a refinancing decision — data that would otherwise require a call to the loan department. Members checking a business line of credit use the Account Detail screen to verify the current balance, available credit, and interest rate before drawing funds for an operational need. Operations staff supporting a member review the Account Detail screen to confirm account type, status, open date, and any applicable rate or term information as part of a standard account servicing interaction.
 
 ## Step-by-Step Guide
 
-**Step 1 — Start from Dashboard**
+**Step 1 — Select the Account from the Accounts Overview**
 
-You begin at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
+From the Accounts Overview or Dashboard, click the account tile to open the Account Detail screen for that specific account. The header section displays the account type, current balance, and the key metrics most relevant to that account — available balance for transaction accounts, credit available for revolving products, and principal balance for loans.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Open the More Menu**
+**Step 2 — Review Account Metadata and Terms**
 
-Click 'More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
+Scroll below the balance summary to see account-specific details — for deposit accounts, this includes the account number, routing number, interest rate, and dividend information; for loan accounts, it shows the original loan amount, outstanding balance, interest rate, next payment due date, and remaining term. This information is available on-demand without requiring a statement or a credit union contact.
 
 <figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 3 — Navigate from Dashboard to Account Detail**
+**Step 3 — Access Account Actions**
 
-The Account Overview page is shown in membership view with checking and savings accounts displaying their balances. A promotional banner and the Quick Transfer section are visible on the right side.
+Use the action buttons at the top of the Account Detail screen — Transfer, Pay, Inquire, or Statements — to initiate a relevant task directly from the account context. Business members who have reviewed the account balance and identified an action to take can execute it immediately without returning to the navigation menu.
 
 <figure><img src="../../.gitbook/assets/img_57d573490ef8.png" alt="" width="480"><figcaption></figcaption></figure>
-
-**Step 4 — View Checking Account Balance & History**
-
-The Retail Checking Account detail page displays the current balance, YTD dividend amounts, and a filterable transaction history. A Quick Transfer widget is available in the right sidebar.
-
-<figure><img src="../../.gitbook/assets/img_f201cdebf6f4.png" alt="" width="480"><figcaption></figcaption></figure>
