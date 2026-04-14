@@ -1,7 +1,7 @@
 ---
 description: >-
- ZenDesk End User Support Portal integration — member-facing help center and
- ticket submission within nFinia Digital Banking.
+  ZenDesk End User Support Portal integration — member-facing help center and
+  ticket submission within nFinia Digital Banking.
 ---
 
 # End User Support Portal - ZenDesk
