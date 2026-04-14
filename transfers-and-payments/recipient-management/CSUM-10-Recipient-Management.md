@@ -4,27 +4,27 @@
 
 ## Summary
 
-Recipient Management is the centralised address book for all transfer and payment recipients. You can store details for other CU Members, external ACH bank accounts, domestic wire beneficiaries, international wire beneficiaries, and FedNow recipients. Saved recipients appear as quick-select options throughout all payment workflows, eliminating the need to re-enter banking details for each transaction.
+Recipient Management is the centralised address book for all transfer and payment recipients. Members can store details for other CU members, external ACH bank accounts, domestic wire beneficiaries, international wire beneficiaries, and FedNow recipients. Saved recipients appear as quick-select options throughout all payment workflows, eliminating the need to re-enter banking details for each transaction.
 
 The module supports multiple recipient types with different required fields: domestic wire recipients require an ABA routing number and account number, international wires require a SWIFT/BIC code and international address, external ACH accounts require routing and account number plus account type. You can view, add, edit, rename, delete, copy, and verify recipients from one management screen.
 
 **At a Glance**
 
-| Attribute       | Detail                                                             |
+| Attribute | Detail |
 | --------------- | ------------------------------------------------------------------ |
-| Module          | Move Money > Recipient Management                                  |
+| Module | Move Money > Recipient Management |
 | Recipient Types | CU Member, External ACH, Domestic Wire, International Wire, FedNow |
-| Fields Stored   | Name, institution, routing, account number, account type, nickname |
-| Security        | Adding new recipients may trigger OTP verification                 |
-| Related Reports | (External ACH), (Wire Transfers)                                   |
+| Fields Stored | Name, institution, routing, account number, account type, nickname |
+| Security | Adding new recipients may trigger OTP verification |
+| Related Reports | (External ACH), (Wire Transfers) |
 
 ## Key Use Cases
 
-| Use Case               | Who Uses It                  | What They Do                                          | Business Value                                            |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ---------------------- | ---------------------------- | ----------------------------------------------------- | --------------------------------------------------------- |
-| Add External Account   | You setting up ACH pull/push | Add external bank routing and account numbers         | Required before initiating any external ACH transfers     |
-| Add Wire Beneficiary   | You who send domestic wires  | Enter ABA, account number, beneficiary name for wire  | Saves wire recipient details for recurring wire transfers |
-| Audit Saved Recipients | You reviewing payee list     | View all saved recipients with masked account details | Identify and remove outdated or incorrect payees          |
+| Add External Account | Members setting up ACH pull/push | Add external bank routing and account numbers | Required before initiating any external ACH transfers |
+| Add Wire Beneficiary | Members who send domestic wires | Enter ABA, account number, beneficiary name for wire | Saves wire recipient details for recurring wire transfers |
+| Audit Saved Recipients | Members reviewing payee list | View all saved recipients with masked account details | Identify and remove outdated or incorrect payees |
 
 ## Step-by-Step Guide
 
