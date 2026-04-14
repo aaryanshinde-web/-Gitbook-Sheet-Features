@@ -10,23 +10,23 @@ Each transaction type and merchant category can be toggled on or off individuall
 
 ## At a Glance
 
-| Attribute           | Detail                                                                                                             |
+| Attribute | Detail |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Module              | Banking › Cards › Card Details › Card Controls › Usage Control                                                     |
-| Transaction Types   | In Store, ATM, Mail / Phone Order, eCommerce, Household, Restaurant, Grocery, Personal Care, Other, Age Restricted |
-| Merchant Categories | Department Store, Gas Station, and more                                                                            |
-| Toggle              | Each type and category is controlled independently                                                                 |
-| Effect              | Declined transactions for any disabled type or category                                                            |
-| Related Features    | Spending Limits, Location Controls, Card Alerts                                                                    |
+| Module | Banking › Cards › Card Details › Card Controls › Usage Control |
+| Transaction Types | In Store, ATM, Mail / Phone Order, eCommerce, Household, Restaurant, Grocery, Personal Care, Other, Age Restricted |
+| Merchant Categories | Department Store, Gas Station, and more |
+| Toggle | Each type and category is controlled independently |
+| Effect | Declined transactions for any disabled type or category |
+| Related Features | Spending Limits, Location Controls, Card Alerts |
 
 ## Key Use Cases
 
-| Use Case                      | Who It's For                                   |
+| Use Case | Who It's For |
 | ----------------------------- | ---------------------------------------------- |
-| **Block online purchases**    | Member wanting to prevent eCommerce fraud      |
-| **Restrict ATM withdrawals**  | Member who only uses card for purchases        |
-| **Limit merchant categories** | Member managing a household budget             |
-| **Re-enable a category**      | Member who needs to restore a transaction type |
+| **Block online purchases** | Member wanting to prevent eCommerce fraud |
+| **Restrict ATM withdrawals** | Member who only uses card for purchases |
+| **Limit merchant categories** | Member managing a household budget |
+| **Re-enable a category** | Member who needs to restore a transaction type |
 
 ## Step-by-Step Guide
 
