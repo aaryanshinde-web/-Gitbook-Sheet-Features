@@ -25,12 +25,14 @@ Members who manage their own personal information through digital banking can co
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ---------------------- | ----------------------------- | -------------------------------------------------------- | ------------------------------------------------------------ |
-| Update Phone Number | Member with a new mobile number | Edit Contact Info, update the phone number, and verify the change via OTP | Ensures one-time passcodes and SMS alerts are delivered to the member's current phone number |
-| Update Email Address | Member with a new email address | Edit Contact Info, update the email, and verify the new address | Keeps email-based OTP delivery and eDocument notifications functional and up to date |
-| Update Mailing Address | Member who has moved | Edit Mailing Address with the new address details and save | Ensures statements, cards, and official correspondence are sent to the correct location |
-| Verify Address on File | Member checking current records | View the Mailing and Residential Address screens | Allows members to quickly confirm what the credit union has on file without calling or visiting a branch |
+
+Member with a new mobile number edit Contact Info, update the phone number, and verify the change via OTP, ensures one-time passcodes and SMS alerts are delivered to the member's current phone number.
+
+Member with a new email address edit Contact Info, update the email, and verify the new address, keeps email-based OTP delivery and eDocument notifications functional and up to date.
+
+Member who has moved edit Mailing Address with the new address details and save, ensures statements, cards, and official correspondence are sent to the correct location.
+
+Member checking current records view the Mailing and Residential Address screens, allows members to quickly confirm what the credit union has on file without calling or visiting a branch.
 
 ## Step-by-Step Guide
 
