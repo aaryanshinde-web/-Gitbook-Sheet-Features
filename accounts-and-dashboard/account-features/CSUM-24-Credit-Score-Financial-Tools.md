@@ -1,7 +1,7 @@
 ---
 description: >-
-  Monitor your credit score and use financial tools to track goals, budgeting,
-  and spending analysis.
+ Monitor your credit score and use financial tools to track goals, budgeting,
+ and spending analysis.
 ---
 
 # Credit Score & Financial Tools
@@ -18,22 +18,22 @@ Financial Tools (where available) provide additional money management capabiliti
 
 **At a Glance**
 
-| Attribute       | Detail                                                              |
+| Attribute | Detail |
 | --------------- | ------------------------------------------------------------------- |
-| Module          | Banking › More › Credit Score / Financial Tools                     |
-| Credit Bureau   | Integrated third-party credit bureau (soft pull — no credit impact) |
-| First Access    | Consent screen required; thereafter auto-refreshed periodically     |
-| Score Display   | Current score, rating, key factors, score history                   |
-| Financial Tools | Goals, budgeting, spending analysis (availability varies)           |
+| Module | Banking › More › Credit Score / Financial Tools |
+| Credit Bureau | Integrated third-party credit bureau (soft pull — no credit impact) |
+| First Access | Consent screen required; thereafter auto-refreshed periodically |
+| Score Display | Current score, rating, key factors, score history |
+| Financial Tools | Goals, budgeting, spending analysis (availability varies) |
 
 ## Key Use Cases
 
-| Use Case             | Who Uses It                       | What They Do                                                         | Business Value                                                                |
+| Use Case | Who Uses It | What They Do | Business Value |
 | -------------------- | --------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| Check Credit Score   | You monitoring credit health      | Open Credit Score > accept consent > view current score              | Free on-demand credit monitoring without a hard inquiry or credit impact      |
-| Review Score Factors | You working on credit improvement | Read the key factors section in Credit Score                         | Identifies specific factors to address for targeted score improvement         |
-| Set Financial Goals  | You planning savings targets      | Open Financial Tools > Goals > set a savings goal with target amount | Connects daily banking behavior to specific financial milestones              |
-| Understand FICO      | You new to credit monitoring      | Open FICO FAQs from the Credit Score section                         | Educational resource explaining what the score means and how it is calculated |
+| Check Credit Score | Members monitoring credit health | Open Credit Score > accept consent > view current score | Free on-demand credit monitoring without a hard inquiry or credit impact |
+| Review Score Factors | Members working on credit improvement | Read the key factors section in Credit Score | Identifies specific factors to address for targeted score improvement |
+| Set Financial Goals | Members planning savings targets | Open Financial Tools > Goals > set a savings goal with target amount | Connects daily banking behavior to specific financial milestones |
+| Understand FICO | Members new to credit monitoring | Open FICO FAQs from the Credit Score section | Educational resource explaining what the score means and how it is calculated |
 
 ## Step-by-Step Guide
 
