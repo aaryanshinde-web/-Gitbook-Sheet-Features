@@ -59,27 +59,23 @@ Open QuickBooks or Quicken and initiate "Add Account" or "Update Account." The I
 
 **Step 2 — Profile Request**
 
-Quicken/QuickBooks sends an OFX Profile Request to the in-house server. The server responds with:
-
-* Supported OFX version (OFX 2.3)
-* Authentication method (username/password, with MFA if configured)
-* Available services (banking, savings, credit card, etc.)
+Quicken or QuickBooks sends an OFX Profile Request to the in-house server to discover what capabilities are available. The server responds with a profile document that includes the supported OFX version (OFX 2.3), the authentication method required (username and password, with multi-factor authentication if the credit union has it configured), and the list of financial services available for download (banking, savings, credit card, and any additional account types). This exchange allows the Intuit software to know exactly how to interact with this specific institution's endpoint.
 
 **Step 3 — Sign-On Request**
 
-Enter your credit union credentials (username and password) within the Intuit application. Quicken/QuickBooks sends a **Sign-On Request** to the in-house OFX server. The server validates the credentials against the nFinia member authentication layer and returns a success token — or an error response if credentials are invalid.
+Enter your credit union digital banking credentials — username and password — within the Intuit application when prompted. Quicken or QuickBooks packages these into an OFX Sign-On Request and transmits it to the in-house OFX server over a secure connection. The OFX server validates the credentials against the nFinia member authentication layer. On success, it returns an authenticated session token that authorises the subsequent data requests. If the credentials are invalid or the account is locked, the server returns a structured OFX error response, and Quicken or QuickBooks displays an appropriate error message to the member.
 
 **Step 4 — Account Enumeration**
 
-Upon successful sign-on, Quicken/QuickBooks requests a list of all accounts linked to your authenticated profile. The OFX server returns account identifiers, types (checking, savings, credit card, etc.), and balances.
+Following successful authentication, Quicken or QuickBooks automatically requests a full list of all accounts linked to your profile. The OFX server returns account identifiers, account types (checking, savings, credit card, and any other eligible account types), and current balances for each. This allows Quicken or QuickBooks to present you with a complete list of accounts to select from for transaction download.
 
 **Step 5 — Transaction Download**
 
-Quicken/QuickBooks requests transaction history for each linked account. By default, the in-house OFX server returns **90 days of transaction history** (this is a configurable setting managed by Tyfone). Transactions are delivered in the OFX standard format and parsed natively by the Intuit application.
+Quicken or QuickBooks requests transaction history for each linked account. By default, the in-house OFX server returns the most recent **90 days of transaction history** — this is a configurable setting managed by Tyfone and can be adjusted for the credit union if needed. Transactions are delivered in standard OFX format, which Quicken and QuickBooks parse natively and match against existing records in the member's register, flagging new transactions for review and categorisation.
 
 **Step 6 — Sync Confirmation**
 
-Quicken/QuickBooks displays the imported transactions. Review and categorize them within your application. Subsequent syncs occur on-demand or on a scheduled basis, always resolving through the same in-house OFX endpoint.
+Quicken or QuickBooks displays the newly imported transactions for review. Members can accept, categorise, or match these transactions against existing entries in their register. Subsequent syncs can be triggered manually on-demand or scheduled to run automatically, and all future syncs will resolve through the same in-house OFX endpoint — providing a consistent, stable connection that does not depend on third-party aggregator availability.
 
 ***
 
@@ -95,9 +91,9 @@ Select the relevant account (checking, savings, etc.) and open the transaction h
 
 **Step 3 — Export Transactions**
 
-Click the export/download option and select the desired format:
+Click the export or download option in the transaction history view and select the file format that matches your accounting software:
 
-* **QBO** — for QuickBooks
+* **QBO** — for QuickBooks Online and QuickBooks Desktop
 * **QFX** — for Quicken
 * **OFX** — open standard, compatible with multiple tools
 * **CSV** — for spreadsheet or custom import workflows
