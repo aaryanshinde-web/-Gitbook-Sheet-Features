@@ -10,28 +10,28 @@ Members with active FICS mortgage loans can view loan details (property address,
 
 For the credit union, this integration reduces inbound servicing calls by surfacing self-service mortgage data within the primary member channel. It also eliminates the friction of redirecting you to a separate mortgage servicing portal. The feature lives under **Banking > Accounts > \[FICS Loan Account]** and is also accessible from the **Mortgage** item in the More section.
 
-| Attribute        | Detail                                                                                                                                                                    |
+| Attribute | Detail |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Feature Name     | Mortgage Balances - FICS API                                                                                                                                              |
-| Module           | Banking > Accounts > FICS Loan  > Mortgage                                                                                                                                |
-| Platforms        | OLB (Web), Mobile Banking (iOS/Android), Mobile Browser                                                                                                                   |
-| User Roles       | Retail member with active FICS-serviced mortgage loan(s)                                                                                                                  |
-| Key Actions      | View loan details, view balances, view transaction history, edit contact info, request payoff, send secure message, access statements, initiate payment (Pay Now via SSO) |
-| Integration Type | API (FICS loan servicing system)                                                                                                                                          |
-| SSO Dependencies | Pay Now, Paperless Statements (external redirect via SSO token)                                                                                                           |
+| Feature Name | Mortgage Balances - FICS API |
+| Module | Banking > Accounts > FICS Loan > Mortgage |
+| Platforms | OLB (Web), Mobile Banking (iOS/Android), Mobile Browser |
+| User Roles | Retail member with active FICS-serviced mortgage loan(s) |
+| Key Actions | View loan details, view balances, view transaction history, edit contact info, request payoff, send secure message, access statements, initiate payment (Pay Now via SSO) |
+| Integration Type | API (FICS loan servicing system) |
+| SSO Dependencies | Pay Now, Paperless Statements (external redirect via SSO token) |
 
 ***
 
 ## Use Cases
 
-| Use Case                                         | Who Uses It                                  | What They Do                                                                                                                                         | Business Value                                                                   |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ------------------------------------------------ | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| View mortgage loan details                       | Member with active FICS mortgage             | Navigates to Mortgage in sidebar or via Accounts, selects a loan, reviews property address, interest rate, payment schedule, and remaining term      | Reduces inbound "what's my balance/rate?" calls to the call center               |
-| Make an online mortgage payment                  | Member with upcoming payment due             | Clicks **Pay Now** on the account detail screen, acknowledges the external link warning, and completes payment in the FICS-integrated payment portal | Increases on-time payments; reduces servicing friction                           |
-| Request payoff information                       | Member preparing to sell or refinance        | Opens **Loan Information > Request payoff information**, selects delivery method (email/mail/fax), enters required dates, and submits                | Replaces paper or phone-based payoff requests with a digital, trackable workflow |
-| Update contact information on file               | Member whose address or phone has changed    | Navigates to **About this loan**, clicks **Edit**, updates fields, and saves                                                                         | Keeps servicer records current; reduces returned mail and missed communications  |
-| Download transaction history or balance report   | Member preparing for tax filing or refinance | Views **Transaction History** or navigates to **Balances** tab, downloads or prints the year-to-date summary                                         | Supports member financial planning; reduces document request calls               |
-| Send a secure message to the mortgage department | Member with a loan servicing question        | Opens the **Help** tab, types a message in "Send us a message", and submits                                                                          | Provides a channel-appropriate support path without leaving the banking session  |
+| View mortgage loan details | Member with active FICS mortgage | Navigates to Mortgage in sidebar or via Accounts, selects a loan, reviews property address, interest rate, payment schedule, and remaining term | Reduces inbound "what's my balance/rate?" calls to the call center |
+| Make an online mortgage payment | Member with upcoming payment due | Clicks **Pay Now** on the account detail screen, acknowledges the external link warning, and completes payment in the FICS-integrated payment portal | Increases on-time payments; reduces servicing friction |
+| Request payoff information | Member preparing to sell or refinance | Opens **Loan Information > Request payoff information**, selects delivery method (email/mail/fax), enters required dates, and submits | Replaces paper or phone-based payoff requests with a digital, trackable workflow |
+| Update contact information on file | Member whose address or phone has changed | Navigates to **About this loan**, clicks **Edit**, updates fields, and saves | Keeps servicer records current; reduces returned mail and missed communications |
+| Download transaction history or balance report | Member preparing for tax filing or refinance | Views **Transaction History** or navigates to **Balances** tab, downloads or prints the year-to-date summary | Supports member financial planning; reduces document request calls |
+| Send a secure message to the mortgage department | Member with a loan servicing question | Opens the **Help** tab, types a message in "Send us a message", and submits | Provides a channel-appropriate support path without leaving the banking session |
 
 Credit unions enabling this integration can measurably deflect mortgage servicing calls while surfacing the kind of account detail that earns member trust - especially for the increasingly common scenario where the mortgage is serviced by FICS but the primary banking relationship is with the CU.
 
@@ -42,7 +42,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 ### Prerequisites
 
 * Member must have an active FICS-serviced mortgage loan linked to their nFinia account.
-* The credit union must have the FICS API integration configured and enabled in  nFinia&#x20;
+* The credit union must have the FICS API integration configured and enabled in nFinia&#x20;
 * For **Pay Now** and **Paperless Statements**, a valid SSO token configuration must be in place between nFinia and the FICS payment/document portal.
 * Members with multiple FICS loans will see all linked loans in the account selector dropdown.
 
@@ -59,7 +59,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 <figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Below the summary, the **Transactions** section lists all historical payments. Each row shows date, amount, principal/interest/tax-insurance split, and remaining balance. Clicking a row expands the transaction detail view, which includes a **Download** button to save an individual transaction record as a PDF.
-3. Clicking **View more loan information**  opens the tabbed **Loan Information** view with five tabs: **About this loan**, **Balances**, **Account notes**, **Statement and documents**, and **Help**.
+3. Clicking **View more loan information** opens the tabbed **Loan Information** view with five tabs: **About this loan**, **Balances**, **Account notes**, **Statement and documents**, and **Help**.
 
 <figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,10 +84,10 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 ### Request Payoff Information
 
 13. From the **Loan Information** screen, clicking **Request payoff information** opens a modal with the following fields:
-    * **I need this information on or before** (date, required): The date by which you need the payoff quote.
-    * **Estimated date of payoff** (date, required): The date by which you intends to pay off the mortgage.
-    * **Send payoff information to**: Radio selection - My email (pre-filled from profile), My mailing address, or My fax number. Each selection reveals the relevant detail field.
-    * **Phone number** (pre-filled, required): Your contact number.
+ * **I need this information on or before** (date, required): The date by which you need the payoff quote.
+ * **Estimated date of payoff** (date, required): The date by which you intends to pay off the mortgage.
+ * **Send payoff information to**: Radio selection - My email (pre-filled from profile), My mailing address, or My fax number. Each selection reveals the relevant detail field.
+ * **Phone number** (pre-filled, required): Your contact number.
 
 <figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -120,17 +120,17 @@ Members can control the visibility of their FICS loan accounts through **Account
 
 ## Quick Reference
 
-| Task                                    | Navigation Path                                                     | Platform            | Notes                                              |
+| Task | Navigation Path | Platform | Notes |
 | --------------------------------------- | ------------------------------------------------------------------- | ------------------- | -------------------------------------------------- |
-| Access mortgage accounts                | Sidebar > Mortgage **or** Banking > Additional Services > Mortgage  | OLB, Mobile         | Requires active FICS loan linked to member account |
-| View loan details (rate, term, address) | Mortgage account > View more loan information > About this loan     | OLB, Mobile         | Real-time FICS data                                |
-| Edit contact information                | About this loan > Edit (Contact information section)                | OLB, Mobile         | Updates FICS servicer record                       |
-| View balance breakdown                  | Loan information > Balances                                         | OLB, Mobile         | Includes all escrow/fee components                 |
-| Download year-to-date balance report    | Loan information > Balances > Download balances year-to-date totals | OLB                 | Opens print dialog; save as PDF                    |
-| View/search account notes               | Loan information > Account notes                                    | OLB, Mobile         | Notes entered by servicer                          |
-| Request payoff information              | Loan information > Request payoff information                       | OLB, Mobile         | Delivery via email, mail, or fax                   |
-| Make a mortgage payment                 | Account detail > Pay Now                                            | OLB, Mobile         | SSO redirect to FICS payment portal                |
-| Send message to mortgage team           | Loan information > Help > Send us a message                         | OLB, Mobile         | 249-character limit                                |
-| Download transaction record             | Account detail > Transactions > \[expand transaction] > Download    | OLB, Mobile Browser | PDF per transaction                                |
-| Access paperless statements             | Loan information > Statement and documents                          | OLB                 | SSO redirect to FICS document portal               |
-| Hide/show a FICS loan                   | Account detail > Settings gear > Account Settings                   | OLB                 | Controls Accounts list visibility                  |
+| Access mortgage accounts | Sidebar > Mortgage **or** Banking > Additional Services > Mortgage | OLB, Mobile | Requires active FICS loan linked to member account |
+| View loan details (rate, term, address) | Mortgage account > View more loan information > About this loan | OLB, Mobile | Real-time FICS data |
+| Edit contact information | About this loan > Edit (Contact information section) | OLB, Mobile | Updates FICS servicer record |
+| View balance breakdown | Loan information > Balances | OLB, Mobile | Includes all escrow/fee components |
+| Download year-to-date balance report | Loan information > Balances > Download balances year-to-date totals | OLB | Opens print dialog; save as PDF |
+| View/search account notes | Loan information > Account notes | OLB, Mobile | Notes entered by servicer |
+| Request payoff information | Loan information > Request payoff information | OLB, Mobile | Delivery via email, mail, or fax |
+| Make a mortgage payment | Account detail > Pay Now | OLB, Mobile | SSO redirect to FICS payment portal |
+| Send message to mortgage team | Loan information > Help > Send us a message | OLB, Mobile | 249-character limit |
+| Download transaction record | Account detail > Transactions > \[expand transaction] > Download | OLB, Mobile Browser | PDF per transaction |
+| Access paperless statements | Loan information > Statement and documents | OLB | SSO redirect to FICS document portal |
+| Hide/show a FICS loan | Account detail > Settings gear > Account Settings | OLB | Controls Accounts list visibility |
