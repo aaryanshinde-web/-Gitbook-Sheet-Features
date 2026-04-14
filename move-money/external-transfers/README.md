@@ -4,7 +4,6 @@ External Transfers covers every rail nFinia offers for moving money out of Summe
 
 ## What's in this section
 
-* **External ACH Transfer** —  — ACH push and pull transfers to an external linked account, including same-day vs. standard timing.
-* **FedNow Instant Pay** —  — FedNow-rail instant payments, availability windows, and the receive-side member experience.
-* **Wire Transfers** —  — domestic wire origination, verification, cutoffs, and fees.
-
+* **External ACH Transfer** — — ACH push and pull transfers to an external linked account, including same-day vs. standard timing.
+* **FedNow Instant Pay** — — FedNow-rail instant payments, availability windows, and the receive-side member experience.
+* **Wire Transfers** — — domestic wire origination, verification, cutoffs, and fees.
