@@ -13,29 +13,36 @@ Business members initiate ACH pushes to fund a business operating account from a
 
 ## Step-by-Step Guide
 
-**Step 1 — Navigate to External ACH Transfer**
+**Step 1 — Navigate to Move Money Hub**
 
-From the Move Money menu, select **External Transfer** to open the External ACH Transfer form. If this is the first external transfer, the member must first add and verify the external account — either through Plaid instant verification or micro-deposit confirmation — before the transfer can be initiated.
+Click ‘Move Money' in the top navigation bar. The Move Money Hub displays External Transfer or Same Day Trander to other institutions as one of the options.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-04-13 at 3.16.24 PM.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Select Accounts, Enter Amount, and Choose Direction**
+**Step 3 — Click on External Transfer**
 
-Select the Summerville CU account as either the source (push) or destination (pull), then select the verified external account for the other side of the transaction. Enter the transfer amount and select the transfer direction — **Send** to push funds out or **Receive** to pull funds in — then choose a delivery date or select immediate initiation.
+This screen shoes a simplified form with fields for entering the source account and external recipient,enter an amount of $100 and select the date and click on continue.
 
 <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Review and Confirm**
+**Step 4 — Review Pre-Confirmation**
 
-The confirmation screen displays the full transfer details — source account, destination account, amount, direction, and estimated settlement date. Click **Submit** to initiate the ACH transaction; a confirmation reference number is issued and the transfer enters the ACH processing queue for the next available batch.
+The confirmation screen displays a transfer from Retail Savings Account to an external Retail Savings Account, showing the description and scheduled transfer date.
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-### Error Handling
+**Step 5 — Select OTP Verification Method**
 
-| Scenario | Member Experience | Recovery |
-| --- | --- | --- |
-| External account not yet verified | Transfer form blocks submission | Complete Plaid IAV or micro-deposit verification first |
-| Insufficient funds in source account | Inline validation error on submission | Fund the source account or reduce the transfer amount |
-| ACH return (R01, R02, R03) | Notification in Inbox; transfer reversed | Verify external account details and resubmit |
-| Daily transfer limit exceeded | Limit error shown on form | Split into multiple transfers or contact the credit union to review limits |
+A verification modal appears offering three authentication methods — 'Send me a message', 'Call me', or 'Send me an email' — to verify the external transfer before processing.
+
+<figure><img src="../../.gitbook/assets/img_4406668196b9.png" alt=""><figcaption></figcaption></figure>
+
+**Step 6 — Enter OTP & Submit**
+
+The verification page is displayed with a field to enter the verification code received via the selected authentication method to complete the external transfer.
+
+<figure><img src="../../.gitbook/assets/img_a54afdf9f3c7.png" alt=""><figcaption></figcaption></figure>
+
+_**Step 7: External Funds are Transfered Successfully**_ &#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.15.16 AM.png" alt=""><figcaption></figcaption></figure>
