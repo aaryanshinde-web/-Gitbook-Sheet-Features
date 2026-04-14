@@ -1,8 +1,8 @@
 ---
 description: >-
-  The Related Links sidebar on the Dashboard — quick-access shortcuts to common
-  self-service tasks like password changes, e-statements, and scheduled
-  transfers.
+ The Related Links sidebar on the Dashboard — quick-access shortcuts to common
+ self-service tasks like password changes, e-statements, and scheduled
+ transfers.
 ---
 
 # Related Links
@@ -13,12 +13,12 @@ The Related Links sidebar is a panel at the bottom-right of the Dashboard that p
 
 ## Key Use Cases
 
-| Use Case                   | Who Uses It                             | What They Do                                           | Business Value                                           |
+| Use Case | Who Uses It | What They Do | Business Value |
 | -------------------------- | --------------------------------------- | ------------------------------------------------------ | -------------------------------------------------------- |
-| Quick Password Change      | Member who needs to update credentials  | Clicks "Change Password" in Related Links              | Reduces navigation from 3 clicks to 1                    |
-| Download Monthly Statement | Member doing monthly bookkeeping        | Clicks "Download E-Statements" from Dashboard          | Immediate access without navigating to More > eDocuments |
-| Review Scheduled Transfers | Member checking upcoming auto-transfers | Clicks "View Scheduled Transfers" from Dashboard       | Direct access to scheduled transfer list                 |
-| Direct Deposit Enrollment  | Member starting a new job               | Clicks "Direct Deposit Form" to access pre-filled form | Simplifies a high-value onboarding action                |
+| Quick Password Change | Member who needs to update credentials | Clicks "Change Password" in Related Links | Reduces navigation from 3 clicks to 1 |
+| Download Monthly Statement | Member doing monthly bookkeeping | Clicks "Download E-Statements" from Dashboard | Immediate access without navigating to More > eDocuments |
+| Review Scheduled Transfers | Member checking upcoming auto-transfers | Clicks "View Scheduled Transfers" from Dashboard | Direct access to scheduled transfer list |
+| Direct Deposit Enrollment | Member starting a new job | Clicks "Direct Deposit Form" to access pre-filled form | Simplifies a high-value onboarding action |
 
 ## End-to-End Workflow
 
