@@ -50,21 +50,21 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 **Accessing the Mortgage Feature**
 
-1. After logging in, click **Mortgage** in the More section, or navigate to **Banking > Additional Services > Mortgage**, or select a FICS loan account directly from the **Accounts** list. The system calls the FICS API and retrieves all linked mortgage accounts for the authenticated member. If you have a single loan, the platform loads it directly. If multiple loans exist, a **Select Account** dropdown appears - select the desired loan.
+1. After logging in, click **Mortgage** in the More section, or navigate to **Banking > Additional Services > Mortgage**, or select a FICS loan account directly from the **Accounts** list. The platform makes a real-time API call to FICS and retrieves all mortgage accounts linked to your member profile. If you have a single loan, the platform loads that account directly. If you hold multiple FICS mortgage loans, a **Select Account** dropdown appears at the top of the screen — select the desired loan from the list to load its details.
 
 <figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
-2. There is an option to view the **Account Detail** screen, displaying the FICS loan identifier, remaining balance, interest rate, next due amount and date, remaining term.
+2. The **Account Detail** screen loads, displaying the key loan summary data retrieved from FICS: the loan identifier, current outstanding balance, interest rate, the next payment due amount and due date, and the remaining loan term. This gives members an instant snapshot of their mortgage position without needing to call the servicer or wait for a statement.
 
 <figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
-2. Below the summary, the **Transactions** section lists all historical payments. Each row shows date, amount, principal/interest/tax-insurance split, and remaining balance. Clicking a row expands the transaction detail view, which includes a **Download** button to save an individual transaction record as a PDF.
-3. Clicking **View more loan information** opens the tabbed **Loan Information** view with five tabs: **About this loan**, **Balances**, **Account notes**, **Statement and documents**, and **Help**.
+3. Below the summary, the **Transactions** section lists all historical mortgage payments in chronological order. Each row shows the payment date, total amount paid, and the breakdown across principal, interest, taxes, and insurance, along with the remaining balance after that payment. Clicking any row expands a detailed transaction view that includes a **Download** button to save that individual payment record as a PDF — useful for accounting, tax documentation, or mortgage servicing inquiries.
+4. Clicking **View more loan information** opens the full tabbed **Loan Information** view with five sections: **About this loan**, **Balances**, **Account notes**, **Statement and documents**, and **Help**.
 
 <figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **About this loan** (default): Displays a full loan detail card - property address, date registered, next due payment amount and date, current interest rate (APR), payment frequency, remaining term, maturity date, a **Current payment breakdown** section (principal and interest, tax and insurance, total), and a **Contact information** section showing home phone, business phone, email address, and mailing address with an **Edit** link.
-* Accessible via the Edit link in the Contact information section of About this loan. Updates the contact record in FICS for this loan account. All fields are required unless marked optional. Fields include: First name (Optional), Last name (Optional), Address 1, Address 2 (Optional), City/Town, State, ZIP Code, Email address, Phone number (home), Business phone (Optional), and Extension (Optional). Clicking **Save** submits the update to FICS. A success banner appears on confirmation.
+* The **Edit Contact Information** form is accessible via the Edit link within the Contact information section of About this loan. Updating this information writes directly to the FICS loan record, ensuring the mortgage servicer has current contact details for payment reminders, correspondence, and payoff notices. Available fields include First name (optional), Last name (optional), Address 1, Address 2 (optional), City/Town, State, ZIP Code, Email address, Phone number (home), Business phone (optional), and Extension (optional). Clicking **Save** submits the update to FICS and a success confirmation banner appears.
 
 <figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
