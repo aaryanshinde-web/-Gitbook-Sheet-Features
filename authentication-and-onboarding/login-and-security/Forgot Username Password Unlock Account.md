@@ -1,7 +1,7 @@
 ---
 description: >-
-  Recover your User ID, reset a forgotten password, or unlock a locked account
-  through self-service verification workflows
+ Recover your User ID, reset a forgotten password, or unlock a locked account
+ through self-service verification workflows
 ---
 
 # Forgot Username, Password & Unlock Account
