@@ -1,7 +1,7 @@
 ---
 description: >-
- View detailed information for each of your accounts, including balance,
- transaction history, and account-specific options.
+  View detailed information for each of your accounts, including balance,
+  transaction history, and account-specific options.
 ---
 
 # Account Detail — All Types
