@@ -25,12 +25,14 @@ Alert history is maintained in the Inbox, giving members a complete record of al
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ----------------------- | ----------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------- |
-| Low Balance Alert | Members monitoring overdraft risk | Set a balance alert threshold per account so the system notifies when the balance drops below a defined amount | Early warning before an overdraft occurs, giving the member time to transfer funds |
-| Large Transaction Alert | Members detecting fraud | Configure an alert for any charge above a set dollar amount | Immediate notification of unexpected large transactions, enabling rapid response to unauthorized activity |
-| Login Notification | Security-conscious members | Enable a login alert so a notification is sent for every new sign-in event | Real-time detection of unauthorized login attempts, even when the member is not actively using the app |
-| Do Not Disturb Schedule | Members avoiding overnight alerts | Set a DND time window to mute non-critical notifications during sleep hours | Reduces sleep disruption while ensuring that critical security alerts are always delivered regardless of the DND setting |
+
+Members monitoring overdraft risk set a balance alert threshold per account so the system notifies when the balance drops below a defined amount, early warning before an overdraft occurs, giving the member time to transfer funds.
+
+Members detecting fraud configure an alert for any charge above a set dollar amount, immediate notification of unexpected large transactions, enabling rapid response to unauthorized activity.
+
+Security-conscious members enable a login alert so a notification is sent for every new sign-in event, real-time detection of unauthorized login attempts, even when the member is not actively using the app.
+
+Members avoiding overnight alerts set a DND time window to mute non-critical notifications during sleep hours, reduces sleep disruption while ensuring that critical security alerts are always delivered regardless of the DND setting.
 
 ## Step-by-Step Guide
 
