@@ -10,29 +10,29 @@ BDI is the third-party electronic document management system that stores and ser
 
 This feature serves retail and business members alike.&#x20;
 
-| Attribute            | Detail                                                                                                         |
+| Attribute | Detail |
 | -------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Feature Name         | eDocuments - BDI - SSO                                                                                         |
-| Module               | Banking > More > eStatements / Statements and Tax Forms                                                        |
-| User Roles           | Retail Member, Business Member                                                                                 |
-| Access Level         | Authenticated member (SSO token issued by nFinia post-login)                                                   |
-| Key Actions          | View documents, Switch membership, Download PDF, View Enrollment, View Disclosures, Search Statements          |
+| Feature Name | eDocuments - BDI - SSO |
+| Module | Banking > More > eStatements / Statements and Tax Forms |
+| User Roles | Retail Member, Business Member |
+| Access Level | Authenticated member (SSO token issued by nFinia post-login) |
+| Key Actions | View documents, Switch membership, Download PDF, View Enrollment, View Disclosures, Search Statements |
 | Regulatory Relevance | E-SIGN Act compliance (electronic disclosure delivery), paperless enrollment, audit trail of document delivery |
-| Integration Type     | SSO redirect to third-party BDI document portal                                                                |
-| Platforms            | Web (desktop browser), Mobile (nFinia app → device browser)                                                    |
+| Integration Type | SSO redirect to third-party BDI document portal |
+| Platforms | Web (desktop browser), Mobile (nFinia app → device browser) |
 
 ***
 
 ## Use Cases
 
-| Use Case                                | Who Uses It                          | What They Do                                                                                                             | Business Value                                                                                                      |
+| Use Case | Who Uses It | What They Do | Business Value |
 | --------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| **View current monthly statement**      | Retail member                        | Navigates to Statements & Tax Forms → SSO launches BDI portal → selects membership → opens most recent Monthly Statement | Replaces paper delivery; instant self-service access                                                                |
-| **Download a statement PDF**            | Member or joint account holder       | Opens a statement in the BDI portal and clicks "View PDF" to download or print a printable version                       | Supports loan applications, tax filings, and audits without branch involvement                                      |
-| **Switch between multiple memberships** | Member with multiple account numbers | Uses the membership dropdown in BDI to toggle between different member numbers linked to your digital banking profile    | Eliminates need for multiple logins; serves complex household or business structures                                |
-| **View historical/archived documents**  | Member                               | Clicks "> View all past documents" link within a document type section                                                   | Provides self-service access to statement archive; reduces call center volume for historical statement requests     |
-| **Review enrollment and disclosures**   | New member or compliance officer     | Navigates to Enrollment or Disclosures tab within BDI portal                                                             | Ensures E-SIGN Act compliance; you can view the Online Statement Enrollment Disclosure and confirm paperless opt-in |
-| **Search for a specific statement**     | Member or FI operations              | Uses Statement Search tab (desktop) to locate a document by date or criteria                                             | Faster document retrieval without scrolling through full archive                                                    |
+| **View current monthly statement** | Retail member | Navigates to Statements & Tax Forms → SSO launches BDI portal → selects membership → opens most recent Monthly Statement | Replaces paper delivery; instant self-service access |
+| **Download a statement PDF** | Member or joint account holder | Opens a statement in the BDI portal and clicks "View PDF" to download or print a printable version | Supports loan applications, tax filings, and audits without branch involvement |
+| **Switch between multiple memberships** | Member with multiple account numbers | Uses the membership dropdown in BDI to toggle between different member numbers linked to your digital banking profile | Eliminates need for multiple logins; serves complex household or business structures |
+| **View historical/archived documents** | Member | Clicks "> View all past documents" link within a document type section | Provides self-service access to statement archive; reduces call center volume for historical statement requests |
+| **Review enrollment and disclosures** | New member or compliance officer | Navigates to Enrollment or Disclosures tab within BDI portal | Ensures E-SIGN Act compliance; you can view the Online Statement Enrollment Disclosure and confirm paperless opt-in |
+| **Search for a specific statement** | Member or FI operations | Uses Statement Search tab (desktop) to locate a document by date or criteria | Faster document retrieval without scrolling through full archive |
 
 The BDI SSO integration is particularly important for credit unions with diverse membership profiles — households with both retail and business accounts, members with multiple share numbers, and members who require mortgage statements alongside standard monthly statements. By surfacing all document types under one authenticated session, the credit union eliminates the need for members to maintain a separate BDI login.
 
@@ -53,7 +53,7 @@ The BDI SSO integration is particularly important for credit unions with diverse
 
 **Step 1 - Navigate to eStatements**
 
-Log in to nFinia and click **Statements and Tax Forms** in the  **More** section in the navigation menu. The breadcrumb path reads: `Banking > More > eStatements`.
+Log in to nFinia and click **Statements and Tax Forms** in the **More** section in the navigation menu. The breadcrumb path reads: `Banking > More > eStatements`.
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
@@ -85,7 +85,7 @@ Tapping this option triggers the SSO. A **Processing...** spinner appears briefl
 
 **Step 3 - BDI Portal Opens in Device Browser**
 
-The device's default browser launches and opens the BDI portal. You land on the **Documents** tab with your name and the membership dropdown pre-selected. The portal immediately displays the available document types  with the three most recent entries per type.
+The device's default browser launches and opens the BDI portal. You land on the **Documents** tab with your name and the membership dropdown pre-selected. The portal immediately displays the available document types with the three most recent entries per type.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.14.39 PM.png" alt="" width="244"><figcaption></figcaption></figure>
 
@@ -127,13 +127,13 @@ Tapping a statement date opens the detail view: your name, masked account number
 
 ## Quick Reference
 
-| Task                            | Navigation Path                                      | Who Can Do It            | Notes                                                              |
+| Task | Navigation Path | Who Can Do It | Notes |
 | ------------------------------- | ---------------------------------------------------- | ------------------------ | ------------------------------------------------------------------ |
-| Access eDocuments (Desktop)     | Sidebar > Statements and Tax Forms                   | Any authenticated member | BDI portal opens in new browser tab via SSO                        |
-| Access eDocuments (Mobile)      | Hamburger menu (≡) > Statements & Tax Forms          | Any authenticated member | BDI portal opens in device's default browser                       |
-| Switch membership in BDI        | BDI portal > Documents tab > Membership dropdown     | Any authenticated member | Lists all memberships linked to the nFinia digital banking profile |
-| View a statement                | BDI portal > Documents > \[Statement date]           | Any authenticated member | Opens full statement detail with per-account summary               |
-| Download statement as PDF       | BDI portal > Statement detail > View PDF             | Any authenticated member | Opens printable/downloadable PDF of the selected statement         |
-| View full document archive      | BDI portal > Documents > "> View all past documents" | Any authenticated member | Expands full history beyond the three most recent entries          |
-| View legal disclosures          | BDI portal > Disclosures tab                         | Any authenticated member | Online Statement Enrollment Disclosure for E-SIGN compliance       |
-| Search for a specific statement | BDI portal > Statement Search tab                    | Any authenticated member | Desktop only; not available on mobile navigation                   |
+| Access eDocuments (Desktop) | Sidebar > Statements and Tax Forms | Any authenticated member | BDI portal opens in new browser tab via SSO |
+| Access eDocuments (Mobile) | Hamburger menu (≡) > Statements & Tax Forms | Any authenticated member | BDI portal opens in device's default browser |
+| Switch membership in BDI | BDI portal > Documents tab > Membership dropdown | Any authenticated member | Lists all memberships linked to the nFinia digital banking profile |
+| View a statement | BDI portal > Documents > \[Statement date] | Any authenticated member | Opens full statement detail with per-account summary |
+| Download statement as PDF | BDI portal > Statement detail > View PDF | Any authenticated member | Opens printable/downloadable PDF of the selected statement |
+| View full document archive | BDI portal > Documents > "> View all past documents" | Any authenticated member | Expands full history beyond the three most recent entries |
+| View legal disclosures | BDI portal > Disclosures tab | Any authenticated member | Online Statement Enrollment Disclosure for E-SIGN compliance |
+| Search for a specific statement | BDI portal > Statement Search tab | Any authenticated member | Desktop only; not available on mobile navigation |
