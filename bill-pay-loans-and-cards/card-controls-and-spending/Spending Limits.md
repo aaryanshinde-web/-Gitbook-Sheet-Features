@@ -10,21 +10,21 @@ Spending Limits are found under Card Controls in the Card Details view. Each lim
 
 ## At a Glance
 
-| Attribute             | Detail                                                           |
+| Attribute | Detail |
 | --------------------- | ---------------------------------------------------------------- |
-| Module                | Banking › Cards › Card Details › Card Controls › Spending Limits |
-| Per Transaction Limit | Declines any single transaction exceeding the set amount         |
-| Per Month Limit       | Declines transactions once the monthly spend cap is reached      |
-| Toggle                | Each limit can be independently enabled or disabled              |
-| Related Features      | Location Controls, Card Alerts, Usage Control                    |
+| Module | Banking › Cards › Card Details › Card Controls › Spending Limits |
+| Per Transaction Limit | Declines any single transaction exceeding the set amount |
+| Per Month Limit | Declines transactions once the monthly spend cap is reached |
+| Toggle | Each limit can be independently enabled or disabled |
+| Related Features | Location Controls, Card Alerts, Usage Control |
 
 ## Key Use Cases
 
-| Use Case                      | Who It's For                               |
+| Use Case | Who It's For |
 | ----------------------------- | ------------------------------------------ |
 | **Cap per-transaction spend** | Member managing a shared or secondary card |
-| **Set a monthly budget**      | Member tracking monthly expenses           |
-| **Disable a limit**           | Member who no longer needs a cap           |
+| **Set a monthly budget** | Member tracking monthly expenses |
+| **Disable a limit** | Member who no longer needs a cap |
 
 ## Step-by-Step Guide
 
