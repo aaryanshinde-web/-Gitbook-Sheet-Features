@@ -13,20 +13,22 @@ Business members use FedNow when a vendor requires payment before releasing a sh
 
 ## Step-by-Step Guide
 
-**Step 1 — Select FedNow Instant Pay from Move Money**
+**Step 1 — Navigate to Move Money Hub**
 
-From the Move Money menu, select **Instant Pay** or **FedNow** to open the instant payment form. Verify that the recipient's financial institution participates in the FedNow network — the platform will confirm network eligibility based on the routing number entered.
+Click ‘Move Money' in the top navigation bar. Select "Send Now" or "Instant Pay" option.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Step 2 — Enter Recipient Details and Amount**
+**Step 2 — Navigate to FedNow Instant Pay**
 
-Enter the recipient's account number, routing number, and the payment amount. FedNow payments are irrevocable once submitted — verify all recipient details carefully before proceeding, as there is no recall mechanism once the payment is sent and the funds are available in the recipient's account.
+The FedNow Terms and Conditions page is displayed with checkboxes for accepting the agreement before proceeding with the instant payment. Select the source account and recipient account,enter the amount to be paid and select the date for this transfer and click on continue.
 
 <figure><img src="../../.gitbook/assets/Caltech Employees FedNow Instant Pay Image copy.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Submit and Confirm Real-Time Settlement**
+**Step 3 — Final Confirmation & Send**
 
-Click **Send Now** to initiate the FedNow payment. The system processes the transaction in real time and displays a confirmation screen with a reference number and the settlement timestamp — confirming that the funds are available at the receiving institution immediately.
+The final confirmation screen shows a FedNow instant transfer with full transaction details and a confirmation button to complete the payment.
 
 <figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
