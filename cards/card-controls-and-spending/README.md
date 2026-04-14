@@ -9,4 +9,3 @@ Card Controls & Spending gives Summerville CU members real-time control over how
 * **Spending Limits** — Per-transaction and rolling-period spending caps and how they interact with standing authorization limits.
 * **Location Controls** — Region and country rules, including travel-mode activation and auto-decline of out-of-region attempts.
 * **Usage Control** — Merchant-category and transaction-type controls (e.g., allow ATM but block online, allow gas but block gambling).
-
