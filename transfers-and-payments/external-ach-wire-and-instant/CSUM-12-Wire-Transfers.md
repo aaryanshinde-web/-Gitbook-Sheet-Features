@@ -12,34 +12,32 @@ Summerville Credit Union offers both Domestic and International Outgoing Wire Tr
 
 Domestic wires clear through the Federal Reserve Fedwire system and typically settle the same business day when submitted before the daily cut-off time. International wires route through the SWIFT network and typically settle within 1–3 international banking days, with additional time for correspondent bank processing.
 
-Wire transfers are captured as digital forms within the Online Forms portal. The system pre-populates available account information and guides You through all required fields. For international wires, a SWIFT/BIC code for the receiving bank is mandatory, as is a complete international beneficiary address.
+Wire transfers are captured as digital forms within the Online Forms portal. The system pre-populates available account information and guides members through all required fields. For international wires, a SWIFT/BIC code for the receiving bank is mandatory, as is a complete international beneficiary address.
 
 **At a Glance**
 
-| Attribute                | Detail                                                   |
+| Attribute | Detail |
 | ------------------------ | -------------------------------------------------------- |
-| Module                   | Move Money > Online Forms > Wire Transfer                |
-| Domestic Network         | Federal Reserve Fedwire                                  |
-| International Network    | SWIFT                                                    |
-| Domestic Settlement      | Same business day (if before cut-off)                    |
-| International Settlement | 1–3 international banking days                           |
-| Related Reports          | (Move Money Hub), (Recipient Management), (Online Forms) |
+| Module | Move Money > Online Forms > Wire Transfer |
+| Domestic Network | Federal Reserve Fedwire |
+| International Network | SWIFT |
+| Domestic Settlement | Same business day (if before cut-off) |
+| International Settlement | 1–3 international banking days |
+| Related Reports | (Move Money Hub), (Recipient Management), (Online Forms) |
 
 ## Key Use Cases
 
-| Use Case                       | Who Uses It                                    | What They Do                                                               | Business Value                                                     |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ------------------------------ | ---------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| Real Estate Closing            | You wiring earnest money or closing funds      | Complete domestic wire form with title company's bank details              | Same-day settlement meets real estate transaction deadlines        |
-| International Supplier Payment | Business You paying overseas vendors           | Complete international wire form with SWIFT, IBAN, and beneficiary address | SWIFT network reaches most global financial institutions           |
-| Recurring Wire Payee           | You who wire to the same beneficiary regularly | Save recipient in Recipient Management; use template for repeat wires      | Reduces data entry errors for known beneficiaries                  |
-| High-Value Urgent Payment      | You needing same-day guaranteed settlement     | Use wire instead of ACH for amount-critical same-day needs                 | ACH cannot guarantee same-day; wire settles by end of business day |
-|                                |                                                |                                                                            |                                                                    |
-
+| Real Estate Closing | Members wiring earnest money or closing funds | Complete domestic wire form with title company's bank details | Same-day settlement meets real estate transaction deadlines |
+| International Supplier Payment | Business You paying overseas vendors | Complete international wire form with SWIFT, IBAN, and beneficiary address | SWIFT network reaches most global financial institutions |
+| Recurring Wire Payee | Members who wire to the same beneficiary regularly | Save recipient in Recipient Management; use template for repeat wires | Reduces data entry errors for known beneficiaries |
+| High-Value Urgent Payment | Members needing same-day guaranteed settlement | Use wire instead of ACH for amount-critical same-day needs | ACH cannot guarantee same-day; wire settles by end of business day |
 ## Step-by-Step Guide
 
 **Step 1 — Navigate to Move Money Hub**
 
-Navigate to move money hub and then from there click on Domestic Wire Transfers and it would be redirected  to Wire Transfer Forms
+Navigate to move money hub and then from there click on Domestic Wire Transfers and it would be redirected to Wire Transfer Forms
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
