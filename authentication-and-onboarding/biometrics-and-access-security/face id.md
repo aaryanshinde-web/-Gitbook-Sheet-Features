@@ -39,7 +39,7 @@ You open the Summerville CU nFinia app. The Welcome screen presents two primary 
 
 **Step 2 — Enter Credentials**
 
-The Log In screen loads with fields for **Username** and **Password**. Enter your username and password.
+The Log In screen loads with two input fields: **Username** and **Password**. Enter your registered digital banking username and password. Below the password field, two optional checkboxes are displayed — review these before tapping Log In, as one of them controls Face ID enrollment.
 
 <figure><img src="../../.gitbook/assets/Summerville_CU_Log_In_Screen___Enable_Face_ID_Checkbox_2.jpeg" alt="Log In screen — enter credentials" width="340"><figcaption></figcaption></figure>
 
@@ -50,23 +50,23 @@ Below the credential fields, two checkboxes are visible:
 * **Remember me** — pre-checked by default
 * **Enable Face ID** — unchecked by default on first access; check this box to enroll
 
-Checking **Enable Face ID** signals to the app that you consent to biometric authentication for future sessions on this device.
+Checking **Enable Face ID** signals to the app that you are opting in to biometric authentication for all future sessions on this device. From the next login onwards, the app will prompt your device's Face ID system instead of asking for your username and password. If you are on a shared device or prefer not to use Face ID, leave this checkbox unchecked and the app will continue to require full credential entry each time.
 
 <figure><img src="../../.gitbook/assets/Summerville_CU_Log_In_Screen___Enable_Face_ID_Checkbox_2.jpeg" alt="Log In screen — check Enable Face ID checkbox" width="340"><figcaption></figcaption></figure>
 
 **Step 4 — Complete Login**
 
-Tap the **Log In** button. The platform authenticates your credentials. On success, the app requests your device's biometric framework to register this session as Face ID–enabled.
+Tap the **Log In** button. The platform authenticates your credentials against your account record. On success, and because you checked Enable Face ID, the app communicates with your device's biometric framework to initiate the Face ID enrollment process for this device. You will be prompted at the device level to confirm with a glance.
 
 <figure><img src="../../.gitbook/assets/Summerville_CU_Log_In_Screen___Enable_Face_ID_Checkbox_2.jpeg" alt="Log In screen — tap Log In button" width="340"><figcaption></figcaption></figure>
 
 **Step 5 — Biometric Binding (Device-Level)**
 
-Your device OS presents a native biometric confirmation prompt. Confirm using Face ID. The nFinia app stores a device-bound token (not facial data) associated with your session.
+Your device operating system presents a native biometric confirmation prompt — the same system prompt used by other apps that support Face ID. Look at the camera to authenticate. Once confirmed, the nFinia app stores a secure, device-bound token tied to your session. Crucially, no facial data, biometric templates, or images are sent to Tyfone or Summerville CU servers — the biometric match happens entirely on your device and only a success signal is passed to the app.
 
 **Step 6 — Subsequent Sessions**
 
-On the next app launch, the app triggers the Face ID prompt directly instead of the credential entry screen. Authenticate with a glance. Your session begins immediately upon successful biometric match.
+From the next time you open the app, the login flow changes automatically. Instead of showing the username and password fields, the app triggers a Face ID prompt directly on the welcome screen. Authenticate with a glance and your session opens immediately — no credential entry required. This is particularly valuable for members who check balances or review transactions frequently throughout the day, as each login takes a second rather than requiring typed credentials.
 
 ## Error Handling
 
