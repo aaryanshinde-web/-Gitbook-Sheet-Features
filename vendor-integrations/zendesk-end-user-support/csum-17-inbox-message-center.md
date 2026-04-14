@@ -25,12 +25,14 @@ A notification badge on the Inbox icon in the Dashboard navigation shows the unr
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ------------------------- | ------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| Review Notifications | Members checking recent account activity | Open Inbox > Notifications to see a consolidated history of all recent system alerts | Provides a single-screen view of account events without navigating account by account |
-| View Support Conversation | Members following up on a past inquiry | Open Inbox > Support Messages to review the full conversation thread with credit union staff | Eliminates the need to call the credit union to reference a previous support exchange |
-| Send Support Request | Members with account questions | Click New Message to submit a secure support inquiry to the credit union | Provides an asynchronous, secure support channel that avoids phone hold times and documents the conversation |
-| Track Form Submission | Members checking whether a submitted form was received | Look for a form submission confirmation in Inbox notifications | Confirms that a submitted form has been received and processed, reducing uncertainty |
+
+Members checking recent account activity open Inbox > Notifications to see a consolidated history of all recent system alerts, provides a single-screen view of account events without navigating account by account.
+
+Members following up on a past inquiry open Inbox > Support Messages to review the full conversation thread with credit union staff, eliminates the need to call the credit union to reference a previous support exchange.
+
+Members with account questions click New Message to submit a secure support inquiry to the credit union, provides an asynchronous, secure support channel that avoids phone hold times and documents the conversation.
+
+Members checking whether a submitted form was received look for a form submission confirmation in Inbox notifications, confirms that a submitted form has been received and processed, reducing uncertainty.
 
 ## Step-by-Step Guide
 
