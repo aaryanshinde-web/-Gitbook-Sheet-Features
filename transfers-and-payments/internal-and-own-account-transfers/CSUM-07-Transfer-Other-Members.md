@@ -1,5 +1,5 @@
 ---
-description: Transfer to Other Credit Union Members
+description: Transfer to Other Credit Union You
 ---
 
 # Transfer to Other Members
