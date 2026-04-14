@@ -55,4 +55,3 @@ The member can see each membership section with its membership number and all as
 The member scrolls down to see any additional memberships and their accounts. Members with multiple memberships see each one listed as a separate section.
 
 <figure><img src="/.gitbook/assets/accounts-membership-tab-2.png" alt="" width="480"><figcaption></figcaption></figure>
-
