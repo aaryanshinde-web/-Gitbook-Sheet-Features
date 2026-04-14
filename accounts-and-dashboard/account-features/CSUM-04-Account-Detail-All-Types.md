@@ -15,20 +15,26 @@ Business members access the loan account detail view to confirm the current outs
 
 ## Step-by-Step Guide
 
-**Step 1 — Select the Account from the Accounts Overview**
+**Step 1 — Start from Dashboard**
 
-From the Accounts Overview or Dashboard, click the account tile to open the Account Detail screen for that specific account. The header section displays the account type, current balance, and the key metrics most relevant to that account — available balance for transaction accounts, credit available for revolving products, and principal balance for loans.
+You begin at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Review Account Metadata and Terms**
+**Step 2 — Open the More Menu**
 
-Scroll below the balance summary to see account-specific details — for deposit accounts, this includes the account number, routing number, interest rate, and dividend information; for loan accounts, it shows the original loan amount, outstanding balance, interest rate, next payment due date, and remaining term. This information is available on-demand without requiring a statement or a credit union contact.
+Click 'More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 3 — Access Account Actions**
+**Step 3 — Navigate from Dashboard to Account Detail**
 
-Use the action buttons at the top of the Account Detail screen — Transfer, Pay, Inquire, or Statements — to initiate a relevant task directly from the account context. Business members who have reviewed the account balance and identified an action to take can execute it immediately without returning to the navigation menu.
+The Account Overview page is shown in membership view with checking and savings accounts displaying their balances. A promotional banner and the Quick Transfer section are visible on the right side.
 
 <figure><img src="../../.gitbook/assets/img_57d573490ef8.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 4 — View Checking Account Balance & History**
+
+The Retail Checking Account detail page displays the current balance, YTD dividend amounts, and a filterable transaction history. A Quick Transfer widget is available in the right sidebar.
+
+<figure><img src="../../.gitbook/assets/img_f201cdebf6f4.png" alt="" width="480"><figcaption></figcaption></figure>
