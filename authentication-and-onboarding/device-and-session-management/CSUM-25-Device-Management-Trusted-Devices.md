@@ -1,7 +1,7 @@
 ---
 description: >-
- View and manage trusted devices on your account, remove old devices, and
- control device-based authentication.
+  View and manage trusted devices on your account, remove old devices, and
+  control device-based authentication.
 ---
 
 # Device Management & Trusted Devices
