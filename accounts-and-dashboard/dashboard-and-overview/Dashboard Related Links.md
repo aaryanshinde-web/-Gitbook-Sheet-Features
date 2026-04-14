@@ -15,12 +15,14 @@ The panel currently exposes four links — **Change Password**, **Download E-Sta
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| --- | --- | --- | --- |
-| Rotate credentials quickly | Business member enforcing security hygiene | Clicks **Change Password** from the Dashboard without navigating to Settings | Reduces credential update friction for members managing business accounts with strict access controls |
-| Access monthly statements | Member reconciling books or preparing for tax filing | Clicks **Download E-Statements** directly from the Dashboard | Eliminates the multi-step path to More > eDocuments — critical for members on tight month-end timelines |
-| Review scheduled payment activity | Business member monitoring cash outflows | Clicks **View Scheduled Transfers** to audit all upcoming automated payments | Provides immediate visibility into scheduled obligations without leaving the primary account view |
-| Set up payroll direct deposit | New employee or business owner managing payroll routing | Clicks **Direct Deposit Form** to retrieve the pre-populated routing form | Pre-fills account number, member name, account type, and routing number — removes manual data entry risk |
+
+Business member enforcing security hygiene clicks **Change Password** from the Dashboard without navigating to Settings, reduces credential update friction for members managing business accounts with strict access controls.
+
+Member reconciling books or preparing for tax filing clicks **Download E-Statements** directly from the Dashboard, eliminates the multi-step path to More > eDocuments — critical for members on tight month-end timelines.
+
+Business member monitoring cash outflows clicks **View Scheduled Transfers** to audit all upcoming automated payments, provides immediate visibility into scheduled obligations without leaving the primary account view.
+
+New employee or business owner managing payroll routing clicks **Direct Deposit Form** to retrieve the pre-populated routing form, pre-fills account number, member name, account type, and routing number — removes manual data entry risk.
 
 For credit unions with business banking members, the Related Links panel is a low-effort, high-impact configuration that directly reduces support call volume for commonly requested tasks.
 
