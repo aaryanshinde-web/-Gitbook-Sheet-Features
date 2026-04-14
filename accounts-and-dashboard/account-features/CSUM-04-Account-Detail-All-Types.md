@@ -1,7 +1,7 @@
 ---
 description: >-
-  View detailed information for each of your accounts, including balance,
-  transaction history, and account-specific options.
+ View detailed information for each of your accounts, including balance,
+ transaction history, and account-specific options.
 ---
 
 # Account Detail — All Types
@@ -18,23 +18,23 @@ All account detail pages follow a consistent layout: balance summary at top, tra
 
 **At a Glance**
 
-| Attribute             | Detail                                                                  |
+| Attribute | Detail |
 | --------------------- | ----------------------------------------------------------------------- |
-| Account Types Covered | Checking, Savings/Dividends, Money Market, CD, Loan, Line of Credit     |
-| Common Features       | Balance summary, Transaction history, Related Links, Transfer shortcuts |
-| Checking-Specific     | Account/routing number, Stop Payment, Check Reorder                     |
-| Loan-Specific         | Next payment due, Principal balance, Payment history, Pay Now shortcut  |
-| CD-Specific           | Maturity date, Interest rate, Term, Renewal election                    |
+| Account Types Covered | Checking, Savings/Dividends, Money Market, CD, Loan, Line of Credit |
+| Common Features | Balance summary, Transaction history, Related Links, Transfer shortcuts |
+| Checking-Specific | Account/routing number, Stop Payment, Check Reorder |
+| Loan-Specific | Next payment due, Principal balance, Payment history, Pay Now shortcut |
+| CD-Specific | Maturity date, Interest rate, Term, Renewal election |
 
 ## Key Use Cases
 
-| Use Case                 | Who Uses It                        | What They Do                                                               | Business Value                                              |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ------------------------ | ---------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Daily Balance Monitoring | You checking account status        | Open account detail for real-time balance and recent activity              | Instant financial status without contacting the CU          |
-| Stop Payment Request     | You stopping an issued check       | Open checking detail > Related Links > Stop Payment                        | Prevents a check from clearing without branch visit         |
-| Loan Payment Tracking    | You monitoring loan status         | Open loan account detail to see principal, interest, and payment history   | Full loan amortization visibility in one screen             |
-| CD Maturity Election     | You with maturing certificates     | Open CD account detail > Renewal Options before maturity date              | Self-service CD renewal election without branch appointment |
-| Round Up to Savings      | You building savings automatically | Enable Round Up feature in account settings to round up debit transactions | Passive savings accumulation from everyday spending         |
+| Daily Balance Monitoring | Members checking account status | Open account detail for real-time balance and recent activity | Instant financial status without contacting the CU |
+| Stop Payment Request | Members stopping an issued check | Open checking detail > Related Links > Stop Payment | Prevents a check from clearing without branch visit |
+| Loan Payment Tracking | Members monitoring loan status | Open loan account detail to see principal, interest, and payment history | Full loan amortization visibility in one screen |
+| CD Maturity Election | Members with maturing certificates | Open CD account detail > Renewal Options before maturity date | Self-service CD renewal election without branch appointment |
+| Round Up to Savings | Members building savings automatically | Enable Round Up feature in account settings to round up debit transactions | Passive savings accumulation from everyday spending |
 
 ## Step-by-Step Guide
 
