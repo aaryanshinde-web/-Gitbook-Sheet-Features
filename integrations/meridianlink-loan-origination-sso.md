@@ -29,14 +29,18 @@ This feature lives in the nFinia platform under **Banking > More > Apply for Loa
 
 ## Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| -------------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Apply for a Personal Loan | Authenticated member | Navigates to Apply for Loans, selects Personal Loans, is SSO'd into MeridianLink Personal Loan flow with credit union branding; selects loan type (Line of Credit, Debt Consolidation, Signature) | Reduces application abandonment; member completes application in one continuous session |
-| Apply for a Vehicle Loan | Authenticated member | Selects Vehicle Loans from the Apply for Loans menu; MeridianLink Vehicle Loan flow launches with purpose options (New Car or Truck, New Boat, Motor Home/Travel Trailer, New Motorcycle) | Captures auto lending opportunity at the digital point of need; no separate portal login |
-| Apply for a Credit Card | Authenticated member | Selects Credit Cards; MeridianLink Credit Card flow presents purpose selection (Line Increase, MasterCard) | Drives card product cross-sell directly from digital banking; consistent brand experience |
-| Token-based identity handoff | nFinia platform + MeridianLink | nFinia generates a tenderref token unique to your session (e.g., AMLAKECUG20723) and appends it to the MeridianLink redirect URL | Enables secure, cookieless session handoff without transmitting credentials; supports audit trail and application attribution |
-| Credit union branding continuity | Member navigating the application | MeridianLink renders the Summerville Credit Union logo and branding across the Apply in 3 Steps flow | Maintains member trust and brand recognition; reduces perception of leaving the credit union's environment |
-| Application dropout recovery | Loan officer / Digital Admin | Monitors MeridianLink pipeline for incomplete applications; tenderref token links back to the originating nFinia member record | Enables proactive outreach to members who started but did not complete an application |
+
+Authenticated member navigates to Apply for Loans, selects Personal Loans, is SSO'd into MeridianLink Personal Loan flow with credit union branding; selects loan type (Line of Credit, Debt Consolidation, Signature), reduces application abandonment; member completes application in one continuous session.
+
+Authenticated member selects Vehicle Loans from the Apply for Loans menu; MeridianLink Vehicle Loan flow launches with purpose options (New Car or Truck, New Boat, Motor Home/Travel Trailer, New Motorcycle), captures auto lending opportunity at the digital point of need; no separate portal login.
+
+Authenticated member selects Credit Cards; MeridianLink Credit Card flow presents purpose selection (Line Increase, MasterCard), drives card product cross-sell directly from digital banking; consistent brand experience.
+
+nFinia platform + MeridianLink nFinia generates a tenderref token unique to your session (e.g., AMLAKECUG20723) and appends it to the MeridianLink redirect URL, enables secure, cookieless session handoff without transmitting credentials; supports audit trail and application attribution.
+
+Member navigating the application meridianLink renders the Summerville Credit Union logo and branding across the Apply in 3 Steps flow, maintains member trust and brand recognition; reduces perception of leaving the credit union's environment.
+
+Loan officer / Digital Admin monitors MeridianLink pipeline for incomplete applications; tenderref token links back to the originating nFinia member record, enables proactive outreach to members who started but did not complete an application.
 
 ***
 
