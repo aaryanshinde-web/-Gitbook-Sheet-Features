@@ -11,22 +11,42 @@ The Accounts Overview screen displays all accounts linked to the member's profil
 
 Business members use the Accounts Overview to conduct a morning account check — scanning balances across all operating accounts to confirm adequate funding before the business day begins. Members monitoring loan account health use the overview to verify that scheduled payments have been deducted and that available credit lines remain within expected ranges. Operations staff reviewing business accounts use the overview as the first stop in an account audit, identifying accounts with unusually low balances, missed credits, or unexpected debit activity before drilling into transaction history.
 
-## Step-by-Step Guide
+## End-to-End Workflow
 
-**Step 1 — Open the Accounts Overview**
+**Step 1: Access the Account Overview**
 
-From the Dashboard, click **Accounts** in the top navigation to open the Accounts Overview screen. All accounts linked to your profile are displayed in card format, each showing the account nickname or type, current balance, and available balance — sorted by the member's configured display preference.
+The member clicks "Accounts" in the top navigation bar. The Account Overview page loads with the Account group tab active by default, displaying all account types organized in collapsible sections. The view shows each account with its name, masked account number, current balance, and available action buttons.
 
 <figure><img src="/.gitbook/assets/accounts-overview-group.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Select an Account to Drill Down**
+**Step 2: View additional account types**
 
-Click any account card to navigate directly to the Account Details screen for that account, which shows the full transaction history, account metadata, and available actions including Transfer, Inquiry, and Statement download. This single-click drill-down eliminates navigation steps for members who know which account they need to investigate.
+The member scrolls down the Account Overview page to see additional account types beyond Checking and Savings. The page displays Credit Card, Mortgage, Loans, and Line of Credit accounts with the same structure — account name, masked number, balance, and action buttons for each account type.
 
 <figure><img src="/.gitbook/assets/accounts-overview-scrolled.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 3 — Use Account Actions from the Overview**
+**Step 3: View Certificate accounts and membership options**
 
-Some accounts display quick-action buttons directly on the overview card — such as Transfer, Pay, or Deposit — allowing members to initiate a transaction without opening the full Account Details screen. Business members who make the same transfer or payment routinely can complete the action in two clicks from the Accounts Overview.
+The member continues scrolling to see Certificate accounts and the footer of the page. Additional account management options and membership-related links appear at the bottom of the page.
 
 <figure><img src="/.gitbook/assets/accounts-overview-bottom.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 4: Switch to Membership Association view**
+
+The member clicks the "Membership association" tab at the top of the Account Overview page. Accounts are now regrouped by membership number rather than by account type. Each membership section displays its membership number and all accounts under that membership with their balances and action buttons.
+
+This tab view is particularly useful for members with multiple memberships who need to see all accounts across every membership in a single consolidated view.
+
+<figure><img src="/.gitbook/assets/accounts-overview-full.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 5: View membership groupings**
+
+The member can see each membership section with its membership number and all associated accounts listed below it, each with balances and the same action buttons available in the Account group view.
+
+<figure><img src="/.gitbook/assets/accounts-membership-tab.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 6: Scroll to see additional memberships**
+
+The member scrolls down to see any additional memberships and their accounts. Members with multiple memberships see each one listed as a separate section.
+
+<figure><img src="/.gitbook/assets/accounts-membership-tab-2.png" alt="" width="480"><figcaption></figcaption></figure>
