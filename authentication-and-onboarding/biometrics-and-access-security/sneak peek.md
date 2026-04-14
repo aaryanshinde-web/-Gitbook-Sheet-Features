@@ -21,13 +21,16 @@ Sneak Peek reduces unnecessary authentication events, lowers the risk of credent
 
 ## Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| -------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Quick pre-login balance check | Members on the go | Open the app and tap Balance on the Welcome screen — no login required | Eliminates a full authentication session for a read-only inquiry; reduces session load and friction |
-| Enabling Sneak Peek for the first time | Members new to the feature or existing member | Authenticate, navigate to Account Settings, and turn on the Sneak Peek toggle for your primary checking account | One-time setup that permanently improves the day-to-day mobile experience |
-| Enabling Sneak Peek for a secondary account | Members with multiple accounts | Repeat the Account Settings flow for a savings or secondary checking account | Allows you to monitor multiple balances at a glance pre-login |
-| Disabling Sneak Peek (privacy preference) | Members sharing a device | Turn off the Sneak Peek toggle in Account Settings | Ensures no balance information is visible to anyone who picks up the phone before login |
-| Using Balance widget alongside other pre-login shortcuts | Members performing a quick task | Tap Balance on Welcome screen, review balance, then proceed to Move Money or Check Deposit | Increases pre-login feature engagement; reduces steps to action |
+
+Members on the go open the app and tap Balance on the Welcome screen — no login required, eliminates a full authentication session for a read-only inquiry; reduces session load and friction.
+
+Members new to the feature or existing member authenticate, navigate to Account Settings, and turn on the Sneak Peek toggle for your primary checking account, one-time setup that permanently improves the day-to-day mobile experience.
+
+Members with multiple accounts repeat the Account Settings flow for a savings or secondary checking account, allows you to monitor multiple balances at a glance pre-login.
+
+Members sharing a device turn off the Sneak Peek toggle in Account Settings, ensures no balance information is visible to anyone who picks up the phone before login.
+
+Members performing a quick task tap Balance on Welcome screen, review balance, then proceed to Move Money or Check Deposit, increases pre-login feature engagement; reduces steps to action.
 
 ## Step-by-Step Guide: Enabling Sneak Peek
 
