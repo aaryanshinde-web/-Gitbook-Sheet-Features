@@ -13,20 +13,38 @@ Business members update their profile contact information when a business phone 
 
 ## Step-by-Step Guide
 
-**Step 1 — Open Profile & Membership Settings**
+**Step 1 — Start from Dashboard**
 
-From the More menu or Settings, navigate to **Profile** or **Account & Membership Settings** to open the profile management screen. The screen displays the current profile information — name, contact details, linked memberships, and account display preferences — in a tabbed layout.
+You begin at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Update Contact Information or Account Display Preferences**
+**Step 2 — Open the More Menu**
 
-Select the relevant tab to update a specific section — contact details, mailing address, account nicknames, or membership visibility settings. For sensitive fields such as phone number or email, the platform requires OTP verification against the existing contact before saving the change.
+Click 'More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 3 — Save and Confirm**
+**Step 3 — Navigate from Dashboard to Membership Settings**
 
-Click **Save** after updating each section. A confirmation banner confirms the changes have been applied. Contact information updates take effect immediately for all future OTP delivery and alert notifications.
+The Accounts and Memberships page is displayed with a checkbox option for adding an existing membership to digital banking.
 
 <figure><img src="../../.gitbook/assets/img_f0e24e109eec.png" alt="" width="620"><figcaption></figcaption></figure>
+
+**Step 4 — View Account Settings**
+
+The 'Add an existing membership to digital banking' page is shown with input fields for entering the membership number and details.
+
+<figure><img src="../../.gitbook/assets/img_a90122bbb7d1.png" alt="" width="620"><figcaption></figcaption></figure>
+
+**Step 5 — Configure Account Display Settings**
+
+The 'Add an existing membership' page displays the Membership number field and a Quick Transfer section with account selection dropdowns for configuring transfer preferences.
+
+<figure><img src="../../.gitbook/assets/img_d4f6d20bd4a9.png" alt="" width="340"><figcaption></figcaption></figure>
+
+**Step 6 — Switch Active Membership via Profile**
+
+The Profile selection modal is displayed showing the Preferred profile option and Personal Memberships group with two associated business accounts listed.
+
+<figure><img src="../../.gitbook/assets/img_1f7e6199aa5b.png" alt="" width="563"><figcaption></figcaption></figure>
