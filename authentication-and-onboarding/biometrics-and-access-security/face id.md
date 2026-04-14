@@ -20,14 +20,18 @@ Face ID serves all authenticated nFinia users both retail members and business b
 
 ## Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ---------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| First-Time Face ID Enrollment | Members logging in from a new or reset device | Check the "Enable Face ID" box during credential-based login; complete device biometric prompt on next launch | Eliminates repeated password entry; reduces login friction from day one on new devices |
-| Biometric Login — Returning Member | Any enrolled member opening the app for a subsequent session | App launches biometric prompt automatically; authenticate with a glance | Faster session start; reduces abandonment from forgotten passwords; improves daily engagement |
-| Shared Device — Intentional Opt-Out | Members who shares a device with a family member or colleague | Leave "Enable Face ID" unchecked; use password-only login | Preserves account security on shared hardware; no unwanted biometric binding |
-| Biometric Failure — Fallback to Password | Members whose Face ID fails (poor lighting, appearance change, etc.) | Device declines biometric match; you are presented with standard username/password login | Maintains access continuity; prevents lockout; ensures 100% accessibility |
-| Device Change or Re-Enrollment | Members who upgrades your phone or resets biometrics | Re-enable Face ID by checking the option at next credential login | Seamless re-onboarding to biometric auth without contacting the credit union |
-| Business Member — High-Frequency Access | Members checking balances and approvals multiple times daily | Use Face ID to authenticate quickly between commercial tasks | Reduces session startup cost; supports real-time cash flow monitoring without password fatigue |
+
+Members logging in from a new or reset device check the "Enable Face ID" box during credential-based login; complete device biometric prompt on next launch, eliminates repeated password entry; reduces login friction from day one on new devices.
+
+Any enrolled member opening the app for a subsequent session app launches biometric prompt automatically; authenticate with a glance, faster session start; reduces abandonment from forgotten passwords; improves daily engagement.
+
+Members who shares a device with a family member or colleague leave "Enable Face ID" unchecked; use password-only login, preserves account security on shared hardware; no unwanted biometric binding.
+
+Members whose Face ID fails (poor lighting, appearance change, etc.) device declines biometric match; you are presented with standard username/password login, maintains access continuity; prevents lockout; ensures 100% accessibility.
+
+Members who upgrades your phone or resets biometrics re-enable Face ID by checking the option at next credential login, seamless re-onboarding to biometric auth without contacting the credit union.
+
+Members checking balances and approvals multiple times daily use Face ID to authenticate quickly between commercial tasks, reduces session startup cost; supports real-time cash flow monitoring without password fatigue.
 
 ## Step-by-Step Guide
 
