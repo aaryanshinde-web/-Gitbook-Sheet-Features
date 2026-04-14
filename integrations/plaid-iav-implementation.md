@@ -37,7 +37,7 @@ By eliminating the traditional micro-deposit wait period (typically 1–3 busine
 
 | Use Case | Who Uses It | What They Do | Business Value |
 | --------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **Instant External Account Link** | Retail member onboarding a new external account | Initiates IAV, authenticates with their external bank via Plaid, selects the account to link - verified in under 2 minutes | Eliminates 1–3 day micro-deposit wait; you can initiate ACH transfers immediately |
+| **Instant External Account Link** | Retail member onboarding a new external account | Initiates IAV, authenticates with their external bank via Plaid, selects the account to link — the verification is completed in real time without any micro-deposit delays - verified in under 2 minutes | Eliminates 1–3 day micro-deposit wait; you can initiate ACH transfers immediately |
 | **ACH Transfer Setup - Personal** | Member who wants to transfer funds to/from a personal account at another FI | Completes IAV flow to verify their external checking/savings account, then proceeds to schedule ACH transfer | Increases ACH origination volume for the credit union; reduces call center contacts about pending verification |
 | **Guest / Unlinked Authentication Path** | Member who prefers not to share full banking credentials | Selects "Continue as Guest" during Plaid flow and proceeds through alternative credential path | Preserves member choice; reduces abandonment for credential-sensitive you |
 | **Multi-Factor Verification** | Member whose external bank requires MFA during Plaid authentication | Receives OTP/verification code from external bank, enters it within the Plaid Link interface | Supports institutions with enhanced security; does not require additional nFinia configuration |
@@ -61,20 +61,20 @@ These use cases reflect the reality that credit union members hold accounts acro
 
 **Step 1 - Navigate to External Account Verification**
 
-Navigate to the External Transfers section of nFinia and selects the option to add or verify an external account. The system detects that IAV is enabled and the account is personal-eligible, then launches the IAV entry point.
+From the nFinia dashboard, navigate to the External Transfers section and select the option to add or verify an external account. The platform checks whether Instant Account Verification is enabled for your account type. For personal/retail accounts with IAV configured, the system launches the IAV entry point directly — no additional prompts or manual configuration required.
 
 **Step 2 - IAV Prompt: "Yes" or "Continue as Guest"**
 
 You are presented with a prompt asking whether they want to proceed with instant verification. Two options are available:
 
-* **"Coontinue"** - Proceeds to the Plaid Link flow for full instant verification
+* **"Continue"** - Proceeds to the Plaid Link flow for full instant verification
 * **"Continue as Guest"** - Proceeds through an alternative path (limited or deferred verification)
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 - Institution Search & Selection**
 
-You are presented with the Plaid Link interface, which displays a searchable list of financial institutions. You search for and selects their external institution (e.g., Bank of America, Chase, Wells Fargo).
+The Plaid Link interface loads within the nFinia session, presenting a searchable list of supported financial institutions. Type the name of your external bank — such as Bank of America, Chase, or Wells Fargo — and select it from the search results. Plaid supports the vast majority of US banks and credit unions, so most members will find their institution in the list.
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
