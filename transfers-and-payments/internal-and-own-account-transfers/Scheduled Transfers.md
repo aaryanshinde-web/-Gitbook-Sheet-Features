@@ -8,25 +8,25 @@ Scheduled Transfers let you automate recurring or future-dated movements of mone
 
 ## At a Glance
 
-| Attribute       | Detail                                                             |
+| Attribute | Detail |
 | --------------- | ------------------------------------------------------------------ |
-| Module          | Move Money › Scheduled Transfers                                   |
-| Who Can Use     | All nFinia Digital Banking members                                 |
-| Schedule Types  | One-time future-dated, Weekly, Bi-weekly, Semi-monthly, Monthly    |
-| End Conditions  | Continue until cancelled, End by date, After N occurrences         |
+| Module | Move Money › Scheduled Transfers |
+| Who Can Use | All nFinia Digital Banking members |
+| Schedule Types | One-time future-dated, Weekly, Bi-weekly, Semi-monthly, Monthly |
+| End Conditions | Continue until cancelled, End by date, After N occurrences |
 | Execution Speed | Runs automatically on the scheduled date (instant for own-account) |
-| History View    | Active schedules and completed scheduled transfer records          |
-| Availability    | 24 / 7 — via web or mobile                                         |
+| History View | Active schedules and completed scheduled transfer records |
+| Availability | 24 / 7 — via web or mobile |
 
 ## Key Use Cases
 
-| Use Case                           | Who Uses It                      | What They Do                                                     | Business Value                                        |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ---------------------------------- | -------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
-| **Automate monthly savings**       | Member with a savings goal       | Schedule a weekly transfer from checking to savings after payday | Set-and-forget savings automation                     |
-| **Recurring loan payment**         | Borrower with monthly obligation | Schedule a monthly transfer from checking to loan                | Avoids missed payments and late fees                  |
-| **Future-dated one-time transfer** | Member planning a large purchase | Schedule a one-time transfer for a specific future date          | Move funds exactly when needed, not earlier           |
-| **Bill-aligned cash flow**         | Member with due-date patterns    | Schedule semi-monthly transfers aligned to bill cycles           | Keeps cash positioned to cover obligations            |
-| **Review & manage schedules**      | Any member                       | Open Scheduled Transfers to view, edit, or cancel any schedule   | Full visibility into all upcoming automated transfers |
+| **Automate monthly savings** | Member with a savings goal | Schedule a weekly transfer from checking to savings after payday | Set-and-forget savings automation |
+| **Recurring loan payment** | Borrower with monthly obligation | Schedule a monthly transfer from checking to loan | Avoids missed payments and late fees |
+| **Future-dated one-time transfer** | Member planning a large purchase | Schedule a one-time transfer for a specific future date | Move funds exactly when needed, not earlier |
+| **Bill-aligned cash flow** | Member with due-date patterns | Schedule semi-monthly transfers aligned to bill cycles | Keeps cash positioned to cover obligations |
+| **Review & manage schedules** | Any member | Open Scheduled Transfers to view, edit, or cancel any schedule | Full visibility into all upcoming automated transfers |
 
 ## Step-by-Step Guide
 
