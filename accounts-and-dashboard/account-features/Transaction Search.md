@@ -13,22 +13,28 @@ Transaction Search gives members the ability to locate specific transactions acr
 
 Business members use Transaction Search to locate a specific vendor payment by name or amount when reconciling the business checking account against an invoice ledger. Members preparing for an IRS audit or loan application use date range filters to extract transactions within a defined period and confirm that specific credits or debits appear correctly. Operations staff investigating a reported discrepancy use search to isolate the transaction in question and retrieve the full posting detail — description, amount, date, and reference number — without pulling the full account statement.
 
-## Step-by-Step Guide
+## End-to-End Workflow
 
-**Step 1 — Open Transaction Search from Account Details**
+**Step 1: Open Account Overview and navigate to Account Details**
 
-Navigate to Account Details for the relevant account and locate the **Search Transactions** field or filter icon above the transaction list. Enter a keyword — such as a payee name, check number, or partial description — to filter the transaction history in real time.
+The member clicks "Accounts" in the top navigation bar to open the Account Overview page. All accounts are listed with their balances and action buttons. The member clicks "Account Details" on any account row to open the full transaction history for that account.
 
 <figure><img src="../../.gitbook/assets/accounts-overview-group.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Apply Date Range and Amount Filters**
+**Step 2: Access Transaction Search from Account Details**
 
-Use the date range picker to restrict results to a specific period, and optionally enter a minimum or maximum amount to narrow the results further. Combined filters allow members to isolate a single transaction in a dense transaction history — for example, finding a $4,250 ACH credit posted in March — without scrolling through unrelated entries.
+On the Account details page click on search transactions. You also have the option to filter the transactions from and to a specific date.
 
 <figure><img src="../../.gitbook/assets/account-details-checking.png" alt="" width="536"><figcaption></figcaption></figure>
 
-**Step 3 — Review and Act on Results**
+**Step 3: Search**&#x20;
 
-Click any search result to open the full transaction detail view, which shows the posting date, description, amount, and running balance. From the detail view, members can initiate an Account Inquiry if the transaction requires investigation or flag it for follow-up with credit union staff.
+Members can search for a particular transaction by entering amount, keywords in transaction meta data and then filter by memberships & accounts and Transaction Categories.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+There are advanced search options such as : \
+1\. Amount equal to, over & under.\
+2\. Search in Notes & Descriptions, Notes only, Description only&#x20;
+
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
