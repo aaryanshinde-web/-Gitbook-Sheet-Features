@@ -1,7 +1,7 @@
 ---
 description: >-
-  Quick Pay and Quick Transfer — the Dashboard widget that lets members move
-  funds between their own accounts without leaving the landing screen.
+ Quick Pay and Quick Transfer — the Dashboard widget that lets members move
+ funds between their own accounts without leaving the landing screen.
 ---
 
 # Quick Pay & Quick Transfer
@@ -12,12 +12,12 @@ The Quick Transfer widget is a compact transfer form on the right side of the Da
 
 ## Key Use Cases
 
-| Use Case              | Who Uses It                             | What They Do                                                            | Business Value                                                   |
+| Use Case | Who Uses It | What They Do | Business Value |
 | --------------------- | --------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| Quick Savings Top-Up  | Member with extra checking balance      | Transfers from Checking to Savings via the Dashboard widget             | Fastest possible internal transfer — three clicks, no navigation |
-| Cover a Shortfall     | Member with low checking balance        | Transfers from Savings to Checking to cover an upcoming debit           | Prevents overdraft without opening Move Money                    |
-| Quick Loan Payment    | Member with a loan due date approaching | Selects Loan account as "To" destination, enters payment amount         | On-the-spot loan payment directly from the Dashboard             |
-| Morning Funds Shuffle | Member managing multiple accounts       | Reviews balances on Dashboard tiles, immediately moves funds via widget | Balances and transfer tool on the same screen                    |
+| Quick Savings Top-Up | Member with extra checking balance | Transfers from Checking to Savings via the Dashboard widget | Fastest possible internal transfer — three clicks, no navigation |
+| Cover a Shortfall | Member with low checking balance | Transfers from Savings to Checking to cover an upcoming debit | Prevents overdraft without opening Move Money |
+| Quick Loan Payment | Member with a loan due date approaching | Selects Loan account as "To" destination, enters payment amount | On-the-spot loan payment directly from the Dashboard |
+| Morning Funds Shuffle | Member managing multiple accounts | Reviews balances on Dashboard tiles, immediately moves funds via widget | Balances and transfer tool on the same screen |
 
 ## End-to-End Workflow
 
