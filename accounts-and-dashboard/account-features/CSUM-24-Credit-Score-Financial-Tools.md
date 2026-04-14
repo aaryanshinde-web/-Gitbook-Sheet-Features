@@ -1,7 +1,7 @@
 ---
 description: >-
- Monitor your credit score and use financial tools to track goals, budgeting,
- and spending analysis.
+  Monitor your credit score and use financial tools to track goals, budgeting,
+  and spending analysis.
 ---
 
 # Credit Score & Financial Tools
