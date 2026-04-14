@@ -1,7 +1,7 @@
 ---
 description: >-
- View your financial summary, recent transactions, and activity history since
- your last login.
+  View your financial summary, recent transactions, and activity history since
+  your last login.
 ---
 
 # Dashboard Activities
