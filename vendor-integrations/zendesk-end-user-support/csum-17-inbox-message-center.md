@@ -8,7 +8,7 @@ description: Inbox & Message Center
 
 ## Summary
 
-The Inbox & Message Center is the in-app communication hub between You and the credit union. It consolidates two distinct types of messages: system notifications about account activities and transactions (Notifications tab), and secure two-way support messages exchanged with credit union staff (Support Messages tab).
+The Inbox & Message Center is the in-app communication hub between members and the credit union. It consolidates two distinct types of messages: system notifications about account activities and transactions (Notifications tab), and secure two-way support messages exchanged with credit union staff (Support Messages tab).
 
 Unlike email which is transmitted in plaintext and is inherently insecure for financial information, the Message Center operates entirely within the authenticated nFinia session. You can send secure inquiries, receive replies from CU staff, view full conversation history, and track the status of any open support requests without leaving digital banking.
 
@@ -16,30 +16,30 @@ A notification badge on the Inbox icon in the Dashboard navigation shows unread 
 
 **At a Glance**
 
-| Attribute          | Detail                                                             |
+| Attribute | Detail |
 | ------------------ | ------------------------------------------------------------------ |
-| Module             | Inbox                                                              |
+| Module | Inbox |
 | Notification Types | Account activity alerts, transfer confirmations, eDocument notices |
-| Support Messages   | Two-way authenticated messaging with CU staff                      |
-| Security           | Encrypted, authenticated - secure for financial discussion         |
-| New Message        | You can initiate support requests directly from Inbox              |
-| Related Reports    | (Alerts), (Settings)                                               |
+| Support Messages | Two-way authenticated messaging with CU staff |
+| Security | Encrypted, authenticated - secure for financial discussion |
+| New Message | Members can initiate support requests directly from Inbox |
+| Related Reports | (Alerts), (Settings) |
 
 ## Key Use Cases
 
-| Use Case                  | Who Uses It                          | What They Do                                                 | Business Value                                                          |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ------------------------- | ------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------------------------- |
-| Review Notifications      | You checking recent account activity | Open Inbox > Notifications for all recent system alerts      | Consolidated notification history without navigating account by account |
-| View Support Conversation | You following up on past inquiry     | Open Inbox > Support Messages to see conversation thread     | No need to call the CU to reference a prior support exchange            |
-| Send Support Request      | You with account questions           | Click New Message to submit a secure support inquiry         | Async, secure support channel that avoids phone hold times              |
-| Track Form Submission     | You checking form status             | Look for form submission confirmation in Inbox notifications | Inbox confirms when a submitted form has been received and processed    |
-|                           |                                      |                                                              |                                                                         |
-
+| Review Notifications | Members checking recent account activity | Open Inbox > Notifications for all recent system alerts | Consolidated notification history without navigating account by account |
+| View Support Conversation | Members following up on past inquiry | Open Inbox > Support Messages to see conversation thread | No need to call the CU to reference a prior support exchange |
+| Send Support Request | Members with account questions | Click New Message to submit a secure support inquiry | Async, secure support channel that avoids phone hold times |
+| Track Form Submission | Members checking form status | Look for form submission confirmation in Inbox notifications | Inbox confirms when a submitted form has been received and processed |
 ## Step-by-Step Guide
 
 \| _Navigation: Dashboard > Inbox (bell/envelope icon in top navigation)._ |
 
-**Step 1 - Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
+**Step 1 - Start from Dashboard**
+
+The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt=""><figcaption></figcaption></figure>
 
