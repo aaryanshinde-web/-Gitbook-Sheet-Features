@@ -75,10 +75,10 @@ _Provisioning disclaimer — review and tap Continue_
 
 After accepting the disclaimer, your device's native wallet app takes over to complete the provisioning. The steps vary slightly by wallet:
 
-| Apple Pay | Select the device (iPhone or Apple Watch) you want to add the card to, review Terms & Conditions, and tap Agree. Apple confirms the card has been added. |
+| Apple Pay | Select the device you want to add the card to (iPhone or Apple Watch), review the Terms & Conditions presented by Apple, and tap **Agree**. Apple's system confirms that the card has been successfully added to your wallet. |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Google Pay** | Follow the on-screen prompts in the Google Wallet app to verify and activate the card. |
-| **Samsung Pay** | Follow the on-screen prompts in Samsung Wallet to verify and activate the card. |
+| **Google Pay** | Follow the on-screen prompts within the Google Wallet app to verify ownership of the card and activate it for contactless payments on your Android device. |
+| **Samsung Pay** | Follow the on-screen prompts within the Samsung Wallet app to verify and activate the card. Samsung Pay supports both NFC terminals and MST (Magnetic Secure Transmission) terminals, giving the card broader acceptance. |
 
 | _Select device — iPhone or Apple Watch_ | | _Apple Pay Terms & Conditions_ |
 | :--------------------------------------: | - | :-----------------------------: |
