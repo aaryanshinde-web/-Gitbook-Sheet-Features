@@ -10,24 +10,24 @@ Face ID serves all authenticated nFinia users both retail members and business b
 
 **At a Glance**
 
-| Attribute    | Detail                                                            |
+| Attribute | Detail |
 | ------------ | ----------------------------------------------------------------- |
-| Feature Name | Face ID (Biometric Authentication)                                |
-| Module       | Banking › Authentication › Log In                                 |
-| User Roles   | All authenticated members (Retail & Business Banking)             |
-| Access Level | Self-service; opt-in at login                                     |
-| Key Actions  | Enable Face ID, authenticate via biometric, fall back to password |
+| Feature Name | Face ID (Biometric Authentication) |
+| Module | Banking › Authentication › Log In |
+| User Roles | All authenticated members (Retail & Business Banking) |
+| Access Level | Self-service; opt-in at login |
+| Key Actions | Enable Face ID, authenticate via biometric, fall back to password |
 
 ## Use Cases
 
-| Use Case                                 | Who Uses It                                                      | What They Do                                                                                                  | Business Value                                                                                 |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ---------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| First-Time Face ID Enrollment            | You logging in from a new or reset device                        | Check the "Enable Face ID" box during credential-based login; complete device biometric prompt on next launch | Eliminates repeated password entry; reduces login friction from day one on new devices         |
-| Biometric Login — Returning Member       | Any enrolled member opening the app for a subsequent session     | App launches biometric prompt automatically; authenticate with a glance                                       | Faster session start; reduces abandonment from forgotten passwords; improves daily engagement  |
-| Shared Device — Intentional Opt-Out      | You who shares a device with a family member or colleague        | Leave "Enable Face ID" unchecked; use password-only login                                                     | Preserves account security on shared hardware; no unwanted biometric binding                   |
-| Biometric Failure — Fallback to Password | You whose Face ID fails (poor lighting, appearance change, etc.) | Device declines biometric match; you are presented with standard username/password login                      | Maintains access continuity; prevents lockout; ensures 100% accessibility                      |
-| Device Change or Re-Enrollment           | You who upgrades your phone or resets biometrics                 | Re-enable Face ID by checking the option at next credential login                                             | Seamless re-onboarding to biometric auth without contacting the credit union                   |
-| Business Member — High-Frequency Access  | You checking balances and approvals multiple times daily         | Use Face ID to authenticate quickly between commercial tasks                                                  | Reduces session startup cost; supports real-time cash flow monitoring without password fatigue |
+| First-Time Face ID Enrollment | Members logging in from a new or reset device | Check the "Enable Face ID" box during credential-based login; complete device biometric prompt on next launch | Eliminates repeated password entry; reduces login friction from day one on new devices |
+| Biometric Login — Returning Member | Any enrolled member opening the app for a subsequent session | App launches biometric prompt automatically; authenticate with a glance | Faster session start; reduces abandonment from forgotten passwords; improves daily engagement |
+| Shared Device — Intentional Opt-Out | Members who shares a device with a family member or colleague | Leave "Enable Face ID" unchecked; use password-only login | Preserves account security on shared hardware; no unwanted biometric binding |
+| Biometric Failure — Fallback to Password | Members whose Face ID fails (poor lighting, appearance change, etc.) | Device declines biometric match; you are presented with standard username/password login | Maintains access continuity; prevents lockout; ensures 100% accessibility |
+| Device Change or Re-Enrollment | Members who upgrades your phone or resets biometrics | Re-enable Face ID by checking the option at next credential login | Seamless re-onboarding to biometric auth without contacting the credit union |
+| Business Member — High-Frequency Access | Members checking balances and approvals multiple times daily | Use Face ID to authenticate quickly between commercial tasks | Reduces session startup cost; supports real-time cash flow monitoring without password fatigue |
 
 ## Step-by-Step Guide
 
@@ -70,34 +70,34 @@ On the next app launch, the app triggers the Face ID prompt directly instead of 
 
 ## Error Handling
 
-| Scenario                                   | Your Experience                              | Recovery                                                         |
+| Scenario | Your Experience | Recovery |
 | ------------------------------------------ | -------------------------------------------- | ---------------------------------------------------------------- |
-| Face ID match fails (lighting, angle)      | Device presents retry or fallback prompt     | Fall back to username/password login                             |
-| Device biometric not set up                | OS-level alert or feature unavailable in app | Configure Face ID in device Settings, then re-attempt enrollment |
-| Account lockout (too many failed attempts) | Standard lockout message with help link      | Tap "I need help logging in" for self-service recovery           |
-| Token expiry / session invalidated         | App falls back to full credential entry      | Re-enter credentials and re-check "Enable Face ID" to re-bind    |
+| Face ID match fails (lighting, angle) | Device presents retry or fallback prompt | Fall back to username/password login |
+| Device biometric not set up | OS-level alert or feature unavailable in app | Configure Face ID in device Settings, then re-attempt enrollment |
+| Account lockout (too many failed attempts) | Standard lockout message with help link | Tap "I need help logging in" for self-service recovery |
+| Token expiry / session invalidated | App falls back to full credential entry | Re-enter credentials and re-check "Enable Face ID" to re-bind |
 
 ## Log In Screen Reference
 
-| Field / Element         | Type              | Description                                                |
+| Field / Element | Type | Description |
 | ----------------------- | ----------------- | ---------------------------------------------------------- |
-| Back arrow              | Navigation button | Returns to Welcome screen                                  |
-| Summerville Logo        | Branding          | Credit union brand mark                                    |
-| Username                | Text input        | Your digital banking username                              |
-| Password                | Password input    | Your account password                                      |
-| Remember me             | Checkbox          | Persists device recognition across sessions                |
-| Enable Face ID          | Checkbox          | Opts you into biometric authentication for future sessions |
-| Log In                  | Button            | Submits credentials and initiates authentication           |
-| I need help logging in  | Hyperlink         | Self-service help for forgotten credentials or lockouts    |
-| Tap to see your balance | Bottom bar        | Reveals balance without full authentication                |
+| Back arrow | Navigation button | Returns to Welcome screen |
+| Summerville Logo | Branding | Credit union brand mark |
+| Username | Text input | Your digital banking username |
+| Password | Password input | Your account password |
+| Remember me | Checkbox | Persists device recognition across sessions |
+| Enable Face ID | Checkbox | Opts you into biometric authentication for future sessions |
+| Log In | Button | Submits credentials and initiates authentication |
+| I need help logging in | Hyperlink | Self-service help for forgotten credentials or lockouts |
+| Tap to see your balance | Bottom bar | Reveals balance without full authentication |
 
 ## Quick Reference
 
-| Task                                     | Navigation Path                                                        | Who Can Do It                                   | Notes                                                     |
+| Task | Navigation Path | Who Can Do It | Notes |
 | ---------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------- |
-| Enable Face ID for the first time        | Welcome › Log In › Enter credentials › Check "Enable Face ID" › Log In | Any authenticated member on a compatible device | Device biometric must be configured at device level first |
-| Disable Face ID                          | Welcome › Log In › Leave "Enable Face ID" unchecked                    | Any member                                      | Face ID will not activate; standard credential login only |
-| Re-enroll Face ID after device change    | Welcome › Log In › Enter credentials › Check "Enable Face ID" › Log In | Any member on a new or reset device             | Re-binds biometric token to new device                    |
-| Manage trusted devices                   | Welcome › Manage Devices                                               | Any authenticated member                        | View and remove devices with saved biometric trust        |
-| Fall back to password when Face ID fails | Face ID prompt › Use Password / Cancel                                 | Any enrolled member                             | App returns to standard Log In screen                     |
-| Get help with login                      | Welcome › Log In › "I need help logging in"                            | Any member                                      | Routes to self-service credential recovery                |
+| Enable Face ID for the first time | Welcome › Log In › Enter credentials › Check "Enable Face ID" › Log In | Any authenticated member on a compatible device | Device biometric must be configured at device level first |
+| Disable Face ID | Welcome › Log In › Leave "Enable Face ID" unchecked | Any member | Face ID will not activate; standard credential login only |
+| Re-enroll Face ID after device change | Welcome › Log In › Enter credentials › Check "Enable Face ID" › Log In | Any member on a new or reset device | Re-binds biometric token to new device |
+| Manage trusted devices | Welcome › Manage Devices | Any authenticated member | View and remove devices with saved biometric trust |
+| Fall back to password when Face ID fails | Face ID prompt › Use Password / Cancel | Any enrolled member | App returns to standard Log In screen |
+| Get help with login | Welcome › Log In › "I need help logging in" | Any member | Routes to self-service credential recovery |
