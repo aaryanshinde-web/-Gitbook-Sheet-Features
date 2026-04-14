@@ -35,14 +35,18 @@ By eliminating the traditional micro-deposit wait period (typically 1–3 busine
 
 ### Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| --------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **Instant External Account Link** | Retail member onboarding a new external account | Initiates IAV, authenticates with their external bank via Plaid, selects the account to link — the verification is completed in real time without any micro-deposit delays - verified in under 2 minutes | Eliminates 1–3 day micro-deposit wait; you can initiate ACH transfers immediately |
-| **ACH Transfer Setup - Personal** | Member who wants to transfer funds to/from a personal account at another FI | Completes IAV flow to verify their external checking/savings account, then proceeds to schedule ACH transfer | Increases ACH origination volume for the credit union; reduces call center contacts about pending verification |
-| **Guest / Unlinked Authentication Path** | Member who prefers not to share full banking credentials | Selects "Continue as Guest" during Plaid flow and proceeds through alternative credential path | Preserves member choice; reduces abandonment for credential-sensitive you |
-| **Multi-Factor Verification** | Member whose external bank requires MFA during Plaid authentication | Receives OTP/verification code from external bank, enters it within the Plaid Link interface | Supports institutions with enhanced security; does not require additional nFinia configuration |
-| **Identity Category Selection** | Member whose external bank offers multiple verification methods | Selects the appropriate identity verification category (e.g., SSN, email, phone) to authenticate | Accommodates diverse institution requirements within a single standardized flow |
-| **Business Account - Micro-Deposit Fallback** | Business member attempting external account verification | IAV is not presented; system routes to micro-deposit flow | Maintains compliance separation between personal and business account verification pathways |
+
+Retail member onboarding a new external account initiates IAV, authenticates with their external bank via Plaid, selects the account to link — the verification is completed in real time without any micro-deposit delays - verified in under 2 minutes, eliminates 1–3 day micro-deposit wait; you can initiate ACH transfers immediately.
+
+Member who wants to transfer funds to/from a personal account at another FI completes IAV flow to verify their external checking/savings account, then proceeds to schedule ACH transfer, increases ACH origination volume for the credit union; reduces call center contacts about pending verification.
+
+Member who prefers not to share full banking credentials selects "Continue as Guest" during Plaid flow and proceeds through alternative credential path, preserves member choice; reduces abandonment for credential-sensitive you.
+
+Member whose external bank requires MFA during Plaid authentication receives OTP/verification code from external bank, enters it within the Plaid Link interface, supports institutions with enhanced security; does not require additional nFinia configuration.
+
+Member whose external bank offers multiple verification methods selects the appropriate identity verification category (e.g., SSN, email, phone) to authenticate, accommodates diverse institution requirements within a single standardized flow.
+
+Business member attempting external account verification iAV is not presented; system routes to micro-deposit flow, maintains compliance separation between personal and business account verification pathways.
 
 These use cases reflect the reality that credit union members hold accounts across multiple institutions and need frictionless pathways to consolidate their financial activity within nFinia. IAV via Plaid positions the credit union to retain primary financial institution (PFI) status by making it easier to aggregate external funds.
 
