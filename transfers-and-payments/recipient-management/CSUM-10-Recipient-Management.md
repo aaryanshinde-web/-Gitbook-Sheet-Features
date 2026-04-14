@@ -10,20 +10,32 @@ Business members add a new vendor to the recipient directory when setting up a f
 
 ## Step-by-Step Guide
 
-**Step 1 — Open Recipient Management**
+**Step 1 — Navigate to Move Money Hub**
 
-From the Move Money menu, select **Recipients** or navigate to **Recipient Management** to open the recipient directory. All saved recipients are listed with their nickname, institution name, and last payment date — providing a complete view of all stored external payees.
+Click ‘Move Money' in the top navigation bar. Go to Manage Recipients
 
 <figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Add a New Recipient**
+**Step 2 — View Recipient List**
 
-Click **Add Recipient** to open the recipient entry form. Enter the recipient's nickname, full legal name, bank routing number, account number, and account type (checking or savings). Click **Save** — for ACH recipients, a micro-deposit verification may be required before the recipient can be used for transfers.
+The Recipient Management page displays all saved recipients as cards in a grid layout, each displaying the number of linked accounts.&#x20;
 
 <figure><img src="../../.gitbook/assets/img_99e0eb4b18db.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Edit or Remove a Recipient**
+**Step 3 — View Recipient Details & Linked Accounts**
 
-Select an existing recipient from the directory to open their record. Click **Edit** to update account details — such as a new routing number when a vendor changes banks — or click **Delete** to permanently remove the recipient from the directory. Changes take effect immediately and apply to all future transfers initiated to that recipient.
+Members can view the Recipient Details page by clicking on the Recipient. The Accounts section lists two linked external accounts with columns for Nickname, Payment method, and Financial Institution. Each account shows action buttons including 'Initiate Transfer' and a delete option. An 'Add Account' button and 'Remove recipient' link are available below.
 
 <figure><img src="../../.gitbook/assets/img_cb67ce7bddf8.png" alt=""><figcaption></figcaption></figure>
+
+**Step 4 — Add a New Recipient**
+
+You can add a New Recipient by searching for it in the search bar or navigating from Move Money. The Add Recipient form is displayed with a 'Recipient Details' section containing a Name field. The Accounts area shows an 'Add Account' link to attach payment accounts to the new recipient.&#x20;
+
+<figure><img src="../../.gitbook/assets/img_df2959b84f76.png" alt=""><figcaption></figcaption></figure>
+
+**Step 5 — Add Account to Recipient**
+
+The Add Account modal is open with fields for Payment type (set to 'within CU'), Membership number, Account type (set to '1st savings account'), optional First name and Last name fields, and a Nickname field. The member can enter those details and 'Save Account' to the recipient successfully. .
+
+<figure><img src="../../.gitbook/assets/img_ce9e205f56ac.png" alt=""><figcaption></figcaption></figure>
