@@ -23,11 +23,12 @@ The Accounts & Memberships settings allow members to personalise how their accou
 
 ## Key Use Cases
 
-| Use Case              | Who Uses It                             | What They Do                                                     | Business Value                                            |
-| --------------------- | --------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------- |
-| Set Account Nicknames | Members with multiple similar accounts  | Open Settings > Account Display, enter a nickname for each account | Makes account selection faster and clearer across all payment and transfer screens |
-| Enable Dark Theme     | Members preferring dark mode display    | Toggle Dark Theme in Settings > Preferences                      | Reduces eye strain in low-light environments and improves app usability at night |
-| Change Password       | Members rotating passwords for security | Open Settings > Security > Change Password                       | Self-service password update without contacting the credit union or visiting a branch |
+
+Members with multiple similar accounts open Settings > Account Display, enter a nickname for each account, makes account selection faster and clearer across all payment and transfer screens.
+
+Members preferring dark mode display toggle Dark Theme in Settings > Preferences, reduces eye strain in low-light environments and improves app usability at night.
+
+Members rotating passwords for security open Settings > Security > Change Password, self-service password update without contacting the credit union or visiting a branch.
 
 ## Step-by-Step Guide
 
