@@ -1,29 +1,29 @@
 ---
 description: >-
- Official feature documentation for Summerville Credit Union's nFinia Digital
- Banking platform covering all tracked features, vendor integrations, and
- reference guides.
+  Official feature documentation for Summerville Credit Union's nFinia Digital
+  Banking platform covering all tracked features, vendor integrations, and
+  reference guides.
 cover: .gitbook/assets/cover.png
 coverY: 0
 layout:
- width: default
- cover:
- visible: true
- size: hero
- title:
- visible: true
- description:
- visible: true
- tableOfContents:
- visible: true
- outline:
- visible: true
- pagination:
- visible: true
- metadata:
- visible: true
- tags:
- visible: true
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
 ---
 
 # README
