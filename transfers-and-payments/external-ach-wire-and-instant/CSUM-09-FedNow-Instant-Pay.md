@@ -1,55 +1,32 @@
 ---
 description: FedNow Instant Pay
 ---
-
 # FedNow Instant Pay
-
-> **Module:** Banking › Move Money → FedNow Instant Pay |
 
 ## Summary
 
-FedNow / Send Instantly enables members to send money in seconds, 24 hours a day, 7 days a week including holidays, using the Federal Reserve's real-time payment network and/or The Clearing House RTP network. Unlike ACH which batches transactions, FedNow settles funds immediately and irrevocably.
-
-Because FedNow payments are final and cannot be reversed once sent, the platform requires members to review and accept terms and conditions before submitting. This protects members from accidental high-value transfers. You must carefully verify recipient and amount details before confirming — there is no recall option once funds are sent.
-
-Instant Pay History provides a log of all real-time payment transactions, giving members a chronological record of every FedNow and RTP payment sent or received through the platform.
-
-**At a Glance**
-
-| Attribute | Detail |
-| ---------------- | -------------------------------------------------- |
-| Module | Move Money > FedNow Instant Pay / Send Instantly |
-| Network | Federal Reserve FedNow + The Clearing House RTP |
-| Settlement Speed | Seconds — 24/7/365 including weekends and holidays |
-| Reversibility | Irrevocable — cannot be recalled once sent |
+FedNow Instant Pay enables members to send real-time payments to recipients at participating financial institutions — with funds arriving in the recipient's account within seconds, 24 hours a day, 7 days a week, including weekends and federal holidays. For business members who need to make a time-critical vendor payment, cover an urgent payroll shortfall, or collect a payment from a customer without waiting for ACH settlement windows, FedNow eliminates the 1–3 business day delay that makes standard ACH unsuitable for urgent transactions.
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ------------------------ | ------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------- |
-| Urgent Payment Delivery | Members needing immediate fund delivery | Use FedNow for same-second settlement for time-critical payments | Eliminates 1–3 day ACH wait for urgent situations |
-| Weekend/Holiday Transfer | Members needing off-hours transfer | FedNow operates 24/7 including weekends and federal holidays | No need to wait for next business day |
-| Large Urgent Payment | Members with high-value time-sensitive payments | FedNow processes large amounts instantly with T\&C confirmation | Real estate deposits, contractor disbursements, urgent invoices |
-| Instant Confirmation | Members needing immediate proof of payment | FedNow confirmation is immediate with a reference number | Verifiable instant receipt for payer and recipient |
+Business members use FedNow when a vendor requires payment before releasing a shipment and the ACH settlement window would cause a delay that disrupts operations. Members use instant pay for time-sensitive individual payments — such as a contractor invoice due today — where a same-day ACH is not available or the receiving institution's cut-off has already passed. Credit union members also use FedNow to move funds between institutions in real time when a business opportunity or financial obligation requires immediate availability of funds at a specific account.
 
 ## Step-by-Step Guide
 
-**Step 1 — Navigate to Move Money Hub**
+**Step 1 — Select FedNow Instant Pay from Move Money**
 
-Click ‘Move Money' in the top navigation bar. Select "Send Now" or "Instant Pay" option.&#x20;
+From the Move Money menu, select **Instant Pay** or **FedNow** to open the instant payment form. Verify that the recipient's financial institution participates in the FedNow network — the platform will confirm network eligibility based on the routing number entered.
 
 <figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Step 2 — Navigate to FedNow Instant Pay**
+**Step 2 — Enter Recipient Details and Amount**
 
-The FedNow Terms and Conditions page is displayed with checkboxes for accepting the agreement before proceeding with the instant payment. Select the source account and recipient account,enter the amount to be paid and select the date for this transfer and click on continue.
+Enter the recipient's account number, routing number, and the payment amount. FedNow payments are irrevocable once submitted — verify all recipient details carefully before proceeding, as there is no recall mechanism once the payment is sent and the funds are available in the recipient's account.
 
 <figure><img src="../../.gitbook/assets/Caltech Employees FedNow Instant Pay Image copy.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Final Confirmation & Send**
+**Step 3 — Submit and Confirm Real-Time Settlement**
 
-The final confirmation screen shows a FedNow instant transfer with full transaction details and a confirmation button to complete the payment.
+Click **Send Now** to initiate the FedNow payment. The system processes the transaction in real time and displays a confirmation screen with a reference number and the settlement timestamp — confirming that the funds are available at the receiving institution immediately.
 
 <figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
