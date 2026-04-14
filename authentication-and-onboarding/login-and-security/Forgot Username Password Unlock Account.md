@@ -13,22 +13,34 @@ The self-service account recovery features — Forgot User ID, Forgot Password, 
 
 Business members who have not logged in for an extended period and cannot remember their User ID use the Forgot User ID flow to retrieve it by verifying their identity against registered account details. Members who have changed devices, cleared browser data, or received a security lockout use Forgot Password to reset credentials immediately without calling member services. Operations staff onboarding a business member who was locked out after multiple failed login attempts use the Unlock Account flow to restore access in real time — eliminating what would otherwise be a call centre interaction.
 
-## Step-by-Step Guide
+## End-to-End Workflow
 
-**Step 1 — Select the Appropriate Recovery Option from the Login Screen**
+**Step 1: Click "I need help logging in" on the login page**
 
-From the login screen, click the relevant link — **Forgot User ID**, **Forgot Password**, or **Unlock Account** — depending on the type of access issue. Each option launches a dedicated recovery flow tailored to the specific credential or access problem.
+The member opens the digital banking login page. Below the User ID and Password fields, a link labeled "I need help logging in" is displayed. The member clicks this link to access the self-service recovery options. The system navigates to the recovery page where the member can choose from three recovery workflows.
 
 <figure><img src="../../.gitbook/assets/login-page-help-link.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Verify Identity**
+**Step 2: Choose a recovery option**
 
-Enter the required verification information — typically the registered account number, date of birth, or last four digits of the Social Security Number — to confirm identity before the system allows a credential change or account unlock. The platform cross-references the entered data against the account record; a mismatch returns an error without revealing which field was incorrect.
+The self-service recovery page loads, displaying three options: "I forgot My User ID," "I forgot My Password," and "Unlock My User ID." Each option is presented with an icon. A "Back to login" link at the bottom returns the member to the main login screen. The member clicks the option that matches their need.
 
 <figure><img src="../../.gitbook/assets/img_8692cb9435f4.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 3 — Complete the Recovery Action**
+**Step 3: Forgot User ID - enter SSN and date of birth**
 
-For User ID recovery, the User ID is displayed or emailed to the registered address. For Password reset, the member creates a new password that meets the platform's complexity requirements and confirms it. For Account Unlock, the account is immediately restored to active status. All recovery actions generate an audit log entry that the credit union can review for compliance and security monitoring purposes.
+The member clicks "I forgot My User ID." The Forgot User ID form loads, prompting the member to enter their Social Security Number (SSN) in two matching fields for confirmation and their Date of Birth. A note on the page states the User ID will be sent to the member's registered email and/or mobile number. The member fills in the fields and clicks "Retrieve User ID" to submit. The system verifies the information and delivers the User ID to the registered contact method. The member can then return to the login page and sign in.
 
 <figure><img src="../../.gitbook/assets/img_441889e049ea.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 4: Forgot Password - begin the five-step reset wizard**
+
+The member clicks "I forgot My Password" from the recovery page. The Forgot Password flow opens at Step 1 (User info) of a five-step wizard: User info, Identity verification, Authentication, Password reset, and Success. The member enters their Membership Number and User ID, then clicks "Next" to proceed through identity verification, OTP authentication, and finally sets a new password. On the Success step, the member is returned to the login screen to sign in with the new password.
+
+<figure><img src="../../.gitbook/assets/img_e1c29585d221.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 5: Unlock Account - begin the five-step unlock wizard**
+
+The member clicks "Unlock My User ID" from the recovery page. The Unlock Account flow opens at Step 1 (Member verification) of a five-step wizard: Member verification, Identity verification, One-Time Passcode (OTP), Choose password, and Success. The member enters their User ID and Membership Number, then clicks "Next" to proceed through identity verification and OTP authentication. On the Choose password step, the member sets a new password. On the Success step, the account is unlocked and the member is returned to the login screen to sign in.
+
+<figure><img src="../../.gitbook/assets/img_dfa5fbc96fa9.png" alt="" width="480"><figcaption></figcaption></figure>
