@@ -1,7 +1,7 @@
 ---
 description: >-
- View all your account balances and transaction history in one consolidated
- dashboard.
+  View all your account balances and transaction history in one consolidated
+  dashboard.
 ---
 
 # Account Overview & Transaction History
