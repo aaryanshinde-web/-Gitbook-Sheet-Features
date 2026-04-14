@@ -1,7 +1,7 @@
 ---
 description: >-
-  The post-login landing screen — a consolidated view of accounts, quick
-  actions, upcoming payments, credit score, and related links.
+ The post-login landing screen — a consolidated view of accounts, quick
+ actions, upcoming payments, credit score, and related links.
 ---
 
 # Dashboard
@@ -10,14 +10,14 @@ The Dashboard is the first screen every authenticated member sees after logging 
 
 ## What's on the Dashboard
 
-| Zone                           | Location            | Purpose                                                                                                          |
+| Zone | Location | Purpose |
 | ------------------------------ | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **Account Summary Tiles**      | Centre column       | All account balances displayed as individual cards. Clicking any tile navigates to the **Accounts** module.      |
-| **Quick Transfer / Quick Pay** | Right panel         | A compact transfer form to move funds between own accounts without leaving the Dashboard.                        |
-| **Upcoming Payments**          | Right panel         | Scheduled and pending payments with due dates and amounts.                                                       |
-| **Credit Score Meter**         | Right panel         | A visual gauge showing the member's current credit score range with a "Show My Score" link.                      |
-| **Related Links Sidebar**      | Right panel, bottom | Quick-access links to Change Password, Download E-Statements, View Scheduled Transfers, and Direct Deposit Form. |
-| **Footer Quick Links**         | Page footer         | Persistent links to Security Policy, Branch Appointments, Locations, Rates, and Text Banking.                    |
+| **Account Summary Tiles** | Centre column | All account balances displayed as individual cards. Clicking any tile navigates to the **Accounts** module. |
+| **Quick Transfer / Quick Pay** | Right panel | A compact transfer form to move funds between own accounts without leaving the Dashboard. |
+| **Upcoming Payments** | Right panel | Scheduled and pending payments with due dates and amounts. |
+| **Credit Score Meter** | Right panel | A visual gauge showing the member's current credit score range with a "Show My Score" link. |
+| **Related Links Sidebar** | Right panel, bottom | Quick-access links to Change Password, Download E-Statements, View Scheduled Transfers, and Direct Deposit Form. |
+| **Footer Quick Links** | Page footer | Persistent links to Security Policy, Branch Appointments, Locations, Rates, and Text Banking. |
 
 ## Navigation from the Dashboard
 
