@@ -1,7 +1,7 @@
 ---
 description: >-
-  View membership settings and add new membership associations to the member's
-  profile
+ View membership settings and add new membership associations to the member's
+ profile
 ---
 
 # Accounts & Memberships Settings
@@ -31,8 +31,6 @@ The member clicks "Accounts" in the top navigation bar to open the Account Overv
 The member clicks "gear" in the top rIght of accounts.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-04-13 at 4.15.26 PM.png" alt="" width="534"><figcaption></figcaption></figure>
-
-
 
 **Step 3: Add a new membership or account**
 
