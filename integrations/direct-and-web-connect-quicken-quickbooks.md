@@ -14,25 +14,25 @@ For the credit union, this migration delivers meaningful operational benefits: r
 
 ### At a Glance
 
-| Attribute            | Detail                                                                                             |
+| Attribute | Detail |
 | -------------------- | -------------------------------------------------------------------------------------------------- |
-| Feature Name         | Intuit Direct Connect & Web Connect (In-House OFX Server)                                          |
-| Module               | nFinia Platform > Account Detail Page > Financial Data Export                                      |
-| User Roles           | Member (end user), FI Operations, Tyfone Support, Tyfone CSM                                       |
-| Access Level         | Member-initiated (Direct Connect); Member-initiated file download (Web Connect)                    |
-| Key Actions          | Connect account, authenticate, fetch transaction history, export file formats (QBO, QFX, OFX, CSV) |
-| Regulatory Relevance | FDX compliance, OFX 2.3 standard, multi-factor authentication, credential security                 |
+| Feature Name | Intuit Direct Connect & Web Connect (In-House OFX Server) |
+| Module | nFinia Platform > Account Detail Page > Financial Data Export |
+| User Roles | Member (end user), FI Operations, Tyfone Support, Tyfone CSM |
+| Access Level | Member-initiated (Direct Connect); Member-initiated file download (Web Connect) |
+| Key Actions | Connect account, authenticate, fetch transaction history, export file formats (QBO, QFX, OFX, CSV) |
+| Regulatory Relevance | FDX compliance, OFX 2.3 standard, multi-factor authentication, credential security |
 
 ***
 
 ## Use Cases
 
-| Use Case                                       | Who Uses It                      | What They Do                                                                                                                                                               | Business Value                                                                                             |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ---------------------------------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Initial Direct Connect Setup**               | Member (QuickBooks/Quicken user) | Adds the credit union as a connected account in Quicken or QuickBooks using credentials; the OFX endpoint resolves to the new in-house server via Intuit's branding portal | Enables real-time transaction sync for members managing business or personal finances in Intuit software   |
-| **Web Connect File Export**                    | Member                           | Logs into nFinia, navigates to account transaction history, and exports in QBO, QFX, OFX, or CSV format for manual import into QuickBooks or Quicken                       | Provides an alternative to Direct Connect for members who prefer or require manual import workflows        |
-| **Post-Conversion Support & Issue Escalation** | FI Operations / Tyfone Support   | During the 48-hour post-launch window,  contact Tyfone CSM for issues; after that window, submit tickets via the Intuit partner portal                                     | Ensures rapid resolution of connectivity issues with a defined escalation path; maintains SLA expectations |
-| **Transaction History Verification**           | Member                           | After reconnecting, verifies that 90 days of transaction history (default) has synced correctly across linked accounts                                                     | Confirms data integrity post-migration and builds member confidence in the new integration                 |
+| **Initial Direct Connect Setup** | Member (QuickBooks/Quicken user) | Adds the credit union as a connected account in Quicken or QuickBooks using credentials; the OFX endpoint resolves to the new in-house server via Intuit's branding portal | Enables real-time transaction sync for members managing business or personal finances in Intuit software |
+| **Web Connect File Export** | Member | Logs into nFinia, navigates to account transaction history, and exports in QBO, QFX, OFX, or CSV format for manual import into QuickBooks or Quicken | Provides an alternative to Direct Connect for members who prefer or require manual import workflows |
+| **Post-Conversion Support & Issue Escalation** | FI Operations / Tyfone Support | During the 48-hour post-launch window, contact Tyfone CSM for issues; after that window, submit tickets via the Intuit partner portal | Ensures rapid resolution of connectivity issues with a defined escalation path; maintains SLA expectations |
+| **Transaction History Verification** | Member | After reconnecting, verifies that 90 days of transaction history (default) has synced correctly across linked accounts | Confirms data integrity post-migration and builds member confidence in the new integration |
 
 The use cases above reflect the reality of a migration-heavy integration: the majority of member impact is concentrated in the reconnection workflow. Credit unions that proactively communicate with their Quicken and QuickBooks members before the conversion date will see significantly fewer support escalations in the days immediately following go-live.
 
@@ -110,12 +110,12 @@ Open QuickBooks or Quicken, navigate to File > Import, and select the downloaded
 
 ### Decision Points & Branching
 
-| Condition                                             | Outcome                                                                                             |
+| Condition | Outcome |
 | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Member does not disconnect & reconnect post-migration | Authentication failures, missing transactions, and sync errors will occur                           |
-| Credentials are invalid at Sign-On                    | OFX server returns error; Quicken/QuickBooks displays login failure message                         |
-| MFA is enabled for the FI                             | Additional authentication step required during Sign-On; Intuit application prompts for OTP or token |
-| Member prefers no credential sharing                  | Use Web Connect (file export) as alternative — no live credential exchange required                 |
+| Member does not disconnect & reconnect post-migration | Authentication failures, missing transactions, and sync errors will occur |
+| Credentials are invalid at Sign-On | OFX server returns error; Quicken/QuickBooks displays login failure message |
+| MFA is enabled for the FI | Additional authentication step required during Sign-On; Intuit application prompts for OTP or token |
+| Member prefers no credential sharing | Use Web Connect (file export) as alternative — no live credential exchange required |
 
 ***
 
@@ -137,12 +137,12 @@ For **Web Connect**, a successful import is confirmed when:
 
 ### Error Handling
 
-| Scenario                                    | What You See                      | Resolution                                                            |
+| Scenario | What You See | Resolution |
 | ------------------------------------------- | --------------------------------- | --------------------------------------------------------------------- |
-| Incorrect credentials at Sign-On            | Login error in Quicken/QuickBooks | Verify credentials in nFinia; reset password if needed                |
-| OFX server temporarily unavailable          | Connection timeout in Intuit app  | Retry after a few minutes; contact FI support if issue persists       |
-| Transactions not syncing after reconnection | Incomplete transaction history    | Verify 90-day default window; contact FI if history appears truncated |
-| MFA prompt not received                     | Sign-On stalls or times out       | Check phone/email for OTP; ensure contact info is current in nFinia   |
+| Incorrect credentials at Sign-On | Login error in Quicken/QuickBooks | Verify credentials in nFinia; reset password if needed |
+| OFX server temporarily unavailable | Connection timeout in Intuit app | Retry after a few minutes; contact FI support if issue persists |
+| Transactions not syncing after reconnection | Incomplete transaction history | Verify 90-day default window; contact FI if history appears truncated |
+| MFA prompt not received | Sign-On stalls or times out | Check phone/email for OTP; ensure contact info is current in nFinia |
 
 ***
 
@@ -152,15 +152,15 @@ For **Web Connect**, a successful import is confirmed when:
 
 This screen flow occurs within the **Intuit application** (not in nFinia). Navigate to the account connection workflow — the OFX server interaction is handled in the background.
 
-| Field / Element         | Type           | Description                                             | Notes                                                                 |
+| Field / Element | Type | Description | Notes |
 | ----------------------- | -------------- | ------------------------------------------------------- | --------------------------------------------------------------------- |
-| Add Account / Search FI | Input          | Search for your credit union by name                    | Intuit resolves OFX URL from its branding portal based on the FI name |
-| Username                | Input          | Your nFinia login username                              | Transmitted securely via OFX Sign-On Request                          |
-| Password                | Input (masked) | Your nFinia password                                    | Validated against nFinia authentication layer                         |
-| MFA / OTP Prompt        | Input          | One-time passcode if MFA is enabled                     | Displayed only if the FI has configured MFA                           |
-| Account List            | Display        | Lists all accounts returned by the OFX server           | Includes account type, partial account number, and balance            |
-| Transaction History     | Display        | Transactions returned for the selected date range       | Defaults to 90 days; FITID ensures no duplicate imports               |
-| Sync / Update           | Button         | Triggers a new OFX session to fetch latest transactions | Member-initiated; Intuit handles the full OFX handshake automatically |
+| Add Account / Search FI | Input | Search for your credit union by name | Intuit resolves OFX URL from its branding portal based on the FI name |
+| Username | Input | Your nFinia login username | Transmitted securely via OFX Sign-On Request |
+| Password | Input (masked) | Your nFinia password | Validated against nFinia authentication layer |
+| MFA / OTP Prompt | Input | One-time passcode if MFA is enabled | Displayed only if the FI has configured MFA |
+| Account List | Display | Lists all accounts returned by the OFX server | Includes account type, partial account number, and balance |
+| Transaction History | Display | Transactions returned for the selected date range | Defaults to 90 days; FITID ensures no duplicate imports |
+| Sync / Update | Button | Triggers a new OFX session to fetch latest transactions | Member-initiated; Intuit handles the full OFX handshake automatically |
 
 ***
 
@@ -170,12 +170,12 @@ This screen is accessed within the **nFinia digital banking platform** under you
 
 <figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-| Field / Element  | Type        | Description                              | Notes                                                       |
+| Field / Element | Type | Description | Notes |
 | ---------------- | ----------- | ---------------------------------------- | ----------------------------------------------------------- |
-| Account Selector | Dropdown    | Select the account to export             | Checking, savings, credit card, etc.                        |
-| Date Range       | Date Picker | Defines the transaction period to export | Default range is configurable; up to 90 days standard       |
-| Export Format    | Dropdown    | Select file format                       | QBO (QuickBooks), QFX (Quicken), OFX (open standard), CSV   |
-| Download Button  | Button      | Initiates file generation and download   | File is generated server-side and downloaded to your device |
+| Account Selector | Dropdown | Select the account to export | Checking, savings, credit card, etc. |
+| Date Range | Date Picker | Defines the transaction period to export | Default range is configurable; up to 90 days standard |
+| Export Format | Dropdown | Select file format | QBO (QuickBooks), QFX (Quicken), OFX (open standard), CSV |
+| Download Button | Button | Initiates file generation and download | File is generated server-side and downloaded to your device |
 
 ***
 
@@ -183,12 +183,12 @@ This screen is accessed within the **nFinia digital banking platform** under you
 
 For post-conversion issue escalation (beyond the first 48 hours), the FI uses the Intuit partner-only support portal.
 
-| Field / Element  | Type      | Description                              | Notes                                                                          |
+| Field / Element | Type | Description | Notes |
 | ---------------- | --------- | ---------------------------------------- | ------------------------------------------------------------------------------ |
-| Issue Category   | Dropdown  | Type of connectivity issue               | Direct Connect, Web Connect, authentication, transaction sync                  |
-| Affected Product | Dropdown  | Intuit product impacted                  | QuickBooks, Quicken, Mint                                                      |
-| Description      | Text Area | Detailed description of the issue        | More detail = faster resolution; include error codes and affected member count |
-| Submission       | Button    | Submits ticket to Intuit partner support | 24–48 hour SLA applies; for urgent issues, escalate directly to Tyfone CSM     |
+| Issue Category | Dropdown | Type of connectivity issue | Direct Connect, Web Connect, authentication, transaction sync |
+| Affected Product | Dropdown | Intuit product impacted | QuickBooks, Quicken, Mint |
+| Description | Text Area | Detailed description of the issue | More detail = faster resolution; include error codes and affected member count |
+| Submission | Button | Submits ticket to Intuit partner support | 24–48 hour SLA applies; for urgent issues, escalate directly to Tyfone CSM |
 
 > **Note:** The Intuit partner portal (`https://ofx-partner.intuit.com/app/fi/ContactUs`) is for FI use only. Members should never be directed to this portal — they must be referred back to the FI.
 
@@ -233,13 +233,13 @@ If you do not disconnect and reconnect, you will experience authentication failu
 
 ## Quick Reference
 
-| Task                                         | Navigation Path / Action                                              | Who Can Do It  | Notes                                                                      |
+| Task | Navigation Path / Action | Who Can Do It | Notes |
 | -------------------------------------------- | --------------------------------------------------------------------- | -------------- | -------------------------------------------------------------------------- |
-| Connect account via Direct Connect           | Quicken/QuickBooks > Add Account > Search FI > Enter credentials      | Member         | OFX endpoint resolved automatically via Intuit directory                   |
-| Disconnect existing account (post-migration) | Quicken/QuickBooks > Connected Accounts > Select Account > Disconnect | Member         | Required before reconnecting to new OFX endpoint                           |
-| Export transactions (Web Connect)            | nFinia > Account > Transaction History > Export > Select Format       | Member         | Formats: QBO, QFX, OFX, CSV                                                |
-| Update OFX URL in Intuit branding portal     | Intuit FI Branding Portal                                             | Tyfone Support | Done as part of conversion milestone; not member-facing action             |
-| Submit post-conversion support ticket        | https://ofx-partner.intuit.com/app/fi/ContactUs                       | FI Operations  | Partner-only portal; do not direct members here                            |
-| Escalate urgent issue during 48-hour window  | Contact Tyfone CSM directly                                           | FI Operations  | Use Tyfone Support channel; Intuit portal not applicable in first 48 hours |
-| Verify transaction history depth             | Contact Tyfone CSM                                                    | FI Operations  | Default: 90 days; configurable per FI                                      |
-| Confirm FITID continuity                     | No action required                                                    | —              | FITIDs do not change; deduplication handled natively by Intuit apps        |
+| Connect account via Direct Connect | Quicken/QuickBooks > Add Account > Search FI > Enter credentials | Member | OFX endpoint resolved automatically via Intuit directory |
+| Disconnect existing account (post-migration) | Quicken/QuickBooks > Connected Accounts > Select Account > Disconnect | Member | Required before reconnecting to new OFX endpoint |
+| Export transactions (Web Connect) | nFinia > Account > Transaction History > Export > Select Format | Member | Formats: QBO, QFX, OFX, CSV |
+| Update OFX URL in Intuit branding portal | Intuit FI Branding Portal | Tyfone Support | Done as part of conversion milestone; not member-facing action |
+| Submit post-conversion support ticket | https://ofx-partner.intuit.com/app/fi/ContactUs | FI Operations | Partner-only portal; do not direct members here |
+| Escalate urgent issue during 48-hour window | Contact Tyfone CSM directly | FI Operations | Use Tyfone Support channel; Intuit portal not applicable in first 48 hours |
+| Verify transaction history depth | Contact Tyfone CSM | FI Operations | Default: 90 days; configurable per FI |
+| Confirm FITID continuity | No action required | — | FITIDs do not change; deduplication handled natively by Intuit apps |
