@@ -24,14 +24,18 @@ For the credit union, this integration reduces inbound servicing calls by surfac
 
 ## Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| ------------------------------------------------ | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| View mortgage loan details | Member with active FICS mortgage | Navigates to Mortgage in sidebar or via Accounts, selects a loan, reviews property address, interest rate, payment schedule, and remaining term | Reduces inbound "what's my balance/rate?" calls to the call center |
-| Make an online mortgage payment | Member with upcoming payment due | Clicks **Pay Now** on the account detail screen, acknowledges the external link warning, and completes payment in the FICS-integrated payment portal | Increases on-time payments; reduces servicing friction |
-| Request payoff information | Member preparing to sell or refinance | Opens **Loan Information > Request payoff information**, selects delivery method (email/mail/fax), enters required dates, and submits | Replaces paper or phone-based payoff requests with a digital, trackable workflow |
-| Update contact information on file | Member whose address or phone has changed | Navigates to **About this loan**, clicks **Edit**, updates fields, and saves | Keeps servicer records current; reduces returned mail and missed communications |
-| Download transaction history or balance report | Member preparing for tax filing or refinance | Views **Transaction History** or navigates to **Balances** tab, downloads or prints the year-to-date summary | Supports member financial planning; reduces document request calls |
-| Send a secure message to the mortgage department | Member with a loan servicing question | Opens the **Help** tab, types a message in "Send us a message", and submits | Provides a channel-appropriate support path without leaving the banking session |
+
+Member with active FICS mortgage navigates to Mortgage in sidebar or via Accounts, selects a loan, reviews property address, interest rate, payment schedule, and remaining term, reduces inbound "what's my balance/rate?" calls to the call center.
+
+Member with upcoming payment due clicks **Pay Now** on the account detail screen, acknowledges the external link warning, and completes payment in the FICS-integrated payment portal, increases on-time payments; reduces servicing friction.
+
+Member preparing to sell or refinance opens **Loan Information > Request payoff information**, selects delivery method (email/mail/fax), enters required dates, and submits, replaces paper or phone-based payoff requests with a digital, trackable workflow.
+
+Member whose address or phone has changed navigates to **About this loan**, clicks **Edit**, updates fields, and saves, keeps servicer records current; reduces returned mail and missed communications.
+
+Member preparing for tax filing or refinance views **Transaction History** or navigates to **Balances** tab, downloads or prints the year-to-date summary, supports member financial planning; reduces document request calls.
+
+Member with a loan servicing question opens the **Help** tab, types a message in "Send us a message", and submits, provides a channel-appropriate support path without leaving the banking session.
 
 Credit unions enabling this integration can measurably deflect mortgage servicing calls while surfacing the kind of account detail that earns member trust - especially for the increasingly common scenario where the mortgage is serviced by FICS but the primary banking relationship is with the CU.
 
