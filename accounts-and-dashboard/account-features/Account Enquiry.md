@@ -1,7 +1,7 @@
 ---
 description: >-
- Send secure messages to the credit union about a specific account with
- optional file attachments
+  Send secure messages to the credit union about a specific account with
+  optional file attachments
 ---
 
 # Account Inquiry
