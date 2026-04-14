@@ -15,20 +15,32 @@ Business members monitor their personal credit score within digital banking to a
 
 ## Step-by-Step Guide
 
-**Step 1 — Open the Credit Score Feature**
+**Step 1 — Start from Dashboard**
 
-Click the Credit Score widget on the Dashboard or navigate to **Accounts > Credit Score** to open the full Credit Score screen. The current score, score range indicator, and the date of the most recent score update are displayed at the top of the screen.
+You begin at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 2 — Review Score Factors**
+**Step 2 — Open the More Menu**
 
-Scroll down to the Score Factors section, which lists each factor contributing to the score — Payment History, Credit Utilisation, Length of Credit History, Credit Mix, and New Credit — with a rating for each. This breakdown identifies which specific behaviours are helping or hurting the score and informs targeted improvement actions.
+Click 'More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
 <figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 3 — View Score History**
+**Step 3 — Navigate from Dashboard to Credit Score**
 
-Navigate to the Score History section to see the month-over-month score trend as a chart. Members can identify score inflection points — such as a drop following a new account opening or an improvement after a balance paydown — and correlate score changes with recent account activity for a complete picture of credit health over time.
+The Credit Score page is displayed with consent information describing the credit score service and a blue action button for you to access your credit score data.
 
 <figure><img src="../../.gitbook/assets/img_c11a5a1ced0c.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 4 — Score Not Found — Thin Credit File**
+
+The Credit Score page shows a message indicating that credit score information is not currently available, with a button to proceed or retry the lookup.
+
+<figure><img src="../../.gitbook/assets/img_4db8387e6bb2.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 5 — Re-Confirm Credit Score Consent**
+
+The Credit Score page displays a re-confirmation consent screen with updated terms and information about accessing credit score data.
+
+<figure><img src="../../.gitbook/assets/img_5e76e3f791d4.png" alt="" width="480"><figcaption></figcaption></figure>
