@@ -3,37 +3,26 @@ description: >-
   Send secure messages to the credit union about a specific account with
   optional file attachments
 ---
-
-# Account Inquiry
+# Account Enquiry
 
 ## Summary
 
-Account Enquiry allows members to send a secure message to the credit union about a specific account directly from the Account Overview. Clicking "Account Enquiry" on any account row opens a Compose Message modal, pre-populated with the account context. The member enters a subject line and message body, and can optionally attach files before sending. Messages are transmitted securely and replies from the credit union can be viewed in the member's Inbox or Message Center.
+Account Enquiry allows members to submit a formal inquiry about a specific account directly through digital banking — routing the request to credit union staff without requiring a branch visit or phone call. For business members disputing a charge, requesting documentation, or flagging a potential error on a commercial account, this feature creates a documented, traceable inquiry that the credit union can respond to through the secure Message Center.
 
 ## Key Use Cases
 
-* Ask a question about a specific account
-* Report a transaction dispute
-* Request account-level service
-* Send secure documentation to the credit union
-* Request account modifications or special handling
+Business members use Account Enquiry to dispute an unrecognised transaction on a business checking account, request documentation for a specific payment for audit or legal purposes, and flag balance discrepancies for investigation. Members who identify a posting error use this feature to formally document the issue rather than relying on an informal phone call — creating an audit trail that protects both the member and the credit union. Operations staff also use inquiry submissions to escalate time-sensitive account issues to the appropriate internal team.
 
-## End-to-End Workflow
+## Step-by-Step Guide
 
-**Step 1: Open Account Enquiry from Account Overview**
+**Step 1 — Navigate to the Account and Open the Enquiry Form**
 
-The member clicks "Accounts" in the top navigation bar to open the Account Overview page. The member can click on the "Account Inquiry" on any account row. A Compose Message modal opens over the Account Overview page, with the account context automatically populated in the message.
+From the Accounts menu or Dashboard, select the account in question and locate the **Account Inquiry** option in the account action menu. The Account Enquiry form loads with the account pre-populated, prompting the member to select an inquiry type and provide a description of the issue.
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-**Step 2: Compose and send the message**
+**Step 2 — Complete and Submit the Inquiry**
 
-The member enters a Subject line describing the inquiry topic. The member types the message content in the Message field, providing details of the question or request. The member optionally clicks the attachment option to attach supporting documentation or files. The member clicks "Send" to submit the message to the credit union. The modal closes and the message is transmitted securely. The member can view replies from the credit union in the Inbox or Message Center.
+Select the appropriate inquiry type from the dropdown, enter a clear description of the issue in the message field, and attach any supporting documentation if relevant. Click **Submit** to send the inquiry to credit union staff — a confirmation message appears and a support ticket is created in the Inbox with a reference number for tracking.
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-
-Similarly, in the transaction detail section of an account, there lies an option to inquire about the transaction inside the 3-dotted menu for a transaction.&#x20;
-
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
