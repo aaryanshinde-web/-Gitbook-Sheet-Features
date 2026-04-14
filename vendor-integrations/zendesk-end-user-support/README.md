@@ -1,7 +1,7 @@
 ---
 description: >-
-  ZenDesk End User Support Portal integration — member-facing help center and
-  ticket submission within nFinia Digital Banking.
+ ZenDesk End User Support Portal integration — member-facing help center and
+ ticket submission within nFinia Digital Banking.
 ---
 
 # End User Support Portal - ZenDesk
@@ -20,13 +20,13 @@ The ZenDesk integration brings a full-featured member support portal directly in
 
 ## Key Features
 
-| Feature                    | Description                                                                                   |
+| Feature | Description |
 | -------------------------- | --------------------------------------------------------------------------------------------- |
-| **Knowledge Base**         | Searchable articles covering common member questions and how-to guides                        |
-| **Ticket Submission**      | Members can open support requests with attachments directly from nFinia                       |
-| **Ticket Status Tracking** | Real-time status updates on open and resolved tickets                                         |
-| **SSO Authentication**     | Member is authenticated automatically via nFinia session — no separate ZenDesk login required |
-| **Chat Widget**            | Optional live-chat widget surfaced within the app (requires ZenDesk Chat add-on)              |
+| **Knowledge Base** | Searchable articles covering common member questions and how-to guides |
+| **Ticket Submission** | Members can open support requests with attachments directly from nFinia |
+| **Ticket Status Tracking** | Real-time status updates on open and resolved tickets |
+| **SSO Authentication** | Member is authenticated automatically via nFinia session — no separate ZenDesk login required |
+| **Chat Widget** | Optional live-chat widget surfaced within the app (requires ZenDesk Chat add-on) |
 
 ***
 
@@ -46,9 +46,9 @@ The ZenDesk integration brings a full-featured member support portal directly in
 **Prerequisite:** A ZenDesk account with SSO (JWT or OAuth) must be provisioned for Summerville Credit Union. Contact the Tyfone implementation team for SSO token configuration.
 {% endhint %}
 
-| Parameter          | Details                                                              |
+| Parameter | Details |
 | ------------------ | -------------------------------------------------------------------- |
-| **Authentication** | JWT-based SSO using nFinia member session                            |
-| **Subdomain**      | `summervillecu.zendesk.com`                                          |
-| **Ticket Routing** | Routed to the `nfinia-support` view in the ZenDesk workspace         |
-| **Branding**       | ZenDesk Help Center theme customizable to match Summerville CU brand |
+| **Authentication** | JWT-based SSO using nFinia member session |
+| **Subdomain** | `summervillecu.zendesk.com` |
+| **Ticket Routing** | Routed to the `nfinia-support` view in the ZenDesk workspace |
+| **Branding** | ZenDesk Help Center theme customizable to match Summerville CU brand |
