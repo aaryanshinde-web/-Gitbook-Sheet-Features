@@ -10,24 +10,24 @@ Sneak Peek reduces unnecessary authentication events, lowers the risk of credent
 
 **At a Glance**
 
-| Attribute          | Detail                                                                       |
+| Attribute | Detail |
 | ------------------ | ---------------------------------------------------------------------------- |
-| Feature Name       | Sneak Peek                                                                   |
-| Module             | Banking › Welcome Screen (pre-login) · Account Settings (configuration)      |
-| User Roles         | Enrolled Retail Member                                                       |
-| Access Level       | Pre-login (balance view only); Account Settings requires full authentication |
-| Key Actions        | Enable Sneak Peek per account (toggle), View balance on Welcome screen       |
-| Configuration Path | Dashboard › Menu › Settings › Account Settings › Sneak Peek toggle           |
+| Feature Name | Sneak Peek |
+| Module | Banking › Welcome Screen (pre-login) · Account Settings (configuration) |
+| User Roles | Enrolled Retail Member |
+| Access Level | Pre-login (balance view only); Account Settings requires full authentication |
+| Key Actions | Enable Sneak Peek per account (toggle), View balance on Welcome screen |
+| Configuration Path | Dashboard › Menu › Settings › Account Settings › Sneak Peek toggle |
 
 ## Use Cases
 
-| Use Case                                                 | Who Uses It                               | What They Do                                                                                                    | Business Value                                                                                      |
+| Use Case | Who Uses It | What They Do | Business Value |
 | -------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Quick pre-login balance check                            | You on the go                             | Open the app and tap Balance on the Welcome screen — no login required                                          | Eliminates a full authentication session for a read-only inquiry; reduces session load and friction |
-| Enabling Sneak Peek for the first time                   | You new to the feature or existing member | Authenticate, navigate to Account Settings, and turn on the Sneak Peek toggle for your primary checking account | One-time setup that permanently improves the day-to-day mobile experience                           |
-| Enabling Sneak Peek for a secondary account              | You with multiple accounts                | Repeat the Account Settings flow for a savings or secondary checking account                                    | Allows you to monitor multiple balances at a glance pre-login                                       |
-| Disabling Sneak Peek (privacy preference)                | You sharing a device                      | Turn off the Sneak Peek toggle in Account Settings                                                              | Ensures no balance information is visible to anyone who picks up the phone before login             |
-| Using Balance widget alongside other pre-login shortcuts | You performing a quick task               | Tap Balance on Welcome screen, review balance, then proceed to Move Money or Check Deposit                      | Increases pre-login feature engagement; reduces steps to action                                     |
+| Quick pre-login balance check | Members on the go | Open the app and tap Balance on the Welcome screen — no login required | Eliminates a full authentication session for a read-only inquiry; reduces session load and friction |
+| Enabling Sneak Peek for the first time | Members new to the feature or existing member | Authenticate, navigate to Account Settings, and turn on the Sneak Peek toggle for your primary checking account | One-time setup that permanently improves the day-to-day mobile experience |
+| Enabling Sneak Peek for a secondary account | Members with multiple accounts | Repeat the Account Settings flow for a savings or secondary checking account | Allows you to monitor multiple balances at a glance pre-login |
+| Disabling Sneak Peek (privacy preference) | Members sharing a device | Turn off the Sneak Peek toggle in Account Settings | Ensures no balance information is visible to anyone who picks up the phone before login |
+| Using Balance widget alongside other pre-login shortcuts | Members performing a quick task | Tap Balance on Welcome screen, review balance, then proceed to Move Money or Check Deposit | Increases pre-login feature engagement; reduces steps to action |
 
 ## Step-by-Step Guide: Enabling Sneak Peek
 
@@ -97,31 +97,31 @@ A toast notification confirms: _"Your account settings have been updated."_ From
 
 ## Error Handling
 
-| Scenario                             | Your Experience                                                                           | Recovery                                                                               |
+| Scenario | Your Experience | Recovery |
 | ------------------------------------ | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Authentication failure during setup  | You cannot reach Account Settings if login fails                                          | Resolve credentials first                                                              |
-| OTP not received                     | Use the Retry option after the 60-second countdown, or select a different delivery method | Try again after countdown expires                                                      |
-| Balance not appearing after enabling | Sneak Peek is on but balance is not visible                                               | Check that the Show/Hide toggle for the same account is also in the "shown" (on) state |
+| Authentication failure during setup | Members cannot reach Account Settings if login fails | Resolve credentials first |
+| OTP not received | Use the Retry option after the 60-second countdown, or select a different delivery method | Try again after countdown expires |
+| Balance not appearing after enabling | Sneak Peek is on but balance is not visible | Check that the Show/Hide toggle for the same account is also in the "shown" (on) state |
 
 ## Welcome Screen Reference
 
-| Field / Element | Type                               | Description                                                                            |
+| Field / Element | Type | Description |
 | --------------- | ---------------------------------- | -------------------------------------------------------------------------------------- |
-| Balance         | Slide-up widget (bottom of screen) | Sneak Peek surface. Displays your configured account's balance without requiring login |
-| Accounts        | Shortcut icon                      | Pre-login access to account views                                                      |
-| Move Money      | Shortcut icon                      | Pre-login shortcut to Move Money hub                                                   |
-| Check Deposit   | Shortcut icon                      | Pre-login shortcut to mobile deposit                                                   |
-| Manage Devices  | Shortcut icon                      | Pre-login device management shortcut                                                   |
-| Log In          | Button (Primary)                   | Full authenticated login entry point                                                   |
-| Enroll          | Button (Secondary)                 | New member enrollment flow                                                             |
+| Balance | Slide-up widget (bottom of screen) | Sneak Peek surface. Displays your configured account's balance without requiring login |
+| Accounts | Shortcut icon | Pre-login access to account views |
+| Move Money | Shortcut icon | Pre-login shortcut to Move Money hub |
+| Check Deposit | Shortcut icon | Pre-login shortcut to mobile deposit |
+| Manage Devices | Shortcut icon | Pre-login device management shortcut |
+| Log In | Button (Primary) | Full authenticated login entry point |
+| Enroll | Button (Secondary) | New member enrollment flow |
 
 ## Quick Reference
 
-| Task                                        | Navigation Path                                                                | Who Can Do It                      | Notes                                                   |
+| Task | Navigation Path | Who Can Do It | Notes |
 | ------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------- | ------------------------------------------------------- |
-| Enable Sneak Peek for an account            | Log In › Dashboard › Menu › Settings › Account Settings › Sneak Peek toggle ON | You (authenticated)                | Per-account setting; must be done once per account      |
-| View balance without logging in             | Open app › Welcome Screen › Tap **Balance** widget                             | Any member with Sneak Peek enabled | No authentication required; balance is read-only        |
-| Disable Sneak Peek                          | Dashboard › Menu › Settings › Account Settings › Sneak Peek toggle OFF         | You (authenticated)                | Balance immediately stops appearing pre-login           |
-| Enable Sneak Peek for a second account      | Repeat Account Settings flow, select second account                            | You (authenticated)                | Each account is configured independently                |
-| Rename an account shown via Sneak Peek      | Account Settings › Rename                                                      | You (authenticated)                | The friendly name appears in the Balance widget         |
-| Ensure Sneak Peek is working (troubleshoot) | Check Account Settings: Show/Hide must be ON, Sneak Peek must be ON            | You (authenticated)                | Both toggles must be active for the feature to function |
+| Enable Sneak Peek for an account | Log In › Dashboard › Menu › Settings › Account Settings › Sneak Peek toggle ON | You (authenticated) | Per-account setting; must be done once per account |
+| View balance without logging in | Open app › Welcome Screen › Tap **Balance** widget | Any member with Sneak Peek enabled | No authentication required; balance is read-only |
+| Disable Sneak Peek | Dashboard › Menu › Settings › Account Settings › Sneak Peek toggle OFF | You (authenticated) | Balance immediately stops appearing pre-login |
+| Enable Sneak Peek for a second account | Repeat Account Settings flow, select second account | You (authenticated) | Each account is configured independently |
+| Rename an account shown via Sneak Peek | Account Settings › Rename | You (authenticated) | The friendly name appears in the Balance widget |
+| Ensure Sneak Peek is working (troubleshoot) | Check Account Settings: Show/Hide must be ON, Sneak Peek must be ON | You (authenticated) | Both toggles must be active for the feature to function |
