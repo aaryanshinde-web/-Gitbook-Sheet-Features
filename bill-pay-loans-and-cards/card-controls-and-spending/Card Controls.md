@@ -10,23 +10,23 @@ Each sub-feature works independently and can be configured without affecting the
 
 ## At a Glance
 
-| Attribute         | Detail                                                               |
+| Attribute | Detail |
 | ----------------- | -------------------------------------------------------------------- |
-| Module            | Banking › Cards › Card Details › Card Controls                       |
-| Spending Limits   | Set per-transaction and per-month spending caps                      |
-| Usage Control     | Enable or disable specific transaction types and merchant categories |
-| Card Alerts       | Configure notification alerts for card activity                      |
-| Location Controls | Restrict or permit transactions by geographic location               |
-| Related Documents | Spending Limits, Usage Control, Location Controls (separate guides)  |
+| Module | Banking › Cards › Card Details › Card Controls |
+| Spending Limits | Set per-transaction and per-month spending caps |
+| Usage Control | Enable or disable specific transaction types and merchant categories |
+| Card Alerts | Configure notification alerts for card activity |
+| Location Controls | Restrict or permit transactions by geographic location |
+| Related Documents | Spending Limits, Usage Control, Location Controls (separate guides) |
 
 ## Key Use Cases
 
-| Use Case                          | Who It's For                               |
+| Use Case | Who It's For |
 | --------------------------------- | ------------------------------------------ |
-| **Set spending limits**           | Member managing a budget or secondary card |
-| **Block specific merchant types** | Member restricting card to certain uses    |
-| **Enable card for travel**        | Member traveling internationally           |
-| **Review all controls**           | Member wanting to audit card settings      |
+| **Set spending limits** | Member managing a budget or secondary card |
+| **Block specific merchant types** | Member restricting card to certain uses |
+| **Enable card for travel** | Member traveling internationally |
+| **Review all controls** | Member wanting to audit card settings |
 
 ## Step-by-Step Guide
 
