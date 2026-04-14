@@ -25,14 +25,18 @@ This feature serves retail and business members alike.&#x20;
 
 ## Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| --------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| **View current monthly statement** | Retail member | Navigates to Statements & Tax Forms → SSO launches BDI portal → selects membership → opens most recent Monthly Statement | Replaces paper delivery; instant self-service access |
-| **Download a statement PDF** | Member or joint account holder | Opens a statement in the BDI portal and clicks "View PDF" to download or print a printable version | Supports loan applications, tax filings, and audits without branch involvement |
-| **Switch between multiple memberships** | Member with multiple account numbers | Uses the membership dropdown in BDI to toggle between different member numbers linked to your digital banking profile | Eliminates need for multiple logins; serves complex household or business structures |
-| **View historical/archived documents** | Member | Clicks "> View all past documents" link within a document type section | Provides self-service access to statement archive; reduces call center volume for historical statement requests |
-| **Review enrollment and disclosures** | New member or compliance officer | Navigates to Enrollment or Disclosures tab within BDI portal | Ensures E-SIGN Act compliance; you can view the Online Statement Enrollment Disclosure and confirm paperless opt-in |
-| **Search for a specific statement** | Member or FI operations | Uses Statement Search tab (desktop) to locate a document by date or criteria | Faster document retrieval without scrolling through full archive |
+
+Retail member navigates to Statements & Tax Forms → SSO launches BDI portal → selects membership → opens most recent Monthly Statement, replaces paper delivery; instant self-service access.
+
+Member or joint account holder opens a statement in the BDI portal and clicks "View PDF" to download or print a printable version, supports loan applications, tax filings, and audits without branch involvement.
+
+Member with multiple account numbers uses the membership dropdown in BDI to toggle between different member numbers linked to your digital banking profile, eliminates need for multiple logins; serves complex household or business structures.
+
+Member clicks "> View all past documents" link within a document type section, provides self-service access to statement archive; reduces call center volume for historical statement requests.
+
+New member or compliance officer navigates to Enrollment or Disclosures tab within BDI portal, ensures E-SIGN Act compliance; you can view the Online Statement Enrollment Disclosure and confirm paperless opt-in.
+
+Member or FI operations uses Statement Search tab (desktop) to locate a document by date or criteria, faster document retrieval without scrolling through full archive.
 
 The BDI SSO integration is particularly important for credit unions with diverse membership profiles — households with both retail and business accounts, members with multiple share numbers, and members who require mortgage statements alongside standard monthly statements. By surfacing all document types under one authenticated session, the credit union eliminates the need for members to maintain a separate BDI login.
 
