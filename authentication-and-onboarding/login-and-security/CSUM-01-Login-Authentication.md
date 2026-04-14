@@ -6,53 +6,53 @@ description: Log in securely using multi-factor authentication with OTP verifica
 
 ## Summary
 
-The Login & Authentication module is the security gateway to the digital banking platform. Every session begins here — it is the single point of identity verification before any account data, transaction capability, or self-service function is accessible. The authentication flow employs a multi-layer design: the member supplies a registered username and password, then completes a one-time passcode (OTP) challenge delivered to a pre-registered email or mobile number. During OTP verification, a "Remember this device" option allows the member to skip OTP on future logins from the same browser or device. After successful verification, the member lands on the Dashboard with full access to all banking features. Biometric login (Touch ID / Face ID) is available on supported devices for returning members. Self-service recovery options (Forgot User ID, Forgot Password, Unlock Account) are accessible from the login screen and documented separately.
+Login & Authentication is the security entry point to nFinia Digital Banking — every session, every transaction, and every self-service action begins here. The flow is designed around a two-layer identity check: members present a registered username and password, then complete a one-time passcode (OTP) challenge delivered to a pre-registered phone or email address. This dual-factor approach aligns with NCUA examination expectations for member authentication and provides the credit union with a defensible access control posture.
+
+Once authenticated, the member lands on the Dashboard with full access to account data, transfers, payments, and all self-service features. Returning members on trusted devices can bypass the OTP step entirely through the "Remember this device" option, reducing session friction without compromising security. Biometric login via Face ID or Touch ID is available on supported mobile devices, and self-service recovery links for forgotten credentials and locked accounts are accessible directly from the login screen.
 
 ## Key Use Cases
 
-* Sign in to digital banking with username, password, and OTP verification
-* Select OTP delivery method (text message, phone call, or email)
-* Remember a device or browser to skip OTP on future logins
-* Complete first-time login and establish an authenticated session
-* Enable biometric login (Touch ID / Face ID) on a trusted device
-* Access self-service recovery options from the login screen
+* Sign in to digital banking using a username, password, and OTP — the standard multi-factor flow required on every new device or unrecognised browser
+* Select the OTP delivery method that best matches the member's preferences: text message, phone call, or email
+* Register a trusted device to skip OTP on future logins from that browser or device, reducing login friction for frequent users
+* Complete a first-time session and establish an authenticated digital banking context
+* Enable biometric login (Face ID or Touch ID) on a compatible mobile device for one-tap subsequent access
+* Access self-service recovery options — Forgot User ID, Forgot Password, or Unlock Account — directly from the login screen without contacting the credit union
 
 ## End-to-End Workflow
 
-**Step 1: Open the login screen**
+**Step 1: Open the Login Screen**
 
-The member navigates to the digital banking URL. The login page loads, displaying a welcome modal with the User ID and Password input fields and a "Log in" button. Links to self-service recovery options (Forgot User ID, Forgot Password, Unlock Account) appear below the login form.
-
-<figure><img src="../../.gitbook/assets/img_ba47001101d4.png" alt="" width="480"><figcaption></figcaption></figure>
-
-**Step 2: Enter credentials and click Log In**
-
-The member enters their registered User ID and password into the respective fields and clicks "Log in" to begin the authentication process. The system validates the credentials and proceeds to the OTP verification step.
+Navigate to the Summerville CU digital banking URL to load the login page, which presents the User ID and Password fields along with self-service recovery links for Forgot User ID, Forgot Password, and Unlock Account. This is the only entry point to the platform — no account data or functionality is accessible prior to successful authentication.
 
 <figure><img src="../../.gitbook/assets/img_ba47001101d4.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 3: Select OTP delivery method**
+**Step 2: Enter Credentials and Submit**
 
-The Verification screen appears, offering three OTP delivery options: "Send me a text message," "Call me," and "Send me an email." The member selects their preferred method to receive the one-time passcode.
+Enter your registered User ID and password in the respective fields and click **Log In** to submit your credentials for validation. If the credentials are recognised, the platform immediately advances to the OTP verification step; if they are not, an error is displayed and the session remains unauthenticated.
+
+<figure><img src="../../.gitbook/assets/img_ba47001101d4.png" alt="" width="480"><figcaption></figcaption></figure>
+
+**Step 3: Select OTP Delivery Method**
+
+The Verification screen presents three delivery options for the one-time passcode: **Send me a text message**, **Call me**, or **Send me an email** — all routed to the contact details registered on the account. Select the method most accessible at the time of login; this choice can be changed on subsequent logins and does not alter the registered contact information on the account.
 
 <figure><img src="../../.gitbook/assets/img_af24a462cfc3.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 4: Confirm email address (if email chosen)**
+**Step 4: Confirm Email Address (if Email is Selected)**
 
-If the member selected email delivery, the screen displays the "Send me an email" option with an input field to confirm or select the registered email address for receiving the verification code. The member confirms and proceeds.
+If email delivery is chosen, the platform displays an input field to confirm or select the registered email address to which the OTP should be sent. Verify the destination address is correct and proceed — the OTP will not be sent until this confirmation step is completed.
 
 <figure><img src="../../.gitbook/assets/img_d002b4246e94.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 5: Enter OTP code and optionally remember this device**
+**Step 5: Enter the OTP and Choose Whether to Trust This Device**
 
-A verification code entry form appears with an "Enter code" text field. The member enters the one-time passcode received via their chosen delivery method. A "Didn't receive your code? Resend" link is available below the input if the member needs the OTP re-sent.
-
-Below the code entry field, a "Remember this device" checkbox is displayed. If the member checks this option, the system registers the current browser or device as remembered. On subsequent logins from this same device and browser, the OTP step is skipped entirely — the member only needs to enter their User ID and password to access their account. Remembered devices can be viewed and managed from the Device Management page under the More menu. If the member does not check "Remember this device," OTP verification will be required on every login from this device.
+Enter the one-time passcode received via the selected channel into the **Enter code** field; a **Resend** link is available if the code was not received within the expected window. Before submitting, review the **Remember this device** checkbox — checking it registers the current browser or device as trusted, so future logins from this device will skip the OTP step and require only the User ID and password. Trusted devices can be reviewed and revoked at any time from the Device Management page under the More menu.
 
 <figure><img src="../../.gitbook/assets/img_a44197ff9ff7.png" alt="" width="480"><figcaption></figcaption></figure>
 
-**Step 6: Arrive at the Dashboard**
+**Step 6: Arrive at the Authenticated Dashboard**
 
-The Dashboard loads successfully after authentication. The screen greets the member by name and displays account balances, a quick transfer widget, upcoming payments, and promotional messaging. The member now has full access to all digital banking features.
+Successful OTP entry completes the authentication session and loads the Dashboard, which displays account balances, a quick transfer widget, upcoming scheduled payments, and the full navigation menu. All digital banking features — transfers, bill pay, card controls, account management, and integrations — are now accessible within this authenticated session.
 
 <figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
