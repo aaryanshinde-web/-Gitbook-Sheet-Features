@@ -12,13 +12,16 @@ For business members managing cash flow, approving transfers, or reviewing comme
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-| --- | --- | --- | --- |
-| Standard login with MFA | All members — retail and business | Enter User ID and password, select OTP channel, submit passcode | Confirms identity before any account data or transaction capability is accessible |
-| Trusted device registration | Frequent users — business members monitoring cash flow daily | Check "Remember this device" during OTP step | Subsequent logins require only credentials — OTP step is skipped on that device |
-| Biometric login | Mobile users on supported devices | Enable Face ID or Touch ID at the credential step | One-tap authentication for repeat sessions without entering a password |
-| First-time login | New members completing onboarding | Complete credential entry and full MFA flow for the first session | Establishes authenticated session and binds device trust if elected |
-| Account recovery | Members with forgotten credentials or locked accounts | Use Forgot User ID, Forgot Password, or Unlock Account links on login screen | Full self-service recovery without contacting the credit union |
+
+All members — retail and business enter User ID and password, select OTP channel, submit passcode, confirms identity before any account data or transaction capability is accessible.
+
+Frequent users — business members monitoring cash flow daily check "Remember this device" during OTP step, subsequent logins require only credentials — OTP step is skipped on that device.
+
+Mobile users on supported devices enable Face ID or Touch ID at the credential step, one-tap authentication for repeat sessions without entering a password.
+
+New members completing onboarding complete credential entry and full MFA flow for the first session, establishes authenticated session and binds device trust if elected.
+
+Members with forgotten credentials or locked accounts use Forgot User ID, Forgot Password, or Unlock Account links on login screen, full self-service recovery without contacting the credit union.
 
 For credit unions with business banking members, reliable and low-friction authentication directly affects how often those members engage with cash management, transfer approvals, and account monitoring — making this the most critical UX touchpoint on the platform.
 
