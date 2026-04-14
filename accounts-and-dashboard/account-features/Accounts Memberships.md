@@ -1,7 +1,7 @@
 ---
 description: >-
- View membership settings and add new membership associations to the member's
- profile
+  View membership settings and add new membership associations to the member's
+  profile
 ---
 
 # Accounts & Memberships Settings
