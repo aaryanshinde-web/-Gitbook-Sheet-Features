@@ -1,7 +1,7 @@
 ---
 description: >-
- The post-login landing screen — a consolidated view of accounts, quick
- actions, upcoming payments, credit score, and related links.
+  The post-login landing screen — a consolidated view of accounts, quick
+  actions, upcoming payments, credit score, and related links.
 ---
 
 # Dashboard
