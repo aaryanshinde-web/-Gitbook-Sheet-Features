@@ -8,7 +8,7 @@ description: External ACH Transfer
 
 ## Summary
 
-The External ACH Transfer feature allows You to send or pull funds between your credit union accounts and external bank accounts at other financial institutions via the ACH (Automated Clearing House) network. This is essential for members who maintain accounts at multiple banks, need to fund their CU account from an external source, or make payments to external obligations.
+The External ACH Transfer feature allows members to send or pull funds between your credit union accounts and external bank accounts at other financial institutions via the ACH (Automated Clearing House) network. This is essential for members who maintain accounts at multiple banks, need to fund their CU account from an external source, or make payments to external obligations.
 
 External transfers require identity verification for first-use or high-value transactions. A one-time passcode (OTP) is sent to your registered mobile number or email to authorise the transaction before it is submitted to the ACH network. External accounts must first be added via Recipient Management before they can be used as transfer destinations.
 
@@ -16,21 +16,21 @@ The ACH network processes transfers in 1–3 business days under standard ACH ru
 
 **At a Glance**
 
-| Attribute      | Detail                                                  |
+| Attribute | Detail |
 | -------------- | ------------------------------------------------------- |
-| Module         | Move Money > Transfer to External Accounts              |
-| Network        | ACH — Automated Clearing House                          |
+| Module | Move Money > Transfer to External Accounts |
+| Network | ACH — Automated Clearing House |
 | Transfer Speed | 1–3 business days (standard); Same-day ACH if available |
-| Verification   | OTP required for first-use or high-value transfers      |
+| Verification | OTP required for first-use or high-value transfers |
 
 ## Key Use Cases
 
-| Use Case                | Who Uses It                         | What They Do                                                    | Business Value                                                            |
+| Use Case | Who Uses It | What They Do | Business Value |
 | ----------------------- | ----------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Fund CU Account         | You topping up from external bank   | Select external account as From, CU account as To, submit       | Consolidates funds from multiple financial institutions                   |
-| Pay External Obligation | You paying from CU to external bank | Select CU account as From, external account as To               | Pays bills or obligations at other institutions without logging into them |
-| Large Transfer with OTP | You sending above-limit amounts     | Complete OTP verification step to authorise high-value transfer | Additional security layer protecting against fraudulent large transfers   |
-| ACH Collection          | Business or power you pulling funds | Initiate ACH pull from external account into CU                 | Automates regular funding from payroll or investment accounts             |
+| Fund CU Account | Members topping up from external bank | Select external account as From, CU account as To, submit | Consolidates funds from multiple financial institutions |
+| Pay External Obligation | Members paying from CU to external bank | Select CU account as From, external account as To | Pays bills or obligations at other institutions without logging into them |
+| Large Transfer with OTP | Members sending above-limit amounts | Complete OTP verification step to authorise high-value transfer | Additional security layer protecting against fraudulent large transfers |
+| ACH Collection | Business or power you pulling funds | Initiate ACH pull from external account into CU | Automates regular funding from payroll or investment accounts |
 
 ## Step-by-Step Guide
 
@@ -48,7 +48,7 @@ This screen shoes a simplified form with fields for entering the source account 
 
 **Step 4 — Review Pre-Confirmation**
 
-The confirmation screen displays a  transfer from Retail Savings Account to an external Retail Savings Account, showing the description and scheduled transfer date.
+The confirmation screen displays a transfer from Retail Savings Account to an external Retail Savings Account, showing the description and scheduled transfer date.
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -67,4 +67,3 @@ The verification page is displayed with a field to enter the verification code r
 _**Step 7: External Funds are Transfered Successfully**_ &#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.15.16 AM.png" alt=""><figcaption></figcaption></figure>
-
