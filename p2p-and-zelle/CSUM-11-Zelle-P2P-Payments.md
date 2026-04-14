@@ -1,50 +1,29 @@
 # Zelle & P2P Payments
 
-> **Module:** Banking › Move Money → Zelle
-
 ## Summary
 
-Zelle® is a real-time person-to-person (P2P) payment network integrated natively into the nFinia Move Money suite. It enables Summerville Credit Union Member to send and receive money directly with friends, family, and other trusted individuals — regardless of where those recipients bank — in a matter of minutes, using only the recipient's U.S. mobile phone number or email address.
-
-The Zelle® integration within nFinia means members do not need a separate Zelle app or account. Transactions flow directly between bank accounts without storing money in a digital wallet. You can send money, request money from others, split bills across multiple people, and manage Zelle® activity and settings from within digital banking.
-
-Because Zelle® payments to enrolled recipients are processed instantly and are effectively irreversible, You are strongly advised to verify the recipient's contact information before sending. Zelle® is intended for payments between people who know and trust each other.
-
-**At a Glance**
-
-| Attribute            | Detail                                                       |
-| -------------------- | ------------------------------------------------------------ |
-| Module               | Move Money > Zelle®                                          |
-| Network              | Zelle® P2P Payment Network                                   |
-| Recipient Identifier | US mobile phone number or email address                      |
-| Transfer Speed       | Minutes to enrolled recipients; 14-day window for unenrolled |
-| Reversibility        | Cannot be cancelled once recipient is enrolled in Zelle      |
+Zelle integration within nFinia enables members to send and receive money directly to and from individuals at participating US financial institutions — using only the recipient's mobile phone number or email address, with funds typically arriving within minutes. For business members making informal contractor payments, splitting shared business expenses, or collecting small payments from customers, Zelle provides a fast, no-fee alternative to ACH when the recipient's full banking details are not available and speed of settlement matters.
 
 ## Key Use Cases
 
-| Use Case          | Who Uses It                                     | What They Do                                                        | Business Value                                                  |
-| ----------------- | ----------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Split Bill        | Members splitting a restaurant or shared bill   | Send the exact share to each recipient's enrolled Zelle contact     | Eliminates cash exchange for shared expenses                    |
-| Pay an Individual | Members paying a trusted person                 | Enter recipient phone/email, amount, note, and send                 | Works for babysitters, tutors, contractors, friends, and family |
-| Request Money     | Members asking someone to pay them back         | Use Zelle Request to send a payment request to a contact            | Recipient receives notification and can pay instantly via Zelle |
-| Receive Payment   | Members expecting funds from another Zelle user | Share your enrolled phone number or email for others to send to you | Funds arrive directly into linked CU checking account           |
+Business members use Zelle to pay a freelance designer or contractor immediately upon work completion, without requiring an invoice process or waiting for an ACH settlement window — the contractor receives the funds within minutes to their enrolled bank account. Members use Zelle to collect a payment from a customer who does not have the member's ACH details, sending a payment request to the customer's phone number or email instead. Operations staff managing small-dollar business reimbursements — mileage, petty cash, or shared expenses — use Zelle to distribute funds immediately without cutting a check or initiating a formal ACH batch.
 
 ## Step-by-Step Guide
 
-**Step 1 — Navigate to Move Money Hub**
+**Step 1 — Open Zelle from Move Money**
 
-Click ‘Move Money' in the top navigation bar and go to Zelle Payment
+From the Move Money menu, select **Zelle** to open the Zelle payment screen. If this is the first Zelle transaction, complete the enrollment step by confirming the mobile number or email address to associate with the Zelle profile — this identifier is what recipients use to send funds back.
 
 <figure><img src="../.gitbook/assets/img_dd37cd06feee.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Send a Zelle Payment**
+**Step 2 — Enter Recipient and Amount**
 
-The Zelle Payment form page is displayed from a legacy banking interface with form fields visible for entering recipient and payment details.
+Enter the recipient's US mobile phone number or email address and the payment amount. Zelle will confirm whether the recipient is enrolled — if they are, the payment processes immediately; if not, the recipient receives an invitation to enroll and the funds are held until they complete registration.
 
 <figure><img src="../.gitbook/assets/Zelle_P2P_img4.png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — Verify Zelle Payment**
+**Step 3 — Send and Confirm**
 
-The Zelle verification screen prompts you to enter a 6-digit verification code sent via SMS to verify and complete the Zelle transaction.
+Review the recipient name and amount on the confirmation screen, then click **Send**. Zelle processes the payment and, for enrolled recipients, funds are available in the recipient's account within minutes — a confirmation notification is sent to both the sender and recipient.
 
 <figure><img src="../.gitbook/assets/img_3b24cb4ab0a1.png" alt=""><figcaption></figcaption></figure>
