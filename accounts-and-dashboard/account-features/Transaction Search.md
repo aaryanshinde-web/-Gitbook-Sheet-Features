@@ -1,7 +1,7 @@
 ---
 description: >-
-  Search and filter transactions across accounts using type, date range,
-  description, and amount criteria
+ Search and filter transactions across accounts using type, date range,
+ description, and amount criteria
 ---
 
 # Transaction Search
