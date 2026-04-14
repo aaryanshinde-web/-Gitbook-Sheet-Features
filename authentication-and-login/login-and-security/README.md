@@ -4,5 +4,5 @@ Login & Security covers the foundational authentication layer of nFinia for Summ
 
 ## What's in this section
 
-* **Login & Authentication** -  the primary login flow, including User ID / password entry and post-login routing to the dashboard.
-* **Pre-Login fallback & Access Recovery** -  credential management, multi-factor authentication setup, and recovery workflows.
+* **Login & Authentication** - the primary login flow, including User ID / password entry and post-login routing to the dashboard.
+* **Pre-Login fallback & Access Recovery** - credential management, multi-factor authentication setup, and recovery workflows.
