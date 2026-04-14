@@ -81,23 +81,23 @@ Tap the hamburger menu (≡) in the nFinia mobile app to open the side navigatio
 
 **Step 2 - Tap "Statements & Tax Forms"**
 
-Tapping this option triggers the SSO. A **Processing...** spinner appears briefly while nFinia generates the SSO token and initiates the redirect to BDI.
+Tapping this option triggers the SSO authentication flow. A brief **Processing...** spinner appears while nFinia generates a secure single-sign-on token tied to your current session. This token authenticates your identity to the BDI system without requiring you to create or remember a separate BDI password — the handoff happens silently and automatically.
 
 **Step 3 - BDI Portal Opens in Device Browser**
 
-The device's default browser launches and opens the BDI portal. You land on the **Documents** tab with your name and the membership dropdown pre-selected. The portal immediately displays the available document types with the three most recent entries per type.
+Your device's default browser launches and opens the BDI document portal, already authenticated as your membership. You land on the **Documents** tab with your name displayed and the membership dropdown pre-selected with your primary membership number. The portal immediately populates the available document types — such as Monthly Statements and Mortgage Statements — showing the three most recent entries for each type. No additional login is required.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.14.39 PM.png" alt="" width="244"><figcaption></figcaption></figure>
 
 **Step 4 - Select Membership**
 
-Tapping the dropdown on mobile opens a radio-button picker showing all linked membership numbers. The currently selected membership is indicated with a filled radio button.
+If you have multiple membership numbers linked to your nFinia profile, tap the membership dropdown to see all available options. A radio-button picker appears listing each membership number. The currently selected membership is highlighted with a filled radio button. Select the membership whose documents you want to view — the portal will refresh and load the document history for the selected membership.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.15.17 PM.png" alt="" width="242"><figcaption></figcaption></figure>
 
 **Step 5 - View Documents**
 
-After selecting a membership, the Documents page updates to show that membership's document sections. The mobile layout shows **Monthly Statement** and **Mortgage Statement** sections, each with the three most recent entries and a "> View all past documents" link.
+After selecting a membership, the Documents page refreshes to display that membership's document sections. The mobile layout shows the **Monthly Statement** and **Mortgage Statement** sections, each listing the three most recent entries with their period-end dates and a **View PDF** button for immediate download. A **> View all past documents** link is available under each section to access older archived statements when needed for tax filings, loan applications, or historical records.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.15.46 PM.png" alt="" width="245"><figcaption></figcaption></figure>
 
