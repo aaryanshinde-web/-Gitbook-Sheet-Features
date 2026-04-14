@@ -53,17 +53,19 @@ This feature lives in the nFinia platform under **Banking > More > Apply for Loa
 
 **Step 1 - Navigate to Apply for Loans**
 
-The authenticated member is on the nFinia dashboard. They navigate to **Banking > More > Apply for Loans**. The Apply for Loans screen displays three product categories: Personal Loans, Vehicle Loans, and Credit Cards. Upcoming payment summaries may be displayed in a right-side panel for context.
+From the nFinia dashboard, navigate to **Banking > More > Apply for Loans**. The Apply for Loans screen presents the available loan product categories — Personal Loans, Vehicle Loans, and Credit Cards. A right-side panel may display upcoming payment summaries for context. This screen is the starting point for all loan applications that flow through the MeridianLink SSO integration.
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 - Select a Loan Type**
 
-Click one of the three loan type options. If only one loan type is supported, then only option is displayed as shown below. The nFinia platform registers the selection and initiates the SSO handoff process.
+Click on the loan type you want to apply for. If the credit union has only enabled a specific subset of loan products, only those options will be visible. Once you select a loan type, nFinia registers your selection and begins the SSO handoff process — generating the tenderref token and preparing the redirect to MeridianLink.
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 - Token Generation (System)** nFinia generates a unique tenderref token tied to your current session and account identity (e.g., `AMLAKECUG20723`). This token encodes the credit union identifier and is used by MeridianLink to validate the source of the request and pre-populate known member data.
+**Step 3 - Token Generation (System)**
+
+nFinia generates a unique tenderref token tied to your current authenticated session and account identity — for example, `AMLAKECUG20723`. This token encodes the credit union identifier and is appended to the MeridianLink redirect URL as a query parameter. MeridianLink uses the token to validate that the request originated from an authenticated nFinia session and to pre-populate known member data such as name and contact information, reducing the amount of information you need to manually enter in the application.
 
 **Step 4 - Redirect to MeridianLink**
 
@@ -73,11 +75,11 @@ Your browser is redirected to the appropriate MeridianLink consumer portal URL.&
 
 **Step 5 - MeridianLink Receives and Validates Token**
 
-MeridianLink validates the tenderref against the credit union's integration configuration. Upon successful validation, your session is established in MeridianLink without requiring a separate login. The Summerville Credit Union logo and branding are rendered.
+MeridianLink receives the tenderref token and validates it against the credit union's integration configuration. Upon successful validation, your session is established in the MeridianLink consumer portal automatically — no separate login, username, or password required. The portal renders with the Summerville Credit Union logo and branding, maintaining a consistent brand experience throughout the application journey.
 
 **Step 6 - Complete the Application**
 
-You progress through MeridianLink's standard application flow: (1) Loan Purpose & Product Selection, (2) Personal / Financial Information, (3) Review & Submit. Pre-populated fields from the tenderref reduce data entry burden.
+You progress through MeridianLink's three-step application flow: (1) Loan Purpose & Product Selection, where you specify the loan type and purpose; (2) Personal & Financial Information, where known details pre-populated from your nFinia profile reduce the amount you need to type manually; and (3) Review & Submit, where you confirm all information before submitting the application to the credit union.
 
 **Step 8 - Submission and Pipeline Entry**
 
