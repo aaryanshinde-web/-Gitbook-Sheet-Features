@@ -3,31 +3,26 @@ description: >-
  The Upcoming Payments widget on the Dashboard — a summary of scheduled and
  pending payments visible immediately after login.
 ---
-
-# Upcoming Payments
+# Dashboard Upcoming Payments
 
 ## Summary
 
-The Upcoming Payments widget is displayed on the right side of the Dashboard, below the Quick Transfer widget. It shows any payments that are scheduled, pending, or due in the near future — including bill payments, loan payments, and recurring payment obligations. Each entry displays the payee name, due date, and amount. If no payments are scheduled, the widget displays "No upcoming payments."
+The Upcoming Payments widget on the Dashboard gives members a forward-looking view of all scheduled payment obligations — loan payments, bill pay items, and recurring transfers — without navigating into individual payment modules. For business members managing vendor payments, loan installments, and recurring operational expenses, this widget functions as a cash flow planning tool that surfaces pending outflows at the start of every session.
 
 ## Key Use Cases
 
-| Use Case | Who Uses It | What They Do | Business Value |
-|---|---|---|---|
-| Payment Due Date Awareness | Any member with scheduled payments | Reviews the Upcoming Payments widget on login to see what's due | Prevents missed payments and late fees |
-| Cash Flow Planning | Member managing tight budgets | Checks upcoming payment amounts against current account balances on the same screen | Balance tiles and upcoming payments on one screen enable real-time cash flow decisions |
-| Loan Payment Tracking | Member with active loans | Sees upcoming loan payment amount and date | Ensures loan payment coverage without navigating to loan account detail |
+Business members use the Upcoming Payments widget to verify that scheduled loan payments will execute before the due date, confirm that recurring vendor transfers are still active, and identify funding gaps before a payment fails. Members approaching a payment date use the widget to decide whether to initiate an immediate transfer to cover the outgoing balance. Operations staff monitoring business account activity use it as a daily checkpoint to ensure automated payment obligations are funded and on schedule.
 
-## End-to-End Workflow
+## Step-by-Step Guide
 
-### Step 1 — View Upcoming Payments on the Dashboard
+**Step 1 — Locate the Upcoming Payments Widget on the Dashboard**
 
-After logging in, look at the **Upcoming Payments** section on the right side of the Dashboard, below the Quick Transfer widget. The widget lists scheduled payments with the payee name, due date, and amount. In this example, the member can see upcoming payments for Mortgage, Used Automobile, and Line of Credit accounts with their respective due dates and amounts.
+After logging in, the Dashboard displays the Upcoming Payments widget listing all scheduled payments in chronological order by due date. Each entry shows the payee or destination account, the scheduled amount, and the execution date — giving members immediate visibility into near-term cash commitments without opening the Move Money or Bill Pay modules.
 
 <figure><img src="/.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 2 — Click an Upcoming Payment
+**Step 2 — Click a Payment to Review or Manage It**
 
-Click on any payment entry in the Upcoming Payments widget. The system navigates to the **Transfer Funds to Own Account** page, where the member can review and manage the transfer details — including the From and To accounts, amount, frequency, and scheduled date.
+Click any upcoming payment entry to navigate directly to that payment's detail view, where members can edit the amount, change the execution date, or cancel the payment before it processes. This direct navigation from the Dashboard shortcut eliminates multiple menu steps for members who need to adjust a payment quickly.
 
 <figure><img src="/.gitbook/assets/transfer-funds-own-account.png" alt="" width="480"><figcaption></figcaption></figure>
