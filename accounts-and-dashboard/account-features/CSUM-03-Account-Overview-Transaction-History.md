@@ -1,7 +1,7 @@
 ---
 description: >-
-  View all your account balances and transaction history in one consolidated
-  dashboard.
+ View all your account balances and transaction history in one consolidated
+ dashboard.
 ---
 
 # Account Overview & Transaction History
@@ -18,23 +18,23 @@ The Transaction Search feature allows you to find specific transactions across a
 
 **At a Glance**
 
-| Attribute           | Detail                                                                 |
+| Attribute | Detail |
 | ------------------- | ---------------------------------------------------------------------- |
-| Module              | Banking › Accounts                                                     |
+| Module | Banking › Accounts |
 | Account Types Shown | Checking, Savings, Dividends, Money Market, CD, Loans, Lines of Credit |
-| Transaction History | Searchable, filterable, exportable                                     |
-| Account Actions     | Check Deposit, Stop Payment, eStatements, Direct Deposit Form          |
-| Related Links       | eStatements, Scheduled Transfers, Change Password, Download Statements |
+| Transaction History | Searchable, filterable, exportable |
+| Account Actions | Check Deposit, Stop Payment, eStatements, Direct Deposit Form |
+| Related Links | eStatements, Scheduled Transfers, Change Password, Download Statements |
 
 ## Key Use Cases
 
-| Use Case                   | Who Uses It                             | What They Do                                                           | Business Value                                               |
+| Use Case | Who Uses It | What They Do | Business Value |
 | -------------------------- | --------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------ |
-| View All Balances          | You checking all account balances       | Navigate to Accounts to see all account balances at once               | Single screen replaces multiple branch inquiries             |
-| Find a Transaction         | You researching a specific charge       | Open account detail, use Transaction Search with description or amount | Self-service transaction research eliminates support calls   |
-| Export Transaction History | You needing data for taxes or budgeting | Use Export Feature to download CSV of transaction history              | Provides machine-readable data for external accounting tools |
-| Check Account Numbers      | You needing routing/account number      | Open account detail to see masked and full account info                | On-demand access to banking numbers without calling the CU   |
-| Manage Certificate CD      | You with maturing certificates          | Access certificate account detail to renew, close, or change terms     | Self-service certificate management without branch visit     |
+| View All Balances | Members checking all account balances | Navigate to Accounts to see all account balances at once | Single screen replaces multiple branch inquiries |
+| Find a Transaction | Members researching a specific charge | Open account detail, use Transaction Search with description or amount | Self-service transaction research eliminates support calls |
+| Export Transaction History | Members needing data for taxes or budgeting | Use Export Feature to download CSV of transaction history | Provides machine-readable data for external accounting tools |
+| Check Account Numbers | Members needing routing/account number | Open account detail to see masked and full account info | On-demand access to banking numbers without calling the CU |
+| Manage Certificate CD | Members with maturing certificates | Access certificate account detail to renew, close, or change terms | Self-service certificate management without branch visit |
 
 ## Step-by-Step Guide
 
