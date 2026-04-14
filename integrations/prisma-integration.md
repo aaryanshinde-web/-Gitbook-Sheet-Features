@@ -6,13 +6,13 @@
 
 Prisma is an advertising and engagement platform integrated with Tyfone's nFinia digital banking product. It enables Financial Institutions (FIs) — primarily credit unions and community banks — to display targeted advertisements within their members' digital banking experience: dashboard, account history, transfers, bill pay, and more. The integration is token-based, with Tyfone embedding Prisma placeholders throughout the application and passing a person-level user identifier at login to load personalized ad content.
 
-The primary users of the Prisma console are FI marketing teams and Tyfone delivery/support managers who configure, schedule, and manage ad campaigns. End members (credit union members) are the consumers of these ads. For FIs, Prisma represents a direct revenue opportunity — either by monetizing ad inventory through partner offers or by promoting your own financial products (e.g., auto loans, credit cards, certificates) to you at key moments in your digital banking journey.
+The primary users of the Prisma console are FI marketing teams and Tyfone delivery/support managers who configure, schedule, and manage ad campaigns. End members (credit union members) are the consumers of these ads. For FIs, Prisma represents a direct revenue opportunity — either by monetizing ad inventory through partner offers or by promoting their own financial products (e.g., auto loans, credit cards, certificates) to members at key moments in the digital banking journey.
 
-| Attribute    | Detail                                                                                               |
+| Attribute | Detail |
 | ------------ | ---------------------------------------------------------------------------------------------------- |
-| Feature Name | Prisma Ad Integration                                                                                |
-| Module       | nFinia Platform — Advertising & Engagement Layer                                                     |
-| Key Actions  | Create/configure banners, upload creatives, set targeting, publish, track analytics, manage opt-outs |
+| Feature Name | Prisma Ad Integration |
+| Module | nFinia Platform — Advertising & Engagement Layer |
+| Key Actions | Create/configure banners, upload creatives, set targeting, publish, track analytics, manage opt-outs |
 
 ***
 
@@ -36,12 +36,12 @@ Prisma is an advertising functionality that allows ads to be displayed within va
 
 Prisma supports IAB (International Advertising Bureau) standard ad sizes across multiple placement zones within the nFinia application interface.
 
-| Ad Type                     | Typical Dimensions                 | Placement                                            |
+| Ad Type | Typical Dimensions | Placement |
 | --------------------------- | ---------------------------------- | ---------------------------------------------------- |
-| Leaderboard Top/Bottom      | 728 × 90 px                        | Between page title and content, or bottom of content |
-| Square Pop-up (Side Widget) | 250 × 250 px                       | Sidebar top and sidebar bottom                       |
-| Full Pop-up / Interstitial  | iPhone: 400 × 300 px; iPad: larger | Overlay on content; limited to certain mobile pages  |
-| Mobile Login Banner         | 325 × 50 px                        | Mobile login page only                               |
+| Leaderboard Top/Bottom | 728 × 90 px | Between page title and content, or bottom of content |
+| Square Pop-up (Side Widget) | 250 × 250 px | Sidebar top and sidebar bottom |
+| Full Pop-up / Interstitial | iPhone: 400 × 300 px; iPad: larger | Overlay on content; limited to certain mobile pages |
+| Mobile Login Banner | 325 × 50 px | Mobile login page only |
 
 **Supported Screens:** Ads can be placed on almost any screen — Dashboard, Accounts, Transfers, Deposits, Bill Pay, Remote Deposit Capture (RDC), Statements, and ATM Locators. An **"Others" placeholder** exists for broad multi-screen placement.
 
@@ -50,8 +50,6 @@ Prisma supports IAB (International Advertising Bureau) standard ad sizes across 
 * Prisma currently only supports **pixel** dimensions, which can introduce responsiveness challenges on variable screen sizes.
 * **Device-specific creatives** must be configured separately for each device type (e.g., iPad vs. iPhone for interstitials). There is no automatic fallback — if a device-specific image is not set up, the ad will not render on that device.
 * The Mobile Login Banner is not recommended for other mobile pages due to interference with navigation elements such as the tab drawer.
-
-
 
 ### Campaign Management
 
@@ -65,13 +63,9 @@ _Segment Creation: Go to Segments > New Segment. Segments can be created from qu
 
 <figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
 &#x20;_Campaign Creation & Audience Targeting :_ Once the Segment is created, you can go over to the Campaigns > New Campaign to create an Ad and select the segment for targeting.&#x20;
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 _Banner Creation :_ You can create campaigns for multiple channels in this section and choose from Banners, Email, SMS, Push, etc. You can read more about it [here](https://help.prismacampaigns.com/getting-started/channel-design/add-banners/)&#x20;
 
@@ -81,7 +75,7 @@ _Banner Creation :_ You can create campaigns for multiple channels in this secti
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-_Funnel Configuration :_ The funnel consists of everything that happens from the moment a person shows interest in a campaign.  You can read more about it [here](https://help.prismacampaigns.com/getting-started/channel-design/add-banners/)&#x20;
+_Funnel Configuration :_ The funnel consists of everything that happens from the moment a person shows interest in a campaign. You can read more about it [here](https://help.prismacampaigns.com/getting-started/channel-design/add-banners/)&#x20;
 
 <figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -136,13 +130,13 @@ Prisma supports structured data sync (file-based with column mappings) for two k
 
 > ⚠️ **Critical:** For most FIs, Prisma's test and production environments are the **same instance**. Enabling an ad in "test" makes it live to real you immediately.
 
-| Guideline                | Detail                                                                     |
+| Guideline | Detail |
 | ------------------------ | -------------------------------------------------------------------------- |
-| Shared Environment       | Test = Production for most FI deployments                                  |
-| Permitted Testing Window | 12:00 PM – 3:00 PM IST (low-traffic US hours)                              |
-| Mandatory Disable        | All test ads must be disabled before 3:00 PM IST                           |
-| Responsible Party        | Tyfone Delivery Manager                                                    |
-| Login Credentials        | Do NOT change; no self-service reset; requires Prisma support intervention |
+| Shared Environment | Test = Production for most FI deployments |
+| Permitted Testing Window | 12:00 PM – 3:00 PM IST (low-traffic US hours) |
+| Mandatory Disable | All test ads must be disabled before 3:00 PM IST |
+| Responsible Party | Tyfone Delivery Manager |
+| Login Credentials | Do NOT change; no self-service reset; requires Prisma support intervention |
 
 **Why this matters:** A test ad accidentally left live during US business hours will be displayed to all production you.&#x20;
 
@@ -150,29 +144,29 @@ Prisma supports structured data sync (file-based with column mappings) for two k
 
 Accurate member identification is foundational to Prisma's ad serving and segmentation capabilities. You can read more about this [here](https://help.prismacampaigns.com/getting-started/integrate-data-segments/uploading-data-to-prisma/)&#x20;
 
-| Concern                | Current Approach                                                       |
+| Concern | Current Approach |
 | ---------------------- | ---------------------------------------------------------------------- |
-| Data Feed Source       | FI sends data directly to Prisma (Tyfone no longer intermediates)      |
-| Identifier Level       | Must be **person-level** (not membership-level)                        |
+| Data Feed Source | FI sends data directly to Prisma (Tyfone no longer intermediates) |
+| Identifier Level | Must be **person-level** (not membership-level) |
 | Recommended Identifier | Tokenized external ID (e.g., a custom field in Symitar mapping to SSN) |
-| nFinia's Role          | Fetches the external ID at login and loads Prisma ads                  |
-| Schema Flexibility     | Prisma supports custom profile schema expansion beyond default fields  |
+| nFinia's Role | Fetches the external ID at login and loads Prisma ads |
+| Schema Flexibility | Prisma supports custom profile schema expansion beyond default fields |
 
 **Segmentation Limitation:** nFinia does not currently support triggering Prisma segments or campaigns based on real-time user actions (e.g., "member just deposited over $1,000"). Segmentation today is based on static data pushed by the FI. The business events infrastructure exists in Prisma but is not yet wired into nFinia — this is a future enhancement opportunity.
 
 ### Data Loss and Irreversibility
 
-| Scenario                  | Consequence                             | Recovery                                                          |
+| Scenario | Consequence | Recovery |
 | ------------------------- | --------------------------------------- | ----------------------------------------------------------------- |
-| Ad banner deleted         | Permanent; cannot be recovered          | FI must re-create the banner and all associated data from scratch |
-| Statistics lost on delete | All reach/click/conversion data is gone | No recovery; inform the FI and advise re-creation                 |
+| Ad banner deleted | Permanent; cannot be recovered | FI must re-create the banner and all associated data from scratch |
+| Statistics lost on delete | All reach/click/conversion data is gone | No recovery; inform the FI and advise re-creation |
 
 ### Access and Permissions
 
-| Access Level        | Who Has It                                 | What They Can Do                                    |
+| Access Level | Who Has It | What They Can Do |
 | ------------------- | ------------------------------------------ | --------------------------------------------------- |
-| Full Console Access | Tyfone Delivery Managers, Support Managers | Create, modify, publish, delete campaigns           |
-| View Access         | Training personnel                         | View interface and campaign setup; no modifications |
+| Full Console Access | Tyfone Delivery Managers, Support Managers | Create, modify, publish, delete campaigns |
+| View Access | Training personnel | View interface and campaign setup; no modifications |
 
 **Important:** When accessing the Prisma console — even in a view capacity — exercise extreme caution. Do not delete, modify, or publish live campaigns. The consequences of accidental changes (especially deletions) cannot be undone.
 
@@ -193,9 +187,9 @@ Accurate member identification is foundational to Prisma's ad serving and segmen
 1. **Log in to the Prisma console** using the credentials provided for the FI. Do not change these credentials.
 2. **Navigate to Campaign Management** and select "Create New Banner."
 3. **Enter banner details:**
-   * Banner Name (descriptive and FI-specific, e.g., "Auto Loan Spring 2026")
-   * Select target screens (e.g., Dashboard, Accounts)
-   * Select target devices (mobile, tablet, or both)
+ * Banner Name (descriptive and FI-specific, e.g., "Auto Loan Spring 2026")
+ * Select target screens (e.g., Dashboard, Accounts)
+ * Select target devices (mobile, tablet, or both)
 4. **Set ad dimensions** to match the placement zone (e.g., 728×90 for leaderboard, 250×250 for side pop-up). Note that only pixel units are supported.
 5. **Upload creative:** Attach the image asset or paste HTML content. If using device-specific creatives (e.g., different images for iPhone vs. iPad), upload separate assets for each device type.
 6. **Configure funnel (optional):** Enter the destination URL for click-through redirection. Optionally integrate with third-party sign-up flows via Accurify or similar services.
@@ -208,11 +202,11 @@ Accurate member identification is foundational to Prisma's ad serving and segmen
 
 ### Decision Points & Branching
 
-| Condition                                       | Outcome                                                          |
+| Condition | Outcome |
 | ----------------------------------------------- | ---------------------------------------------------------------- |
-| Prisma Light (no segmentation)                  | Ad is visible to ALL you once published                          |
-| No device-specific creative uploaded            | Ad will not render on that device type                           |
-| Business events not configured                  | Ad triggering is managed entirely in Prisma console              |
+| Prisma Light (no segmentation) | Ad is visible to ALL you once published |
+| No device-specific creative uploaded | Ad will not render on that device type |
+| Business events not configured | Ad triggering is managed entirely in Prisma console |
 | FI sends membership-level ID (not person-level) | Segmentation and personalized ad serving will not work correctly |
 
 ### Completion & Confirmation
@@ -223,13 +217,13 @@ Accurate member identification is foundational to Prisma's ad serving and segmen
 
 ### Error Handling
 
-| Scenario                         | What Happens                                                  | Recovery                                               |
+| Scenario | What Happens | Recovery |
 | -------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------ |
-| Ad accidentally deleted          | Permanent loss; no undo                                       | Re-create the banner; inform the FI of lost statistics |
-| Wrong creative uploaded          | Update before publishing; after publishing, modify the banner | Edit the banner and republish                          |
-| Credentials changed              | Lockout for all you; no self-service reset                    | Contact Prisma support                                 |
-| Test ad left live past 3 PM IST  | Production you see test ads                                   | Disable immediately; communicate to FI                 |
-| Device-specific creative missing | Ad does not render on that device                             | Upload the missing device creative and republish       |
+| Ad accidentally deleted | Permanent loss; no undo | Re-create the banner; inform the FI of lost statistics |
+| Wrong creative uploaded | Update before publishing; after publishing, modify the banner | Edit the banner and republish |
+| Credentials changed | Lockout for all you; no self-service reset | Contact Prisma support |
+| Test ad left live past 3 PM IST | Production you see test ads | Disable immediately; communicate to FI |
+| Device-specific creative missing | Ad does not render on that device | Upload the missing device creative and republish |
 
 ***
 
@@ -263,18 +257,16 @@ FIs should send a tokenized, person-level external ID (not raw SSN). Many FIs cr
 
 ## Quick Reference
 
-| Task                         | Where to Do It                                           | Who Can Do It                        | Notes                                         |
+| Task | Where to Do It | Who Can Do It | Notes |
 | ---------------------------- | -------------------------------------------------------- | ------------------------------------ | --------------------------------------------- |
-| Create a new banner          | Prisma Console > Campaign Management > Create New Banner | Delivery Manager, FI Marketing Admin | Follow IAB dimension standards                |
-| Upload creative              | Banner creation flow > Creative Upload tab               | Delivery Manager, FI Marketing Admin | Separate assets required per device type      |
-| Publish all live ads         | Prisma Console > Publish                                 | Delivery Manager, FI Marketing Admin | Publishing is global; affects all enabled ads |
-| Enable test ad (safe window) | Prisma Console > Enable Banner                           | Delivery Manager                     | 12 PM–3 PM IST only; disable before 3 PM IST  |
-| Delete a banner              | Prisma Console > Banner > Delete                         | Delivery Manager                     | Irreversible; all stats permanently lost      |
-| View analytics               | Prisma Console > Reporting / Campaign Analytics          | Delivery Manager, FI Marketing Admin | Export available                              |
-| Configure opt-out sync       | Prisma Console > Data Sync                               | Delivery Manager                     | Used for CCPA compliance                      |
-| Grant view access            | Prisma Console > User Management                         | Delivery Manager                     | For training only; no edit permissions        |
-| Set up email/SMS campaign    | Prisma Console > Campaigns > Email/SMS                   | Delivery Manager, FI Marketing Admin | Configure sender details and content          |
+| Create a new banner | Prisma Console > Campaign Management > Create New Banner | Delivery Manager, FI Marketing Admin | Follow IAB dimension standards |
+| Upload creative | Banner creation flow > Creative Upload tab | Delivery Manager, FI Marketing Admin | Separate assets required per device type |
+| Publish all live ads | Prisma Console > Publish | Delivery Manager, FI Marketing Admin | Publishing is global; affects all enabled ads |
+| Enable test ad (safe window) | Prisma Console > Enable Banner | Delivery Manager | 12 PM–3 PM IST only; disable before 3 PM IST |
+| Delete a banner | Prisma Console > Banner > Delete | Delivery Manager | Irreversible; all stats permanently lost |
+| View analytics | Prisma Console > Reporting / Campaign Analytics | Delivery Manager, FI Marketing Admin | Export available |
+| Configure opt-out sync | Prisma Console > Data Sync | Delivery Manager | Used for CCPA compliance |
+| Grant view access | Prisma Console > User Management | Delivery Manager | For training only; no edit permissions |
+| Set up email/SMS campaign | Prisma Console > Campaigns > Email/SMS | Delivery Manager, FI Marketing Admin | Configure sender details and content |
 
 ***
-
-_This guide was prepared by Jeeva Krishnamurthy, Senior Product Manager, Commercial & SMB Digital Banking at Tyfone. For questions about Prisma integration configuration or campaign setup, contact the Tyfone Delivery team._
