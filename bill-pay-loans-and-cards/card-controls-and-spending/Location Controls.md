@@ -21,12 +21,14 @@ When international transactions are enabled with specific locations, members can
 
 ## Key Use Cases
 
-| Use Case | Who It's For |
-| -------------------------------- | ------------------------------------------ |
-| **Enable card for travel** | Member traveling internationally who needs to avoid fraud-prevention declines on legitimate purchases abroad |
-| **Restrict card to home region** | Member wanting geographic fraud protection by ensuring the card can only be approved within a defined local area |
-| **Add a new travel location** | Member planning a trip who wants to pre-authorize card use in a specific country or region before departure |
-| **Remove a travel location** | Member who has returned from a trip and wants to immediately restore domestic-only card restrictions |
+
+**Enable card for travel** — Member traveling internationally who needs to avoid fraud-prevention declines on legitimate purchases abroad.
+
+**Restrict card to home region** — Member wanting geographic fraud protection by ensuring the card can only be approved within a defined local area.
+
+**Add a new travel location** — Member planning a trip who wants to pre-authorize card use in a specific country or region before departure.
+
+**Remove a travel location** — Member who has returned from a trip and wants to immediately restore domestic-only card restrictions.
 
 ## Step-by-Step Guide
 
