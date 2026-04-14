@@ -28,25 +28,25 @@
   * [Account Transfers](<accounts-and-dashboard/account-features/Account Transfers.md>)
   * [Check Deposit](<accounts-and-dashboard/account-features/Check Deposit.md>)
   * [Account Inquiry](<accounts-and-dashboard/account-features/Account Enquiry.md>)
-  * [Accounts & Memberships](<accounts-and-dashboard/account-features/Accounts Memberships.md>)
+  * [Accounts & Memberships Settings](<accounts-and-dashboard/account-features/Accounts Memberships.md>)
 
 ## Cards
 
-* [Card Lifecycle](cards/card-lifecycle/README.md)
-  * [Visa Push Provisioning - Link Card to Digital Wallet](<bill-pay-loans-and-cards/card-lifecycle/Link Card to Digital Wallet.md>)
-  * [Add to Digital Wallet (Mobile)](<bill-pay-loans-and-cards/card-lifecycle/Add-to-Digital-Wallet for MB.docx.md>)
-  * [Deactivate / Replace Card](<bill-pay-loans-and-cards/card-lifecycle/Deactivate Replace Card.md>)
-  * [Activate New Card](<bill-pay-loans-and-cards/card-lifecycle/Activate New Card.md>)
-  * [Freeze Card](<bill-pay-loans-and-cards/card-lifecycle/Freeze Card.md>)
-  * [Set Card PIN](<bill-pay-loans-and-cards/card-lifecycle/Set PIN.md>)
-  * [Travel Notice](<bill-pay-loans-and-cards/card-lifecycle/Travel Notice.md>)
-  * [Order a New Card](<bill-pay-loans-and-cards/card-lifecycle/Order New Card.md>)
 * [Card Controls & Spending](cards/card-controls-and-spending/README.md)
   * [Card Controls](<bill-pay-loans-and-cards/card-controls-and-spending/Card Controls.md>)
+  * [Freeze Card](cards/card-controls-and-spending/freeze-card.md)
   * [Card Alerts](<bill-pay-loans-and-cards/card-controls-and-spending/Card Alerts.md>)
   * [Spending Limits](<bill-pay-loans-and-cards/card-controls-and-spending/Spending Limits.md>)
   * [Location Controls](<bill-pay-loans-and-cards/card-controls-and-spending/Location Controls.md>)
   * [Usage Control](<bill-pay-loans-and-cards/card-controls-and-spending/Usage Control.md>)
+* [Card Lifecycle](cards/card-lifecycle/README.md)
+  * [Order a New Card](<bill-pay-loans-and-cards/card-lifecycle/Order New Card.md>)
+  * [Activate New Card](<bill-pay-loans-and-cards/card-lifecycle/Activate New Card.md>)
+  * [Set Card PIN](<bill-pay-loans-and-cards/card-lifecycle/Set PIN.md>)
+  * [Visa Push Provisioning - Link Card to Digital Wallet](<bill-pay-loans-and-cards/card-lifecycle/Link Card to Digital Wallet.md>)
+  * [Add to Digital Wallet (Mobile)](<bill-pay-loans-and-cards/card-lifecycle/Add-to-Digital-Wallet for MB.docx.md>)
+  * [Deactivate / Replace Card](<bill-pay-loans-and-cards/card-lifecycle/Deactivate Replace Card.md>)
+  * [Travel Notice](<bill-pay-loans-and-cards/card-lifecycle/Travel Notice.md>)
 
 ## Move Money
 

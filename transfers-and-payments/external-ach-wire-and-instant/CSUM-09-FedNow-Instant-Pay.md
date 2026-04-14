@@ -44,7 +44,7 @@ Click ‘Move Money' in the top navigation bar. Select "Send Now" or "Instant Pa
 
 The FedNow Terms and Conditions page is displayed with checkboxes for accepting the agreement before proceeding with the instant payment. Select the source account and recipient account,enter the amount to be paid and select the date for this transfer and click on continue.
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Caltech Employees FedNow Instant Pay Image copy.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Final Confirmation & Send**
 

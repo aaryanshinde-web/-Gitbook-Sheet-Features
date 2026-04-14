@@ -32,28 +32,28 @@ The module supports multiple recipient types with different required fields: dom
 
 Click ‘Move Money' in the top navigation bar. Go to Manage Recipients
 
-<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — View Recipient List**
 
 The Recipient Management page displays all saved recipients as cards in a grid layout, each displaying the number of linked accounts.&#x20;
 
-<figure><img src="../../.gitbook/assets/img_99e0eb4b18db.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_99e0eb4b18db.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — View Recipient Details & Linked Accounts**
 
 Members can view the Recipient Details page by clicking on the Recipient. The Accounts section lists two linked external accounts with columns for Nickname, Payment method, and Financial Institution. Each account shows action buttons including 'Initiate Transfer' and a delete option. An 'Add Account' button and 'Remove recipient' link are available below.
 
-<figure><img src="../../.gitbook/assets/img_cb67ce7bddf8.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_cb67ce7bddf8.png" alt=""><figcaption></figcaption></figure>
 
 **Step 4 — Add a New Recipient**
 
 You can add a New Recipient by searching for it in the search bar or navigating from Move Money. The Add Recipient form is displayed with a 'Recipient Details' section containing a Name field. The Accounts area shows an 'Add Account' link to attach payment accounts to the new recipient.&#x20;
 
-<figure><img src="../../.gitbook/assets/img_df2959b84f76.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_df2959b84f76.png" alt=""><figcaption></figcaption></figure>
 
 **Step 5 — Add Account to Recipient**
 
 The Add Account modal is open with fields for Payment type (set to 'within CU'), Membership number, Account type (set to '1st savings account'), optional First name and Last name fields, and a Nickname field. The member can enter those details and 'Save Account' to the recipient successfully. .
 
-<figure><img src="../../.gitbook/assets/img_ce9e205f56ac.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_ce9e205f56ac.png" alt=""><figcaption></figcaption></figure>

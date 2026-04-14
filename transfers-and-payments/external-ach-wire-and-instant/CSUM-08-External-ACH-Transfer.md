@@ -50,7 +50,7 @@ This screen shoes a simplified form with fields for entering the source account 
 
 The confirmation screen displays a  transfer from Retail Savings Account to an external Retail Savings Account, showing the description and scheduled transfer date.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5 — Select OTP Verification Method**
 

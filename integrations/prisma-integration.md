@@ -69,7 +69,7 @@ _Segment Creation: Go to Segments > New Segment. Segments can be created from qu
 
 &#x20;_Campaign Creation & Audience Targeting :_ Once the Segment is created, you can go over to the Campaigns > New Campaign to create an Ad and select the segment for targeting.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

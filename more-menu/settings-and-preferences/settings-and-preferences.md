@@ -1,5 +1,5 @@
 ---
-description: Settings — Account & General Preferences
+description: Settings - Account & General Preferences
 ---
 
 # Settings & Preferences
@@ -8,7 +8,7 @@ description: Settings — Account & General Preferences
 
 ## Summary
 
-The Settings module is your personal control panel for managing your digital banking experience — account display preferences, security configurations, notification settings, and more. Settings is organised into sections covering security (password, MFA), account management (display names, visibility, order), alerts, and personal preferences.
+The Settings module is your personal control panel for managing your digital banking experience - account display preferences, security configurations, notification settings, and more. Settings is organised into sections covering security (password, MFA), account management (display names, visibility, order), alerts, and personal preferences.
 
 The Accounts & Memberships settings allow You to customise how your accounts appear throughout the platform: setting nicknames, reordering accounts, hiding inactive accounts, and choosing display icons. These preferences persist across sessions and devices.
 
@@ -35,41 +35,39 @@ The Accounts & Memberships settings allow You to customise how your accounts app
 
 \| _Navigation: Dashboard > Settings (gear icon) OR More > Settings._ |
 
-**Step 1 — Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
+**Step 1 - Start from Dashboard** The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
 <figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — Open the More Menu**
+**Step 2 - Open the More Menu**
 
-you click ‘More' in the top navigation bar. The More options panel expands to show additional features:  User ID and Password & Account & Membership Settings. Or Navigate directly from Dashboard to Settings using the search option.&#x20;
+you click ‘More' in the top navigation bar. The More options panel expands to show additional features: User ID and Password & Account & Membership Settings. Or Navigate directly from Dashboard to Settings using the search option.
 
 <figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — User ID and Password Settings**&#x20;
+**Step 3 - User ID and Password Settings**
 
-The User ID and Password Settings page is displayed with User ID tab. This tab has the option to change the User ID for digital banking access with a list of User ID requirements.  The password tab  contains the option to change the password with a list of Password Requirements.
+The User ID and Password Settings page is displayed with User ID tab. This tab has the option to change the User ID for digital banking access with a list of User ID requirements. The password tab contains the option to change the password with a list of Password Requirements.
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/img_496966521d78.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 4 — View MFA Settings**
+**Step 4 - View MFA Settings**
 
-In the Multi-Factor Authentication tab, options are available for you to configure the contact preferences for recieving the OTP.&#x20;
+In the Multi-Factor Authentication tab, options are available for you to configure the contact preferences for recieving the OTP.
 
 <figure><img src="../../.gitbook/assets/img_f25e080818ae.png" alt="" width="620"><figcaption></figcaption></figure>
 
-**Step 5 —  Accounts & Memberships Settings**
+**Step 5 - Accounts & Memberships Settings**
 
-Navigate to  Accounts and Memberships settings page which is displayed  for managing membership and account preferences. In this page, account nickname can be added/edited, show or hide a particular account, include an account in the dashboard or acitvity since last login. You can also set default account for fund transfer, check deposit or text banking.&#x20;
+Navigate to Accounts and Memberships settings page which is displayed for managing membership and account preferences. In this page, account nickname can be added/edited, show or hide a particular account, include an account in the dashboard or acitvity since last login. You can also set default account for fund transfer, check deposit or text banking.
 
 <figure><img src="../../.gitbook/assets/img_d89dcb8f0776.png" alt="" width="480"><figcaption></figcaption></figure>
 
+**Step 7 - Membership Settings**
 
-
-**Step 7 — Membership Settings**
-
-The  Memberships settings page tab contains option to add an existing membership or delete an existing membership or set up preferences for masking or unmasking membership number across digital banking.&#x20;
+The Memberships settings page tab contains option to add an existing membership or delete an existing membership or set up preferences for masking or unmasking membership number across digital banking.
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 

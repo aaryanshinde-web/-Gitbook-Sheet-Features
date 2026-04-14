@@ -41,28 +41,28 @@ Trusted Device Approval Required is an enhanced security mode available for some
 
 You begin at the Dashboard after logging in. The Dashboard displays all account balances, upcoming payments, quick-action tiles, and the top navigation bar with links to Accounts, Move Money, and More.
 
-<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_eb0a7d21423c.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — Open the More Menu**
 
 Click 'More' in the top navigation bar. The More options panel expands to show additional features: Check Deposit, User ID and Password, eDocuments, Account Alerts, General Alerts, Password, Forms, One-Time Passcode, Skip A Pay, Do-Not-Disturb, Manage Devices, My Insights, Alert Settings, Recent Activities, and Card Services.
 
-<figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_ba578ecd81d3.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Navigate from Dashboard to Devices**
 
 The Account Overview page shows a detailed list of registered devices with columns for device type, date registered, and action buttons for managing each device.
 
-<figure><img src="../../.gitbook/assets/Device_Management_img3.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Device_Management_img3.png" alt=""><figcaption></figcaption></figure>
 
 **Step 4 — Review Device Details**
 
 The Personal Information page displays a comprehensive list of registered devices, each with a 'Forget Device' button for removing the device from your trusted device list.
 
-<figure><img src="../../.gitbook/assets/Device_Management_img3.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Device_Management_img3.png" alt=""><figcaption></figcaption></figure>
 
 **Step 5 — Remove a Trusted Device**
 
 A confirmation modal asks 'Are you sure you want to forget this device?' with Cancel and Proceed buttons for you to confirm or cancel the device removal.
 
-<figure><img src="../../.gitbook/assets/img_02399f4ee5dd.png" alt="" width="620"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_02399f4ee5dd.png" alt=""><figcaption></figcaption></figure>

@@ -4,15 +4,15 @@
 
 ## Summary
 
-The **Mortgage Balances - FICS API** feature integrates nFinia's OLB (Online Banking) and Mobile Banking platforms with a credit union's FICS loan servicing system via API. It gives you direct, real-time visibility into your FICS-serviced mortgage loan accounts — without leaving the nFinia digital banking environment.
+The **Mortgage Balances - FICS API** feature integrates nFinia's OLB (Online Banking) and Mobile Banking platforms with a credit union's FICS loan servicing system via API. It gives you direct, real-time visibility into your FICS-serviced mortgage loan accounts - without leaving the nFinia digital banking environment.
 
-Members with active FICS mortgage loans can view loan details (property address, interest rate, payment schedule), review transaction history, monitor balance breakdowns, manage contact information on file with the servicer, request payoff quotes, access account notes, and message the credit union's mortgage department — all from within the same digital banking session they use for deposits and transfers.
+Members with active FICS mortgage loans can view loan details (property address, interest rate, payment schedule), review transaction history, monitor balance breakdowns, manage contact information on file with the servicer, request payoff quotes, access account notes, and message the credit union's mortgage department - all from within the same digital banking session they use for deposits and transfers.
 
 For the credit union, this integration reduces inbound servicing calls by surfacing self-service mortgage data within the primary member channel. It also eliminates the friction of redirecting you to a separate mortgage servicing portal. The feature lives under **Banking > Accounts > \[FICS Loan Account]** and is also accessible from the **Mortgage** item in the More section.
 
 | Attribute        | Detail                                                                                                                                                                    |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Feature Name     | Mortgage Balances — FICS API                                                                                                                                              |
+| Feature Name     | Mortgage Balances - FICS API                                                                                                                                              |
 | Module           | Banking > Accounts > FICS Loan  > Mortgage                                                                                                                                |
 | Platforms        | OLB (Web), Mobile Banking (iOS/Android), Mobile Browser                                                                                                                   |
 | User Roles       | Retail member with active FICS-serviced mortgage loan(s)                                                                                                                  |
@@ -33,7 +33,7 @@ For the credit union, this integration reduces inbound servicing calls by surfac
 | Download transaction history or balance report   | Member preparing for tax filing or refinance | Views **Transaction History** or navigates to **Balances** tab, downloads or prints the year-to-date summary                                         | Supports member financial planning; reduces document request calls               |
 | Send a secure message to the mortgage department | Member with a loan servicing question        | Opens the **Help** tab, types a message in "Send us a message", and submits                                                                          | Provides a channel-appropriate support path without leaving the banking session  |
 
-Credit unions enabling this integration can measurably deflect mortgage servicing calls while surfacing the kind of account detail that earns member trust — especially for the increasingly common scenario where the mortgage is serviced by FICS but the primary banking relationship is with the CU.
+Credit unions enabling this integration can measurably deflect mortgage servicing calls while surfacing the kind of account detail that earns member trust - especially for the increasingly common scenario where the mortgage is serviced by FICS but the primary banking relationship is with the CU.
 
 ***
 
@@ -50,7 +50,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 **Accessing the Mortgage Feature**
 
-1. After logging in, click **Mortgage** in the More section, or navigate to **Banking > Additional Services > Mortgage**, or select a FICS loan account directly from the **Accounts** list. The system calls the FICS API and retrieves all linked mortgage accounts for the authenticated member. If you have a single loan, the platform loads it directly. If multiple loans exist, a **Select Account** dropdown appears — select the desired loan.
+1. After logging in, click **Mortgage** in the More section, or navigate to **Banking > Additional Services > Mortgage**, or select a FICS loan account directly from the **Accounts** list. The system calls the FICS API and retrieves all linked mortgage accounts for the authenticated member. If you have a single loan, the platform loads it directly. If multiple loans exist, a **Select Account** dropdown appears - select the desired loan.
 
 <figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,12 +63,12 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 <figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-* **About this loan** (default): Displays a full loan detail card — property address, date registered, next due payment amount and date, current interest rate (APR), payment frequency, remaining term, maturity date, a **Current payment breakdown** section (principal and interest, tax and insurance, total), and a **Contact information** section showing home phone, business phone, email address, and mailing address with an **Edit** link.
+* **About this loan** (default): Displays a full loan detail card - property address, date registered, next due payment amount and date, current interest rate (APR), payment frequency, remaining term, maturity date, a **Current payment breakdown** section (principal and interest, tax and insurance, total), and a **Contact information** section showing home phone, business phone, email address, and mailing address with an **Edit** link.
 * Accessible via the Edit link in the Contact information section of About this loan. Updates the contact record in FICS for this loan account. All fields are required unless marked optional. Fields include: First name (Optional), Last name (Optional), Address 1, Address 2 (Optional), City/Town, State, ZIP Code, Email address, Phone number (home), Business phone (Optional), and Extension (Optional). Clicking **Save** submits the update to FICS. A success banner appears on confirmation.
 
 <figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
-4. **Balances**: Displays a detailed balance breakdown pulled from FICS — Principal, Deferred principal, Tax and insurance, Subsidy, Unapplied, Unpaid late charges, Returned check charges, Loss draft, and Negative amortization. Below is a **Current year-to-date totals** section. A **Download balances year-to-date totals** link opens the browser's print dialog for you to save or print the balance report as a PDF.
+4. **Balances**: Displays a detailed balance breakdown pulled from FICS - Principal, Deferred principal, Tax and insurance, Subsidy, Unapplied, Unpaid late charges, Returned check charges, Loss draft, and Negative amortization. Below is a **Current year-to-date totals** section. A **Download balances year-to-date totals** link opens the browser's print dialog for you to save or print the balance report as a PDF.
 
 <figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -86,12 +86,12 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 13. From the **Loan Information** screen, clicking **Request payoff information** opens a modal with the following fields:
     * **I need this information on or before** (date, required): The date by which you need the payoff quote.
     * **Estimated date of payoff** (date, required): The date by which you intends to pay off the mortgage.
-    * **Send payoff information to**: Radio selection — My email (pre-filled from profile), My mailing address, or My fax number. Each selection reveals the relevant detail field.
+    * **Send payoff information to**: Radio selection - My email (pre-filled from profile), My mailing address, or My fax number. Each selection reveals the relevant detail field.
     * **Phone number** (pre-filled, required): Your contact number.
 
 <figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
-13. Clicking **Submit** sends the payoff request to the FICS system. On success, a green confirmation banner — "Your request for payoff information has been successfully sent." — appears on the Loan Information screen.
+13. Clicking **Submit** sends the payoff request to the FICS system. On success, a green confirmation banner "Your request for payoff information has been successfully sent." - appears on the Loan Information screen.
 
 ### Pay Now
 
@@ -108,7 +108,7 @@ Credit unions enabling this integration can measurably deflect mortgage servicin
 
 ***
 
-### Account Settings — Hiding a FICS Loan
+### Account Settings - Hiding a FICS Loan
 
 Members can control the visibility of their FICS loan accounts through **Account Settings** (accessible via the settings gear icon on the account). Accounts can be set to **Show account** or **Hide account**. Hidden accounts are suppressed from the primary Accounts view.
 

@@ -28,9 +28,5 @@ After logging in, the member lands on the Dashboard. The top navigation bar show
 
 <figure><img src="../../.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
 
-### Step 2 — Click "Accounts" to View All Accounts
 
-Click **Accounts** in the top navigation bar. The Account Overview page loads, displaying all account types — Checking, Savings, Credit Card, Mortgage, Loans, Line of Credit, and Certificate accounts — each with their balance, account number, and action buttons (Recent Transactions, Account Details, Transfers, Deposit Direct, Account Enquiry).
-
-<figure><img src="../../.gitbook/assets/accounts-overview.png" alt="" width="480"><figcaption></figcaption></figure>
 

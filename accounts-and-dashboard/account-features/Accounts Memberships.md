@@ -1,10 +1,10 @@
 ---
 description: >-
-  View membership details and add new membership associations to the member's
+  View membership settings and add new membership associations to the member's
   profile
 ---
 
-# Accounts & Memberships
+# Accounts & Memberships Settings
 
 ## Summary
 

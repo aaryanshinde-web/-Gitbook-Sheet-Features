@@ -24,7 +24,9 @@ The Related Links sidebar is a panel at the bottom-right of the Dashboard that p
 
 ### Step 1 — Locate the Related Links Sidebar
 
-After logging in, scroll down on the right panel of the Dashboard to find the **Related Links** card below the Credit Score meter. The card displays four links: Change Password, Download E-Statements, View Scheduled Transfers, and Direct Deposit Form — each with a right-arrow indicator.
+After logging in, scroll down on the right panel of the Dashboard to find the **Related Links** card below the Credit Score meter. The card displays links that are contextual to the page you are on. These links can be configured to be what the institution deems most useful based on their member behaviour and our data.
+
+For example, you can currently see four links in the Related Links: Change Password, Download E-Statements, View Scheduled Transfers, and Direct Deposit Form.
 
 <figure><img src="../../.gitbook/assets/dashboard-landing.png" alt="" width="480"><figcaption></figcaption></figure>
 

@@ -35,10 +35,10 @@ The Bill Pay module includes full history of all past payments, management of pa
 
 Click ‘Move Money' in the top navigation bar and select Pay Bills
 
-<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_dd37cd06feee.png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 — Navigate  to Bill Pay**
 
 The Bill Pay screen from the vendor banking interface is displayed, showing payment options and form fields for setting up or making a bill payment.
 
-<figure><img src="../../.gitbook/assets/Bill_Pay_img3.png" alt="" width="480"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Bill_Pay_img3.png" alt=""><figcaption></figcaption></figure>

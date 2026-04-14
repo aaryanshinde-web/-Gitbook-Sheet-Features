@@ -4,7 +4,7 @@
 
 ## Summary
 
-The **eDocuments — BDI — SSO** feature enables you to access your electronic statements and documents directly from within the nFinia digital banking platform, both on web and mobile, without requiring a separate login.&#x20;
+The **eDocuments - BDI - SSO** feature enables you to access your electronic statements and documents directly from within the nFinia digital banking platform, both on web and mobile, without requiring a separate login.&#x20;
 
 BDI is the third-party electronic document management system that stores and serves member statements (monthly statements, mortgage statements, and other document types). The SSO token is generated server-side by nFinia and passed securely to BDI, meaning your BDI session is fully authenticated from the moment the portal opens.
 
@@ -12,7 +12,7 @@ This feature serves retail and business members alike.&#x20;
 
 | Attribute            | Detail                                                                                                         |
 | -------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Feature Name         | eDocuments — BDI — SSO                                                                                         |
+| Feature Name         | eDocuments - BDI - SSO                                                                                         |
 | Module               | Banking > More > eStatements / Statements and Tax Forms                                                        |
 | User Roles           | Retail Member, Business Member                                                                                 |
 | Access Level         | Authenticated member (SSO token issued by nFinia post-login)                                                   |
@@ -51,19 +51,19 @@ The BDI SSO integration is particularly important for credit unions with diverse
 
 #### Desktop (Web Browser)
 
-**Step 1 — Navigate to eStatements**
+**Step 1 - Navigate to eStatements**
 
 Log in to nFinia and click **Statements and Tax Forms** in the  **More** section in the navigation menu. The breadcrumb path reads: `Banking > More > eStatements`.
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-**Step 2 — BDI Portal Loads (Desktop)**
+**Step 2 - BDI Portal Loads (Desktop)**
 
 The BDI portal opens in a new tab or within iFrame (based on the configuration chosen by the credit union) The portal displays your name and a membership number dropdown pre-selected with your primary membership. The top navigation bar shows four tabs: **Documents**, **Enrollment**, **Disclosures**, and **Statement Search,**&#x49;f you have multiple account numbers linked, click the dropdown and select the desired membership. Each option is listed as `[MemberNumber] - [Name/Entity]`.
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3 — View Documents and open a statement**
+**Step 3 - View Documents and open a statement**
 
 After selecting a membership, the Documents tab populates. The page displays your name, masked account number (e.g., `XXXXXXXX05`), Period Ending date, and a **View PDF** button. Each account appears as a labeled section (e.g., MONEY MARKET (#0008), SAVINGS (#0100), CLASSIC CHECKING (#0001)) with a summary grid showing Starting Balance, Ending Balance, Debit(s), Credit(s), and YTD Dividends. A **Show details** button expands the full transaction list. A reporting information section at the bottom shows annual totals.
 
@@ -73,39 +73,39 @@ After selecting a membership, the Documents tab populates. The page displays you
 
 #### Mobile (nFinia App)
 
-**Step 1 — Open the Side Menu**
+**Step 1 - Open the Side Menu**
 
 Tap the hamburger menu (≡) in the nFinia mobile app to open the side navigation panel. The panel lists **Statements & Tax Forms** with the subtitle "View statements & Tax Forms."
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.13.04 PM.png" alt="" width="243"><figcaption></figcaption></figure>
 
-**Step 2 — Tap "Statements & Tax Forms"**
+**Step 2 - Tap "Statements & Tax Forms"**
 
 Tapping this option triggers the SSO. A **Processing...** spinner appears briefly while nFinia generates the SSO token and initiates the redirect to BDI.
 
-**Step 3 — BDI Portal Opens in Device Browser**
+**Step 3 - BDI Portal Opens in Device Browser**
 
 The device's default browser launches and opens the BDI portal. You land on the **Documents** tab with your name and the membership dropdown pre-selected. The portal immediately displays the available document types  with the three most recent entries per type.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.14.39 PM.png" alt="" width="244"><figcaption></figcaption></figure>
 
-**Step 4 — Select Membership**
+**Step 4 - Select Membership**
 
 Tapping the dropdown on mobile opens a radio-button picker showing all linked membership numbers. The currently selected membership is indicated with a filled radio button.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.15.17 PM.png" alt="" width="242"><figcaption></figcaption></figure>
 
-**Step 5 — View Documents**
+**Step 5 - View Documents**
 
 After selecting a membership, the Documents page updates to show that membership's document sections. The mobile layout shows **Monthly Statement** and **Mortgage Statement** sections, each with the three most recent entries and a "> View all past documents" link.
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.15.46 PM.png" alt="" width="245"><figcaption></figcaption></figure>
 
-**Step 6 — Open a Statement**
+**Step 6 - Open a Statement**
 
 Tapping a statement date opens the detail view: your name, masked account number, Period Ending date, View PDF button, and per-account summary sections with balances and transaction totals.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.16.17 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-04-10 at 9.16.17 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Decision Points & Branching
 

@@ -41,13 +41,13 @@ Wire transfers are captured as digital forms within the Online Forms portal. The
 
 Navigate to move money hub and then from there click on Domestic Wire Transfers and it would be redirected  to Wire Transfer Forms
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2 — Open the Wire Transfer Form**
 
 The Domestic Outgoing Wire Transfer Request form is displayed within the Online Forms section, showing the form title and multiple input fields for initiating a wire transfer request.
 
-<figure><img src="../../.gitbook/assets/img_c21ec81c1fad.png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/img_c21ec81c1fad.png" alt=""><figcaption></figcaption></figure>
 
 **Step 4 — Review & Submit**
 

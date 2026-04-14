@@ -4,7 +4,7 @@ description: >-
   ticket submission within nFinia Digital Banking.
 ---
 
-# End User Support Portal — ZenDesk
+# End User Support Portal - ZenDesk
 
 **Vendor:** Zendesk\
 **Module:** Member Support & Help Center\
@@ -14,7 +14,7 @@ description: >-
 
 ## Overview
 
-The ZenDesk integration brings a full-featured member support portal directly into the nFinia digital banking experience. Members can browse a searchable knowledge base, submit support tickets, and track ticket status — all without leaving the app or calling the credit union.
+The ZenDesk integration brings a full-featured member support portal directly into the nFinia digital banking experience. Members can browse a searchable knowledge base, submit support tickets, and track ticket status - all without leaving the app or calling the credit union.
 
 ***
 
