@@ -24,10 +24,10 @@ The Scheduled Transfers screen also serves as a consolidated view of all active 
 
 | Use Case | Who Uses It | What They Do | Business Value |
 | ---------------------------------- | -------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
-| **Automate monthly savings** | Member with a savings goal | Schedule a recurring transfer from checking to savings after payday | Set-and-forget savings automation with no manual effort each cycle |
-| **Recurring loan payment** | Borrower with a monthly obligation | Schedule a fixed monthly transfer from checking to loan account | Eliminates missed payments, reduces late fees, and improves loan standing |
-| **Future-dated one-time transfer** | Member planning a large purchase | Schedule a one-time transfer to execute on a specific future date | Moves funds precisely when needed without requiring manual action |
-| **Bill-aligned cash flow** | Member managing recurring bills | Schedule semi-monthly transfers aligned to billing cycles | Keeps cash consistently positioned to cover obligations on due dates |
+| **Automate monthly savings** | Members with a savings goal | Schedule a recurring transfer from checking to savings after payday | Set-and-forget savings automation with no manual effort each cycle |
+| **Recurring loan payment** | Members with a monthly obligation | Schedule a fixed monthly transfer from checking to loan account | Eliminates missed payments, reduces late fees, and improves loan standing |
+| **Future-dated one-time transfer** | Members planning a large purchase | Schedule a one-time transfer to execute on a specific future date | Moves funds precisely when needed without requiring manual action |
+| **Bill-aligned cash flow** | Members managing recurring bills | Schedule semi-monthly transfers aligned to billing cycles | Keeps cash consistently positioned to cover obligations on due dates |
 | **Review and manage schedules** | Any member | Open Scheduled Transfers to view, modify, pause, or cancel any active schedule | Full transparency into all upcoming automated fund movements |
 
 ## Step-by-Step Guide
@@ -38,19 +38,19 @@ _Navigation: Banking › Move Money › Scheduled Transfers_
 
 From the top navigation bar, click **Move Money** to open the Move Money Hub. The hub presents all available payment and transfer options as tiles, including Pay Bills, Quick Pay, Zelle Payment, Internal Transfers, Other Members, Same-Day Transfers, Send Instantly, Manage Recipients, Transaction History, and **Scheduled Transfers**. This is the central starting point for all fund movement actions within nFinia.
 
-<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub with all transfer and payment options"><figcaption><p>Step 1: Open the Move Money Hub from the top navigation to access all transfer and payment options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub with all transfer and payment options"><figcaption><p>Step 1: Open the Move Money Hub from the top navigation.</p></figcaption></figure>
 
 ### Step 2 — Navigate to Scheduled Transfers
 
-From the Move Money Hub, select the **Scheduled Transfers** tile. The Scheduled Transfers page loads and displays all currently active schedules along with a history of past scheduled transfers. To set up a new schedule, click **Schedule a New Transfer**. This returns you to the Move Money Hub so you can select the transfer type and configure the schedule details in the next step.
+From the Move Money Hub, select the **Scheduled Transfers** tile. The Scheduled Transfers page loads and displays all currently active schedules along with a history of past scheduled transfers. To set up a new schedule, click **Schedule a New Transfer**. This action returns you to the Move Money Hub so you can select the transfer type and configure the schedule details in the next step.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 3.22.43 AM.png" alt="Scheduled Transfers page showing active schedules and the Schedule a New Transfer option"><figcaption><p>Step 2: On the Scheduled Transfers page, click Schedule a New Transfer to begin configuring a new recurring or future-dated transfer.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 3.22.43 AM.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3 — Return to the Move Money Hub
 
-After clicking **Schedule a New Transfer**, the platform routes you back to the Move Money Hub. From here, select **Internal Transfers** to proceed with configuring the scheduled transfer between your own Summerville accounts. The Internal Transfers flow is where frequency, amount, source, destination, and scheduling parameters are all configured.
+After clicking **Schedule a New Transfer**, the platform routes you back to the Move Money Hub. From here, select **Internal Transfers** to proceed with configuring the scheduled transfer between your own Summerville accounts. The Internal Transfers flow is where all scheduling parameters — frequency, amount, source, destination, and end condition — are configured.
 
-<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub — select Internal Transfers to configure the scheduled transfer"><figcaption><p>Step 3: Back at the Move Money Hub, select Internal Transfers to set up the schedule details.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub with all transfer and payment options"><figcaption><p>Step 1: Open the Move Money Hub from the top navigation.</p></figcaption></figure>
 
 ### Step 4 — Configure the Transfer Details
 
@@ -66,19 +66,19 @@ The Internal Transfers form loads. Complete all required fields to define the sc
 
 Once all fields are complete, click **Continue** to proceed to the review screen.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.47.24 AM.png" alt="Internal Transfers form with source, destination, amount, date, frequency, and end condition fields"><figcaption><p>Step 4: Fill in the source account, destination account, amount, transfer date, and recurrence settings, then click Continue.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.47.24 AM.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 5 — Review the Transfer Summary
 
 A final review screen appears showing the complete transfer summary before the schedule is committed. This includes the source and destination accounts, the transfer amount, the start date, and the recurrence frequency if applicable. Review all details carefully — this is your last opportunity to make changes before the schedule is saved. If anything needs adjusting, click **Back** to return to the form. When satisfied, click **Confirm** to finalise the schedule.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.48.38 AM (1).png" alt="Transfer review screen showing full schedule summary before confirmation"><figcaption><p>Step 5: Review the complete transfer schedule summary, then click Confirm to save it.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.48.38 AM (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 6 — Schedule Confirmed
 
 A success confirmation screen appears indicating that the transfer schedule has been created successfully. The screen displays the schedule reference and a summary of the configuration. Click **Done** to return to the Dashboard. The scheduled transfer is now active and will execute automatically on the configured date. You can return to the Scheduled Transfers screen at any time to view, edit, or cancel the schedule.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.49.06 AM (1).png" alt="Success screen confirming the scheduled transfer has been created"><figcaption><p>Step 6: Confirmation that the transfer schedule has been created successfully. Click Done to return to the Dashboard.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-04-14 at 12.49.06 AM (1).png" alt=""><figcaption></figcaption></figure>
 
 ## End-to-End Workflow
 
