@@ -7,7 +7,7 @@ description: >-
 
 ## Summary
 
-Account Details gives members a comprehensive view of a single account — current balance, account metadata, and the full transaction history — in one screen. For business members reconciling daily activity, reviewing cleared checks, or preparing for an audit, the transaction history with search and filter capabilities eliminates the need to download statements for routine lookups. The view supports both retail and commercial accounts and is accessible from the Dashboard account tile or the Accounts menu.
+Account Details gives members a comprehensive view of a single account, current balance, account metadata, and the full transaction history in one screen. For business members reconciling daily activity, reviewing cleared checks, or preparing for an audit, the transaction history with search and filter capabilities eliminates the need to download statements for routine lookups. The view supports both retail and commercial accounts and is accessible from the Dashboard account tile or the Accounts menu.
 
 ## Key Use Cases
 
