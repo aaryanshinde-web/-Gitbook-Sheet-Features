@@ -59,33 +59,6 @@
     * [Set Card PIN](bill-pay-loans-and-cards/card-lifecycle/set-pin.md)
     * [Travel Notice](bill-pay-loans-and-cards/card-lifecycle/travel-notice.md)
 
-## FI-Facing Documentation
-
-* [FI-Facing Documentation](fi-facing/README.md)
-  * [Add-On Products](fi-facing/add-ons/README.md)
-  * [nFinia Retail](fi-facing/nfinia-retail/README.md)
-  * [Releases](fi-facing/releases/README.md)
-    * [V. 10.36](fi-facing/releases/v-10-36.md)
-    * [V. 10.37](fi-facing/releases/v-10-37.md)
-    * [V. 10.38](fi-facing/releases/v-10-38.md)
-    * [V. 10.39](fi-facing/releases/v-10-39.md)
-    * [V. 10.40](fi-facing/releases/v-10-40.md)
-    * [V. 10.41](fi-facing/releases/v-10-41.md)
-    * [V. 10.42](fi-facing/releases/v-10-42.md)
-    * [V. 10.43](fi-facing/releases/v-10-43.md)
-    * [V. 10.44](fi-facing/releases/v-10-44.md)
-    * [V. 10.45](fi-facing/releases/v-10-45.md)
-    * [V. 10.46](fi-facing/releases/v-10-46.md)
-    * [V. 10.47 (SKIP - MINOR ENHANCEMENTS)](fi-facing/releases/v-10-47-skip-minor-enhancements.md)
-    * [V. 10.48 (SKIP - MINOR ENHANCEMENTS)](fi-facing/releases/v-10-48-skip-minor-enhancements.md)
-    * [V. 10.49 (December 2025)](fi-facing/releases/v-10-49-december-2025.md)
-    * [V. 10.50 (January 2026)](fi-facing/releases/v-10-50-january-2026.md)
-    * [V. 10.51 (February 2026)](fi-facing/releases/v-10-51-february-2026.md)
-    * [V. 10.52 (March 2026)](fi-facing/releases/v-10-52-march-2026.md)
-  * [Skip-A-Pay & Quick Pay](fi-facing/sapqp/README.md)
-  * [3rd-Party Integrations](fi-facing/third-party/README.md)
-  * [Tyfone — Company-level material](fi-facing/tyfone-general/README.md)
-
 ## Vendor Integrations
 
 * [Vendor Integrations](integrations/README.md)
