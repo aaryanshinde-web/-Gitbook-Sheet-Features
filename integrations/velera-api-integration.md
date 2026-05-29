@@ -75,11 +75,11 @@ When a qualifying transaction occurs on the card, Velera's system dispatches a w
 
 | Guide | Reference |
 | --- | --- |
-| Card Controls | [Card Controls](../bill-pay-loans-and-cards/card-controls-and-spending/Card%20Controls.md) |
-| Card Alerts | [Card Alerts](../bill-pay-loans-and-cards/card-controls-and-spending/Card%20Alerts.md) |
-| Spending Limits | [Spending Limits](../bill-pay-loans-and-cards/card-controls-and-spending/Spending%20Limits.md) |
-| Location Controls | [Location Controls](../bill-pay-loans-and-cards/card-controls-and-spending/Location%20Controls.md) |
-| Usage Controls | [Usage Control](../bill-pay-loans-and-cards/card-controls-and-spending/Usage%20Control.md) |
+| Card Controls | [Card Controls](../bill-pay-loans-and-cards/card-controls-and-spending/card-controls.md) |
+| Card Alerts | [Card Alerts](../bill-pay-loans-and-cards/card-controls-and-spending/card-alerts.md) |
+| Spending Limits | [Spending Limits](../bill-pay-loans-and-cards/card-controls-and-spending/spending-limits.md) |
+| Location Controls | [Location Controls](../bill-pay-loans-and-cards/card-controls-and-spending/location-controls.md) |
+| Usage Controls | [Usage Control](../bill-pay-loans-and-cards/card-controls-and-spending/usage-control.md) |
 
 ---
 

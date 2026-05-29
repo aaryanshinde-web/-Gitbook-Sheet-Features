@@ -159,7 +159,3 @@ After the account connection is finalized, Plaid may prompt you to save your ext
 ***
 
 _For implementation questions or to request changes to IAV configuration, contact your Tyfone Platform Support representative._ _Plaid integration reference:_ [_https://plaid.com/docs/link/web/_](https://plaid.com/docs/link/web/)
-
-***
-
-<sub>Tyfone nFinia Platform | IAV-Plaid Guide v1.0.1 | Confidential</sub>

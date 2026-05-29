@@ -14,7 +14,7 @@ This section documents all third-party vendor and API integrations that extend t
 | --- | --- | --- | --- |
 | [Prisma — Full Edition](prisma-integration.md) | Prisma | Security & Compliance | ✅ Documented |
 | [Direct & Web Connect](direct-and-web-connect-quicken-quickbooks.md) | Intuit / Tyfone OFX | Account Export | ✅ Documented |
-| [End User Support Portal](zendesk-end-user-support.md) | ZenDesk | Member Support | ✅ Documented |
+| [End User Support Portal](zendesk-end-user-support/README.md) | ZenDesk | Member Support | ✅ Documented |
 | [Mortgage Balances](mortgage-balances-fics-api.md) | FICS API | Loan Data | ✅ Documented |
 | [eDocuments](edocuments-bdi-sso.md) | BDI SSO | Statements & Docs | ✅ Documented |
 | [Velera API](velera-api-integration.md) | Velera | Card Services | ✅ Documented |

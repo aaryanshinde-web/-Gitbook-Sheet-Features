@@ -20,7 +20,7 @@ Business members set up recurring weekly transfers from a business savings accou
 5. **Submit** — Transfer executes instantly; both balances update in real time.
 6. **Confirmation** — Success screen displays with transfer receipt.
 
-> **Looking to schedule a recurring or future-dated transfer instead?** See the [**Scheduled Transfers**](Scheduled%20Transfers.md) guide.
+> **Looking to schedule a recurring or future-dated transfer instead?** See the [**Scheduled Transfers**](scheduled-transfers.md) guide.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Step 1: Open the Move Money Hub.</p></figcaption></figure>
 

@@ -90,4 +90,4 @@ A success confirmation screen appears indicating that the transfer schedule has 
 6. **Review and confirm** — Verify the full transfer summary on the review screen and click **Confirm** to save the schedule.
 7. **Confirmation** — A success screen confirms the schedule is active. Click **Done** to return to the Dashboard.
 
-> **Note:** Use [**Transfer to Own Account**](CSUM-06-Transfer-Own-Account-Scheduled.md) for immediate one-off transfers between your accounts. Use **Scheduled Transfers** (this page) whenever the movement needs to occur on a future date or repeat on an ongoing schedule.
+> **Note:** Use [**Transfer to Own Account**](transfer-own-account-scheduled.md) for immediate one-off transfers between your accounts. Use **Scheduled Transfers** (this page) whenever the movement needs to occur on a future date or repeat on an ongoing schedule.

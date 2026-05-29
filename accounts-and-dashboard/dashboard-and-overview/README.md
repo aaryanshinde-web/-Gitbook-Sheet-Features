@@ -30,10 +30,8 @@ The top navigation bar provides access to the platform's core modules:
 
 ## Related Pages
 
-* [Dashboard](<Dashboard Activities.md>) — walkthrough of the Dashboard layout and navigation
-* [Quick Pay & Quick Transfer](<Dashboard Quick Pay.md>) — the Dashboard transfer widget
-* [Upcoming Payments](<Dashboard Upcoming Payments.md>) — scheduled payments widget
-* [Related Links](<Dashboard Related Links.md>) — sidebar shortcut links
-* [Credit Score Widget](<Dashboard Credit Score Widget.md>) — the Dashboard credit score gauge
-* [Recent Activities & Insights](Recent%20Activities%20Insights.md) — activity log and spending analytics
-* [Footer Links](Dashboard%20Quick%20Links.md) — footer quick links
+* [Dashboard](dashboard-activities.md) — walkthrough of the Dashboard layout and navigation
+* [Quick Pay & Quick Transfer](dashboard-quick-pay.md) — the Dashboard transfer widget
+* [Upcoming Payments](dashboard-upcoming-payments.md) — scheduled payments widget
+* [Related Links](dashboard-related-links.md) — sidebar shortcut links
+* [Credit Score Widget](dashboard-credit-score-widget.md) — the Dashboard credit score gauge
