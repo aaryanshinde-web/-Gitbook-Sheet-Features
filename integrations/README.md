@@ -4,7 +4,7 @@ description: Third-party vendor and API integrations within the nFinia Digital B
 
 # Vendor Integrations
 
-This section documents all third-party vendor and API integrations that extend the nFinia platform's capabilities for Diamond Credit Union members.
+This section documents all third-party vendor and API integrations that extend the nFinia platform's capabilities for Caltech Employees Federal Credit Union members.
 
 ---
 

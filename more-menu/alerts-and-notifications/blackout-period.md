@@ -1,12 +1,12 @@
 # Blackout Period
 
-**Summerville Credit Union | nFinia Digital Banking Platform**
+**Caltech Employees Federal Credit Union | nFinia Digital Banking Platform**
 
 ***
 
 ## Summary
 
-The Alerts & Notifications feature in Summerville Credit Union's nFinia platform gives you real-time visibility into the activity on your accounts. you can subscribe to a range of alerts—from balance thresholds and deposit confirmations to security events like failed login attempts—and choose exactly how they receive them: push notification to a trusted device, SMS to a registered phone number, or email to a linked address. The system distinguishes between **Optional Alerts**, which you configure themselves, and **Mandatory Alerts**, which the platform automatically delivers regardless of individual preferences whenever security-critical events occur (e.g., password changes, account lockouts, new remembered device additions).
+The Alerts & Notifications feature in Caltech Employees Federal Credit Union's nFinia platform gives you real-time visibility into the activity on your accounts. you can subscribe to a range of alerts—from balance thresholds and deposit confirmations to security events like failed login attempts—and choose exactly how they receive them: push notification to a trusted device, SMS to a registered phone number, or email to a linked address. The system distinguishes between **Optional Alerts**, which you configure themselves, and **Mandatory Alerts**, which the platform automatically delivers regardless of individual preferences whenever security-critical events occur (e.g., password changes, account lockouts, new remembered device additions).
 
 The feature is organized under **Alert Settings**, accessible via More > Alerts, and is composed of four tabs: **General Alerts**, **Account-Specific Alerts**, **Alert Settings**, and **Do-Not-Disturb**. Together these tabs give you fine-grained control over what they hear about, how they hear about it, and when they can be reached. For the credit union, this translates directly into reduced inbound support volume (members self-serve on transaction questions), stronger fraud detection outcomes (Members receive and act on security alerts), and higher digital channel engagement.
 
@@ -38,7 +38,7 @@ Retail Member on Do-Not-Disturb tab, clicks Edit next to the active period, adju
 
 Retail Member on Do-Not-Disturb tab, clicks Remove; system confirms removal and restores full-hour alert delivery, allows you to re-enable all-hours alerting when their schedule changes (e.g., new work shift).
 
-Account-specific and general alerts together give Summerville CU you a layered notification model that mirrors what business-class banking platforms offer—a meaningful differentiator for credit unions competing with larger FIs for financially engaged you.
+Account-specific and general alerts together give Caltech Employees FCU you a layered notification model that mirrors what business-class banking platforms offer—a meaningful differentiator for credit unions competing with larger FIs for financially engaged you.
 
 ***
 
@@ -46,7 +46,7 @@ Account-specific and general alerts together give Summerville CU you a layered n
 
 ### Prerequisites
 
-* Members must hold an active Summerville CU account enrolled in online or mobile banking.
+* Members must hold an active Caltech Employees FCU account enrolled in online or mobile banking.
 * Members must have at least one registered contact — a phone number or email address — on file with the credit union, as this is where alert notifications will be delivered.
 * Members' devices should be enrolled as trusted, or they should be prepared to complete OTP verification at login before accessing alert settings.
 

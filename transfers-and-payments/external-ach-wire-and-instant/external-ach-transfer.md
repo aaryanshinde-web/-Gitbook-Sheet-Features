@@ -5,7 +5,7 @@ description: External ACH Transfer
 
 ## Summary
 
-External ACH Transfer enables members to send and receive funds between their Summerville CU accounts and accounts held at other financial institutions — using the ACH network with standard 1–3 business day settlement. For business members funding a business account from a personal account at another bank, paying a vendor whose banking relationship is at a different institution, or collecting a receivable via ACH pull, this feature provides a fully self-service external transfer channel that avoids wire fees for non-time-critical payments.
+External ACH Transfer enables members to send and receive funds between their Caltech Employees FCU accounts and accounts held at other financial institutions — using the ACH network with standard 1–3 business day settlement. For business members funding a business account from a personal account at another bank, paying a vendor whose banking relationship is at a different institution, or collecting a receivable via ACH pull, this feature provides a fully self-service external transfer channel that avoids wire fees for non-time-critical payments.
 
 ## Key Use Cases
 

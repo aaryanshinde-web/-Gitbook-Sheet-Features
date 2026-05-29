@@ -1,6 +1,6 @@
 # Alerts & Notifications
 
-Alerts & Notifications covers every alert surface available to Summerville CU members in nFinia — balance, transaction, security, and card alerts — plus the Blackout Period feature that lets members suppress non-critical alerts during hours they choose.
+Alerts & Notifications covers every alert surface available to Caltech Employees FCU members in nFinia — balance, transaction, security, and card alerts — plus the Blackout Period feature that lets members suppress non-critical alerts during hours they choose.
 
 ## What's in this section
 

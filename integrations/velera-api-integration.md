@@ -1,5 +1,5 @@
 ---
-description: Velera (formerly PSCU) API integration — powering card controls, alerts, and rewards features within nFinia Digital Banking for Summerville Credit Union.
+description: Velera (formerly PSCU) API integration — powering card controls, alerts, and rewards features within nFinia Digital Banking for Caltech Employees Federal Credit Union.
 ---
 
 # Velera API Integration
@@ -12,7 +12,7 @@ description: Velera (formerly PSCU) API integration — powering card controls, 
 
 ## Overview
 
-Velera (rebranded from PSCU in 2024) is Summerville Credit Union's card processing network. The Velera API integration exposes card management capabilities — including card controls, spending alerts, and rewards balance — directly within nFinia's Cards module, giving you a unified experience without leaving the app.
+Velera (rebranded from PSCU in 2024) is Caltech Employees Federal Credit Union's card processing network. The Velera API integration exposes card management capabilities — including card controls, spending alerts, and rewards balance — directly within nFinia's Cards module, giving you a unified experience without leaving the app.
 
 Members can lock or unlock their debit and credit cards instantly, set spending restrictions by merchant category or geography, receive real-time push notifications for transaction activity, and view their rewards balance — all from within the nFinia digital banking platform.
 
@@ -38,7 +38,7 @@ Members can lock or unlock their debit and credit cards instantly, set spending 
 | **API Type** | REST (JSON) |
 | **Auth Method** | OAuth 2.0 client credentials |
 | **Real-Time Events** | Webhook-based push from Velera to nFinia |
-| **Card Types Supported** | Debit and Credit cards issued under Summerville CU's Velera BIN |
+| **Card Types Supported** | Debit and Credit cards issued under Caltech Employees FCU's Velera BIN |
 | **Integration Mode** | Server-to-server; no direct member-to-Velera communication |
 | **Data Sync** | Member card data synced from Velera at login and on-demand refresh |
 
@@ -58,7 +58,7 @@ Real-time transaction alerts are delivered from Velera to nFinia via webhook, wh
 When you log into the nFinia digital banking platform, the system automatically initiates a server-side call to the Velera API using your linked card identifiers. This happens in the background during session initialisation, so by the time you navigate to the Cards module, your card data is already loaded and ready to display.
 
 **Step 2 — Member navigates to Cards module**\
-Navigate to the Cards section from the top navigation bar. The Cards dashboard displays all debit and credit cards issued under Summerville CU's Velera BIN. Each card tile shows its current lock/unlock status, and the detail view provides access to spending controls, alert configuration, and rewards balance — all populated in real time from Velera's API response.
+Navigate to the Cards section from the top navigation bar. The Cards dashboard displays all debit and credit cards issued under Caltech Employees FCU's Velera BIN. Each card tile shows its current lock/unlock status, and the detail view provides access to spending controls, alert configuration, and rewards balance — all populated in real time from Velera's API response.
 
 **Step 3 — Member makes a change**\
 When you make a change — such as toggling a card off, setting a merchant category restriction, or configuring a spend alert — nFinia immediately sends the updated preference to Velera via the REST API. The request is signed with the platform's OAuth 2.0 client credentials and contains only the specific change being made, not the member's full card details.
@@ -90,7 +90,7 @@ When a qualifying transaction occurs on the card, Velera's system dispatches a w
 {% endhint %}
 
 {% hint style="warning" %}
-**BIN Configuration:** Card controls and alerts only apply to cards issued under Summerville CU's Velera BIN. Cards from other networks will not appear in this module.
+**BIN Configuration:** Card controls and alerts only apply to cards issued under Caltech Employees FCU's Velera BIN. Cards from other networks will not appear in this module.
 {% endhint %}
 
 ---
@@ -109,7 +109,7 @@ When a qualifying transaction occurs on the card, Velera's system dispatches a w
 ## FAQs
 
 **Q: Which cards are visible in the Velera card controls module?**\
-Only debit and credit cards issued under Summerville Credit Union's Velera BIN are visible. Cards from other processors are not supported.
+Only debit and credit cards issued under Caltech Employees Federal Credit Union's Velera BIN are visible. Cards from other processors are not supported.
 
 **Q: Are card controls enforced immediately?**\
 Yes. Controls set through the nFinia interface are transmitted to Velera via the REST API and applied to the card's control profile in real time. The very next transaction on the card will be subject to the updated setting — there is no delay, batch sync, or confirmation window.
@@ -118,8 +118,8 @@ Yes. Controls set through the nFinia interface are transmitted to Velera via the
 Velera's fraud detection system may automatically decline international transactions if no travel notification is on file for those dates and destinations. This is a protective measure against card fraud, but it can result in legitimate purchases being blocked while abroad. Members should set a travel notification in nFinia before departure to ensure their cards are approved at international terminals during the travel window.
 
 **Q: Can rewards be redeemed through nFinia?**\
-The current Velera integration surfaces your rewards balance within the nFinia Cards module so you can see your accumulated points at a glance. Redemption options — such as cash back, gift cards, or travel — depend on how Summerville CU has configured the Velera rewards portal. Contact the credit union or visit the Velera redemption portal for available options.
+The current Velera integration surfaces your rewards balance within the nFinia Cards module so you can see your accumulated points at a glance. Redemption options — such as cash back, gift cards, or travel — depend on how Caltech Employees FCU has configured the Velera rewards portal. Contact the credit union or visit the Velera redemption portal for available options.
 
 ---
 
-*Velera (formerly PSCU) is Summerville Credit Union's card processing partner. For technical integration questions, contact the Tyfone Delivery team. For card-related member issues, refer to the FI's member services team.*
+*Velera (formerly PSCU) is Caltech Employees Federal Credit Union's card processing partner. For technical integration questions, contact the Tyfone Delivery team. For card-related member issues, refer to the FI's member services team.*

@@ -8,7 +8,7 @@ description: >-
 
 ## Summary
 
-The Trusted Device Prompt is nFinia's push-based second-factor verification mechanism that intercepts sensitive member actions — such as disabling account alerts — initiated from a web browser session, and requires confirmation from a pre-enrolled mobile device before the change is processed. Rather than relying on SMS one-time passcodes, which are vulnerable to SIM-swap attacks and phishing, the platform routes the verification directly to a registered phone or tablet, ensuring that both credential ownership and physical device possession are required. For Summerville CU, this means stronger member account protection, a timestamped audit trail for every verified action, and an MFA posture that aligns with NCUA examination expectations.
+The Trusted Device Prompt is nFinia's push-based second-factor verification mechanism that intercepts sensitive member actions — such as disabling account alerts — initiated from a web browser session, and requires confirmation from a pre-enrolled mobile device before the change is processed. Rather than relying on SMS one-time passcodes, which are vulnerable to SIM-swap attacks and phishing, the platform routes the verification directly to a registered phone or tablet, ensuring that both credential ownership and physical device possession are required. For Caltech Employees FCU, this means stronger member account protection, a timestamped audit trail for every verified action, and an MFA posture that aligns with NCUA examination expectations.
 
 ***
 
@@ -60,7 +60,7 @@ After selecting your device, nFinia transitions to a **Verifying Your Disable Al
 
 ### Step 6 — Receive the Push Notification on Your Mobile Device
 
-Your Summerville CU mobile app will deliver a push notification to the device you selected. The notification reads: _"A request to disable your alerts has been initiated. Please confirm this action to proceed."_ Tap the notification to open the Summerville CU app and reach the confirmation screen.
+Your Caltech Employees FCU mobile app will deliver a push notification to the device you selected. The notification reads: _"A request to disable your alerts has been initiated. Please confirm this action to proceed."_ Tap the notification to open the Caltech Employees FCU app and reach the confirmation screen.
 
 ![Mobile Push Notification](<../.gitbook/assets/Unknown image (4)>)
 

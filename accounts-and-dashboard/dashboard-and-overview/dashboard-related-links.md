@@ -11,7 +11,7 @@ description: >-
 
 The Related Links sidebar is a configurable shortcut panel positioned on the Dashboard that gives members one-click access to the most operationally relevant self-service tasks — without navigating through menus. For business members who move money frequently, update credentials regularly, or need direct deposit forms for onboarding employees, this panel eliminates unnecessary clicks and surfaces high-value actions at the point where members are most likely to need them.
 
-The panel currently exposes four links — **Change Password**, **Download E-Statements**, **View Scheduled Transfers**, and **Direct Deposit Form** — each configured by the credit union based on member behavior and operational priorities. This is a credit union-controlled configuration, meaning Summerville CU can update which shortcuts appear as member needs evolve.
+The panel currently exposes four links — **Change Password**, **Download E-Statements**, **View Scheduled Transfers**, and **Direct Deposit Form** — each configured by the credit union based on member behavior and operational priorities. This is a credit union-controlled configuration, meaning Caltech Employees FCU can update which shortcuts appear as member needs evolve.
 
 ## Key Use Cases
 

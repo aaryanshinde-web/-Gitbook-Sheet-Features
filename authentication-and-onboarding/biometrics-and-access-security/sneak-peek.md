@@ -2,7 +2,7 @@
 
 ## Summary
 
-Sneak Peek is a convenience feature in Summerville Credit Union's nFinia mobile banking platform that allows you to view your account balance on the pre-login Welcome screen — without requiring a full username/password/OTP authentication session. You opt in per account through Account Settings, and once enabled, a **Balance** widget on the Welcome screen surfaces your configured account's current balance with a single tap or swipe.
+Sneak Peek is a convenience feature in Caltech Employees Federal Credit Union's nFinia mobile banking platform that allows you to view your account balance on the pre-login Welcome screen — without requiring a full username/password/OTP authentication session. You opt in per account through Account Settings, and once enabled, a **Balance** widget on the Welcome screen surfaces your configured account's current balance with a single tap or swipe.
 
 The feature serves enrolled retail members who frequently check their balance without needing to conduct a transaction — a common behavior pattern among mobile banking users. Rather than requiring a full multi-factor authentication session for a read-only balance inquiry, Sneak Peek delivers just enough information to answer "How much do I have?" while keeping your full account access securely behind the login wall. The feature is per-account and opt-in only, meaning no account balance is ever exposed without your explicit decision.
 
@@ -36,7 +36,7 @@ Members performing a quick task tap Balance on Welcome screen, review balance, t
 
 **Step 1 — Open the App (Welcome Screen)**
 
-Open the Summerville mobile app. The Welcome screen is displayed with two primary actions — **Enroll** and **Log In** — along with a **Balance** widget at the bottom of the screen. The Balance widget is visible to all users but will only display account data after Sneak Peek has been configured. To configure Sneak Peek, you first need to complete a full authenticated login and navigate to Account Settings. Tap **Log In** to begin.
+Open the Caltech Employees FCU mobile app. The Welcome screen is displayed with two primary actions — **Enroll** and **Log In** — along with a **Balance** widget at the bottom of the screen. The Balance widget is visible to all users but will only display account data after Sneak Peek has been configured. To configure Sneak Peek, you first need to complete a full authenticated login and navigate to Account Settings. Tap **Log In** to begin.
 
 <figure><img src="../../.gitbook/assets/Welcome_Screen_showing_Balance_widget_and_pre-login_shortcut_1.jpeg" alt="Welcome Screen" width="340"><figcaption></figcaption></figure>
 

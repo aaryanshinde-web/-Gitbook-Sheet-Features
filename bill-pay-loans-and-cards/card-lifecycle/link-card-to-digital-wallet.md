@@ -2,7 +2,7 @@
 
 ## Summary
 
-Link Card to Digital Wallet enables members to provision their Summerville CU debit or credit card to Apple Pay, Google Pay, or Samsung Pay directly through nFinia Digital Banking — making the card available for contactless tap-to-pay purchases at NFC-enabled terminals, in apps, and online without entering card details. For business members who rely on their card for daily operational purchases and want to eliminate physical card dependency, digital wallet provisioning provides a more secure and convenient payment experience backed by device-level tokenisation that protects the actual card number from exposure at point of sale.
+Link Card to Digital Wallet enables members to provision their Caltech Employees FCU debit or credit card to Apple Pay, Google Pay, or Samsung Pay directly through nFinia Digital Banking — making the card available for contactless tap-to-pay purchases at NFC-enabled terminals, in apps, and online without entering card details. For business members who rely on their card for daily operational purchases and want to eliminate physical card dependency, digital wallet provisioning provides a more secure and convenient payment experience backed by device-level tokenisation that protects the actual card number from exposure at point of sale.
 
 ## Key Use Cases
 

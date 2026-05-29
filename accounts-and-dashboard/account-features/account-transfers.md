@@ -5,7 +5,7 @@ description: "Transfer funds between member's own accounts with destination, amo
 
 ## Summary
 
-Account Transfers enables members to move funds between their own accounts within Summerville Credit Union — between checking, savings, money market, and loan accounts — in real time. For business members managing liquidity across multiple accounts, this feature is the primary mechanism for funding a payment account before an ACH batch processes or sweeping excess operating funds into a higher-yield savings account at the end of the day.
+Account Transfers enables members to move funds between their own accounts within Caltech Employees Federal Credit Union — between checking, savings, money market, and loan accounts — in real time. For business members managing liquidity across multiple accounts, this feature is the primary mechanism for funding a payment account before an ACH batch processes or sweeping excess operating funds into a higher-yield savings account at the end of the day.
 
 ## Key Use Cases
 

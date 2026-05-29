@@ -4,7 +4,7 @@
 
 ## Summary
 
-Quick Pay is an integrated loan payment hub embedded within the nFinia digital banking platform. It gives Summerville Credit Union members a single screen to view all active loan accounts and make payments without leaving the digital banking experience. The Single Sign-On (SSO) design means that members who are already authenticated in nFinia are automatically signed into the Quick Pay portal — no separate login required.
+Quick Pay is an integrated loan payment hub embedded within the nFinia digital banking platform. It gives Caltech Employees Federal Credit Union members a single screen to view all active loan accounts and make payments without leaving the digital banking experience. The Single Sign-On (SSO) design means that members who are already authenticated in nFinia are automatically signed into the Quick Pay portal — no separate login required.
 
 Members can pay the minimum amount due, a custom amount above the minimum, or a full payoff amount. Payments can be funded from any linked CU account. Members whose primary income deposits at a different institution can also link an external bank account specifically for loan repayment purposes, enabling direct debit from a non-CU checking account without requiring a separate ACH setup.
 
@@ -31,7 +31,7 @@ Members can pay the minimum amount due, a custom amount above the minimum, or a 
 
 **Step 1 — Navigate to Quick Pay**
 
-Log in to Summerville Credit Union digital banking. From the top navigation bar, click **Move Money** to open the Move Money Hub, then select **Quick Pay**. Alternatively, use the search bar and type "Quick Pay" to navigate directly to the feature.
+Log in to Caltech Employees Federal Credit Union digital banking. From the top navigation bar, click **Move Money** to open the Move Money Hub, then select **Quick Pay**. Alternatively, use the search bar and type "Quick Pay" to navigate directly to the feature.
 
 The Quick Pay page loads and displays all active loan accounts associated with the member's profile. Each loan is listed with its account name, current balance, and minimum payment due. Select the loan account you want to make a payment towards to proceed.
 

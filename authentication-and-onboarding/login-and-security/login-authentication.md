@@ -37,7 +37,7 @@ For credit unions with business banking members, reliable and low-friction authe
 
 **Step 1: Open the Login Screen**
 
-Navigate to the Summerville CU digital banking URL to load the login page, which presents the User ID and Password input fields along with self-service recovery links for Forgot User ID, Forgot Password, and Unlock Account. This screen is the sole authenticated entry point — no account balances, transaction history, or payment features are accessible before credentials are validated.
+Navigate to the Caltech Employees FCU digital banking URL to load the login page, which presents the User ID and Password input fields along with self-service recovery links for Forgot User ID, Forgot Password, and Unlock Account. This screen is the sole authenticated entry point — no account balances, transaction history, or payment features are accessible before credentials are validated.
 
 <figure><img src="../../.gitbook/assets/img_ba47001101d4.png" alt="" width="480"><figcaption></figcaption></figure>
 

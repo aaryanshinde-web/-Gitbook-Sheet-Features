@@ -4,7 +4,7 @@
 
 Face ID is a biometric authentication feature within the nFinia mobile banking platform that enables you to log into your digital banking account using facial recognition instead of (or in addition to) a traditional username and password. The feature is surfaced as an opt-in checkbox **Enable Face ID** - directly on the standard Log In screen, making activation frictionless and contextual at the moment of first credential entry.
 
-The feature leverages the native biometric framework of your mobile device (iOS Face ID / Android BiometricPrompt), meaning that no facial data is transmitted to or stored on Tyfone's or Summerville's servers. The device itself performs the biometric match and passes an authenticated signal to the nFinia app. This architecture separates credential security from biometric data entirely, reducing PII exposure risk and simplifying compliance.
+The feature leverages the native biometric framework of your mobile device (iOS Face ID / Android BiometricPrompt), meaning that no facial data is transmitted to or stored on Tyfone's or Caltech Employees FCU's servers. The device itself performs the biometric match and passes an authenticated signal to the nFinia app. This architecture separates credential security from biometric data entirely, reducing PII exposure risk and simplifying compliance.
 
 Face ID serves all authenticated nFinia users both retail members and business banking users who access the platform via a compatible mobile device. Once enrolled, you can authenticate subsequent sessions with a glance, eliminating password entry friction while maintaining a strong second-factor assurance level. This is particularly valuable if you log in frequently to monitor cash flow, approve transactions, or review commercial activity throughout the day.
 
@@ -37,7 +37,7 @@ Members checking balances and approvals multiple times daily use Face ID to auth
 
 **Step 1 — Navigate to the Log In Screen**
 
-You open the Summerville CU nFinia app. The Welcome screen presents two primary actions: **Enroll** and **Log In**. Tap **Log In**.
+You open the Caltech Employees FCU nFinia app. The Welcome screen presents two primary actions: **Enroll** and **Log In**. Tap **Log In**.
 
 <figure><img src="../../.gitbook/assets/Summerville_CU_Welcome_Screen___nFinia_Mobile_App_1.jpeg" alt="Welcome Screen" width="340"><figcaption></figcaption></figure>
 
@@ -66,7 +66,7 @@ Tap the **Log In** button. The platform authenticates your credentials against y
 
 **Step 5 — Biometric Binding (Device-Level)**
 
-Your device operating system presents a native biometric confirmation prompt — the same system prompt used by other apps that support Face ID. Look at the camera to authenticate. Once confirmed, the nFinia app stores a secure, device-bound token tied to your session. Crucially, no facial data, biometric templates, or images are sent to Tyfone or Summerville CU servers — the biometric match happens entirely on your device and only a success signal is passed to the app.
+Your device operating system presents a native biometric confirmation prompt — the same system prompt used by other apps that support Face ID. Look at the camera to authenticate. Once confirmed, the nFinia app stores a secure, device-bound token tied to your session. Crucially, no facial data, biometric templates, or images are sent to Tyfone or Caltech Employees FCU servers — the biometric match happens entirely on your device and only a success signal is passed to the app.
 
 **Step 6 — Subsequent Sessions**
 
@@ -86,7 +86,7 @@ From the next time you open the app, the login flow changes automatically. Inste
 | Field / Element | Type | Description |
 | ----------------------- | ----------------- | ---------------------------------------------------------- |
 | Back arrow | Navigation button | Returns to Welcome screen |
-| Summerville Logo | Branding | Credit union brand mark |
+| Caltech Employees FCU Logo | Branding | Credit union brand mark |
 | Username | Text input | Your digital banking username |
 | Password | Password input | Your account password |
 | Remember me | Checkbox | Persists device recognition across sessions |

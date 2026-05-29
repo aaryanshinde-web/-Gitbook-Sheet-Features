@@ -7,7 +7,7 @@ _Module: Banking › Cards › Card Details › Add to Digital Wallet_
 | 01 PRODUCT SUMMARY |
 | ------------------ |
 
-Add to Digital Wallet lets you link your Summerville Credit Union credit or debit card directly to a digital wallet — Apple Pay, Google Pay, or Samsung Pay — without leaving nFinia Digital Banking. Once linked, your card is ready for contactless tap-to-pay purchases in stores, in apps, and online.
+Add to Digital Wallet lets you link your Caltech Employees Federal Credit Union credit or debit card directly to a digital wallet — Apple Pay, Google Pay, or Samsung Pay — without leaving nFinia Digital Banking. Once linked, your card is ready for contactless tap-to-pay purchases in stores, in apps, and online.
 
 The process takes under a minute. From your Card Details, tap Add to Digital Wallet, select your preferred wallet, accept the provisioning disclaimer, and complete the brief native wallet setup on your device. A confirmation appears in nFinia as soon as the card is successfully linked.
 
@@ -62,7 +62,7 @@ _Select wallet — Google Pay, Samsung Pay, or Apple Pay_
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-04-10 at 9.42.30 PM.png" alt=""><figcaption></figcaption></figure>
 
-A disclaimer appears confirming that by proceeding, you authorise Summerville Credit Union to provision your card to the selected wallet. Some card details — your name, card expiry date, and the first 6 and last 4 digits of your card number — will be shared with the wallet provider. Tap Continue to proceed, or Go back to cancel.
+A disclaimer appears confirming that by proceeding, you authorise Caltech Employees Federal Credit Union to provision your card to the selected wallet. Some card details — your name, card expiry date, and the first 6 and last 4 digits of your card number — will be shared with the wallet provider. Tap Continue to proceed, or Go back to cancel.
 
 _Provisioning disclaimer — review and tap Continue_
 

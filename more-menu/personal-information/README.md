@@ -1,6 +1,6 @@
 # Personal Information
 
-Personal Information is where Summerville CU members review and update the contact and profile data Summerville holds on file — email, phone numbers, and mailing address. Keeping this data current is what drives reliable alert delivery and statement mailing.
+Personal Information is where Caltech Employees FCU members review and update the contact and profile data Caltech Employees FCU holds on file — email, phone numbers, and mailing address. Keeping this data current is what drives reliable alert delivery and statement mailing.
 
 ## What's in this section
 

@@ -4,7 +4,7 @@ _Module: Banking › Move Money › Scheduled Transfers_
 
 ## Summary
 
-Scheduled Transfers allow members to automate recurring or future-dated movements of funds between their own accounts at Summerville Credit Union. Rather than manually initiating a transfer each time, members set up a schedule — weekly, bi-weekly, semi-monthly, or monthly — and the platform executes each movement automatically on the configured date. This is especially useful for members building consistent savings habits, maintaining loan payment discipline, or aligning fund movements to known billing cycles.
+Scheduled Transfers allow members to automate recurring or future-dated movements of funds between their own accounts at Caltech Employees Federal Credit Union. Rather than manually initiating a transfer each time, members set up a schedule — weekly, bi-weekly, semi-monthly, or monthly — and the platform executes each movement automatically on the configured date. This is especially useful for members building consistent savings habits, maintaining loan payment discipline, or aligning fund movements to known billing cycles.
 
 The Scheduled Transfers screen also serves as a consolidated view of all active schedules and completed transfer history, giving members full visibility into what has been configured and what has already executed. Members can create, review, edit, or cancel any scheduled transfer directly from this screen without contacting the credit union.
 
@@ -48,7 +48,7 @@ From the Move Money Hub, select the **Scheduled Transfers** tile. The Scheduled 
 
 ### Step 3 — Return to the Move Money Hub
 
-After clicking **Schedule a New Transfer**, the platform routes you back to the Move Money Hub. From here, select **Internal Transfers** to proceed with configuring the scheduled transfer between your own Summerville accounts. The Internal Transfers flow is where all scheduling parameters — frequency, amount, source, destination, and end condition — are configured.
+After clicking **Schedule a New Transfer**, the platform routes you back to the Move Money Hub. From here, select **Internal Transfers** to proceed with configuring the scheduled transfer between your own Caltech Employees FCU accounts. The Internal Transfers flow is where all scheduling parameters — frequency, amount, source, destination, and end condition — are configured.
 
 <figure><img src="../../.gitbook/assets/Scheduled_Move_Money_Hub.png" alt="Move Money hub with all transfer and payment options"><figcaption><p>Step 1: Open the Move Money Hub from the top navigation.</p></figcaption></figure>
 

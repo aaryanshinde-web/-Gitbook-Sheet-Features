@@ -10,9 +10,9 @@ Business members use OLB Check Deposit to process client retainer checks receive
 
 **End-to-End Workflow**
 
-Follow these steps to complete a remote check deposit based on the Summerville OLB interface:
+Follow these steps to complete a remote check deposit based on the Caltech Employees FCU OLB interface:
 
-1. Access the Main Dashboard: Log in to your Summerville Online Banking account. You will land on the primary Dashboard where your balances and accounts are displayed.
+1. Access the Main Dashboard: Log in to your Caltech Employees FCU Online Banking account. You will land on the primary Dashboard where your balances and accounts are displayed.
 
 <figure><img src="../../.gitbook/assets/image (51).png" alt="" width="563"><figcaption></figcaption></figure>
 

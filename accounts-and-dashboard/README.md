@@ -1,5 +1,5 @@
 ---
-description: Account overview, transaction history, credit score, and profile management features for Diamond Credit Union members on nFinia.
+description: Account overview, transaction history, credit score, and profile management features for Caltech Employees Federal Credit Union members on nFinia.
 ---
 
 # Accounts

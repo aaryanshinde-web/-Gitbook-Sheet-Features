@@ -35,7 +35,7 @@ The ZenDesk integration brings a full-featured member support portal directly in
 1. Member navigates to **More Menu → Help & Support** within nFinia.
 2. The ZenDesk portal is loaded in an embedded webview, authenticated via SSO token.
 3. You can search articles, open a ticket, or start a chat session.
-4. Tickets submitted are routed to the Summerville Credit Union ZenDesk workspace.
+4. Tickets submitted are routed to the Caltech Employees Federal Credit Union ZenDesk workspace.
 5. Email notifications keep you updated on ticket progress.
 
 ***
@@ -43,7 +43,7 @@ The ZenDesk integration brings a full-featured member support portal directly in
 ## Configuration Notes
 
 {% hint style="info" %}
-**Prerequisite:** A ZenDesk account with SSO (JWT or OAuth) must be provisioned for Summerville Credit Union. Contact the Tyfone implementation team for SSO token configuration.
+**Prerequisite:** A ZenDesk account with SSO (JWT or OAuth) must be provisioned for Caltech Employees Federal Credit Union. Contact the Tyfone implementation team for SSO token configuration.
 {% endhint %}
 
 | Parameter | Details |
@@ -51,4 +51,4 @@ The ZenDesk integration brings a full-featured member support portal directly in
 | **Authentication** | JWT-based SSO using nFinia member session |
 | **Subdomain** | `summervillecu.zendesk.com` |
 | **Ticket Routing** | Routed to the `nfinia-support` view in the ZenDesk workspace |
-| **Branding** | ZenDesk Help Center theme customizable to match Summerville CU brand |
+| **Branding** | ZenDesk Help Center theme customizable to match Caltech Employees FCU brand |

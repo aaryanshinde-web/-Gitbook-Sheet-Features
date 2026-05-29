@@ -5,7 +5,7 @@ description: Transfer to Own Account
 
 ## Summary
 
-Transfer Between Own Accounts enables members to move funds between their Summerville CU accounts — checking, savings, money market, and loan accounts — either immediately or on a scheduled recurring basis. For business members managing predictable cash flow cycles, the scheduled transfer capability automates routine funding moves — such as sweeping the daily operating account balance into savings each evening or funding a loan payment account on the first of each month — eliminating manual intervention for transactions that follow a consistent pattern.
+Transfer Between Own Accounts enables members to move funds between their Caltech Employees FCU accounts — checking, savings, money market, and loan accounts — either immediately or on a scheduled recurring basis. For business members managing predictable cash flow cycles, the scheduled transfer capability automates routine funding moves — such as sweeping the daily operating account balance into savings each evening or funding a loan payment account on the first of each month — eliminating manual intervention for transactions that follow a consistent pattern.
 
 ## Key Use Cases
 

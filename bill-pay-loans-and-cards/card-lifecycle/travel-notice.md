@@ -4,7 +4,7 @@ _Module: Banking › More › Travel Notice_
 
 ## Summary
 
-The Travel Notice feature allows members to proactively notify Summerville Credit Union of upcoming travel so that card transactions continue to be approved while away from home. Without a travel notice, the credit union's fraud prevention systems may automatically decline international or out-of-pattern transactions as a protective measure — even when the charges are legitimate. By setting a travel notice in advance, members temporarily enable international transactions for selected cards and destinations within the defined travel window, reducing the risk of mid-trip declines.
+The Travel Notice feature allows members to proactively notify Caltech Employees Federal Credit Union of upcoming travel so that card transactions continue to be approved while away from home. Without a travel notice, the credit union's fraud prevention systems may automatically decline international or out-of-pattern transactions as a protective measure — even when the charges are legitimate. By setting a travel notice in advance, members temporarily enable international transactions for selected cards and destinations within the defined travel window, reducing the risk of mid-trip declines.
 
 Members can add multiple itineraries to cover back-to-back trips or multi-destination journeys, review all active notices in one place, and remove or edit itineraries once travel is complete. The feature is available around the clock through both the web portal and the nFinia mobile app, making it easy to update plans even on the go.
 

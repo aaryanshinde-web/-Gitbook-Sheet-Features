@@ -12,7 +12,7 @@ The MeridianLink Loan Origination SSO feature enables you to initiate loan appli
 
 This feature is available to authenticated retail members - both primary account holders and joint members - who have an active nFinia session. From the credit union's operational perspective, it also serves loan officers and digital banking administrators who need to ensure the application funnel is functioning correctly and that referral context is passed accurately to MeridianLink for proper pipeline attribution.
 
-For the credit union, this integration directly impacts loan volume by reducing the steps required to start an application. Historically, redirecting you to an external LOS meant re-authentication, re-entry of known data, and significant drop-off. With SSO, your identity context travels with you into MeridianLink's "Apply in 3 Steps" flow, creating a cohesive brand experience under the Summerville Credit Union identity. For you, the benefit is speed and confidence - they are never asked to prove who they are twice within the same session.
+For the credit union, this integration directly impacts loan volume by reducing the steps required to start an application. Historically, redirecting you to an external LOS meant re-authentication, re-entry of known data, and significant drop-off. With SSO, your identity context travels with you into MeridianLink's "Apply in 3 Steps" flow, creating a cohesive brand experience under the Caltech Employees Federal Credit Union identity. For you, the benefit is speed and confidence - they are never asked to prove who they are twice within the same session.
 
 This feature lives in the nFinia platform under **Banking > More > Apply for Loans**, and connects outward to the MeridianLink consumer portal.
 
@@ -38,7 +38,7 @@ Authenticated member selects Credit Cards; MeridianLink Credit Card flow present
 
 nFinia platform + MeridianLink nFinia generates a tenderref token unique to your session (e.g., AMLAKECUG20723) and appends it to the MeridianLink redirect URL, enables secure, cookieless session handoff without transmitting credentials; supports audit trail and application attribution.
 
-Member navigating the application meridianLink renders the Summerville Credit Union logo and branding across the Apply in 3 Steps flow, maintains member trust and brand recognition; reduces perception of leaving the credit union's environment.
+Member navigating the application meridianLink renders the Caltech Employees Federal Credit Union logo and branding across the Apply in 3 Steps flow, maintains member trust and brand recognition; reduces perception of leaving the credit union's environment.
 
 Loan officer / Digital Admin monitors MeridianLink pipeline for incomplete applications; tenderref token links back to the originating nFinia member record, enables proactive outreach to members who started but did not complete an application.
 
@@ -79,7 +79,7 @@ Your browser is redirected to the appropriate MeridianLink consumer portal URL.&
 
 **Step 5 - MeridianLink Receives and Validates Token**
 
-MeridianLink receives the tenderref token and validates it against the credit union's integration configuration. Upon successful validation, your session is established in the MeridianLink consumer portal automatically — no separate login, username, or password required. The portal renders with the Summerville Credit Union logo and branding, maintaining a consistent brand experience throughout the application journey.
+MeridianLink receives the tenderref token and validates it against the credit union's integration configuration. Upon successful validation, your session is established in the MeridianLink consumer portal automatically — no separate login, username, or password required. The portal renders with the Caltech Employees Federal Credit Union logo and branding, maintaining a consistent brand experience throughout the application journey.
 
 **Step 6 - Complete the Application**
 

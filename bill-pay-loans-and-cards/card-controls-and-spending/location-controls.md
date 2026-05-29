@@ -32,7 +32,7 @@ When international transactions are enabled with specific locations, members can
 
 ## Step-by-Step Guide
 
-_Navigation: Log in to Summerville Credit Union online banking. From the Dashboard, click Cards, select your card, click Card Controls, then select Location Controls._
+_Navigation: Log in to Caltech Employees Federal Credit Union online banking. From the Dashboard, click Cards, select your card, click Card Controls, then select Location Controls._
 
 ### Step 1 — Open Location Controls (Default State)
 

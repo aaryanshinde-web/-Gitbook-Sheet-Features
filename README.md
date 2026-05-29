@@ -1,6 +1,6 @@
 ---
 description: >-
-  Official feature documentation for Summerville Credit Union's nFinia Digital
+  Official feature documentation for Caltech Employees Federal Credit Union's nFinia Digital
   Banking platform covering all tracked features, vendor integrations, and
   reference guides.
 cover: .gitbook/assets/cover.png
@@ -41,7 +41,7 @@ layout:
 | **Move Money** | Transfer Hub, Own Account & Member Transfers, External ACH, FedNow, Wire, Zelle, Bill Pay, Quick Pay, Skip-A-Pay, Mobile Check Deposit |
 | **More Menu** | Alerts & Notifications, Inbox, Personal Info, Settings |
 | **Vendor Integrations** | Prisma, Direct/Web Connect, ZenDesk, FICS API, BDI SSO, Velera, MeridianLink, Plaid IAV |
-| **Reference Documents** | Summerville CU Master Guide, Delegated Access, Certificate Management, Custom Account Grouping, Joint Owners & Beneficiary |
+| **Reference Documents** | Caltech Employees FCU Master Guide, Delegated Access, Certificate Management, Custom Account Grouping, Joint Owners & Beneficiary |
 
 ***
 
@@ -60,7 +60,7 @@ Documentation is organized into three tiers:
 
 ## Platform Overview
 
-The **nFinia** digital banking platform from **Tyfone** powers Summerville Credit Union's member-facing digital experience across:
+The **nFinia** digital banking platform from **Tyfone** powers Caltech Employees Federal Credit Union's member-facing digital experience across:
 
 | Channel | Notes |
 | --------------- | -------------------------------------------------------- |
