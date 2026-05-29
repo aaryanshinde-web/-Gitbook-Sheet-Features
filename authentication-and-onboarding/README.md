@@ -8,6 +8,6 @@ This section covers all features related to member identity verification, sessio
 
 | Guide | Description |
 | --- | --- |
-| [Login & Authentication](login-and-security/CSUM-01-Login-Authentication.md) | Username/password login, OTP MFA, biometric login, account recovery |
-| [Password, User ID & MFA](login-and-security/CSUM-22-Password-UserID-MFA.md) | Managing passwords, User IDs, and MFA delivery methods |
-| [Device Management & Trusted Devices](device-and-session-management/CSUM-25-Device-Management-Trusted-Devices.md) | Trusted device registration, cryptographic auth, session tokens |
+| [Login & Authentication](login-and-security/login-authentication.md) | Username/password login, OTP MFA, biometric login, account recovery |
+| [Forgot Username / Password / Unlock Account](login-and-security/forgot-username-password-unlock-account.md) | Recovering a User ID, resetting a password, and unlocking a locked account |
+| [Device Management & Trusted Devices](device-and-session-management/device-management-trusted-devices.md) | Trusted device registration, cryptographic auth, session tokens |
